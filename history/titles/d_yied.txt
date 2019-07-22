@@ -1,0 +1,9 @@
+0180.01.01={
+	law = status_of_women_4
+	law = true_cognatic_succession
+	law = succ_primogeniture
+	liege = k_yied
+}
+0180.01.01={
+	holder = 0
+}

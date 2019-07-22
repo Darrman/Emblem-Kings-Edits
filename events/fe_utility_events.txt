@@ -1,0 +1,93 @@
+namespace = util
+
+# Create a dead, fake parent for a character to prevent them from being culled
+character_event = {
+	id = util.1
+	
+	hide_window = yes
+	is_triggered_only = yes 
+	
+	immediate = {
+		liege = {
+			create_character = {
+				random_traits = yes
+				dynasty = NONE
+				female = no
+				age = 80
+				culture = ROOT
+				religion = ROOT
+			}
+			new_character = {
+				ROOT = { set_father = PREV }
+				death = yes
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}	
+
+# Re-dynasty a character's descendants. Should be called after a parent event changes the dynasty of a character. Otherwise, it'll accomplish nothing.
+character_event = {
+	id = util.2
+	
+	hide_window = yes
+	is_triggered_only = yes 
+	
+	option = {
+		name = OK
+		any_child_even_if_dead = {
+			dynasty = ROOT
+			character_event = { id = util.2 }
+		}
+	}
+}	
+
+# Remove the no marriage trait
+character_event = {
+	id = util.3
+	
+	hide_window = yes
+	is_triggered_only = yes 
+	
+	option = {
+		name = OK
+		remove_trait = no_marriage
+	}
+}	
+
+# Fix automatically generated baron-tier rulers who wind up with the wrong culture/religion for their province/ruler.
+character_event = {
+	id = util.4
+	
+	hide_window = yes
+	is_triggered_only = yes 
+	
+	option = {
+		name = OK
+		liege = {
+			ROOT = {
+				culture = PREV
+				religion = PREV
+			}
+		}
+	}
+}
+
+character_event = {
+	id = util.5
+	
+	hide_window = yes
+	is_triggered_only = yes 
+	
+	option = {
+		name = OK
+		capital_scope = {
+			province = {	
+		add_holding_slot = 1
+			}
+		}
+	}
+}	 

@@ -1,0 +1,1125 @@
+# Events for dark mages
+namespace = quintessence
+
+# Drain quintessence from another character.
+# Amount depends on their class.
+character_event = {
+	id = quintessence.2
+	#desc = "quintessence.2.desc"
+	picture = "GFX_evt_nergal_power"
+	is_triggered_only = yes
+	
+	desc = {
+		trigger = { 
+			FROM = { 
+				OR = {
+					trait = morph 
+					trait = war_dragon 
+					trait = demon_dragon 
+				}
+			}
+		}
+		text = quintessence.2.desc.0
+	}
+	desc = {
+		trigger = { 
+			FROM = { 
+				NOR = {
+					trait = morph 
+					trait = war_dragon 
+					trait = demon_dragon 
+				}
+				NOR = {
+					trait=class_archer
+					trait=class_archer_female
+					trait=class_brigand
+					trait=class_cavalier
+					trait=class_cleric
+					trait=class_fighter
+					trait=class_knight
+					trait=class_mage
+					trait=class_mage_female
+					trait=class_mercenary
+					trait=class_mercenary_female
+					trait=class_monk
+					trait=class_myrmidon
+					trait=class_myrmidon_female
+					trait=class_horse_archer
+					trait=class_horse_archer_female
+					trait=class_pegasus_knight
+					trait=class_pirate
+					trait=class_priest
+					trait=class_dark_mage
+					trait=class_dark_mage_female
+					trait=class_thief
+					trait=class_thief_female
+					trait=class_troubador
+					trait=class_wyvern_rider	
+					trait=class_dancer
+					trait=class_bard
+					trait=class_soldier
+					#
+					trait=class_assassin
+					trait=class_assassin_female
+					trait=class_berserker
+					trait=class_bishop
+					trait=class_bishop_female
+					trait=class_sorceror
+					trait=class_sorceror_female
+					trait=class_falcon_knight
+					trait=class_general
+					trait=class_great_knight
+					trait=class_hero
+					trait=class_hero_female
+					trait=class_mage_knight
+					trait=class_mage_knight_female
+					trait=class_paladin
+					trait=class_bow_knight
+					trait=class_bow_knight_female
+					trait=class_rogue
+					trait=class_sage
+					trait=class_sage_female
+					trait=class_sniper
+					trait=class_sniper_female
+					#trait=class_summoner
+					trait=class_swordmaster
+					trait=class_swordmaster_female
+					trait=class_valkyrie
+					trait=class_war_cleric
+					trait=class_war_priest
+					trait=class_warrior
+					trait=class_wyvern_knight
+					trait=class_wyvern_lord
+					trait=class_manakete
+					trait=class_manakete_female
+					trait=class_tactician
+					#
+					trait = class_archsage
+					trait = class_archdruid
+					trait = class_dark_druid
+				}
+			} 		
+		}
+		text = quintessence.2.desc.1
+	}
+	desc = {
+		trigger = { 
+			FROM = { 
+				AND = {
+				NOR = {
+					trait = morph 
+					trait = war_dragon 
+					trait = demon_dragon 
+				}
+				OR = {
+					trait=class_archer
+					trait=class_archer_female
+					trait=class_brigand
+					trait=class_cavalier
+					trait=class_cleric
+					trait=class_fighter
+					trait=class_knight
+					trait=class_mage
+					trait=class_mage_female
+					trait=class_mercenary
+					trait=class_mercenary_female
+					trait=class_monk
+					trait=class_myrmidon
+					trait=class_myrmidon_female
+					trait=class_horse_archer
+					trait=class_horse_archer_female
+					trait=class_pegasus_knight
+					trait=class_pirate
+					trait=class_priest
+					trait=class_dark_mage
+					trait=class_dark_mage_female
+					trait=class_thief
+					trait=class_thief_female
+					trait=class_troubador
+					trait=class_wyvern_rider	
+					trait=class_dancer
+					trait=class_bard
+					trait=class_soldier
+				}
+				}
+			} 		
+		}
+		text = quintessence.2.desc.2
+	}
+	desc = {
+		trigger = { 
+			FROM = { 
+				AND = {
+					NOR = {
+						trait = morph 
+						trait = war_dragon 
+						trait = demon_dragon 
+					}
+					OR = {
+						trait=class_assassin
+						trait=class_assassin_female
+						trait=class_berserker
+						trait=class_bishop
+						trait=class_bishop_female
+						trait=class_sorceror
+						trait=class_sorceror_female
+						trait=class_falcon_knight
+						trait=class_general
+						trait=class_great_knight
+						trait=class_hero
+						trait=class_hero_female
+						trait=class_mage_knight
+						trait=class_mage_knight_female
+						trait=class_paladin
+						trait=class_bow_knight
+						trait=class_bow_knight_female
+						trait=class_rogue
+						trait=class_sage
+						trait=class_sage_female
+						trait=class_sniper
+						trait=class_sniper_female
+						#trait=class_summoner
+						trait=class_swordmaster
+						trait=class_swordmaster_female
+						trait=class_valkyrie
+						trait=class_war_cleric
+						trait=class_war_priest
+						trait=class_warrior
+						trait=class_wyvern_knight
+						trait=class_wyvern_lord
+						trait=class_manakete
+						trait=class_manakete_female
+						trait=class_tactician
+					}
+				}
+			} 		
+		}
+		text = quintessence.2.desc.3
+	}
+	desc = {
+		trigger = { 
+			FROM = { 
+				AND = {
+				NOR = {
+					trait = morph 
+					trait = war_dragon 
+					trait = demon_dragon 
+				}
+				OR = {
+					trait = class_archsage
+					trait = class_archdruid
+					trait = class_dark_druid
+				}
+				}
+			} 		
+		}
+		text = quintessence.2.desc.4
+	}
+	
+	option = {
+		name = "quintessence.2.A"
+		trigger = {
+			FROM = { 
+				OR = {
+					trait = morph 
+					trait = war_dragon 
+					trait = demon_dragon 
+				}
+			}
+		}
+	}
+	option = {
+		name = quintessence.2.B
+		#{
+		#	text = quintessence.2.B
+		#	trigger = { NOT = { trait = lunatic } }
+		#}
+		#name = {
+		#	text = quintessence.2.B.2
+		#	trigger = { trait = lunatic } 
+		#}
+		trigger = {	
+			FROM = { 
+				NOR = {
+					trait = morph 
+					trait = war_dragon 
+					trait = demon_dragon 
+				} 
+			} 
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					NOR = {
+						trait=class_archer
+						trait=class_archer_female
+						trait=class_brigand
+						trait=class_cavalier
+						trait=class_cleric
+						trait=class_fighter
+						trait=class_knight
+						trait=class_mage
+						trait=class_mage_female
+						trait=class_mercenary
+						trait=class_mercenary_female
+						trait=class_monk
+						trait=class_myrmidon
+						trait=class_myrmidon_female
+						trait=class_horse_archer
+						trait=class_horse_archer_female
+						trait=class_pegasus_knight
+						trait=class_pirate
+						trait=class_priest
+						trait=class_dark_mage
+						trait=class_dark_mage_female
+						trait=class_thief
+						trait=class_thief_female
+						trait=class_troubador
+						trait=class_wyvern_rider	
+						trait=class_dancer
+						trait=class_bard
+						trait=class_soldier
+						#
+						trait=class_assassin
+						trait=class_assassin_female
+						trait=class_berserker
+						trait=class_bishop
+						trait=class_bishop_female
+						trait=class_sorceror
+						trait=class_sorceror_female
+						trait=class_falcon_knight
+						trait=class_general
+						trait=class_great_knight
+						trait=class_hero
+						trait=class_hero_female
+						trait=class_mage_knight
+						trait=class_mage_knight_female
+						trait=class_paladin
+						trait=class_bow_knight
+						trait=class_bow_knight_female
+						trait=class_rogue
+						trait=class_sage
+						trait=class_sage_female
+						trait=class_sniper
+						trait=class_sniper_female
+						#trait=class_summoner
+						trait=class_swordmaster
+						trait=class_swordmaster_female
+						trait=class_valkyrie
+						trait=class_war_cleric
+						trait=class_war_priest
+						trait=class_warrior
+						trait=class_wyvern_knight
+						trait=class_wyvern_lord
+						trait=class_manakete
+						trait=class_manakete_female
+						trait=class_tactician
+						#
+						trait = class_archsage
+						trait = class_archdruid
+						trait = class_dark_druid
+					}
+				}
+			}
+			piety = 10
+		}
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						trait=class_archer
+						trait=class_archer_female
+						trait=class_brigand
+						trait=class_cavalier
+						trait=class_cleric
+						trait=class_fighter
+						trait=class_knight
+						trait=class_mage
+						trait=class_mage_female
+						trait=class_mercenary
+						trait=class_mercenary_female
+						trait=class_monk
+						trait=class_myrmidon
+						trait=class_myrmidon_female
+						trait=class_horse_archer
+						trait=class_horse_archer_female
+						trait=class_pegasus_knight
+						trait=class_pirate
+						trait=class_priest
+						trait=class_dark_mage
+						trait=class_dark_mage_female
+						trait=class_thief
+						trait=class_thief_female
+						trait=class_troubador
+						trait=class_wyvern_rider	
+						trait=class_dancer
+						trait=class_bard
+						trait=class_soldier
+					}
+				}
+			}
+			piety = 100
+		}
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						trait=class_assassin
+						trait=class_assassin_female
+						trait=class_berserker
+						trait=class_bishop
+						trait=class_bishop_female
+						trait=class_sorceror
+						trait=class_sorceror_female
+						trait=class_falcon_knight
+						trait=class_general
+						trait=class_great_knight
+						trait=class_hero
+						trait=class_hero_female
+						trait=class_mage_knight
+						trait=class_mage_knight_female
+						trait=class_paladin
+						trait=class_bow_knight
+						trait=class_bow_knight_female
+						trait=class_rogue
+						trait=class_sage
+						trait=class_sage_female
+						trait=class_sniper
+						trait=class_sniper_female
+						#trait=class_summoner
+						trait=class_swordmaster
+						trait=class_swordmaster_female
+						trait=class_valkyrie
+						trait=class_war_cleric
+						trait=class_war_priest
+						trait=class_warrior
+						trait=class_wyvern_knight
+						trait=class_wyvern_lord
+						trait=class_manakete
+						trait=class_manakete_female
+						trait=class_tactician
+					}
+				}
+			}
+			piety = 200
+		}
+		if = {
+			limit = {
+				FROM = { 
+					OR = {
+						trait = class_archsage
+						trait = class_archdruid
+						trait = class_dark_druid
+					}
+				}
+			}
+			piety = 500
+		}
+	}
+}
+
+# Open the Dragon's Gate!
+# Nergal's endgame.
+character_event = {
+	id = quintessence.3
+	desc = "quintessence.3.desc"
+	picture = "GFX_evt_cathedral_indian_group"
+	is_triggered_only = yes
+		
+	option = {
+		name = "quintessence.3.A"
+		ai_chance = {
+			factor = 100
+		}
+		
+		custom_tooltip = {
+			text = quintessence.3.A.tooltip
+			hidden_tooltip = {
+				random_list = {
+					# Success!
+					80 = {
+						character_event = { id = quintessence.7}
+					}
+					# Failure and death
+					5 = {
+						character_event = { id = quintessence.8}
+					}
+					# Failure and gate exploding
+					5 = {
+						character_event = { id = quintessence.4}
+					}
+					# Failure and courtier death
+					5 = {
+						character_event = { id = quintessence.5}
+					}
+					# Failure and property damage
+					5 = {
+						character_event = { id = quintessence.6}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "quintessence.3.B"
+		ai_chance = {
+			factor = 0
+		}
+		piety = 10000
+	}
+}
+
+# (Critical) Failure - the Dragon's Gate explodes.
+narrative_event = {
+	id = quintessence.4
+	title = "quintessence.4.title"
+	desc = "quintessence.4.desc"
+	picture = "GFX_evt_fire_dragons_gate"
+	is_triggered_only = yes
+	
+	option = {
+		name = "quintessence.4.A"
+		
+		random_demesne_province = {
+			limit = {
+				has_province_modifier = dragons_gate_elibe
+			}
+			remove_province_modifier = dragons_gate_elibe
+			remove_province_modifier = ancient_ruins
+			
+			any_province_holding = {
+				limit = {
+					is_capital = no
+				}
+				destroy_settlement = THIS
+			}
+		}
+		
+		piety = 500
+	}
+}
+# Failure - the dragons are summoned, but unstable.
+# Sorry about your luck, Ephidel.
+narrative_event = {
+	id = quintessence.5
+	title = "quintessence.5.title"
+	desc = "quintessence.5.desc"
+	picture = "GFX_evt_fire_dragons_gate"
+	is_triggered_only = yes
+	
+	option = {
+		name = "quintessence.5.A"
+		
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				NOT = { trait = incapable }
+				NOT = { trait = dark_incapable }
+			}
+			death = { 
+				death_reason = death_accident
+			} 
+		}
+	}
+}
+# Failure - a dragon is summoned, but is uncontrollable (rampage).
+narrative_event = {
+	id = quintessence.6
+	title = "quintessence.6.title"
+	desc = "quintessence.6.desc"
+	picture = "GFX_evt_fire_dragons_gate"
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "quintessence.6.A"
+		random_demesne_province = {
+			limit = {
+				has_province_modifier = dragons_gate_elibe
+			}
+			add_province_modifier = {
+				modifier = burned_land
+				years = 10
+			}
+		}
+		piety = 1000
+	}
+}
+# Success - dragons summoned and drained.
+narrative_event = {
+	id = quintessence.7
+	title = "quintessence.7.title"
+	desc = "quintessence.7.desc"
+	picture = "GFX_evt_fire_dragons_gate"
+	is_triggered_only = yes
+	
+	immediate = {
+		
+		any_playable_ruler = {
+			limit = {
+				NOT = { character = ROOT }
+				primary_title = {
+					region = world_elibe
+				}
+			}
+			narrative_event = { id = quintessence.9 }
+		}
+	}
+	
+	option = {
+		name = "quintessence.7.A"
+		add_character_modifier = {
+			modifier = dragons_gate_elibe_harvest
+			months = 10
+		}	
+		add_trait = supreme_essence
+		custom_tooltip = {
+			name = quintessence.7.tooltip
+		}
+	}
+}
+
+# Failure - the dragons are summoned, but uncontrollable. Summoner is killed.
+narrative_event = {
+	id = quintessence.8
+	title = "quintessence.8.title"
+	desc = "quintessence.8.desc"
+	picture = "GFX_evt_fire_dragons_gate"
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "quintessence.8.A"
+		death = { 
+			death_reason = death_accident
+		} 
+	}
+}
+
+# Alert the world
+narrative_event = {
+	id = quintessence.9
+	title = "quintessence.9.title"
+	desc = "quintessence.9.desc"
+	picture = "GFX_evt_comet"
+	is_triggered_only = yes
+	hide_from = yes
+	
+	option = {
+		name = "quintessence.9.A"
+	}
+}
+
+# Heal
+character_event = {
+	id = quintessence.10
+	desc = quintessence.10.desc
+	picture = GFX_evt_recovery
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = quintessence.10.A
+		heal_effect = yes
+		clr_character_flag = quintessence_heal
+	}
+}
+
+# Mend
+character_event = {
+	id = quintessence.11
+	desc = quintessence.11.desc
+	picture = GFX_evt_recovery
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = quintessence.11.A
+		mend_effect = yes
+		clr_character_flag = quintessence_mend
+	}
+}
+
+# Quintessence Discovered
+narrative_event = {
+	id = quintessence.20
+	title = quintessence.20.title
+	desc = quintessence.20.desc
+	picture = "GFX_evt_ritual_scroll" 
+
+	is_triggered_only = yes
+	
+	option = {
+		name = quintessence.20.A
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 100
+				trait = dark_power_hungry
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 2
+				trait = cruel
+			}
+			modifier = {
+				factor = 2
+				trait = cynical
+			}
+			modifier = {
+				factor = 2
+				trait = envious
+			}
+			modifier = {
+				factor = 2
+				trait = greedy
+			}
+		}	
+		set_character_flag = quintessence_discovered
+		hidden_tooltip = {
+			character_event = { id = quintessence.21 days = 1095 random = 730 }
+		}
+	}
+	
+	option = {
+		name = quintessence.20.B
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 5
+				trait = zealous
+			}
+			modifier = {
+				factor = 2
+				trait = humble
+			}
+			modifier = {
+				factor = 10
+				trait = kind
+			}
+		}		
+		set_character_flag = quintessence_rejected
+	}
+}
+
+# Quintessence mastered
+character_event = {
+	id = quintessence.21
+	desc = quintessence.21.desc
+	picture = "GFX_evt_ritual_scroll" 
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+		set_character_flag = lore_quintessence
+		clr_character_flag = quintessence_discovered
+		
+		hidden_tooltip = {
+			character_event = { id = quintessence.22 days = 1825 random = 1095 }
+		}
+	}
+	
+}
+
+# Morphs Discovered
+character_event = {
+	id = quintessence.22
+	#title = quintessence.22.title
+	desc = quintessence.22.desc
+	picture = "GFX_evt_ritual_scroll" 
+
+	is_triggered_only = yes
+	
+	option = {
+		name = quintessence.22.A
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 100
+				trait = dark_power_hungry
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 2
+				trait = cruel
+			}
+			modifier = {
+				factor = 2
+				trait = cynical
+			}
+			modifier = {
+				factor = 2
+				trait = envious
+			}
+			modifier = {
+				factor = 2
+				trait = greedy
+			}
+		}	
+		set_character_flag = morphs_discovered
+		
+		hidden_tooltip = {
+			character_event = { id = quintessence.23 days = 1825 random = 730 }
+		}
+		
+		if = {
+			limit = {
+				any_character = {
+					has_character_flag = is_fe7_renault
+					NOT = { has_character_flag = morph_experiment_subject }
+					is_married = no
+					is_ruler = no
+					trait = lunatic
+				}
+			}
+				
+			random_character = {
+				limit = {
+					has_character_flag = is_fe7_renault
+				}
+				
+				religion=dark
+				add_trait="mystic"
+				health = 10
+				move_character = ROOT
+				set_character_flag = morph_experiment_subject 
+			}
+			break = yes
+		}
+		
+		create_character = { 
+			culture = ROOT
+			religion = ROOT
+			female = no
+			dynasty = none
+			age = 25
+			trait = tough_soldier
+			trait = class_mercenary
+			trait = base_class_mercenary
+			trait = lunatic
+			trait = depressed
+			trait = wroth
+		}
+		new_character = { 			
+			set_variable = { which = "level" value = 1 }
+			set_character_flag=class_selected
+		}
+		
+	}
+	
+	option = {
+		name = quintessence.22.B
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 5
+				trait = zealous
+			}
+			modifier = {
+				factor = 2
+				trait = humble
+			}
+			modifier = {
+				factor = 10
+				trait = kind
+			}
+		}		
+		set_character_flag = morphs_rejected
+	}
+}
+
+# Morphs mastered
+narrative_event = {
+	id = quintessence.23
+	title = quintessence.23.title
+	desc = quintessence.23.desc
+	picture = "GFX_evt_nergal_ritual" 
+
+	is_triggered_only = yes
+	
+	option = {
+		name = quintessence.23.A
+		set_character_flag = lore_morphs
+		clr_character_flag = morphs_discovered
+		
+		
+		create_character = { 
+			culture = ROOT
+			religion = ROOT
+			female = no
+			dynasty = none
+			age = 25
+			trait = tough_soldier
+			trait = morph
+			attributes = {
+				martial = 5
+				diplomacy = 0
+				stewardship = 0
+				intrigue = 0
+				learning = 0
+			}
+		}
+		new_character = { 			
+			set_variable = { which = "level" value = 1 }
+			set_character_flag=class_selected
+		}
+		
+		random_courtier = {
+			limit = {
+				has_character_flag = morph_experiment_subject
+			}
+			add_rival = ROOT
+			
+			hidden_tooltip = {
+				remove_trait = lunatic
+				remove_trait = base_class_mercenary
+				add_trait = base_class_monk
+				
+				if = {
+					limit = {
+						trait = class_mercenary
+					}
+					remove_trait = class_mercenary
+					add_trait = class_monk
+				}
+				if = {
+					limit = {
+						trait = class_hero
+					}
+					remove_trait = class_hero
+					add_trait = class_bishop
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							region = world_elibe
+						}
+					}
+				}
+				
+				religion = elimine_church
+				k_elimine = {
+					holder_scope = {
+						reverse_banish = PREVPREV
+					}
+				}
+			}
+		}
+	}
+}
+
+
+# Create the Magic Seal?
+character_event = {
+	id = quintessence.24
+	desc = quintessence.24.desc
+	picture = "GFX_evt_monk" 
+
+	is_triggered_only = yes
+
+	#only_rulers = yes
+	religion_group = magic_group
+	prisoner = no
+	capable_only = yes
+	
+	trigger = {
+		is_ruler = yes
+		has_character_flag = lore_morphs 
+		NOT = { has_character_flag = magic_seal_created }
+		NOT = { has_character_flag = magic_seal_rejected }
+		NOR = {
+			trait = incapable
+			trait = dark_incapable
+		}
+	}
+	
+	option = {
+		name = quintessence.24.A
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 2
+				trait = zealous
+			}
+			modifier = {
+				factor = 2
+				trait = proud
+			}
+		}	
+		set_character_flag = magic_seal_created
+		hidden_tooltip = {
+			character_event = { id = quintessence.25 days = 365 random = 60 }
+		}
+	}
+	
+	option = {
+		name = quintessence.24.B
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 5
+				trait = dark_power_hungry
+			}
+			modifier = {
+				factor = 5
+				trait = cynical
+			}
+			modifier = {
+				factor = 2
+				trait = humble
+			}
+			modifier = {
+				factor = 10
+				trait = content
+			}
+		}		
+		set_character_flag = magic_seal_rejected
+	}
+}
+
+# Birth of the magic seal
+character_event = {
+	id = quintessence.25
+	desc = quintessence.25.desc
+	picture = "GFX_evt_nergal_ritual" 
+
+	is_triggered_only = yes
+	
+	option = {
+		name = quintessence.25.A
+		
+		create_character = { 
+			culture = ROOT
+			religion = ROOT
+			female = no
+			dynasty = none
+			age = 16
+			trait = mastermind_theologian
+			trait = class_magic_seal
+			trait = morph
+		}
+		new_character = { 			
+			set_variable = { which = "level" value = 1 }
+			set_character_flag=class_selected
+		}
+	}
+}
+
+# Magic Seal banished
+character_event = {
+	id = quintessence.26
+	desc = quintessence.26.desc
+	picture = "GFX_evt_lunatic" 
+
+	is_triggered_only = yes
+	
+	religion_group = magic_group
+	prisoner = no
+	capable_only = yes
+	
+	trigger = {
+		is_ruler = yes
+		trait = dark_power_hungry
+		has_character_flag = lore_morphs 
+		has_character_flag = magic_seal_created 
+		any_courtier = {
+			trait = class_magic_seal
+		}
+		NOR = {
+			trait = incapable
+			trait = dark_incapable
+		}
+	}
+	
+	option = {
+		name = quintessence.26.A
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 100
+				trait = dark_power_hungry
+			}
+			modifier = {
+				factor = 10
+				trait = cruel
+			}
+			modifier = {
+				factor = 2
+				trait = wroth
+			}
+		}	
+		
+		random_courtier = {
+			limit = {
+				trait = class_magic_seal
+			}
+			add_trait = depressed
+			opinion = {
+				modifier = opinion_expelled_from_realm
+				who = ROOT
+				years = 100
+			}
+			reverse_opinion = {
+				modifier = opinion_very_disappointed
+				who = ROOT
+				years = 1000
+			}
+			random_independent_ruler = {
+				limit = {
+					is_within_diplo_range = ROOT
+				}
+				reverse_banish = PREV
+			}
+		}
+	}
+	option = {
+		name = quintessence.26.B
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 10
+				trait = kind
+			}
+			modifier = {
+				factor = 2
+				trait = patient
+			}
+			modifier = {
+				factor = 2
+				trait = arbitrary
+			}
+		}		
+		
+		random_courtier = {
+			limit = {
+				trait = class_magic_seal
+			}
+			add_trait = depressed
+			opinion = {
+				modifier = not_feeling_apreciated
+				who = ROOT
+				years = 100
+			}
+			reverse_opinion = {
+				modifier = opinion_disappointed
+				who = ROOT
+				years = 1000
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+# 379 - Heirhein
+
+# County Title
+title = c_heirhein
+
+# Settlements
+max_settlements = 4
+
+b_heirhein_castle = castle
+b_heirhein = temple
+b_heirhein_2 = city
+b_libourne = castle
+
+# Misc
+culture = agustrian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+}
+449.1.1 = { 
+	religion = loptyrian # Following the Great Purge
+}
+
+649.1.1 = { 
+	religion = church_of_edda
+	culture = agustrian
+}
+770.1.1 = { 
+	capital = b_heirhein
+}
+779.1.1 = { 
+	capital = b_heirhein_castle
+}

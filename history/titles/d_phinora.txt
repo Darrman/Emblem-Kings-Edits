@@ -1,0 +1,20 @@
+0180.01.01={
+	law = status_of_women_4
+	law = true_cognatic_succession
+	law = succ_primogeniture
+	liege = k_yied
+}
+0647.01.01={
+	holder=1312 # filler
+}
+0684.01.01={
+	holder=0 # filler
+}
+0770.01.01={
+	liege = e_grannvale
+	holder=1282 # Dark Bishop
+}
+0779.01.01={
+	liege = k_yied
+	holder = 0 # 
+}

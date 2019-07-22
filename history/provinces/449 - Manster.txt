@@ -1,0 +1,44 @@
+# 449 - Manster
+
+# County Title
+title = c_manster
+
+# Settlements
+max_settlements = 4
+
+b_manster_castle = castle
+b_manster = temple
+#b_manster_2 = city
+#b_tuadhmhumhain = city
+
+# Misc
+culture = mansterian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_manster_castle = tribal
+}
+500.1.1 = { 
+	b_manster_castle = castle
+b_manster_2 = city
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = thracian
+}
+666.1.1 = { 
+	culture = mansterian
+}
+776.1.1 = { 
+	b_tuadhmhumhain = castle
+}
+777.1.1 = { 
+	b_tuadhmhumhain = city
+}
+
+779.1.1 = { 
+	culture = new_thracian
+}

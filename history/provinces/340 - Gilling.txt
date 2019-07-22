@@ -1,0 +1,31 @@
+# 340 - Gilling
+
+# County Title
+title = c_gilling
+
+# Settlements
+max_settlements = 4
+
+b_gilling = castle
+b_gilling_2 = temple
+#b_gilling_3 = city
+#b_gunnlod = temple
+
+# Misc
+culture = grannvalean
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_gilling = tribal
+}
+500.1.1 = { 
+	b_gilling = castle
+	b_gilling_3 = city
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = grannvalean
+}

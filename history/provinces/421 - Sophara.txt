@@ -1,0 +1,31 @@
+# 421 - Sophara
+
+# County Title
+title = c_sophara
+
+# Settlements
+max_settlements = 4
+
+b_sophara_castle = castle
+b_sophara = temple
+#b_sophara_2 = city
+#b_fakala = castle
+
+# Misc
+culture = isaachian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_sophara_castle = tribal
+}
+500.1.1 = { 
+	b_sophara_castle = castle
+	b_sophara_2 = city
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = isaachian
+}

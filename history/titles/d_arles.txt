@@ -1,0 +1,4 @@
+0180.01.01={
+	law = true_cognatic_succession
+	law = succ_primogeniture
+}

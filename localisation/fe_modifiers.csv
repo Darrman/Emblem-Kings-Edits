@@ -1,0 +1,73 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+created_war_dragons;Created War Dragons;;;;;;;;;;;;;x
+#created_war_dragons_desc;This character has recently created some war dragons.;;;;;;;;;;;;;x
+owns_regalia;Owns a Regalia;;;;;;;;;;;;;x
+holds_fire_emblem;Holds Fire Emblem;;;;;;;;;;;;;x
+holds_fire_emblem_desc;This character is the current holder of the national treasure known as the Fire Emblem.;;;;;;;;;;;;;x
+declined_regalia_search;Declined regalia search;;;;;;;;;;;;;x
+searching_for_regalia;Searching for Regalia;;;;;;;;;;;;;x
+ancient_ruins;Ancient Ruins;;;;;;;;;;;;;x
+desc_ancient_ruins;The ruined buildings of a long-forgotten kingdom can be found in this province.;;;;;;;;;;;;;x
+training_with_soldiers;Training with Soliders;;;;;;;;;;;;;x
+#desc_training_with_soldiers;;;;;;;;;;;;;;x
+recent_assassination_attempt;Recent Assassination Attempt;;;;;;;;;;;;;x
+mass_desertions;Mass Desertions;;;;;;;;;;;;;x
+desc_mass_desertions;Most soldiers at this holding have abandoned their posts.;;;;;;;;;;;;;x
+recruitment_difficulties;Recruitment Difficulties;;;;;;;;;;;;;x
+desc_mass_desertions;It is extremely difficult to recruit troops in this province.;;;;;;;;;;;;;x
+uncollectable_taxes;Tax Problems;;;;;;;;;;;;;x
+desc_uncollectable_taxes;Hostile peasants are preventing the normal collection of taxes in this province.;;;;;;;;;;;;;x
+peasants_enraged;Peasants Enraged;;;;;;;;;;;;;x
+desc_peasants_enraged;Angry mobs are a common sight. Tensions may escalate into outright revolt.;;;;;;;;;;;;;x
+empty_levies;Empty Levies;;;;;;;;;;;;;x
+desc_empty_levies;The banners are called, but not a soul turns up.;;;;;;;;;;;;;x
+siege_magic;Siege Magic;;;;;;;;;;;;;x
+desc_siege_magic;This character is proficient in the use of long-range combat magic.;;;;;;;;;;;;;x
+dragons_gate_elibe;The Dragon's Gate;;;;;;;;;;;;;x
+desc_dragons_gate_elibe;A building unlike any constructed by human hands. It is waiting... waiting for the masters who abandoned it centuries past.;;;;;;;;;;;;;x
+burned_land;Burned Land;;;;;;;;;;;;;x
+desc_burned_land;These lands have been ravaged by fire. Reconstruction will take some time.;;;;;;;;;;;;;x
+dragons_gate_elibe_harvest;Harvesting Dragons;;;;;;;;;;;;;x
+desc_dragons_gate_elibe_harvest;This character has the art of summoning, binding, and draining the power of dragons down to a science.;;;;;;;;;;;;;x
+immortal_from_quintessence;Quintessence Immortal;;;;;;;;;;;;;x
+desc_immortal_from_quintessence;This character uses quintessence on themselves regularly, preventing their body from succumbing to the ravages of age.;;;;;;;;;;;;;x
+planning_invasion;Planning Invasion;;;;;;;;;;;;;x
+desc_planning_invasion;This character is considering a large-scale invasion of a foreign kingdom.;;;;;;;;;;;;;x
+#possessed_loptous;Cold Charisma;;;;;;;;;;;;;x
+#desc_possessed_loptous;This character is charismatic, but profoundly unsettling. Their gaze draws you in, and you lose yourself in it...;;;;;;;;;;;;;x
+#possessed_forseti;Aloof;;;;;;;;;;;;;x
+#desc_possessed_forseti;This character is cold and distant. They show a wealth of knowledge of the world but are reluctant to become involved in political affairs.;;;;;;;;;;;;;x
+vulenary_consumed;Vulenary Consumed;;;;;;;;;;;;;x
+desc_vulenary_consumed;This character has recently consumed a vulenary.;;;;;;;;;;;;;x
+concoction_consumed;Concoction Consumed;;;;;;;;;;;;;x
+desc_concoction_consumed;This character has recently consumed a concoction.;;;;;;;;;;;;;x
+elixir_consumed;Elixir Consumed;;;;;;;;;;;;;x
+desc_elixir_consumed;This character has recently consumed an elixir.;;;;;;;;;;;;;x
+population_massacred;Population Massacred;;;;;;;;;;;;;x
+desc_population_massacred;Most of the people in this province have been hunted down and killed.;;;;;;;;;;;;;x
+marrying_the_chosen_ones;Seeking the Chosen Ones;;;;;;;;;;;;;x
+desc_marrying_the_chosen_ones;This character is searching for a very special couple...;;;;;;;;;;;;;x
+loaned_beige_ritter;Loaned Beige Ritter;;;;;;;;;;;;;x
+desc_loaned_beige_ritter;This character has loaned the services of their knight brigade to another ruler.;;;;;;;;;;;;;x
+overwhelming_popular_support;Overwhelming Popular Support;;;;;;;;;;;;;x
+desc_overwhelming_popular_support;This character is adored by commoners across their realm..;;;;;;;;;;;;;xx
+holding_child_hunt;Holding Child Hunt;;;;;;;;;;;;;x
+desc_holding_child_hunt;This character is holding a child hunt.;;;;;;;;;;;;;x
+holding_witch_hunt;Holding Witch Hunt;;;;;;;;;;;;;x
+desc_holding_witch_hunt;This character is holding a witch hunt.;;;;;;;;;;;;;x
+recent_child_hunt;Recent Child Hunt;;;;;;;;;;;;;x
+desc_recent_child_hunt;This character has recently conducted a child hunt.;;;;;;;;;;;;;x
+recent_witch_hunt;Recent Witch Hunt;;;;;;;;;;;;;x
+desc_recent_witch_hunt;This character has recently conducted a witch hunt.;;;;;;;;;;;;;x
+child_hunts;Child Hunts;;;;;;;;;;;;;x
+desc_child_hunts;Child hunts have been conducted in this province.;;;;;;;;;;;;;x
+witch_hunts;Witch Hunts;;;;;;;;;;;;;x
+desc_witch_hunts;This province has been subject to aggressive hunts for followers of Loptous and descendants of the Loptyrian emperors.;;;;;;;;;;;;;x
+suspected_loptyrian_sympathizer;Suspected Loptyrian;;;;;;;;;;;;;x
+desc_suspected_loptyrian_sympathizer;This character is suspected of being a follower of Loptous, or at least sympathetic to the dark god's cause.;;;;;;;;;;;;;x
+loptous_holy_blood_revealed;Loptous Holy Blood Revealed;;;;;;;;;;;;;x
+desc_loptous_holy_blood_revealed;This character's Loptous holy blood has become public knowledge.;;;;;;;;;;;;;x
+summoning_deadlords;Summoning Deadlords;;;;;;;;;;;;;x
+desc_summoning_deadlords;This character is in the middle of a ritual to create powerful undead generals.;;;;;;;;;;;;;x
+great_purge;Great Purge;;;;;;;;;;;;;x
+desc_great_purge;Local leaders in this province suspected of disloyalty have been arrested and executed - or simply disappeared.;;;;;;;;;;;;;x

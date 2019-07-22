@@ -1,0 +1,423 @@
+namespace = fe_battle
+
+# Divine Weapon wielder meets a dragon
+narrative_event = {
+	id = fe_battle.1
+	desc = "fe_battle.1.desc"
+	title = "fe_battle.1.title"
+	picture = "GFX_evt_battle" 	
+	
+	is_triggered_only = yes
+
+	trigger = {
+		in_command = yes
+		OR = {
+			has_artifact = regalia_durandal
+			has_artifact = regalia_armads
+			has_artifact = regalia_forblaze
+			has_artifact = regalia_aureola
+			has_artifact = regalia_mulagir
+			has_artifact = regalia_apocalypse
+			has_artifact = regalia_eckesachs
+		}
+		OR = {
+			any_current_enemy = {
+				in_command = yes
+				at_location = ROOT
+				OR = {
+					trait = dragon
+					trait = dragon_blood
+				}
+				OR = {
+					trait = class_manakete
+					trait = class_manakete_female
+				}
+				NOT = { has_character_flag = divine_weapon_dragon_battle }
+			}
+			any_current_enemy = {
+				any_realm_character = {
+					in_command = yes
+					at_location = ROOT
+					OR = {
+						trait = dragon
+						trait = dragon_blood
+					}
+					OR = {
+						trait = class_manakete
+						trait = class_manakete_female
+					}
+					NOT = { has_character_flag = divine_weapon_dragon_battle }
+				}
+			}
+			any_liege = {
+				any_current_enemy = {
+					in_command = yes
+					at_location = ROOT
+					OR = {
+						trait = dragon
+						trait = dragon_blood
+					}
+					OR = {
+						trait = class_manakete
+						trait = class_manakete_female
+					}
+					NOT = { has_character_flag = divine_weapon_dragon_battle }
+				}
+			}
+			any_liege = {
+				any_current_enemy = {
+					any_realm_character = {
+						in_command = yes
+						at_location = ROOT
+						OR = {
+							trait = dragon
+							trait = dragon_blood
+						}
+						OR = {
+							trait = class_manakete
+							trait = class_manakete_female
+						}
+						NOT = { has_character_flag = divine_weapon_dragon_battle }
+					}
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		any_current_enemy = {
+			limit = {
+				in_command = yes
+				at_location = ROOT
+				OR = {
+					trait = dragon
+					trait = dragon_blood
+				}
+				OR = {
+					trait = class_manakete
+					trait = class_manakete_female
+				}
+				NOT = { has_character_flag = divine_weapon_dragon_battle }
+			}
+			save_event_target_as = target_divine_weapon_dragon_battle
+		}
+		any_current_enemy = {
+			any_realm_character = {
+				limit = {
+					in_command = yes
+					at_location = ROOT
+					OR = {
+						trait = dragon
+						trait = dragon_blood
+					}
+					OR = {
+						trait = class_manakete
+						trait = class_manakete_female
+					}
+					NOT = { has_character_flag = divine_weapon_dragon_battle }
+				}
+				save_event_target_as = target_divine_weapon_dragon_battle
+			}
+		}
+		any_liege = {
+			any_current_enemy = {
+				limit = {
+					in_command = yes
+					at_location = ROOT
+					OR = {
+						trait = dragon
+						trait = dragon_blood
+					}
+					OR = {
+						trait = class_manakete
+						trait = class_manakete_female
+					}
+					NOT = { has_character_flag = divine_weapon_dragon_battle }
+				}
+				save_event_target_as = target_divine_weapon_dragon_battle
+			}
+		}
+		any_liege = {
+			any_current_enemy = {
+				any_realm_character = {
+					limit = {
+						in_command = yes
+						at_location = ROOT
+						OR = {
+							trait = dragon
+							trait = dragon_blood
+						}
+						OR = {
+							trait = class_manakete
+							trait = class_manakete_female
+						}
+						NOT = { has_character_flag = divine_weapon_dragon_battle }
+					}
+					save_event_target_as = target_divine_weapon_dragon_battle
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = fe_battle.1.A
+		ai_chance = {
+			factor = 10
+		}
+		event_target:target_divine_weapon_dragon_battle = {
+			random_list = {
+				5 = {
+					custom_tooltip = {
+						text = fe_battle.1.A.3
+						character_event = { id = fe_battle.4 }
+					}
+				}
+				10 = {
+					custom_tooltip = {
+						text = fe_battle.1.A.2
+						character_event = { id = fe_battle.3 }
+					}
+				}
+				85 = {
+					custom_tooltip = {
+						text = fe_battle.1.A.1
+						character_event = { id = fe_battle.2 }
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = fe_battle.1.B
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100
+				OR = {
+					trait = dragon
+					trait = dragon_blood
+					trait = class_manakete
+					trait = class_manakete_female
+				}
+			}
+		}
+		prestige = 100
+		hidden_tooltip = {
+			event_target:target_divine_weapon_dragon_battle = {
+				set_character_flag = divine_weapon_dragon_battle
+			}	
+		}
+	}
+}
+
+character_event = {
+	id = fe_battle.2
+	desc = "fe_battle.2.desc"
+	picture = "GFX_evt_battle" 	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = CURSES		
+		death = { 
+			death_reason = death_battle
+			killer = FROM
+		} 
+		
+		hidden_tooltip = {
+			FROM = {
+				character_event = { id = fe_battle.5 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = fe_battle.3
+	desc = "fe_battle.3.desc"
+	picture = "GFX_evt_battle" 	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = CURSES		
+		set_character_flag = divine_weapon_dragon_battle_lost
+		set_character_flag = divine_weapon_dragon_battle
+		add_trait = maimed
+		
+		hidden_tooltip = {
+			FROM = {
+				character_event = { id = fe_battle.6 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = fe_battle.4
+	desc = "fe_battle.4.desc"
+	picture = "GFX_evt_battle" 	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = CURSES		
+		set_character_flag = divine_weapon_dragon_battle_lost
+		set_character_flag = divine_weapon_dragon_battle
+		add_trait = wounded
+		
+		hidden_tooltip = {
+			FROM = {
+				character_event = { id = fe_battle.7 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = fe_battle.5
+	desc = "fe_battle.5.desc"
+	picture = "GFX_evt_battle" 	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT		
+		prestige = 500
+	}
+}
+
+character_event = {
+	id = fe_battle.6
+	desc = "fe_battle.6.desc"
+	picture = "GFX_evt_battle" 	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT		
+		prestige = 200
+	}
+}
+
+character_event = {
+	id = fe_battle.7
+	desc = "fe_battle.7.desc"
+	picture = "GFX_evt_battle" 	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT		
+		prestige = 100
+	}
+}
+
+# Clear flags from dragon duel
+character_event = {
+	id = fe_battle.8 	
+	
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_character_flag = divine_weapon_dragon_battle 
+	}
+	
+	immediate = {		
+		clr_character_flag = divine_weapon_dragon_battle_lost
+		clr_character_flag = divine_weapon_dragon_battle
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Post-battle level up gatekeeper
+character_event = {
+	id = fe_battle.9
+	#desc = fe_battle.9.desc
+	#picture = "GFX_evt_battle" 	
+	
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		OR = {
+			trait = base_class_knight
+			trait = base_class_cavalier
+			trait = base_class_archer
+			trait = base_class_horse_archer
+			trait = base_class_mercenary
+			trait = base_class_fighter
+			trait = base_class_myrmidon
+			trait = base_class_thief
+			trait = base_class_pirate
+			trait = base_class_brigand
+			trait = base_class_priest
+			trait = base_class_monk
+			trait = base_class_mage
+			trait = base_class_dark_mage
+			trait = base_class_wyvern_rider
+			trait = base_class_pegasus_knight
+			trait = base_class_manakete
+			trait = base_class_soldier
+			trait = base_class_dancer
+		}
+		NOT = { check_variable = { which = "level" value = 20 } }
+	}
+	
+	immediate = {
+		#clr_character_flag = nolevel
+		#clr_character_flag = levelup
+		#set_character_flag = battled
+		
+		# Decide if they levelled up
+		random_list = {
+			50 = {
+				# Nothing happens
+				modifier = {
+					factor = 1.5
+					trait = slothful
+				}
+				modifier = {
+					factor = 1.5
+					trait = craven
+				}
+				modifier = {
+					factor = 1.5
+					trait = content
+				}
+				#set_character_flag = nolevel
+			}
+			50 = {
+				# Level UP!
+				modifier = {
+					factor = 1.5
+					trait = diligent
+				}
+				modifier = {
+					factor = 1.5
+					trait = brave
+				}
+				modifier = {
+					factor = 1.5
+					trait = ambitious
+				}
+				modifier = {
+					factor = 3
+					has_ambition = obj_promote
+				}
+				#set_character_flag = levelup
+				character_event = { id = class.7 }
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+

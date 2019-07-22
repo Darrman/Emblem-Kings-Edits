@@ -1,0 +1,623 @@
+# Regalia
+obj_acquire_regalia = {
+	type = character
+	
+	potential = {
+		#has_dlc = "Mystics"
+		is_adult = yes
+		is_playable = yes
+		NOT = { any_artifact = { has_artifact_flag = regalia } }
+		OR = {
+			ai = no
+			AND = {
+				is_ruler = yes
+				NOT = { tier = BARON }
+				OR = {
+					wealth = 500
+					yearly_income = 250
+				}			
+			}		
+			OR = {
+				trait = duelist
+				trait = strategist
+				trait = mystic
+				trait = scholar
+			}
+		}
+	}
+	
+	allow = {
+		is_adult = yes
+		prisoner = no		
+		OR = {
+			ai = no
+			trait = ambitious	
+			trait = envious
+			trait = greedy
+			trait = proud
+			trait = brave
+		}	
+	}
+	chance = {
+		factor = 20
+		
+		modifier = {
+			factor = 0.1
+			is_ruler = no	
+			NOR = {
+				trait = duelist
+				trait = strategist
+				trait = mystic
+				trait = scholar
+			}	
+		}
+		modifier = {
+			factor = 1.5
+			wealth = 750
+		}
+		modifier = {
+			factor = 2.5
+			wealth = 1000
+		}
+		modifier = {
+			factor = 3.5
+			wealth = 1500
+		}
+		modifier = {
+			factor = 4
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2
+			trait = greedy
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = envious
+		}
+		modifier = {
+			factor = 2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.5
+			trait = charitable
+		}
+		modifier = {
+			factor = 0
+			trait = craven
+		}
+		modifier = {
+			factor = 0.1
+			trait = humble
+		}	
+		modifier = {
+			factor = 0
+			trait = content
+		}
+	}
+	success = {
+		custom_tooltip = {
+			text = obj_acquire_regalia_success
+			#hidden_tooltip = { has_character_modifier = owns_regalia }
+			any_artifact = {
+				has_artifact_flag = regalia
+			}
+		}	
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			trait = incapable
+		}
+	}
+	effect = {
+		prestige = 1000
+	}
+}
+
+obj_class = {
+	type = character
+	
+	potential = {
+		is_adult = yes
+		is_playable = yes
+		NOR = { 
+			trait=class_archdruid
+			trait=class_archer
+			trait=class_archer_female
+			trait=class_archsage
+			trait=class_assassin
+			trait=class_assassin_female
+			trait=class_bard
+			trait=class_berserker
+			trait=class_bishop
+			trait=class_bishop_female
+			trait=class_brigand
+			trait=class_cavalier
+			trait=class_cleric
+			trait=class_dancer
+			trait=class_dark_druid
+			trait=class_sorceror
+			trait=class_sorceror_female
+			trait=class_falcon_knight
+			trait=class_fighter
+			trait=class_general
+			trait=class_great_knight
+			trait=class_hero
+			trait=class_hero_female
+			trait=class_knight
+			trait=class_mage
+			trait=class_mage_female
+			trait=class_mage_knight
+			trait=class_mage_knight_female
+			trait=class_magic_seal
+			trait=class_manakete
+			trait=class_manakete_female
+			trait=class_mercenary
+			trait=class_mercenary_female
+			trait=class_monk
+			trait=class_myrmidon
+			trait=class_myrmidon_female
+			trait=class_horse_archer
+			trait=class_horse_archer_female
+			trait=class_paladin
+			trait=class_pegasus_knight
+			trait=class_pirate
+			trait=class_priest
+			trait=class_bow_knight
+			trait=class_bow_knight_female
+			trait=class_rogue
+			trait=class_sage
+			trait=class_sage_female
+			trait=class_dark_mage
+			trait=class_dark_mage_female
+			trait=class_sniper
+			trait=class_sniper_female
+			trait=class_soldier
+			trait=class_summoner
+			trait=class_swordmaster
+			trait=class_swordmaster_female
+			trait=class_tactician
+			trait=class_thief
+			trait=class_thief_female
+			trait=class_troubador
+			trait=class_valkyrie
+			trait=class_war_priest
+			trait=class_war_cleric
+			trait=class_warrior
+			trait=class_wyvern_knight
+			trait=class_wyvern_lord
+			trait=class_wyvern_rider		
+		}
+	}
+	
+	allow = {
+		is_adult = yes
+		prisoner = no	
+		NOT = { trait = incapable }
+		NOT = { trait = infirm }
+	}
+	chance = {
+		factor = 50
+		
+		modifier = {
+			factor = 0.1
+			is_ruler = no	
+		}
+		modifier = {
+			factor = 0.1
+			trait = content
+		}
+		modifier = {
+			factor = 0.01
+			trait = craven
+		}
+		modifier = {
+			factor = 0
+			trait=slothful
+		}
+		modifier = {
+			factor = 1.5
+			trait = duelist
+		}
+		modifier = {
+			factor = 1.5
+			trait = brave
+		}
+		modifier = {
+			factor = 2.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.5
+			trait = misguided_warrior
+		}
+		modifier = {
+			factor = 2.0
+			trait = tough_soldier
+		}
+		modifier = {
+			factor = 10.0
+			OR = {
+				trait = skilled_tactician
+				trait = brilliant_strategist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			martial = 10
+		}
+		modifier = {
+			factor = 1.25
+			martial = 12
+		}
+		modifier = {
+			factor = 1.25
+			martial = 14
+		}
+		modifier = {
+			factor = 1.5
+			martial = 16
+		}
+	}
+	success = {
+		custom_tooltip = {
+			text = obj_class_success
+			hidden_tooltip = {
+				
+				OR = {
+					trait=class_archer
+					trait=class_archer_female
+					trait=class_bard
+					trait=class_brigand
+					trait=class_cavalier
+					trait=class_cleric
+					trait=class_dancer
+					trait=class_fighter
+					trait=class_knight
+					trait=class_mage
+					trait=class_mage_female
+					trait=class_manakete
+					trait=class_manakete_female
+					trait=class_mercenary
+					trait=class_mercenary_female
+					trait=class_monk
+					trait=class_myrmidon
+					trait=class_myrmidon_female
+					trait=class_horse_archer
+					trait=class_horse_archer_female
+					trait=class_pegasus_knight
+					trait=class_pirate
+					trait=class_priest
+					trait=class_dark_mage
+					trait=class_dark_mage_female
+					trait=class_soldier
+					trait=class_thief
+					trait=class_thief_female
+					trait=class_troubador
+					trait=class_wyvern_rider	
+				}
+			}
+		}	
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			trait = incapable
+			trait = infirm
+		}
+	}
+	abort_effect = {
+		clr_character_flag = class_training
+		clr_character_flag = class_training_soldiers
+		clr_character_flag = class_training_taught_by_friend
+		clr_character_flag = class_training_taught_by_school
+remove_trait=base_class_knight
+remove_trait=base_class_cavalier
+remove_trait=base_class_archer
+remove_trait=base_class_horse_archer
+remove_trait=base_class_mercenary
+remove_trait=base_class_fighter
+remove_trait=base_class_myrmidon
+remove_trait=base_class_thief
+remove_trait=base_class_pirate
+remove_trait=base_class_brigand
+remove_trait=base_class_priest
+remove_trait=base_class_monk
+remove_trait=base_class_mage
+remove_trait=base_class_dark_mage
+remove_trait=base_class_wyvern_rider
+remove_trait=base_class_pegasus_knight
+remove_trait=base_class_manakete
+remove_trait=base_class_soldier
+remove_trait=base_class_dancer		
+		clr_character_flag = street_ruffians
+		remove_character_modifier = training_with_soldiers 
+	}
+	effect = {
+		prestige = 100
+		change_martial = 1
+		change_learning = 1
+	}
+}
+
+obj_promote = {
+	type = character
+	
+	potential = {
+		is_adult = yes
+		is_playable = yes
+		
+		NOR = { 
+			trait=class_archdruid
+			trait=class_archsage
+			trait=class_assassin
+			trait=class_assassin_female
+			trait=class_bard
+			trait=class_berserker
+			trait=class_bishop
+			trait=class_bishop_female
+			trait=class_dancer
+			trait=class_dark_druid
+			trait=class_sorceror
+			trait=class_sorceror_female
+			trait=class_falcon_knight
+			trait=class_general
+			trait=class_great_knight
+			trait=class_hero
+			trait=class_hero_female
+			trait=class_mage_knight
+			trait=class_mage_knight_female
+			trait=class_magic_seal
+			trait=class_manakete
+			trait=class_manakete_female
+			trait=class_paladin
+			trait=class_bow_knight
+			trait=class_bow_knight_female
+			trait=class_rogue
+			trait=class_sage
+			trait=class_sage_female
+			trait=class_sniper
+			trait=class_sniper_female
+			trait=class_soldier
+			trait=class_summoner
+			trait=class_swordmaster
+			trait=class_swordmaster_female
+			trait=class_tactician
+			trait=class_valkyrie
+			trait=class_war_priest
+			trait=class_war_cleric
+			trait=class_warrior
+			trait=class_wyvern_knight
+			trait=class_wyvern_lord	
+		}
+		OR = {
+			trait=class_archer
+			trait=class_archer_female
+			trait=class_brigand
+			trait=class_cavalier
+			trait=class_cleric
+			trait=class_fighter
+			trait=class_knight
+			trait=class_mage
+			trait=class_mage_female
+			trait=class_mercenary
+			trait=class_mercenary_female
+			trait=class_monk
+			trait=class_myrmidon
+			trait=class_myrmidon_female
+			trait=class_horse_archer
+			trait=class_horse_archer_female
+			trait=class_pegasus_knight
+			trait=class_pirate
+			trait=class_priest
+			trait=class_dark_mage
+			trait=class_dark_mage_female
+			trait=class_thief
+			trait=class_thief_female
+			trait=class_troubador
+			trait=class_wyvern_rider	
+		}
+	}
+	
+	allow = {
+		is_adult = yes
+		prisoner = no		
+		NOT = { trait = incapable }
+		NOT = { trait = infirm }
+	}
+	chance = {
+		factor = 100
+		
+		modifier = {
+			factor = 1.25
+			trait = diligent
+		}		
+		modifier = {
+			factor = 1.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.01
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			trait = brave
+		}
+		modifier = {
+			factor = 1.5
+			trait = misguided_warrior
+		}
+		modifier = {
+			factor = 2.0
+			trait = tough_soldier
+		}
+		modifier = {
+			factor = 10.0
+			OR = {
+				trait = skilled_tactician
+				trait = brilliant_strategist
+			}
+		}
+	}
+	success = {
+		custom_tooltip = {
+			text = obj_promote_success			
+			hidden_tooltip = { 			
+				OR = { 
+					trait=class_assassin
+					trait=class_assassin_female
+					trait=class_berserker
+					trait=class_bishop
+					trait=class_bishop_female
+					trait=class_sorceror
+					trait=class_sorceror_female
+					trait=class_falcon_knight
+					trait=class_general
+					trait=class_great_knight
+					trait=class_hero
+					trait=class_hero_female
+					trait=class_mage_knight
+					trait=class_mage_knight_female
+					trait=class_paladin
+					trait=class_bow_knight
+					trait=class_bow_knight_female
+					trait=class_rogue
+					trait=class_sage
+					trait=class_sage_female
+					trait=class_sniper
+					trait=class_sniper_female
+					trait=class_summoner
+					trait=class_swordmaster
+					trait=class_swordmaster_female
+					trait=class_valkyrie
+					trait=class_war_priest
+					trait=class_war_cleric
+					trait=class_warrior
+					trait=class_wyvern_knight
+					trait=class_wyvern_lord	
+				}
+			}
+		}	
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			trait = incapable
+			trait = infirm
+		}
+	}
+	abort_effect = {
+		clr_character_flag = improve_martial_success
+		clr_character_flag = toy_army_prepare
+		clr_character_flag = toy_army
+		clr_character_flag = street_ruffians
+	}
+	effect = {
+		prestige = 200
+		custom_tooltip = {
+			text = obj_promote_effect			
+			hidden_tooltip = { 	
+				if = {
+					limit = { has_character_flag = max_level_promotion }
+					clr_character_flag = max_level_promotion
+					change_diplomacy = 1
+					change_intrigue = 1
+					change_stewardship = 1
+					change_martial = 1
+					change_learning = 1
+				}	
+			}
+		}	
+	}
+}
+
+obj_gather_quintessence = {
+	type = character
+	
+	potential = {
+		is_adult = yes
+		is_playable = yes
+		has_character_flag = lore_quintessence
+		NOT = {piety = 10000}		
+	}
+	
+	allow = {
+		is_adult = yes
+		prisoner = no		
+		NOT = { trait = incapable }
+		NOT = { trait = dark_incapable }
+	}
+	chance = {
+		factor = 100
+		
+		modifier = {
+			factor = 100
+			trait = dark_power_hungry
+		}		
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.01
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.01
+			trait = kind
+		}
+		modifier = {
+			factor = 2.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.5
+			trait = lunatic
+		}
+		modifier = {
+			factor = 2.0
+			trait = mystic
+		}
+	}
+	success = {
+		custom_tooltip = {
+			text = obj_gather_quintessence_success			
+			hidden_tooltip = { 			
+				piety = 10000
+			}
+		}	
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			trait = incapable
+			trait = dark_incapable
+		}
+	}
+	abort_effect = {
+	
+	}
+	effect = {
+		custom_tooltip = {
+			text = obj_gather_quintessence_effect			
+			hidden_tooltip = { 			
+				#prestige = 1000
+			}
+		}	
+	}
+}

@@ -1,0 +1,39 @@
+# 498 - Genoa
+
+# County Title
+title = c_genoa
+
+# Settlements
+max_settlements = 6
+
+b_genoa_castle = castle
+b_genoa = temple
+b_genoa_2 = city
+#b_chiavari = castle
+#b_fosdinovo = city
+#b_novellara = temple
+
+# Misc
+culture = verdanian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_genoa_castle = tribal
+}
+
+448.1.1 = { 
+	culture = verdanian
+}
+449.1.1 = { 
+	religion = loptyrian # Following the Great Purge
+}
+500.1.1 = { 
+	b_genoa_castle = castle
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = verdanian
+}

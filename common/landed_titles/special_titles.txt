@@ -1,0 +1,324 @@
+
+# SPECIAL TITLES
+
+e_nergal = {
+	color={ 50 50 50 }
+	color2={ 255 255 255 }
+	
+	capital = 1 # The Dragon's Gate
+	
+	title = "LORD"
+	title_female = "LORD_female"
+	foa = "LORD_foa"
+	title_prefix = lands_of
+	culture=nabatan
+	#short_name = yes
+	#location_ruler_title = yes
+	
+	
+	allow = {
+		always = no # Only by special decision
+	}
+	
+	# Cannot be held as a secondary title
+	primary = yes
+
+	assimilate = no # Nothing drifts in or out
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+# Lyndis' Legion
+# Temporary title for Lyn in her war against Lundgren
+d_lyn = {
+	color={ 68 156 163 }
+	color2={ 255 255 255 }
+	
+	capital = 99 #	Caelin
+	
+	title = "LORD"
+	title_female = "LORD_female"
+	foa = "LORD_foa"
+	
+	#short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	allow = {
+		always = no 
+	}
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+d_blackbone_clan = {
+	color={ 90 50 50 }
+	color2={ 255 255 255 }
+	
+	capital = 40 #	Sion
+	
+	title = "GRANDMASTER"
+	title_female = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	short_name = yes
+	
+	#landless = yes
+	
+	#primary = yes
+	
+	allow = {
+		always = no 
+	}
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+d_western_isles_rebellion = {
+	color={ 177 185 204 }
+	color2={ 255 255 255 }
+	
+	capital = 166 #	Salinae
+	
+	title = "LEADER"
+	title_female = "LEADER"
+	
+	short_name = yes
+	
+	#landless = yes
+	
+	#primary = yes
+	
+	allow = {
+		always = no 
+	}
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+# The new nation formed by Ekhidna after kicking Etruria out of the Western Isles
+k_western_union = {
+	color={ 150 167 133 }
+	short_name = yes
+	capital = 166 #	Salinae
+	allow = {
+		FROM = {
+			any_previous_holder = {
+				always = yes
+			}
+		}
+	}
+}
+
+d_temp = {
+	color={ 90 50 50 }
+	color2={ 255 255 255 }
+	
+	capital = 1 
+	
+	title = "NO_TITLE"
+	title_female = "NO_TITLE"	
+	title_prefix = "NO_PREFIX"
+	
+	allow = {
+		always = no 
+	}
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+d_temp_2 = {
+	color={ 90 50 50 }
+	color2={ 255 255 255 }
+	
+	capital = 1 
+	
+	title = "NO_TITLE"
+	title_female = "NO_TITLE"
+	title_prefix = "NO_PREFIX"
+	
+	allow = {
+		always = no 
+	}
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+d_loptous = {
+	color={ 50 50 50 }
+	color2={ 255 255 255 }
+	
+	capital = 514 # Loptous's landing
+	
+	title = "BISHOP"
+	title_female = "BISHOP"
+	foa = "LORD_foa"
+	culture=grann
+	short_name = yes
+	#location_ruler_title = yes
+	
+	
+	allow = {
+		always = no # Only by special decision
+	}
+	
+	# Cannot be held as a secondary title
+	primary = yes
+
+	assimilate = no # Nothing drifts in or out
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+e_loptous = {
+	color={ 50 50 50 }
+	color2={ 255 255 255 }
+	
+	capital = 514 # Loptous's landing	
+	culture=grann
+	short_name = yes
+	#location_ruler_title = yes
+	dignity = 500
+	
+	allow = {
+		always = no # Only by special decision
+	}
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+# Magi Squad
+# Temporary title for Ced's rebel group in FE5
+d_magi_squad = {
+	color={ 136 176 208 }
+	color2={ 255 255 255 }
+	
+	capital = 449 # Manster
+	
+	title = "LEADER"
+	title_female = "LEADER"
+	
+	#short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	allow = {
+		always = no 
+	}
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+k_leif = {
+	color={ 216 224 224 }
+	short_name = yes
+	capital = 435 #	Leonster
+	
+	title = "LORD"
+	title_female = "LORD_female"
+	foa = "LORD_foa"
+	
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	allow = {
+		always = no
+	}
+}
+e_crusaders = {
+	color={ 40 80 140 }
+	short_name = yes
+	#capital = 431 #	Tirnanog
+	#capital = 333 #	Belhalla
+	capital = 530 #	Darna
+	
+	title = "LORD"
+	title_female = "LORD_female"
+	foa = "LORD_foa"
+		
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	allow = {
+		always = no
+	}
+}
+d_jugdral_rebels = {
+	color={ 110 10 150 }
+	short_name = yes
+	capital = 530 #	Darna
+	
+	title = "LEADER"
+	title_female = "LEADER"
+		
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	allow = {
+		always = no
+	}
+}
+k_new_thracia = {
+	color={ 255 0 0 }
+	capital = 435 #	Leonster
+	allow = {
+		FROM = {
+			any_previous_holder = {
+				always = yes
+			}
+		}
+	}
+}
+
+# Temporary title for Sigurd in the battle of Belhalla
+d_sigurd = {
+	color={ 185 53 41 }
+	color2={ 255 255 255 }
+	
+	capital = 347 #	Chalphy
+	
+	title = "LORD"
+	title_female = "LORD_female"
+	foa = "LORD_foa"
+	
+	# Cannot be held as a secondary title
+	#primary = yes
+	short_name = yes
+	
+	allow = {
+		always = no 
+	}
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+# Temporary title for Quan in the battle of Belhalla
+d_quan = {
+	color={ 10 81 243 }
+	color2={ 255 255 255 }
+	
+	capital = 435 #	Leonster
+	
+	title = "LORD"
+	title_female = "LORD_female"
+	foa = "LORD_foa"
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	#primary = yes
+	short_name = yes
+	
+	allow = {
+		always = no 
+	}
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}

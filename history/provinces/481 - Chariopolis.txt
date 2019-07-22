@@ -1,0 +1,34 @@
+# 481 - Chariopolis
+
+# County Title
+title = c_chariopolis
+
+# Settlements
+max_settlements = 3
+
+b_chariopolis = castle
+#b_chariopolis_2 = city
+b_chariopolis_3 = temple
+
+# Misc
+culture = thracian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_chariopolis = tribal
+}
+500.1.1 = { 
+	b_chariopolis = castle
+b_chariopolis_2 = city
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = thracian
+}
+
+779.1.1 = { 
+	culture = new_thracian
+}

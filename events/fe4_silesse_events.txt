@@ -1,0 +1,299 @@
+namespace = fe4_silesse
+
+# Sigurd has taken up residence in Sailane. Maios gets the chance to take it
+character_event = {
+	id = fe4_silesse.1
+	hide_window = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = OK
+		if = {
+			limit = {
+				liege = {
+					any_realm_lord = {
+						has_character_flag = is_fe4_sigurd
+					}
+				}
+			}
+			liege = {
+				random_realm_lord = {
+					limit = { has_character_flag = is_fe4_sigurd }
+					character_event = {	id = fe4_silesse.2 }
+				}
+			}
+		}
+	}	
+}
+# ping event to get Sigurd in scope
+character_event = {
+	id = fe4_silesse.2
+	hide_window = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = OK
+		FROM = { character_event = { id = fe4_silesse.3 } }
+	}	
+}
+character_event = {
+	id = fe4_silesse.3
+	desc = fe4_silesse.3.desc
+	picture = GFX_evt_shadowy_cabal
+	hide_from = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = fe4_silesse.3.A
+		ai_chance = {
+			factor = 90	
+		}
+		liege = {
+			random_realm_lord = {
+				limit = { has_character_flag = is_fe4_sigurd }
+				primary_title = {
+					add_claim = ROOT
+					ROOT = {
+						set_character_flag = silesse_claim_allowed
+						war = {
+							target = PREVPREV
+							casus_belli = silesse_claim
+							thirdparty_title = PREV
+						}
+						hidden_tooltip = {
+							set_global_flag = fe4_maios_war_declared
+						}
+					}
+				}
+			}
+		}
+		hidden_tooltip = {
+			liege = {
+				random_realm_lord = {
+					limit = {
+						has_character_flag = is_fe4_daccar
+					}
+					character_event = {	id = fe4_silesse.4 days = 30 random = 10 }
+				}
+			}
+		}
+	}	
+	
+	option = {
+		name = fe4_silesse.3.B
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					name = fe_story
+					value = on
+				}
+			}			
+		}
+		hidden_tooltip = {
+			set_silesse_claim_flag_effect = yes
+			character_event = {	id = fe4_silesse.4 } 
+		}
+	}		
+}
+# Post-Silesse claim war event: what should happen next?
+character_event = {
+	id = fe4_silesse.4
+	hide_window = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = OK
+		if = {
+			limit = {
+				has_global_flag = fe4_maios_defeated
+				NOT = { has_global_flag = fe4_daccar_defeated }
+			}
+			any_playable_ruler = { 
+				limit = { has_character_flag = is_fe4_daccar }
+				character_event = {	id = fe4_silesse.5 }
+			}
+		}else_if = {
+			limit = {
+				has_global_flag = fe4_daccar_defeated
+			}
+			any_playable_ruler = { 
+				limit = { has_character_flag = is_fe4_sigurd }
+				character_event = { id = fe4_belhalla.1 days = 14 random = 7 }
+			}
+		}
+	}	
+}
+# Daccar gets the option to attack Silesse
+character_event = {
+	id = fe4_silesse.5
+	hide_window = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = OK
+		if = {
+			limit = {
+				independent = no
+				liege = {
+					independent = yes
+				}
+			}
+			character_event = {	id = fe4_silesse.6 } 
+		}
+	}	
+}
+character_event = {
+	id = fe4_silesse.6
+	desc = {
+		trigger = { has_global_flag = fe4_maios_war_declared }
+		text = fe4_silesse.6.desc.1
+	}
+	desc = {
+		trigger = { NOT = { has_global_flag = fe4_maios_war_declared } }
+		text = fe4_silesse.6.desc.2
+	}
+	picture = GFX_evt_shadowy_cabal
+	hide_from = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = fe4_silesse.6.A
+		ai_chance = {
+			factor = 90	
+		}
+		liege = {
+			primary_title = {
+				add_claim = ROOT
+				ROOT = {
+					set_character_flag = silesse_claim_allowed
+					war = {
+						target = PREVPREV
+						casus_belli = silesse_claim
+						thirdparty_title = PREV
+					}
+					hidden_tooltip = {
+						set_global_flag = fe4_daccar_war_declared
+						d_jungby = {
+							holder_scope = {
+								if = {
+									limit = {
+										NOR = { 
+											has_character_flag = is_fe4_brigid 
+											has_character_flag = is_fe4_edain 
+											has_character_flag = is_fe4_ring 
+										}
+									}
+									character_event = {	id = fe4_silesse.7 days = 14 random = 7 }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}	
+	
+	option = {
+		name = fe4_silesse.6.B
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					name = fe_story
+					value = on
+				}
+			}			
+		}
+		hidden_tooltip = {
+			set_silesse_claim_flag_effect = yes
+			character_event = {	id = fe4_silesse.4 } 
+		}
+	}		
+}
+
+
+# Jungby gets the option to loan troops to Daccar
+character_event = {
+	id = fe4_silesse.7
+	desc = fe4_silesse.7.desc
+	picture = GFX_evt_battle
+	is_triggered_only = yes
+	
+	option = {
+		name = fe4_silesse.7.A
+		ai_chance = {
+			factor = 50	
+		}
+		custom_tooltip = {
+			text = fe4_silesse.7.A.tooltip
+			hidden_tooltip = {
+				FROM = { 
+					letter_event = { id = fe4_silesse.9 days = 3 }
+				}
+				add_character_modifier = { name = loaned_beige_ritter duration = 180 } 
+			}
+		}
+	}		
+	option = {
+		name = fe4_silesse.7.B
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				has_game_rule = {
+					name = fe_story
+					value = on
+				}
+			}			
+		}
+	}		
+}
+# Daccar gets choice to accept troops
+letter_event = {
+	id = fe4_silesse.9
+	desc = fe4_silesse.9.desc	
+	
+	is_triggered_only = yes	
+	
+	option = {
+		name = fe4_silesse.9.A
+		reverse_add_favor = FROM
+		capital_scope = {
+			ROOT = {
+				spawn_unit = {
+					earmark = beige_ritter
+					owner = ROOT
+					home = PREV
+					province = PREV
+					troops = {
+						horse_archers = { 500 500 }
+					}
+					attrition = 1.0
+					disband_on_peace = yes
+					cannot_inherit = yes
+					maintenance_multiplier = 0.5
+				}
+			}
+		}
+	}
+	option = {
+		name = fe4_silesse.9.B
+		FROM = { 
+			letter_event = { id = fe4_silesse.10 days = 3 }
+		}
+	}
+}
+# Inform Jungby that troops were rejected
+letter_event = {
+	id = fe4_silesse.10
+	desc = fe4_silesse.10.desc	
+	
+	is_triggered_only = yes	
+	
+	option = {
+		name = fe4_silesse.10.A
+	}
+}

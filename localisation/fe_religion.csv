@@ -1,0 +1,201 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+HIGH_BISHOP;High Bishop;;;;;;;;;;;;;x
+k_naga;Divine Dragon Grounds;;;;;;;;;;;;;x
+k_naga_adj;Divine Dragon;;;;;;;;;;;;;x
+VOICE_OF_NAGA;Voice;;;;;;;;;;;;;x
+MAGE;Mage;;;;;;;;;;;;;x
+SAGE;Sage;;;;;;;;;;;;;x
+ARCHSAGE;Archsage;;;;;;;;;;;;;x
+SHAMAN;Shaman;;;;;;;;;;;;;x
+DRUID;Druid;;;;;;;;;;;;;x
+ARCHDRUID;Archdruid;;;;;;;;;;;;;x
+DARK_DRUID;Dark Druid;;;;;;;;;;;;;x
+PONTIFEX;Pontifex;;;;;;;;;;;;;x
+DARK_PONTIFEX;Dark Pontifex;;;;;;;;;;;;;x
+THE_DARK_FORCES;Dark Forces;;;;;;;;;;;;;x
+THE_SPELLBOOKS;The Spellbooks;;;;;;;;;;;;;x
+THE_TOMES;The Tomes;;;;;;;;;;;;;x
+THE_SCRIPTURE;The Scripture;;;;;;;;;;;;;x
+THE_WORD;The Word;;;;;;;;;;;;;x
+GOD_LOPTYR;Loptous;;;;;;;;;;;;;x
+GOD_NAGA;Naga;;;;;;;;;;;;;x
+GOD_THE_VOICE;The Voice;;;;;;;;;;;;;x
+GOD_THE_FELL_DRAGON;The Fell Dragon;;;;;;;;;;;;;x
+GOD_GRIMA;Grima;;;;;;;;;;;;;x
+GOD_FATHER_SKY;Father Sky;;;;;;;;;;;;;x
+GOD_MOTHER_EARTH;Mother Earth;;;;;;;;;;;;;x
+GOD_DELPHI;Delphi;;;;;;;;;;;;;x
+GOD_NINIS;Ninis;;;;;;;;;;;;;x
+GOD_SET;Set;;;;;;;;;;;;;x
+GOD_THOR;Thor;;;;;;;;;;;;;x
+GOD_FILLA;Filla;;;;;;;;;;;;;x
+GOD_THE_GODS;the Gods;;;;;;;;;;;;;x
+GOD_THE_DARK_GOD;the Dark God;;;;;;;;;;;;;x
+GOD_SALAMANDER;Salamander;;;;;;;;;;;;;x
+GOD_FORSETI;Forseti;;;;;;;;;;;;;x
+GOD_HEIM;Heim;;;;;;;;;;;;;x
+GOD_BALDR;Baldr;;;;;;;;;;;;;x
+GOD_NEIR;Neir;;;;;;;;;;;;;x
+GOD_ULIR;Ulir;;;;;;;;;;;;;x
+GOD_BLAGI;Blagi;;;;;;;;;;;;;x
+GOD_FJALAR;Fjalar;;;;;;;;;;;;;x
+GOD_THRUD;Thrud;;;;;;;;;;;;;x
+GOD_CED;Ced;;;;;;;;;;;;;x
+GOD_OD;Od;;;;;;;;;;;;;x
+GOD_HEZUL;Hezul;;;;;;;;;;;;;x
+GOD_DAIN;Dain;;;;;;;;;;;;;x
+GOD_NOBA;Noba;;;;;;;;;;;;;x
+GOD_GRANN;Grann;;;;;;;;;;;;;x
+GOD_YUDU;Yudu;;;;;;;;;;;;;x
+BISHOP;Bishop;;;;;;;;;;;;;x
+DARK_BISHOP;Dark Bishop;;;;;;;;;;;;;x
+ARCHBISHOP;Archbishop;;;;;;;;;;;;;x
+ARCHBISHOP_GOLDEN_CHURCH;Golden Bishop;;;;;;;;;;;;;x
+ARCHBISHOPRIC_OF;Archbishopric of;;;;;;;;;;;;;x
+temple_duchy_of_light_group;Archbishopric of;;;;;;;;;;;;;x
+temple_county_of_light_group;Bishopric of;;;;;;;;;;;;;x
+temple_barony_of_light_group;Church of;;;;;;;;;;;;;x
+temple_baron_light_group;Father;;;;;;;;;;;;;x
+temple_baron_female_light_group;Sister;;;;;;;;;;;;;x
+temple_count_light_group;Bishop;;;;;;;;;;;;;x
+temple_duke_light_group;Archbishop;;;;;;;;;;;;;x
+temple_king_light_group;King-Bishop;Roi très Catholique;König-Bischof;;Rey-obispo;;;;;;;;;x
+temple_king_female_light_group;Queen-Bishop;;;;;;;;;;;;;x
+temple_emperor_light_group;Emperor-Bishop;Empereur très Chrétien;Kaiser-Bischof;;Emperador-obispo;;;;;;;;;x
+temple_emperor_female_light_group;Empress-Bishop;;;;;;;;;;;;;x
+temple_duchy_of_draconic_group;Archbishopric of;;;;;;;;;;;;;x
+temple_county_of_draconic_group;Bishopric of;;;;;;;;;;;;;x
+temple_barony_of_draconic_group;Shrine of;;;;;;;;;;;;;x
+temple_baron_draconic_group;Priest;;;;;;;;;;;;;x
+temple_baron_female_draconic_group;Priestess;;;;;;;;;;;;;x
+temple_count_draconic_group;Bishop;;;;;;;;;;;;;x
+temple_count_female_draconic_group;Bishop;;;;;;;;;;;;;x
+temple_duke_draconic_group;Archbishop;;;;;;;;;;;;;x
+temple_duke_female_draconic_group;Archbishop;;;;;;;;;;;;;x
+temple_king_draconic_group;King-Bishop;Roi très Catholique;König-Bischof;;Rey-obispo;;;;;;;;;x
+temple_king_female_draconic_group;Queen-Bishop;;;;;;;;;;;;;x
+temple_emperor_draconic_group;Emperor-Bishop;Empereur très Chrétien;Kaiser-Bischof;;Emperador-obispo;;;;;;;;;x
+temple_emperor_female_draconic_group;Empress-Bishop;;;;;;;;;;;;;x
+temple_king_pagan_group;Hierophant;Hiérophante;Hierophant;;Hierofante;;;;;;;;;x
+temple_baron_elibe_spirits_pagan;Priest;;;;;;;;;;;;;x
+temple_baron_female_elibe_spirits_pagan;Priestess;;;;;;;;;;;;;x
+pagan_DESC;Since the dawn of history, the world has been home to countless Pagan religions and cults.;;;;;;;;;;;;;x
+draconic_group;Draconic;;;;;;;;;;;;;x
+draconic_group_DESC;The power, wisdom, and longevity of dragons has made them a focal point for religion since the dawn of human civilization.;;;;;;;;;;;;;x
+dragon_gods;Dragon Gods;;;;;;;;;;;;;x
+dragon_gods_DESC;The belief system of the ancient dragons who ruled the world many thousands of years before human civilization began.;;;;;;;;;;;;;x
+divine_dragon_naga;Divine Dragon;;;;;;;;;;;;;x
+divine_dragon_naga_DESC;The Divine Dragon Naga has been worshipped since the end of the Age of Dragons, when she led the dragon tribes in the defense of humanity against the berserk Earth Dragons. Naga withdrew from mortal affairs after the war. Since then, her followers have revered the Voice of Naga - an oracle who can commune with the Divine Dragon.;;;;;;;;;;;;;x
+light_group;Holy Light;;;;;;;;;;;;;x
+light_group_DESC;The power of light magic is derived from faith in the divine presence.;;;;;;;;;;;;;x
+elimine_church;Elimine Church;;;;;;;;;;;;;x
+elimine_church_DESC;The Elimine Church was founded by St. Elimine of the Eight Legends after the Scouring and became the dominant religion of Elibe. Priests are capable of using light magic and healing staves through the power of their faith. According to church teachings, St. Elimine ascended to heaven after her work in the mortal world was complete at a location now marked by the Tower of the Saint.;;;;;;;;;;;;;x
+dragon_liberation;Liberationist;;;;;;;;;;;;;x
+dragon_liberation_DESC;Liberationists believe that humanity is inherently evil and that a world under human rule is doomed to misery and suffering. They seek to build a better world by returning it to the control of another species - the dragons. Liberationist rulers may launch invasions in pursuit of this goal.;;;;;;;;;;;;;x
+golden_church;Golden Church;;;;;;;;;;;;;x
+golden_church_DESC;The Golden Church is a heretical sect of the Elimine Church that originated among influential bishops. It holds that members of the clergy are the closest to God and their commands should be taken as God's own. To a Golden Church bishop, anything can be done in the name of God.;;;;;;;;;;;;;x
+autotheist;Autotheist;;;;;;;;;;;;;x
+autotheist_DESC;Autotheism is an Elimine Church heresy whose believers consider gods to be lies created by the weakness in all mankind. To them, the only gods that could truly exist are powerful mortals.;;;;;;;;;;;;;x
+d_elimine;The Elimine Church;;;;;;;;;;;;;x
+d_elimine_adj;Elimine;;;;;;;;;;;;;x
+k_elimine;The Elimine Church;;;;;;;;;;;;;x
+k_elimine_adj;Elimine;;;;;;;;;;;;;x
+k_golden_church;The Golden See;;;;;;;;;;;;;x
+k_golden_church_adj;Golden;;;;;;;;;;;;;x
+k_dragon_liberation;The Last Dragons;;;;;;;;;;;;;x
+k_dragon_liberation_adj;Last Dragon;;;;;;;;;;;;;x
+e_dragon_liberation;The Last Dragons;;;;;;;;;;;;;x
+e_dragon_liberation_adj;Last Dragon;;;;;;;;;;;;;x
+d_loptyrian;Church of Loptous;;;;;;;;;;;;;x
+d_loptyrian_adj;Loptyrian;;;;;;;;;;;;;x
+d_church_of_edda;Church of Edda;;;;;;;;;;;;;x
+d_church_of_edda_adj;Edda;;;;;;;;;;;;;x
+magic_group;Mage;;;;;;;;;;;;;x
+dark;Elder Magic;;;;;;;;;;;;;x
+dark_DESC;Elder or "dark" magic is an ancient magical discipline whose power stems from deep knowledge and understanding of the arcane. The common folk widely believe elder magic to be evil - perhaps due to the number of mages who have had their minds erased by the forces they sought to command, or been twisted into power-hungry maniacs.;;;;;;;;;;;;;x
+anima;Anima Magic;;;;;;;;;;;;;x
+anima_DESC;Anima magic is a magical discipline centered around communion with and mastery of the forces of nature itself. In addition to controlling the formidable powers of the elements, practicioners of anima magic claim that their powers allow communion with the spirit of all things.;;;;;;;;;;;;;x
+divine_sky_pagan;Divine Sky;;;;;;;;;;;;;x
+divine_sky_pagan_reformed;Divine Sky;;;;;;;;;;;;;x
+divine_sky_pagan_DESC;The people of Sacae worship many different nature spirits, with Father Sky and Mother Earth supreme among them.;;;;;;;;;;;;;x
+divine_sky_pagan_reformed_DESC;The reformed Divine Sky faith has a Holy Book written in the ancient runic script of Sacae, a standardized liturgy and a formal church hierarchy led by the Divine Priest of Father Sky, who can be vassalized by secular rulers.;;;;;;;;;;;;;x
+d_divine_sky;The Heavenly Priesthood;;;;;;;;;;;;;x
+d_divine_sky_adj;Heavenly Priesthood;;;;;;;;;;;;;x
+DIVINE_SKY_PRIEST;Divine Priest;;;;;;;;;;;;;x
+DIVINE_SKY_PRIESTESS;Divine Priestess;;;;;;;;;;;;;x
+temple_baron_divine_sky_pagan_reformed;Priest;;;;;;;;;;;;;x
+temple_baron_female_divine_sky_pagan_reformed;Priestess;;;;;;;;;;;;;x
+temple_baron_divine_sky_pagan;Priest;;;;;;;;;;;;;x
+temple_baron_female_divine_sky_pagan;Priestess;;;;;;;;;;;;;x
+raider_group;Raider;;;;;;;;;;;;;x
+bandit;Bandit;;;;;;;;;;;;;x
+bandit_DESC;The brigands and pirates of the world have only one god - plunder.;;;;;;;;;;;;;x
+pirate;Pirate;;;;;;;;;;;;;x
+pirate_DESC;The brigands and pirates of the world have only one god - plunder.;;;;;;;;;;;;;x
+temple_baron_raider_group;Priest;;;;;;;;;;;;;x
+temple_baron_female_raider_group;Priestess;;;;;;;;;;;;;x
+temple_count_raider_group;Bishop;;;;;;;;;;;;;x
+temple_duke_raider_group;Archbishop;;;;;;;;;;;;;x
+temple_king_raider_group;King-Bishop;Roi très Catholique;König-Bischof;;Rey-obispo;;;;;;;;;x
+temple_king_female_raider_group;Queen-Bishop;;;;;;;;;;;;;x
+guardian_group;Guardians;;;;;;;;;;;;;x
+guardian;Guardian;;;;;;;;;;;;;x
+guardian_DESC;Guardians are men and women dedicated to protecting a particular region or people. Generally peaceful until provoked, Guardians struggle with offensive wars but have an easier time than most keeping order in the lands they protect.;;;;;;;;;;;;;x
+elibe_spirits_pagan;Old Elibian;;;;;;;;;;;;;x
+elibe_spirits_pagan_DESC;Old Elibians revere the nature spirits of Elibe, including Ninis, Set, Thor, and Filla. They are generally peaceful and focus on protecting areas of spiritual signifigance. They tend to struggle with offensive wars but have an easier time than most keeping order in the lands they protect.;;;;;;;;;;;;;x
+STAT_PIETY_MENU_QUINTESSENCE;§YQuintessence§!;§YQuintessence§!;§YQuintessence§!;;§YQuintessence§!;;;;;;;;;x
+STAT_PIETY_QUINTESSENCE;Quintessence;Quintessence;Quintessence;;Quintessence;;;;;;;;;x
+STAT_PIETY_DESC_QUINTESSENCE;Quintessence is respected by your fellow mages. Like Prestige, it is added to your score on the death of a ruler.;;;;;;;;;;;;;x
+MONTHLY_PIETY_QUINTESSENCE;Monthly Quintessence Increase;;;;;;;;;;;;;x
+dummy_1;Fire;;;;;;;;;;;;;x
+dummy_2;Thunder;;;;;;;;;;;;;x
+dummy_3;Wind;;;;;;;;;;;;;x
+dummy_4;Water;;;;;;;;;;;;;x
+dummy_5;Earth;;;;;;;;;;;;;x
+loptyrian;Loptyrian;;;;;;;;;;;;;x
+loptyrian_DESC;The Loptyrians began as a religious order founded by Bishop Galle after his blood bond with the Earth Dragon Loptous. It is based around worship of Loptous as the supreme deity. Members gain access to spellbooks and magic staves made using dragon knowledge. However, Loptous's hatred and resentment of humanity have resulted in truly horrific church rituals...;;;;;;;;;;;;;x
+maerist;Maerist;;;;;;;;;;;;;x
+maerist_DESC;Maerism is a Loptyrian heresy named for its founder Maera, a descendant of the original Bishop Galle. It attempts to harmonize the Loptyrian faith with the old pagan religions of Jugdral. Maera placed Loptous as only one of many high-ranking gods and emphasized his benevolent qualities. He also encouraged tolerance of other faiths and worked to end discrimination against their believers.;;;;;;;;;;;;;x
+temple_baron_loptyrian;Sectarian;;;;;;;;;;;;;x
+temple_baron_female_loptyrian;Sectarian;;;;;;;;;;;;;x
+temple_count_loptyrian;Lord Sectarian;;;;;;;;;;;;;x
+temple_count_female_loptyrian;Lady Sectarian;;;;;;;;;;;;;x
+temple_duke_loptyrian;Bishop;;;;;;;;;;;;;x
+temple_duke_female_loptyrian;Bishop;;;;;;;;;;;;;x
+temple_king_loptyrian;Archbishop;;;;;;;;;;;;;x
+temple_king_female_loptyrian;Archbishop;;;;;;;;;;;;;x
+temple_baron_maerist;Sectarian;;;;;;;;;;;;;x
+temple_baron_female_maerist;Sectarian;;;;;;;;;;;;;x
+temple_count_maerist;Lord Sectarian;;;;;;;;;;;;;x
+temple_count_female_maerist;Lady Sectarian;;;;;;;;;;;;;x
+temple_duke_maerist;Bishop;;;;;;;;;;;;;x
+temple_duke_female_maerist;Bishop;;;;;;;;;;;;;x
+temple_king_maerist;Archbishop;;;;;;;;;;;;;x
+temple_king_female_maerist;Archbishop;;;;;;;;;;;;;x
+temple_emperor_maerist;Hierophant;Hiérophante;Hierophant;;Hierofante;;;;;;;;;x
+temple_emperor_female_maerist;Hierophant;Hiérophante;Hierophant;;Hierofante;;;;;;;;;x
+church_of_edda;Church of Edda;;;;;;;;;;;;;x
+church_of_edda_DESC;The Church of Edda is based on the original pagan religions of Judgral. It was founded by Saint Blagi of the Twelve Crusaders to restore the old faiths and heal the damage caused by Loptyrian persecution. The twelve dragons who came to the Crusaders' aid in their war with Loptous are revered as its highest gods.;;;;;;;;;;;;;x
+earthen_pagan;Earthen;;;;;;;;;;;;;x
+earthen_pagan_DESC;The Earthen religion is polytheistic, with many different gods and spirits of varied abilities and power. It originated in Jugdral alongside humanity's early civilizations and its first holy men were notable for their literacy, knowledge of herbs, and skill in medicine.;;;;;;;;;;;;;x
+earthen_pagan_reformed;Earthen;;;;;;;;;;;;;x
+earthen_pagan_reformed_DESC;The reformed Earthen faith has a Holy Book with a creation myth, chapters on the gods, an account of the battle against the dark god Loptous, and a book of prophesies. The church also has a standardized liturgy and a formal church hierarchy led by the High Priest of Grann, who can be vassalized by secular rulers.;;;;;;;;;;;;;x
+d_earthen;The Earthen Church;;;;;;;;;;;;;x
+d_earthen_adj;Earthen Church;;;;;;;;;;;;;x
+DIVINE_SKY_PRIEST;Divine Priest;;;;;;;;;;;;;x
+DIVINE_SKY_PRIESTESS;Divine Priestess;;;;;;;;;;;;;x
+temple_baron_earthen_pagan_reformed;Priest;;;;;;;;;;;;;x
+temple_baron_female_earthen_pagan_reformed;Priestess;;;;;;;;;;;;;x
+temple_baron_earthen_pagan;Priest;;;;;;;;;;;;;x
+temple_baron_female_earthen_pagan;Priestess;;;;;;;;;;;;;x
+loptyrian_opinion;Loptyrian Opinion;;;;;;;;;;;;;x
+church_of_edda_opinion;Church of Edda Opinion;;;;;;;;;;;;;x
+church_of_edda_creation_independent;Either independent or all lieges Church of Edda\n;;;;;;;;;;;;;x
+latona_church;Latona Church;;;;;;;;;;;;;x
+latona_church_DESC;The Latona Church promotes the virtues exemplified by its founder - sure-heartedness and strong willpower. It reveres the heroes who saved Magvel from the Demon King and encourages believers to stand against the creatures of darkness should they reappear.;;;;;;;;;;;;;x
+d_latona;The Latona Church;;;;;;;;;;;;;x
+d_latona_adj;Latona;;;;;;;;;;;;;x
+valega;Valega;;;;;;;;;;;;;x
+valega_DESC;Valega is a religion established in ancient Caer Pelyn. Those who practice Valega believe that understanding of the self can be reached by contemplating all of creation. Through this, one can transcend their selfish needs and reach enlightenment.;;;;;;;;;;;;;x
+
+

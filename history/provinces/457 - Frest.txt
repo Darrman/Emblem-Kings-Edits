@@ -1,0 +1,42 @@
+# 457 - Frest
+
+# County Title
+title = c_frest
+
+# Settlements
+max_settlements = 6
+
+b_frest = temple
+b_frest_2 = castle
+b_frest_3 = city
+#b_baile_na_hcearc = city
+#b_srath_bhalgaidh = city
+#b_an_eaglais_bhreac = city
+
+# Misc
+culture = mansterian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+}
+
+649.1.1 = { 
+	religion = church_of_edda
+	culture = thracian
+}
+666.1.1 = { 
+	culture = mansterian
+}
+673.1.1 = { 
+	b_baile_na_hcearc = city
+	b_srath_bhalgaidh = city
+	b_an_eaglais_bhreac = city
+}
+
+779.1.1 = { 
+	culture = new_thracian
+}
+

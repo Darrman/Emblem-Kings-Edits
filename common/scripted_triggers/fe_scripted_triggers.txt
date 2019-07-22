@@ -1,0 +1,667 @@
+
+action_allowed_trigger = {
+	prisoner = no
+	NOT = { trait = incapable }
+	NOT = { trait = dark_incapable }
+	NOT = { is_inaccessible_trigger = yes }
+}
+
+available_regalia_trigger = {
+	OR = {
+		AND = {
+			capital_scope = {
+				region = world_elibe
+			}
+			OR = {
+				NOT = { has_global_flag="regalia_gespenst_held" }
+				NOT = { has_global_flag="regalia_luce_held" }
+				NOT = { has_global_flag="regalia_excalibur_fe7_held" }
+				NOT = { has_global_flag="regalia_rienfleche_held" }
+				NOT = { has_global_flag="regalia_basilikos_held" }
+				NOT = { has_global_flag="regalia_rex_hasta_held" }
+				NOT = { has_global_flag="regalia_regal_blade_held" }
+			}
+		}
+		# Add more region-specific regalia here...				
+	}
+}
+
+has_all_major_items_trigger = {
+	AND = {
+		has_artifact = ninis_grace
+		has_artifact = fillas_might
+		has_artifact = thors_ire
+		has_artifact = sets_litany				
+	}
+}
+
+has_all_medium_items_trigger = {
+	AND = {
+		has_artifact = delphi_shield
+		has_artifact = iron_rune
+		has_artifact = boots
+		has_artifact = arms_scroll
+		has_artifact = dracoshield
+		has_artifact = goddess_icon
+		has_artifact = secret_book
+		has_artifact = talisman
+		has_artifact = elysian_whip
+		has_artifact = guiding_ring
+		has_artifact = hero_crest
+		has_artifact = knight_crest
+		has_artifact = orions_bolt
+		has_artifact = silver_card
+		has_artifact = member_card
+	}
+}
+
+can_equip_swords_trigger = {
+	OR = {
+		trait = class_great_knight
+		custom_tooltip = {
+			text = is_assassin_tooltip
+			hidden_tooltip = {					
+				OR = {
+				trait = class_assassin
+				trait = class_assassin_female
+				}
+			}
+		}
+		trait = class_cavalier
+		trait = class_falcon_knight
+		custom_tooltip = {
+			text = is_hero_tooltip
+			hidden_tooltip = {							
+				OR = {		
+				trait = class_hero
+				trait = class_hero_female
+				}
+			}
+		}
+		custom_tooltip = {
+			text = is_mercenary_tooltip
+			hidden_tooltip = {							
+				OR = {		
+				trait = class_mercenary
+				trait = class_mercenary_female
+				}
+			}
+		}
+		custom_tooltip = {
+			text = is_myrmidon_tooltip
+			hidden_tooltip = {							
+				OR = {		
+				trait = class_myrmidon
+				trait = class_myrmidon_female
+				}
+			}
+		}
+		trait = class_paladin
+		custom_tooltip = {
+			text = is_bow_knight_tooltip
+			hidden_tooltip = {							
+				OR = {		
+				trait = class_bow_knight
+				trait = class_bow_knight_female
+				}
+			}
+		}
+		trait = class_rogue
+		custom_tooltip = {
+			text = is_swordmaster_tooltip
+			hidden_tooltip = {							
+				OR = {		
+				trait = class_swordmaster
+				trait = class_swordmaster_female
+				}
+			}
+		}
+		custom_tooltip = {
+			text = is_thief_tooltip
+			hidden_tooltip = {						
+				OR = {			
+				trait = class_thief
+				trait = class_thief_female
+				}
+			}
+		}
+		trait = class_wyvern_lord
+		custom_tooltip = {
+			text = is_mage_knight_tooltip
+			hidden_tooltip = {							
+				OR = {		
+				trait = class_mage_knight
+				trait = class_mage_knight_female
+				}
+			}
+		}
+	}
+}
+
+can_equip_lances_trigger = {
+	OR = {
+		trait = class_cavalier
+		trait = class_falcon_knight
+		trait = class_general
+		trait = class_knight
+		trait = class_paladin
+		trait = class_pegasus_knight
+		trait = class_soldier
+		trait = class_wyvern_rider
+		trait = class_wyvern_knight
+		trait = class_wyvern_lord	
+		trait = class_great_knight
+	}
+}
+
+can_equip_axes_trigger = {
+	OR = {
+		trait = class_berserker
+		trait = class_brigand
+		trait = class_fighter
+		trait = class_general
+		trait = class_great_knight
+		custom_tooltip = {
+			text = is_hero_tooltip
+			hidden_tooltip = {						
+				OR = {			
+				trait = class_hero
+				trait = class_hero_female
+				}
+			}
+		}
+		trait = class_paladin
+		trait = class_pirate
+		trait = class_warrior
+#		AND = {
+#			NOT = { culture = hoshidan }
+#			OR = {
+				trait = class_war_cleric
+				trait = class_war_priest
+#			}
+#		}
+	}
+}
+
+can_equip_bows_trigger = {
+	OR = {
+		custom_tooltip = {
+			text = is_archer_tooltip
+			hidden_tooltip = {							
+				OR = {		
+				trait = class_archer
+				trait = class_archer_female
+				}
+			}
+		}
+		custom_tooltip = {
+			text = is_sniper_tooltip
+			hidden_tooltip = {						
+				OR = {			
+				trait = class_sniper
+				trait = class_sniper_female
+				}
+			}
+		}
+		custom_tooltip = {
+			text = is_horse_archer_tooltip
+			hidden_tooltip = {						
+				OR = {			
+				trait = class_archer
+				trait = class_archer_female
+				}
+			}
+		}
+		custom_tooltip = {
+			text = is_bow_knight_tooltip
+			hidden_tooltip = {						
+				OR = {			
+				trait = class_bow_knight
+				trait = class_bow_knight_female
+				}
+			}
+		}
+		trait = class_warrior
+#		AND = {
+#			culture = hoshidan
+#			OR = {
+#				trait = class_war_cleric
+#				trait = class_war_priest
+#			}
+#		}
+	}
+}
+
+can_equip_anima_trigger = {
+	OR = {
+		trait = class_archdruid
+		trait = class_archsage
+		trait = class_dark_druid
+		custom_tooltip = {
+			text = is_mage_tooltip
+			hidden_tooltip = {						
+				OR = {			
+				trait = class_mage
+				trait = class_mage_female
+				}
+			}
+		}
+		custom_tooltip = {
+			text = is_mage_knight_tooltip
+			hidden_tooltip = {					
+				OR = {				
+				trait = class_mage_knight
+				trait = class_mage_knight_female
+				}
+			}
+		}
+		custom_tooltip = {
+			text = is_sage_tooltip
+			hidden_tooltip = {						
+				OR = {			
+				trait = class_sage
+				trait = class_sage_female
+				}
+			}
+		}
+	}
+}
+
+can_equip_dark_trigger = {
+	OR = {
+		trait = class_archdruid
+		trait = class_archsage
+		trait = class_dark_druid
+		custom_tooltip = {
+			text = is_dark_mage_tooltip
+			hidden_tooltip = {						
+				OR = {			
+				trait = class_dark_mage
+				trait = class_dark_mage_female
+				}
+			}
+		}
+		custom_tooltip = {
+			text = is_sorceror_tooltip
+			hidden_tooltip = {						
+				OR = {			
+				trait = class_sorceror
+				trait = class_sorceror_female
+				}
+			}
+		}
+	}
+}
+
+can_equip_light_trigger = {
+	OR = {
+		trait = class_archsage
+		custom_tooltip = {
+			text = is_bishop_tooltip
+			hidden_tooltip = {						
+				OR = {			
+				trait = class_bishop
+				trait = class_bishop_female
+				}
+			}
+		}
+		trait = class_monk
+	}
+}
+
+can_equip_dragonstone_trigger = {
+	OR = {
+		custom_tooltip = {
+			text = is_manakete_tooltip
+			hidden_tooltip = {						
+				OR = {			
+				trait = class_manakete
+				trait = class_manakete_female
+				}
+			}
+		}
+	}
+}
+
+
+can_equip_staff_trigger = {
+	OR = {
+		trait = class_archdruid
+		trait = class_archsage
+		trait = class_dark_druid
+		custom_tooltip = {
+			text = is_bishop_tooltip
+			hidden_tooltip = {							
+				OR = {		
+				trait = class_bishop
+				trait = class_bishop_female
+				}
+			}
+		}
+		trait = class_cleric
+		custom_tooltip = {
+			text = is_sorceror_tooltip
+			hidden_tooltip = {						
+				OR = {			
+				trait = class_sorceror
+				trait = class_sorceror_female
+				}
+			}
+		}
+		trait = class_priest
+		custom_tooltip = {
+			text = is_sage_tooltip
+			hidden_tooltip = {						
+				OR = {			
+				trait = class_sage
+				trait = class_sage_female
+				}
+			}
+		}
+		trait = class_troubador
+		trait = class_war_cleric
+		trait = class_war_priest
+	}
+}
+
+dragon_liberation_invasion_target_trigger = {
+# Call from the ruler scope, where PREV is the targeted title
+	independent = yes
+	#mercenary = no
+	NOT = { 
+		any_realm_province = {
+			kingdom = { 
+				capital_scope = {
+					province = PREVPREV
+				} 
+			}
+		} 
+	}
+	OR = {
+		AND = {
+			is_nomadic = no
+			primary_title = { 
+				OR = {
+					de_jure_liege_or_above = PREVPREV 
+					title = PREVPREV
+				}
+			}
+		}
+		AND = {
+			is_nomadic = yes
+			capital_scope = { 
+				de_jure_liege_or_above = PREVPREV
+			}
+		}
+		AND = {
+			any_mercenary_band = {
+				holder_scope = {
+					character = PREVPREV
+				}
+			}
+			capital_scope = { 
+				de_jure_liege_or_above = PREVPREV
+			}
+			any_realm_province = {
+				de_jure_liege_or_above = PREVPREV
+			} 
+		}
+	}
+}
+
+
+# Fire Emblem related conditions
+
+fire_emblem_in_realm_trigger = {
+	# should be called for the liege whose primary title has fire emblem succession
+	#OR = {
+		AND = {
+			primary_title = { region = world_elibe }	
+			OR = {
+				has_artifact = fire_emblem_elibe
+				any_realm_character = {
+					has_artifact = fire_emblem_elibe
+					prisoner = no
+				}
+			}
+		}
+		# Add more region-specific emblems here			
+	#}
+}
+
+# Diplomatic conditions
+
+western_isles_rebel_target_trigger = {
+	any_realm_title = {
+#		de_jure_liege = k_the_western_isles
+		region = world_elibe_western_isles
+	}
+	OR = {
+		AND = {
+			higher_tier_than = COUNT
+			independent = yes
+			NOR = {
+				has_landed_title = k_the_western_isles
+				has_landed_title = e_elibe
+				primary_title = {
+#					de_jure_liege = k_the_western_isles
+					region = world_elibe_western_isles
+				}
+			}
+		}
+		AND = {
+			religion_group = raider_group
+			independent = yes
+		}
+	}
+}
+
+battle_of_behalla_support_sigurd_trigger = {
+	OR = {
+		has_character_flag = is_fe4_edain
+		has_character_flag = is_fe4_brigid
+		has_character_flag = is_fe4_jamke
+		has_character_flag = is_fe4_alec
+		has_character_flag = is_fe4_lex 
+		has_character_flag = is_fe4_tailtiu 
+		has_character_flag = is_fe4_ethnia 
+		has_character_flag = is_fe4_claud 
+		has_character_flag = is_fe4_alec 
+		has_character_flag = is_fe4_naoise 
+		has_character_flag = is_fe4_arden 
+		primary_title = {
+			#tier = count
+			de_jure_liege_or_above = d_chalphy
+		}
+	}
+}
+battle_of_behalla_support_grannvale_trigger = {
+	OR = {
+		has_character_flag = is_fe4_lombard
+		has_character_flag = is_fe4_reptor
+		has_character_flag = is_fe4_andrey
+		primary_title = {
+			title = d_friege
+			battle_of_behalla_support_sigurd_trigger = no
+		}
+		primary_title = {
+			title = d_dozel
+			battle_of_behalla_support_sigurd_trigger = no
+		}
+		primary_title = {
+			title = d_jungby
+			battle_of_behalla_support_sigurd_trigger = no
+		}
+	}
+}
+tirnanog_open_trigger = {
+	d_tirnanog = {
+		OR = {
+			has_holder = no
+			holder_scope = {
+				ai = yes
+			}
+		}				
+	}
+	c_tirnanog = {
+		holder_scope = {
+			ai = yes
+		}				
+	}
+}
+rebel_in_joinable_war_trigger = {
+	NOT = { character = ROOT }
+	war = yes
+	any_war = { 
+		OR = {
+			using_cb = grannvale_suppress_rebels 
+			using_cb = travant_invasion 
+		}
+		NOT = {
+			any_defender = { character = ROOT }
+		}
+	}
+	is_primary_war_defender = yes
+}
+crusader_attacking_loptous_trigger = {
+	NOT = { character = ROOT }
+	war = yes
+	any_war = { 
+		using_cb = jugdral_crusade 
+		NOT = {
+			any_attacker = { character = ROOT }
+		}
+	}
+	is_primary_war_attacker = yes
+}
+independent_loptous_in_power_trigger = {
+	trait = possessed_loptous
+	independent = yes
+	religion = loptyrian
+	is_adult = yes
+}
+revived_loptous_in_power_trigger = {
+	has_global_flag = loptous_revived
+	has_global_flag = loptous_empire_destroyed
+	NOT = { has_global_flag = loptous_defeated }
+	independent_loptous_in_power_trigger = yes
+}
+imperial_loptous_in_power_trigger = {
+	has_landed_title = e_loptous
+	NOT = { has_global_flag = loptous_empire_destroyed }
+	NOT = { has_global_flag = loptous_defeated }
+	independent_loptous_in_power_trigger = yes
+}
+last_holy_war_can_start_trigger = {
+	revived_loptous_in_power_trigger = yes
+	NOT = { has_global_flag = last_holy_war_started }
+	any_vassal = {
+		OR = {
+			has_landed_title = k_isaach
+			has_landed_title = k_silesse
+			has_landed_title = k_agustria
+			has_landed_title = k_verdane
+			has_landed_title = k_miletos
+		}
+	}
+}
+deadlord_dead_trigger = {
+	custom_tooltip = {
+		text = deadlord_dead_tooltip
+		hidden_tooltip = {						
+			NAND = {			
+				deadlord = {
+					is_alive = yes
+					has_character_flag = is_deadlord_mus
+				}				
+				deadlord = {
+					is_alive = yes
+					has_character_flag = is_deadlord_bovis
+				}				
+				deadlord = {
+					is_alive = yes
+					has_character_flag = is_deadlord_tigris
+				}				
+				deadlord = {
+					is_alive = yes
+					has_character_flag = is_deadlord_lepus
+				}				
+				deadlord = {
+					is_alive = yes
+					has_character_flag = is_deadlord_draco
+				}				
+				deadlord = {
+					is_alive = yes
+					has_character_flag = is_deadlord_anguilla
+				}				
+				deadlord = {
+					is_alive = yes
+					has_character_flag = is_deadlord_equus
+				}				
+				deadlord = {
+					is_alive = yes
+					has_character_flag = is_deadlord_ovis
+				}				
+				deadlord = {
+					is_alive = yes
+					has_character_flag = is_deadlord_simia
+				}				
+				deadlord = {
+					is_alive = yes
+					has_character_flag = is_deadlord_gallus
+				}				
+				deadlord = {
+					is_alive = yes
+					has_character_flag = is_deadlord_canis
+				}		
+				deadlord = {
+					is_alive = yes
+					has_character_flag = is_deadlord_porcus
+				}
+			}
+		}
+	}
+}
+title_can_be_granted_by_crusaders_trigger = {
+	# Can we even give this out?
+	# Yes, if:
+	# It has existed before.
+	# We or a vassal hold it.
+	# It has no holder and we have at least one de jure province.
+	any_previous_holder = {
+		always = yes
+	}
+	OR = {
+		AND = {
+			has_holder = no
+			ROOT = { num_of_realm_counties = { value = 1 title = PREV } }			
+		}
+		ROOT = { has_landed_title = PREV }
+		ROOT = { is_vassal_or_below = PREV } # meaning PREV is vassal or below of ROOT
+		#ROOT = { any_realm_character = { has_landed_title = PREV } }
+	}
+}
+respected_verdane_dynasty_trigger = {
+	OR = {
+		dynasty=1014 # Verdane
+		dynasty=802 # Spirit Forest
+	}
+}
+not_ruler_or_spouse_of_ruler_trigger = {
+	is_ruler = no
+	OR = {
+		is_married = no
+		spouse = {
+			is_ruler = no
+		}
+	}
+}
+can_start_crusader_kingdom_trigger = {
+	is_alive = yes
+	OR = {
+		character = ROOT
+		any_liege = {
+			character = ROOT
+		}
+	}
+}

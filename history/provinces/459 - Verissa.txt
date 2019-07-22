@@ -1,0 +1,35 @@
+# 459 - Verissa
+
+# County Title
+title = c_verissa
+
+# Settlements
+max_settlements = 4
+
+b_verissa = castle
+#b_verissa_2 = city
+b_verissa_3 = temple
+#b_sestus = castle
+
+# Misc
+culture = thracian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_verissa = tribal
+}
+500.1.1 = { 
+	b_verissa = castle
+b_verissa_2 = city
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = thracian
+}
+
+779.1.1 = { 
+	culture = new_thracian
+}

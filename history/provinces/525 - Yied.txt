@@ -1,0 +1,37 @@
+# 525 - Yied
+
+# County Title
+title = c_yied
+
+# Settlements
+max_settlements = 4
+
+b_yied_shrine = castle
+b_yied = temple
+#b_yied_2 = city
+#b_conn_cetchathach = temple
+
+# Misc
+culture = grannvalean
+religion = loptyrian
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_yied_shrine = tribal
+}
+500.1.1 = { 
+	b_yied_shrine = castle
+}
+649.1.1 = { 
+	religion = loptyrian
+	culture = grannvalean
+}
+770.1.1 = { 
+	capital = b_yied
+}
+#779.1.1 = { 
+778.1.1 = { 
+	capital = b_yied_shrine
+}

@@ -1,0 +1,1861 @@
+201 = {
+	name="Elimine"
+	dynasty=201
+	
+	female=yes
+	religion=elimine_church
+	culture=etrurian
+	disallow_random_traits="yes" 
+	trait="mastermind_theologian"
+	trait="zealous"
+	
+	164.01.01 = { 
+		birth=yes 
+	}
+	180.1.1 = {
+		give_nickname="nick_the_saint"
+		add_trait="eight_legends"
+		add_trait="class_bishop_female"
+	}
+	213.01.01 = { 
+		death=yes 
+	}
+}
+
+202 = {
+	name="Mordred"
+    dna="aabfbsdhgcw" 
+    properties="ad0aca00000000"
+	dynasty=202
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=237
+	1120.01.01 = { 
+		birth=yes 
+		effect = {
+			set_character_flag="is_fe6_mordred"
+		}
+	}
+	1205.01.01 = { 
+		death=yes 
+	}
+}
+
+203 = {
+	name="Mildain" #AKA Elffin  
+	dna="cdiah0f0fc0"
+	properties="cd0h0k00000000"
+	dynasty=202
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	trait=fair
+	disallow_random_traits="yes" 
+	
+	father=202
+	1160.01.01 = { 
+		birth=yes 
+		effect = {
+			set_character_flag="is_fe6_mildain"
+		}
+	}
+	1167.01.01 = {
+		effect={
+			add_friend=213 # Klein
+		}
+	}	
+	1172.01.01={
+		add_trait="class_bard"
+		add_trait="base_class_bard"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1175.01.01={
+		add_trait="poet"
+		add_trait="just"
+		add_trait="kind"
+		add_trait="grey_eminence"
+	} 
+	#1179.06.01 = {
+#	1180.01.01 = {
+#		death = {
+#			death_reason=death_accident #fell off a horse?
+#		}
+#	}
+	1230.01.01 = { 
+		death=yes 
+	}
+}
+
+204 = {
+	name="Lucius" #Non-canon, father of FE7 Lucius
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	trait="brilliant_strategist" # a famous mercenary
+	trait="narrow_flank_leader"
+	1114.01.01 = { 
+		birth=yes 
+	}	
+	1126.01.01={
+		add_trait="class_mercenary"
+			add_trait="base_class_mercenary"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1132.01.01 = {
+		add_spouse=205
+	}
+	1136.01.01= {
+		death = {
+			death_reason=death_murder_unknown
+			killer=156 #Renault
+		}
+	}
+}
+
+205 = {
+	name="Cecilia" #Non-canon, mother of Lucius
+	female=yes
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1116.01.01 = { 
+		birth=yes 
+	}	
+	1128.01.01={
+		add_trait="class_cleric"
+		add_trait="base_class_cleric"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1141.05.01= {
+		add_trait="ill"
+	}
+	1141.06.01= {
+		death = {
+			death_reason=death_trait
+		}
+	}
+}
+
+206 = {
+	name="Lucius"
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=204
+	mother=205
+	trait="fair"
+	trait="weak" #"Spiritual ailment"?
+	disallow_random_traits="yes" 
+	1133.01.01 = { 
+		birth=yes 
+		effect = {
+			set_character_flag="is_fe7_lucius"
+		}
+	}		
+	1140.01.01= {
+		employer = 121 # Served house Cornwell for 10 years
+	}
+	1145.01.01={
+		add_trait="class_monk"
+		add_trait="base_class_monk"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1148.01.01={
+		add_trait="zealous"
+		add_trait="chaste"
+		add_trait="kind"
+		add_trait="scholarly_theologian"
+	} 
+	
+	1181.1.1= {
+		death = {
+			death_reason=death_battle
+			killer=403 #Zephiel? Narcian? Whoever attacked the orphanage in Araphen.
+		}
+	}
+}
+
+207 = {
+	name="Oro" #non-canon, father of Bishop Yoder
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1085.01.01 = { 
+		birth=yes 
+	}
+	1125.01.01 = { 
+		death=yes 
+	}
+}
+
+208 = {
+	name="Yoder"
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=207
+	trait="mastermind_theologian"
+	trait="quick"
+	trait="zealous"
+	trait="diligent"
+	trait="kind"
+	1105.01.01 = { 
+		birth=yes 
+	}
+	
+	1117.01.01={
+		add_trait="class_priest"
+		add_trait="base_class_priest"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	
+	1123.01.01 = {
+		effect={
+			add_friend=302 #Niime
+		}
+	}		
+	 
+	1125.1.1 = {
+		remove_trait="class_priest"
+		add_trait="class_bishop"
+	}	
+	1190.01.01 = { 
+		death=yes 
+	}
+}
+
+209 = {
+	name="Dorothy" #Yoder's murdered sister, not the archer who hangs around Saul
+	female=yes
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=207
+	1106.01.01 = { 
+		birth=yes 
+	}
+	1130.01.01= {
+		death = {
+			death_reason=death_murder
+		}
+	}
+}
+
+210 = {
+	name="Serra"
+	female=yes
+	dynasty=219
+	#actually a noblewoman of Etruria?
+	religion=elimine_church
+	culture=etrurian
+	
+	disallow_random_traits="yes" 
+	1144.01.01 = { # 16 at some point in FE7
+		birth=yes 
+		effect = {
+			set_character_flag="is_fe7_serra"
+		}
+		#employer = 202 # King Mordred
+		employer = 211 # Pent
+	}		
+	1156.01.01={
+		add_trait="class_cleric"
+			add_trait="base_class_cleric"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+			add_trait="base_class_priest"
+		}
+	} 
+	1159.01.01= {
+		add_trait="indulgent_wastrel"
+		add_trait="light_foot_leader"
+		add_trait="wroth"
+		add_trait="brave"
+		add_trait="chaste"
+		#employer = 111 # Lyn
+	}	
+	1160.01.01= {
+		employer = 102 # Uther
+	}
+	1221.01.01 = { 
+		death=yes 
+	}
+}
+
+211 = {
+	name="Pent" #Mage General of Etruria. Marquess (Count?) of Reglay.
+	dynasty=203
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	disallow_random_traits="yes" 
+	1131.01.01 = { 
+		birth=yes 
+		effect = {
+			set_character_flag = magic_or_faith_question
+		}
+	}	
+	
+	1143.01.01={
+		add_trait="class_mage"
+		add_trait="base_class_mage"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1146.01.01={
+		add_trait="grey_eminence"
+		add_trait="desert_terrain_leader"
+		add_trait="quick"
+		add_trait="scholar"
+		add_trait="diligent"
+		add_trait="humble"
+		add_trait="just"
+	} 
+	1148.1.1 = {
+		add_spouse=212 # Louise
+	}
+	#Appointed Mage General
+	1157.01.01= {
+		remove_trait="class_mage"
+		add_trait="class_sage"
+		effect = {
+			give_minor_title = title_mage_general
+		}
+	}	
+	1179.1.1 = {
+		effect = {
+			remove_title = title_mage_general
+		}
+	}
+	1221.01.01 = { 
+		death=yes 
+	}
+}
+
+#Louise and Pent married when Louise was 14
+#Had no kids as of FE7
+#Deke saved Klein from a lion 15 years before FE6 (1165). Clarine was born, but not old enough to remember Deke.
+212 = {
+	name="Louise"
+	dynasty=205
+	female=yes
+	# is a "distant relative" of Hellene's. Let's say third cousins?
+	religion=elimine_church
+	culture=etrurian
+	
+	disallow_random_traits="yes" 
+	father=244
+	mother=241
+	1134.01.01 = { 
+		birth=yes 
+	}	
+	1146.01.01={
+		add_trait="class_archer_female"
+			add_trait="base_class_archer"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1149.01.01={
+		add_trait="misguided_warrior"
+		add_trait="kind"
+		add_trait="diligent"
+		add_trait="ambitious"
+	} 
+	1154.1.1 = {
+		remove_trait="class_archer_female"
+		add_trait="class_sniper_female"
+	}	
+	1198.01.01 = { 
+		death=yes 
+	}
+}
+
+213 = {
+	name="Klein"
+	dynasty=203
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	disallow_random_traits="yes" 
+	trait="charismatic_negotiator"
+	trait="light_foot_leader"
+	trait="rough_terrain_leader"
+	trait="just"
+	trait="brave"
+	father=211 #Pent
+	mother=212 #Louise
+	1161.01.01 = { 
+		birth=yes 
+	}	# 19 in FE6
+	
+	1167.01.01 = {
+		guardian=710 #Deke
+	}	
+	
+	1170.01.01 = {
+		guardian=212 #Louise
+	}	
+	1173.01.01={
+		add_trait="class_archer"
+			add_trait="base_class_archer"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1180.1.1 = {
+		remove_trait="class_archer"
+		add_trait="class_sniper"
+	}	
+	
+	1210.01.01 = { 
+		death=yes 
+	}
+}
+
+214 = {
+	name="Clarine"
+	dynasty=203
+	female=yes
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	disallow_random_traits="yes" 
+	father=211 #Pent
+	mother=212 #Louise
+	trait="fair"
+	1163.01.01 = { 
+		birth=yes 
+	}	
+	1175.01.01={
+		add_trait="class_troubador"
+			add_trait="base_class_troubador"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1178.01.01={
+		add_trait="detached_priest"
+		add_trait="trusting"
+		add_trait="proud"
+		add_trait="wroth"
+		add_trait="arbitrary"
+	} 
+	1222.01.01 = { 
+		death=yes 
+	}
+}
+
+215 = {
+	name="Arcard" #Paladin. Governor-general of the Western Isles. Member of the coup in FE6.
+	dynasty=210
+	
+	religion=elimine_church
+	culture=etrurian
+	disallow_random_traits="yes" 
+	
+	1149.01.01 = { 
+		birth=yes 
+		effect = {
+			set_character_flag="is_fe6_arcard"
+		}	
+	}	
+	
+	1161.01.01={
+		add_trait="class_cavalier"
+			add_trait="base_class_cavalier"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1164.01.01={
+		add_trait="fortune_builder"
+		add_trait="administrator"
+		add_trait="cavalry_leader"
+		add_trait="greedy"
+		add_trait="proud"
+		add_trait="ambitious"
+		add_trait="deceitful"
+		add_trait="craven"
+		add_trait="arbitrary"
+		add_trait="cruel"
+	}  
+	1169.1.1 = {
+		remove_trait="class_cavalier"
+		add_trait="class_paladin"
+	}
+	
+	1181.1.1= {
+		death = {
+			death_reason=death_battle
+			killer=108 #Roy
+		}
+	}
+}
+
+216 = {
+	name="Roartz" #General. Chancellor of Etruria. Leader of the coup in FE6.
+	dynasty=206
+	
+	religion=elimine_church
+	culture=etrurian
+	diplomacy=15
+	disallow_random_traits="yes" 
+	trait="intricate_webweaver"
+	trait="defensive_leader"
+	trait="heavy_infantry_leader"
+	trait="ambitious"
+	trait="deceitful"
+	trait="craven"
+	trait="arbitrary"
+	trait="proud"
+	
+	1120.01.01 = { 
+		birth=yes 
+		effect = {
+			set_character_flag="is_fe6_roartz"
+		}
+	}	
+	1132.01.01={
+		add_trait="class_knight"
+			add_trait="base_class_knight"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	
+	1140.01.01= {
+		give_job_title = job_chancellor
+		remove_trait="class_knight"
+		add_trait="class_general"
+	}	
+	1181.1.1= {
+		death = {
+			death_reason=death_battle
+			killer=108 #Roy
+		}
+	}
+}
+
+217 = {
+	name="Cecilia" #Valkyrie. Mage General of Etruria and Roy's teacher.
+	dynasty=207
+	female=yes
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	disallow_random_traits="yes" 
+	trait="martial_cleric"
+	trait="cavalry_leader"
+	trait="brave"
+	trait="trusting"
+	trait="kind"
+	trait="diligent"
+	trait="patient"
+	trait="just"
+	1153.01.01 = { 
+		birth=yes 
+		effect = {
+			set_character_flag = magic_or_faith_question
+			set_character_flag = is_fe6_cecilia
+		}
+	}	
+	1165.01.01={
+		add_trait="class_mage_female"
+			add_trait="base_class_mage"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	#Appointed Mage General?
+	#1163.01.01= {
+	1173.01.01= {
+		#
+		remove_trait="class_mage_female"
+		add_trait="class_mage_knight_female"
+	}
+	1180.01.01= {
+		effect = {
+			give_minor_title = title_mage_general
+			k_etruria = {
+				holder_scope = { 
+					reverse_opinion = {
+						modifier = opinion_loyal_servant
+						who = ROOT
+						years = 100
+					} 
+				}
+			}	
+		}
+	}	
+	1230.01.01 = { 
+		death=yes 
+	}
+}# give wroth and chaste to her father and grandfather
+
+218 = {
+	name="Douglas" #General. Great General of Etruria.
+	dynasty=208
+	
+	religion=elimine_church
+	culture=etrurian
+	disallow_random_traits="yes" 
+	trait="strong"
+	
+	1132.01.01 = { 
+		birth=yes 
+		effect = {
+			set_character_flag = is_fe6_douglas
+		}
+	}	
+	1144.01.01={
+		add_trait="class_knight"
+			add_trait="base_class_knight"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1147.01.01={
+		add_trait="brilliant_strategist"
+		add_trait="unyielding_leader"
+		add_trait="defensive_leader"
+		add_trait="heavy_infantry_leader"
+		add_trait="just"
+		add_trait="brave"
+	} 
+	
+	1148.01.01= {
+		give_job_title = job_marshal
+	}	
+	1152.1.1 = {
+		remove_trait="class_knight"
+		add_trait="class_general"
+		effect = {
+			give_minor_title = title_great_general
+			k_etruria = {
+				holder_scope = { 
+					reverse_opinion = {
+						modifier = opinion_loyal_servant
+						who = ROOT
+						years = 100
+					} 
+				}
+			}	
+		}
+	}
+	1181.1.1 = {
+		effect = {
+			remove_title = title_great_general
+		}
+	}
+	1198.1.1= {
+		death = yes
+	}
+}
+
+219 = {
+	name="Percival" #Paladin. Knight General of Etruria.
+	dynasty=209
+	
+	religion=elimine_church
+	culture=etrurian
+	disallow_random_traits="yes" 
+	
+	1140.01.01 = { 
+		birth=yes 
+		effect = {
+			set_character_flag = is_fe6_percival
+		}
+	}	
+	
+	1152.01.01={
+		add_trait="class_cavalier"
+			add_trait="base_class_cavalier"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1155.01.01={
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="cavalry_leader"
+		add_trait="heavy_infantry_leader"
+		add_trait="just"
+		add_trait="brave"
+		add_trait="shy" # or at least really serious
+	} 
+	1158.01.01= {
+		give_job_title = job_marshal
+	}	
+	1160.1.1 = {
+		remove_trait="class_cavalier"
+		add_trait="class_paladin"
+		effect = {
+			give_minor_title = title_knight_general
+			k_etruria = {
+				holder_scope = { 
+					reverse_opinion = {
+						modifier = opinion_loyal_servant
+						who = ROOT
+						years = 100
+					} 
+				}
+			}	
+		}
+	}
+	1181.1.1 = {
+		effect = {
+			remove_title = title_knight_general
+			give_minor_title = title_great_general
+		}
+	}
+	1198.1.1= {
+		death = yes
+	}
+}
+
+220 = {
+	name="Robarts" #Paladin. General of Etruria. Hard mode only palette swap of Erik who appears in the Western Isles.
+	dynasty=211 # probably shouldn't be nobility, but I'm out of high-profile Etrurians who aren't in the church
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1139.01.01 = { 
+		birth=yes 
+	}	
+	1151.01.01={
+		add_trait="class_cavalier"
+			add_trait="base_class_cavalier"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	
+	1154.01.01={
+		add_trait="skilled_tactician"
+		add_trait="cavalry_leader"
+	} 
+	
+	1159.1.1 = {
+		remove_trait="class_cavalier"
+		add_trait="class_paladin"
+	}	
+	1181.1.1= {
+		death = {
+			death_reason=death_battle
+			killer=108 #Roy
+		}
+	}
+}
+
+221 = {
+	name="Garret" 
+	
+	religion=elimine_church
+	culture=nabatan
+	#ethnicity=nabatan
+	
+	# Took him 8 years to kill all the bandits that destroyed his hometown
+	1156.01.01 = { 
+		birth=yes 
+		culture=etrurian
+	}	
+	1168.01.01={
+		add_trait="class_brigand"
+			add_trait="base_class_brigand"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	
+	1170.01.01 = {
+		religion=bandit
+	}	
+	
+	1171.01.01 = {
+		add_trait="tough_soldier"
+		add_trait="kind"
+		add_trait="cynical"
+		add_trait="greedy"
+	}	
+	
+	1172.01.01 = {
+		add_trait="wounded"
+	}	
+	
+	1180.01.01 = {
+		remove_trait="wounded"
+		add_trait="scarred"
+		add_trait="depressed"
+		remove_trait="class_brigand"
+		add_trait="class_berserker"
+	}	
+	
+	1199.1.1= {
+		death = yes
+	}
+}
+
+222 = {
+	name="Erk" 
+	
+	religion=anima
+	culture=etrurian
+	disallow_random_traits="yes" 
+	
+	1145.01.01 = { # 15 as of Eliwood's story in FE7. "Three years ago... Yes, on a snowy night... Lord Pent brought you home and said, 'This is my student.' You were only 12..."
+		birth=yes 
+		effect = {
+			set_character_flag="is_fe7_erk"
+		}
+	}	
+	
+	1157.01.01 = {
+		employer=211
+		guardian=211 #Pent
+		add_trait="class_mage"
+			add_trait="base_class_mage"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	}	
+	
+	1157.03.01 = {
+		add_trait="ill"
+	}	
+	
+	1157.05.01 = {
+		remove_trait="ill"
+	}	
+	1159.01.01 = {
+		add_trait="scholar"
+		add_trait="diligent"
+		add_trait="shy"
+		add_trait="humble"
+		add_trait="stressed"
+		add_trait="temperate"
+		add_trait="chaste"
+	}
+	1160.01.01 = {
+		add_trait="scholarly_theologian"
+	}
+	
+	1235.1.1= {
+		death = yes
+	}
+}
+
+223 = {
+	name="Morgan" #No, not THAT one. General and lord of Edina in the Western Isles. Works for Arcard. 
+	dynasty=212
+	religion=elimine_church
+	culture=etrurian
+	disallow_random_traits="yes" 
+	
+	1147.01.01 = { 
+		birth=yes 
+	}	
+	1159.01.01={
+		add_trait="class_knight"
+			add_trait="base_class_knight"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1162.01.01={
+		add_trait="tough_soldier"
+		add_trait="aggressive_leader"
+		add_trait="mountain_terrain_leader"
+		add_trait="greedy"
+		add_trait="craven"
+	} 
+	1167.1.1 = {
+		remove_trait="class_knight"
+		add_trait="class_general"
+	}	
+	
+	1181.1.1= {
+		death = {
+			death_reason=death_battle
+			killer=108 #Roy
+		}
+	}
+}
+
+224 = {
+	name="Oro" #Bishop. Lord of Eburacum in the Western Isles under Arcard.
+	dynasty=213
+	religion=elimine_church
+	culture=etrurian
+	disallow_random_traits="yes" 
+	
+	1144.01.01 = { 
+		birth=yes 
+	}	
+	1156.01.01={
+		add_trait="class_priest"
+			add_trait="base_class_priest"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	
+	1159.01.01 = { 
+		add_trait="scholarly_theologian"
+		add_trait="holy_warrior"
+		add_trait="mountain_terrain_leader"
+		add_trait="proud"
+		add_trait="greedy"
+		add_trait="cruel"
+		add_trait="cynical"
+		add_trait="arbitrary"
+		add_trait="deceitful"
+		religion=golden_church
+		add_trait="bad_priest_light"
+	}
+	1164.1.1 = {
+		remove_trait="class_priest"
+		add_trait="class_bishop"
+	}		
+	
+	1181.1.1= {
+		death = {
+			death_reason=death_battle
+			killer=108 #Roy
+		}
+	}
+}
+
+225 = {
+	name="Nord" # Druid. Lord of Armagh in the Western Isles under Arcard.
+	dynasty=214
+	religion=dark
+	culture=etrurian
+	disallow_random_traits="yes" 
+	
+	1137.01.01 = { 
+		birth=yes 
+	}	
+	1149.01.01={
+		add_trait="class_dark_mage"
+			add_trait="base_class_dark_mage"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	
+	1152.01.01 = { 
+		add_trait="underhanded_rogue"
+		add_trait="mountain_terrain_leader"
+		add_trait="shy"
+		add_trait="greedy"
+		add_trait="arbitrary"
+		add_trait="deceitful"
+	}
+	1157.1.1 = {
+		remove_trait="class_dark_mage"
+		add_trait="class_sorceror"
+	}	
+	
+	1181.1.1= {
+		death = {
+			death_reason=death_battle
+			killer=108 #Roy
+		}
+	}
+}
+
+226 = {
+	name="Windam" #Bishop. Part of the Etrurian coup; takes over the Tower of the Saint.
+	religion=elimine_church
+	culture=etrurian
+	disallow_random_traits="yes" 
+	
+	1149.01.01 = { 
+		birth=yes 
+	}	
+	1161.01.01={
+		add_trait="class_priest"
+			add_trait="base_class_priest"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	
+	1164.01.01 = { 
+		add_trait="amateurish_plotter"
+		add_trait="defensive_leader"
+		add_trait="trickster"
+		add_trait="wroth"
+		add_trait="cruel"
+		add_trait="arbitrary"
+		add_trait="deceitful"
+	}
+	1169.1.1 = {
+		remove_trait="class_priest"
+		add_trait="class_bishop"
+	}		
+	
+	1180.01.01 = { 
+		add_trait="lunatic"
+		add_trait="bad_priest_light"
+	}	
+	
+	1181.1.1= {
+		death = {
+			death_reason=death_battle
+			killer=108 #Roy
+		}
+	}
+}
+
+227 = {
+	name="Saul" 
+	religion=elimine_church
+	culture=etrurian
+	disallow_random_traits="yes" 
+	#trait="quick" #actually kinda clever?
+	
+	1158.01.01 = { 
+		birth=yes 
+	}	
+	1170.01.01={
+		add_trait="class_priest"
+			add_trait="base_class_priest"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1173.01.01 = { 
+		add_trait="charismatic_negotiator"
+		add_trait="lustful"
+		add_trait="slothful"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="shrewd"
+	}	
+	
+	1180.01.01 = { 
+		employer=208 #Yoder
+	}	
+	
+	1201.1.1= {
+		death = yes
+	}
+}
+
+228 = {
+	name="Dorothy"
+	female=yes	
+	religion=elimine_church
+	culture=etrurian
+	disallow_random_traits="yes" 
+	
+	1164.01.01 = { 
+		birth=yes 
+	}	
+	1176.01.01={
+		add_trait="class_archer_female"
+			add_trait="base_class_archer"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1179.01.01={
+		add_trait="detached_priest"
+		add_trait="light_foot_leader"
+		add_trait="shy"
+		add_trait="humble"
+		add_trait="chaste"
+		add_trait="zealous"
+	} 
+	
+	1180.01.01 = { 
+		employer=208 #Yoder
+	}	
+	
+	1224.1.1= {
+		death = yes
+	}
+}
+
+229 = {
+	name="Larum"
+	female=yes	
+	religion=elimine_church
+	culture=etrurian
+	disallow_random_traits="yes" 
+	
+	1165.01.01 = { 
+		birth=yes 
+	}	
+	
+	#Adopted by Douglas
+	1171.01.01 = { 
+		dynasty=208 
+		effect={
+			d_arritim = {
+				holder_scope = {
+					ROOT = { set_father = PREV }
+				}
+			}
+			#set_father=218
+		}
+	}	
+	
+	1177.01.01={
+		add_trait="class_dancer"
+			add_trait="base_class_dancer"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1180.01.01={
+		add_trait="intricate_webweaver"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="lustful"
+		add_trait="charitable"
+	} 
+	
+	1229.1.1= {
+		death = yes
+	}
+}
+
+230 = {
+	name="Hellene"
+	#dynasty=202 #Just a guess... she may not actually be from the royal line. She's noble enough that Desmond married her, anyway, and she crows about the noble blood of Etruria flowing in Zephiel's veins, so her house is probably important.
+	dynasty=220 #On second thought, let's make her from a cadet branch of the royal line. Otherwise we might have her inheriting Etruria, which we don't want.
+	female=yes	
+	religion=elimine_church
+	culture=etrurian
+	disallow_random_traits="yes" 
+	
+	father=238
+	
+	# Zephiel came of age in FE7 (1160), so she's 28 at the absolute youngest.
+	1128.01.01 = { 
+		birth=yes 
+	}
+	1143.01.01 = { 
+		add_trait="flamboyant_schemer"
+		add_trait="proud"
+		add_trait="envious"
+		add_trait="ambitious"
+		add_trait="kind"
+		add_trait="chaste"
+	}	
+	
+	# Marries Desmond
+	1144.1.1 = {
+		remove_trait="kind"
+		effect = {
+			k_bern = {
+				holder_scope = { 
+					opinion = {
+						modifier = opinion_hate
+						who = ROOT
+						years = 20
+					} 
+					opinion = {
+						modifier = opinion_hate
+						who = ROOT
+						years = 20
+					} 
+					reverse_opinion = {
+						modifier = opinion_unfaithful_husband
+						who = ROOT
+						years = 20
+					} 
+				}
+			}	
+		}
+	}
+
+	# No sign of her in FE6, so let's say the reconciliation didn't go so well.
+	1164.1.1= {
+		death = {
+			death_reason=death_murder_unknown
+			killer=402 #Desmond
+		}
+	}
+}
+
+255={
+	name="Zinque" # General. Minor landholder (Vectis), boss of Fe6 10B.
+	dynasty=223
+	culture=etrurian
+	religion=elimine_church
+	
+	disallow_random_traits="yes" 
+	
+	1140.1.1={
+		birth=yes
+	}
+	1152.01.01={
+		add_trait="class_knight"
+			add_trait="base_class_knight"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1155.01.01={
+		add_trait="flamboyant_schemer"
+		add_trait="heavy_infantry_leader"
+		add_trait="rough_terrain_leader"
+		add_trait="proud"
+		add_trait="greedy"
+		add_trait="ambitious"
+		add_trait="arbitrary"
+		add_trait="cruel"
+	} 
+	1160.1.1 = {
+		remove_trait="class_knight"
+		add_trait="class_general"
+	}
+	
+	1181.1.1= {
+		death = {
+			death_reason=death_battle
+			killer=108 #Roy
+		}
+	}
+}
+
+#Hasha no Tsurugi characters
+
+231 = {
+	name="Gol" #"the Viper". Random swordsman under Arcard who gets killed after 2 panels.
+	dynasty=217
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1157.01.01 = { 
+	birth=yes 
+	}	
+	1157.01.01 = { 
+		employer=215 # Arcard
+	}	
+	1169.01.01={
+		add_trait="class_myrmidon"
+			add_trait="base_class_myrmidon"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1172.01.01={
+		add_trait="tough_soldier"
+		add_trait="light_foot_leader"
+		add_trait="trickster"
+		add_trait="proud"
+		add_trait="greedy"
+	} 
+	1177.1.1 = {
+		add_trait="duelist"
+		remove_trait="class_myrmidon"
+		add_trait="class_swordmaster"
+	}	
+	
+	1180.1.1 = {
+		give_nickname=nick_the_viper
+	}
+	
+	1181.1.1= {
+		death = {
+			death_reason=death_battle
+			killer=137 #Wolt! Of all people!
+		}
+	}
+}
+
+232 = {
+	name="Galdes" #commander of mines in the western Isles. 30? proud, cruel, wroth.
+	dynasty=2196
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1149.01.01 = { birth=yes }	
+	1164.01.01={
+		add_trait="thrifty_clerk"
+		add_trait="aggressive_leader"
+		add_trait="rough_terrain_leader"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="cruel"
+	} 
+	
+	1181.1.1= {
+		death = {
+			death_reason=death_battle
+			killer=182 #Al
+		}
+	}
+}
+
+233 = {
+	name="Carls" #solider under Cecilia; fled with her to Nabata. Excitable and insignificant. Killed by one of Narcian's men defending Guinevere.
+	dynasty=216
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1154.01.01 = { birth=yes }	
+	
+	1162.01.01={
+		add_trait="class_soldier"
+			add_trait="base_class_soldier"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	1169.1.1= {
+		add_trait="misguided_warrior"
+		add_trait="defensive_leader"
+		add_trait="light_foot_leader"
+		add_trait="just"
+		add_trait="brave"
+		add_trait="gregarious"
+	}
+	
+	1181.1.1= {
+		death = {
+			death_reason=death_battle
+			#killer= #random Bernese soldier under Narcian
+		}
+	}
+}
+
+#ancestors to make Hellene-Louise relationship work
+234 = {
+	name="Arcard" #Mordred's great-great-grandfather
+	#mother= # generated
+	dynasty=202
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	963.01.01 = { 
+		birth=yes 
+	}
+	1029.01.01 = { 
+		death=yes 
+	}
+}
+
+235 = {
+	name="Douglas" #Mordred's great-grandfather
+	dynasty=202
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=234
+	1002.01.01 = { 
+		birth=yes 
+	}
+	1063.01.01 = { 
+		death=yes 
+	}
+}
+
+236 = {
+	name="Pent" #Mordred's grandfather
+	dynasty=202
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=235	
+	1044.01.01 = { 
+		birth=yes 
+	}
+	1101.01.01 = { 
+		death=yes 
+	}
+}
+
+237 = {
+	name="Percival" #Mordred's father
+	dynasty=202
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=236	
+	1080.01.01 = { 
+		birth=yes 
+	}
+	1145.01.01 = { 
+		death=yes 
+	}
+}
+
+238 = {
+	name="Morgan" #Mordred's brother; Hellene's father
+	dynasty=220
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=236	
+	trait="bastard" # So we don't make Hellene inherit the kingdom. That was never alluded to.
+	1100.01.01 = { 
+		birth=yes 
+	}
+	
+	# killing him off early since he has to be older than Mordred
+	1133.01.01 = { 
+		death = {
+			death_reason=death_accident 
+		}
+	}
+}
+
+239 = {
+	name="Clarine" # Louise's great grandmother
+	female=yes
+	dynasty=202
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=234
+	1025.01.01 = { 
+		birth=yes 
+	}
+	1076.01.01 = { 
+		death=yes 
+	}
+}
+
+240 = {
+	name="Hellene" # Louise's grandmother
+	dynasty=204
+	female=yes
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=242
+	mother=239
+	1060.01.01 = { 
+		birth=yes 
+	}
+	1122.01.01 = { 
+		death=yes 
+	}
+}
+
+241 = {
+	name="Larum" # Louise's mother
+	dynasty=218
+	female=yes
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=243
+	mother=240	
+	1098.01.01 = { 
+		birth=yes 
+	}
+	1140.01.01 = { 
+		death=yes 
+	}
+}
+
+242 = {
+	name="Erk" #Duke Caerleon
+	dynasty=204
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1015.01.01 = { 
+		birth=yes 
+	}
+	
+	1045.01.01 = {
+		add_spouse=239 # Louise's great grandmother
+	}
+	1100.01.01 = { 
+		death=yes 
+	}
+}
+
+243 = {
+	name="Windam" # Count Caisra
+	dynasty=218
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1049.01.01 = { 
+		birth=yes 
+	}
+	
+	1074.01.01 = {
+		add_spouse=240 # Louise's grandmother
+	}
+	1106.01.01 = { 
+		death=yes 
+	}
+}
+
+244 = {
+	name="Klein" #Baron Ceri, Louise's father
+	dynasty=205
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1091.01.01 = { 
+		birth=yes 
+	}
+	
+	1112.01.01 = {
+		add_spouse=241 # Louise's mother
+	}
+	1183.01.01 = { 
+		death=yes 
+	}
+}
+
+245 = {
+	name="Lucius" 
+	dynasty=205
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=244
+	mother=241
+	1130.01.01 = { 
+		birth=yes 
+	}
+	
+	1209.01.01 = { 
+		death=yes 
+	}
+}
+
+246 = {
+	name="Nord" # Count Caisra
+	dynasty=218
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=243
+	mother=240
+	1088.01.01 = { 
+		birth=yes 
+	}
+	
+	1142.01.01 = { 
+		death=yes 
+	}
+}
+
+247 = {
+	name="Mildain" #Duke Caerleon
+	dynasty=204
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=242
+	mother=239
+	1049.01.01 = { 
+		birth=yes 
+	}
+	
+	1125.01.01 = { 
+		death=yes 
+	}
+}
+
+248 = {
+	name="Roartz" #Duke Caerleon
+	dynasty=204
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=247
+	1080.01.01 = { 
+		birth=yes 
+	}
+	
+	1140.01.01 = { 
+		death=yes 
+	}
+}
+
+249 = {
+	name="Carls" #Duke Caerleon
+	dynasty=204
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=248
+	1120.01.01 = { 
+		birth=yes 
+	}
+	
+	1192.01.01 = { 
+		death=yes 
+	}
+}
+
+250 = {
+	name="Nord" 
+	dynasty=204
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=248
+	1139.01.01 = { 
+		birth=yes 
+	}
+	
+	1218.01.01 = { 
+		death=yes 
+	}
+}
+
+251 = {
+	name="Yoder" # Count Caisra
+	dynasty=218
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	father=246
+	1122.01.01 = { 
+		birth=yes 
+	}
+	
+	1194.01.01 = { 
+		death=yes 
+	}
+}
+
+252 = {
+	name="Garret" # Unnamed in HnT, but memorable enough for a spot here. One of the governor-general's captains, in charge of naval patrols. Good swordfighter.
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1155.01.01 = { 
+		birth=yes 
+	}
+	1170.01.01 = { 
+		add_trait="tough_soldier"
+		add_trait="aggressive_leader"
+	}
+	
+	1180.01.01 = { 
+		add_trait="duelist"
+		employer=215 # Arcard
+	}
+		
+	
+	1181.1.1= {
+		death = {
+			death_reason=death_battle
+			killer=182 #Al
+		}
+	}
+}
+#253
+#254
+
+#Governors for Western Isles territories
+#Eburacum
+256 = {
+	name="Elisabeth" 
+	female=yes
+	dynasty=225
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1139.01.01 = { 
+		birth=yes 
+	}
+	
+	1178.1.1= {
+		death = yes
+	}
+}
+#Armagh
+257 = {
+	name="Arnaud" 
+	dynasty=226
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1120.01.01 = { 
+		birth=yes 
+	}
+	
+	1188.1.1= {
+		death = yes
+	}
+}
+#Moridin
+258 = {
+	name="Maurice" 
+	dynasty=227
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1143.01.01 = { 
+		birth=yes 
+	}
+	
+	1199.1.1= {
+		death = yes
+	}
+}
+#Coria
+259 = {
+	name="Charlotte" 
+	female=yes
+	dynasty=228
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1132.01.01 = { 
+		birth=yes 
+	}
+	
+	1168.1.1= {
+		death = yes
+	}
+}
+#Edina
+260 = {
+	name="Evrard" 
+	dynasty=229
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1108.01.01 = { 
+		birth=yes 
+	}
+	
+	1175.1.1= {
+		death = yes
+	}
+}
+#Jutes
+261 = {
+	name="Jaspert" 
+	dynasty=224
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1109.01.01 = { 
+		birth=yes 
+	}
+	
+	1175.1.1= {
+		death = yes
+	}
+}
+
+# Other filler
+262 = {
+	name="Julienne" 
+	female=yes
+	
+	religion=elimine_church
+	culture=etrurian
+	
+	1070.01.01 = { 
+		birth=yes 
+	}
+	
+	1150.1.1= {
+		death = yes
+	}
+}
+
+2010 = {
+	name="Arthur"
+	dynasty=202
+	religion=elimine_church
+	culture=etrurian
+	
+	165.01.01 = { 
+		birth=yes 
+	}
+	216.01.01 = { 
+		death=yes 
+	}
+}

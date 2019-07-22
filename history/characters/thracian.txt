@@ -1,0 +1,1654 @@
+1011={
+	name="Dain"
+	dynasty=1011
+	father=1022
+	mother=1021
+	culture=thracian
+	religion=church_of_edda
+	#disallow_random_traits=yes
+	615.1.1={
+		birth=yes
+		culture=grann
+		religion=earthen_pagan
+	}
+	627.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	 
+	630.1.1 = {
+		remove_trait="class_wyvern_rider"
+		add_trait="class_wyvern_lord"
+	}	
+	
+	# Miracle of Darna
+	632.1.1 = {
+		employer=1001 # Heim
+		give_nickname=nick_the_dragon_knight
+		add_trait="crusader_draconic"
+		add_trait="holy_blood_major_dain"
+	}
+	# Founding of Jugdral
+	649.1.1 = {
+		religion=church_of_edda
+		culture=thracian
+	}
+	660.1.1={
+		death = {
+			death_reason=death_murder_unknown # Dies "shortly after" the Tragedy of the Gáe Bolg
+			killer=1024 # His son? No evidence for this, but it could be in character.
+		}
+	}
+}
+1012={
+	name="Noba"
+	female=yes
+	father=1022
+	mother=1021
+	dynasty=1012
+	culture=thracian
+	religion=church_of_edda
+	#disallow_random_traits=yes
+	616.1.1={
+		birth=yes
+		culture=grann
+		religion=earthen_pagan
+	}
+	628.01.01={
+		add_trait="class_pegasus_knight"
+		add_trait="base_class_pegasus_knight"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	 
+	630.1.1 = {
+		remove_trait="class_pegasus_knight"
+		add_trait="class_falcon_knight"
+	}	
+	
+	# Miracle of Darna
+	632.1.1 = {
+		employer=1001 # Heim
+		give_nickname=nick_the_lance_knight
+		add_trait="crusader_draconic"
+		add_trait="holy_blood_major_noba"
+	}
+	# Founding of Jugdral
+	649.1.1 = {
+		religion=church_of_edda
+		culture=thracian
+	}
+	659.1.1={
+		death = {
+			death_reason=death_suicide
+		}
+	}
+}
+# non-canon; mother for Dain and Noba
+1021={
+	name="Clemenza"
+	female=yes
+	culture=thracian
+	religion=church_of_edda
+	599.1.1={
+		birth=yes
+		culture=grann
+		religion=earthen_pagan
+	}
+	616.1.1={
+		death = {
+			death_reason=death_murder
+		}
+	}
+}
+# non-canon; father for Dain and Noba
+1022={
+	name="Claus"
+	dynasty=1012
+	culture=thracian
+	religion=church_of_edda
+	598.1.1={
+		birth=yes
+		culture=grann
+		religion=earthen_pagan
+	}
+	614.1.1 = {
+		add_spouse=1021 # 
+	}
+	616.1.1={
+		death = {
+			death_reason=death_murder
+		}
+	}
+}
+# Husband for Noba. Dain's best friend.
+1023={
+	name="Serlo"
+	culture=thracian
+	religion=church_of_edda
+	#disallow_random_traits=yes
+	615.1.1={
+		birth=yes
+		culture=grann
+		religion=earthen_pagan
+	}
+	627.01.01={
+		add_trait="class_cavalier"
+		add_trait="base_class_cavalier"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+			add_friend=1011 # Dain
+		}
+	} 
+	 
+	630.1.1 = {
+		remove_trait="class_cavalier"
+		add_trait="class_paladin"
+	}	
+	 
+	632.1.1 = {
+		employer=1001 # Heim
+	}
+	
+	# Founding of Jugdral
+	649.1.1 = {
+		employer=1012 # Noba
+		religion=church_of_edda
+		culture=thracian
+		add_matrilineal_spouse=1012 # Noba
+	}
+	659.1.1={
+		death = {
+			death_reason=death_battle
+			killer=1012 # Noba; Tragedy of the Gáe Bolg
+		}
+	}
+}
+# Noba's son
+1024={
+	name="Osian"
+	father=1023
+	mother=1012
+	dynasty=1012
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	trait=holy_blood_latent_noba
+	650.1.1={
+		birth=yes
+	}
+	662.01.01={
+		add_trait="class_cavalier"
+		add_trait="base_class_cavalier"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+		add_trait="holy_blood_major_noba"
+		remove_trait="holy_blood_latent_noba"
+		add_trait="grey_eminence"
+		add_trait="brave"
+		add_trait="just"
+		add_trait="honest"
+	} 
+	 
+	665.1.1 = {
+		remove_trait="class_cavalier"
+		add_trait="class_paladin"
+	}	
+	666.1.1 = {
+		culture=mansterian
+	}	
+	
+	701.1.1={
+		death = yes
+	}
+}
+# Dain's son. A cruel and ill-tempered man who terrorized and suppressed the nation's people.
+1025={
+	name="Alexander"
+	dynasty=1011
+	father=1011
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	trait=holy_blood_latent_dain
+	642.1.1={
+		birth=yes
+	}
+	654.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+		remove_trait="holy_blood_latent_dain"
+		add_trait="holy_blood_major_dain"
+		add_trait="tough_soldier"
+		add_trait="aggressive_leader"
+		add_trait="mountain_terrain_leader"
+		add_trait="cruel"
+		add_trait="wroth"
+		add_trait="arbitrary"
+		add_trait="greedy"
+		add_trait="proud"
+		add_trait="deceitful"
+	} 
+	 
+	660.1.1 = {
+		remove_trait="class_wyvern_rider"
+		add_trait="class_wyvern_lord"
+	}	
+	
+	692.1.1={
+		death = yes
+	}
+}
+# Non-canon, ancestor for Travant
+1151={
+	name="Radolf"
+	dynasty=1011
+	father=1025
+	culture=thracian
+	religion=church_of_edda
+	trait=holy_blood_latent_dain
+	660.1.1={
+		birth=yes
+	}
+	672.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+		remove_trait="holy_blood_latent_dain"
+		add_trait="holy_blood_major_dain"
+	} 
+	 
+	680.1.1 = {
+		remove_trait="class_wyvern_rider"
+		add_trait="class_wyvern_knight"
+	}	
+	
+	719.1.1={
+		death = yes
+	}
+}
+# Non-canon, ancestor for Travant
+1152={
+	name="Aline"
+	female=yes
+	dynasty=1011
+	father=1151
+	culture=thracian
+	religion=church_of_edda
+	trait=holy_blood_latent_dain
+	680.1.1={
+		birth=yes
+	}
+	692.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+		remove_trait="holy_blood_latent_dain"
+		add_trait="holy_blood_major_dain"
+	} 
+	 
+	700.1.1 = {
+		remove_trait="class_wyvern_rider"
+		add_trait="class_wyvern_lord"
+	}	
+	
+	729.1.1={
+		death = yes
+	}
+}
+# Non-canon, ancestor for Travant
+1153={
+	name="Armand"
+	dynasty=1011
+	mother=1152
+	culture=thracian
+	religion=church_of_edda
+	trait=holy_blood_latent_dain
+	700.1.1={
+		birth=yes
+	}
+	712.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+		remove_trait="holy_blood_latent_dain"
+		add_trait="holy_blood_major_dain"
+	} 
+	 
+	720.1.1 = {
+		remove_trait="class_wyvern_rider"
+		add_trait="class_wyvern_lord"
+	}	
+	
+	# Travant: "Well, when I was [Arion's] age, I was already taking charge as king."
+	# This guy has to die when Travant is in his 20s or late teens.
+	749.1.1={
+		death = yes
+	}
+}
+# King of Thracia, 757
+1154={
+	name="Travant"
+	dna="cdcgalgakfz"
+	properties="ad0a0a00000000"
+	father=1153
+	dynasty=1011
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	trait=holy_blood_latent_dain
+	trait=strong
+	730.1.1={ 
+		birth=yes
+	}
+	742.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+		remove_trait="holy_blood_latent_dain"
+		add_trait="holy_blood_major_dain"
+	} 
+	745.1.1 = {
+		add_trait="brilliant_strategist"
+		add_trait="organizer"
+		add_trait="flanker"
+		add_trait="mountain_terrain_leader"
+		add_trait="ambitious"
+		#add_trait="robust"
+		add_trait="envious"
+		add_trait="diligent"
+		add_trait="deceitful"
+		add_trait="brave"
+	}	
+	749.1.1 = {
+		add_spouse=1155
+	}	
+	750.1.1 = {
+		remove_trait="class_wyvern_rider"
+		add_trait="class_wyvern_lord"
+	}
+	750.1.1 = {
+		remove_trait="class_wyvern_rider"
+		add_trait="class_wyvern_lord"
+	}	
+	763.1.1 = {
+		effect = {
+			e_grannvale = {
+				holder_scope = {
+					set_truce = { who = ROOT years = 10 } 
+				}
+			}
+		}
+	}	
+	778.1.1={ # Thracia... My beautiful kingdom...
+		death = {
+			death_reason=death_battle
+			killer=1038 # Seliph
+		}
+	}
+}
+# Non-canon, spouse for Travant
+1155={
+	name="Alienora"
+	female=yes
+	culture=thracian
+	religion=church_of_edda
+	731.1.1={
+		birth=yes
+	}
+	756.12.1={
+		add_trait=ill
+		death = {
+			death_reason=death_trait
+		}
+	}
+}
+# Travant's son.
+1156={
+	name="Arion"
+	father=1154
+	mother=1155
+	dynasty=1011
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	trait=holy_blood_latent_dain
+	756.1.1={ 
+		birth=yes
+		effect = {
+			set_character_flag = is_fe4_arion
+		}
+	}
+	768.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"			
+			c_1155 = { # Travant
+				reverse_opinion = {
+					modifier = opinion_family_love
+					who = ROOT
+					years = 100
+				}
+				reverse_opinion = {
+					modifier = opinion_family_love
+					who = ROOT
+					years = 100
+				}
+				reverse_opinion = {
+					modifier = opinion_family_love
+					who = ROOT
+					years = 100
+				}
+				reverse_opinion = {
+					modifier = opinion_family_love
+					who = ROOT
+					years = 100
+				}
+			}	
+			c_1160 = { # Altena
+				reverse_opinion = {
+					modifier = opinion_family_love
+					who = ROOT
+					years = 100
+				}
+				reverse_opinion = {
+					modifier = opinion_family_love
+					who = ROOT
+					years = 100
+				}
+				reverse_opinion = {
+					modifier = opinion_family_love
+					who = ROOT
+					years = 100
+				}
+				reverse_opinion = {
+					modifier = opinion_family_love
+					who = ROOT
+					years = 100
+				}
+			}
+		}
+		remove_trait="holy_blood_latent_dain"
+		add_trait="holy_blood_major_dain"
+	} 
+	771.1.1 = {
+		add_trait="skilled_tactician"
+		add_trait="experimenter"
+		add_trait="mountain_terrain_leader"
+		add_trait="trusting"
+		add_trait="just"
+		add_trait="diligent"
+		add_trait="brave"
+	}	
+	775.1.1 = {
+		remove_trait="class_wyvern_rider"
+		add_trait="class_wyvern_lord"
+	}	
+	808.1.1={ 
+		death = yes
+	}
+}
+# The Shield of Thracia
+1245={
+	name="Hannibal"
+	dynasty=1040
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	trait=strong
+	729.1.1={ 
+		birth=yes
+	}
+	741.01.01={
+		add_trait="class_knight"
+		add_trait="base_class_knight"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"		
+			# Maybe not. He does turn his coat.
+#			c_1155 = { # Travant
+#				reverse_opinion = {
+#					modifier = opinion_loyal_servant
+#					who = ROOT
+#					years = 100
+#				}
+#			}	
+		}
+	} 
+	744.1.1 = {
+		add_trait="brilliant_strategist"
+		add_trait="siege_leader"
+		add_trait="defensive_leader"
+		add_trait="mountain_terrain_leader"
+		add_trait="rough_terrain_leader"
+		add_trait="just"
+		add_trait="brave"
+		add_trait="kind"
+		add_trait="content"
+		add_trait="diligent"
+		add_trait="celibate"
+	}	
+	745.1.1 = {
+		remove_trait="class_knight"
+		add_trait="class_general"
+	}	
+	747.1.1 = {
+		give_nickname=nick_the_shield_of_thracia
+	}	
+	798.1.1={ 
+		death = yes
+	}
+}
+# Leader of the Lifis Pirates, near Iss
+1402={
+	name="Lifis"
+	dynasty=2137
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	751.1.1={ # 25 in 776
+		birth=yes
+	}
+	763.1.1={
+		add_trait="class_thief" 
+		add_trait="base_class_thief"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	765.1.1 = {
+		add_trait="flamboyant_schemer"
+		add_trait="trickster"
+		add_trait="flanker"
+		add_trait="deceitful"
+		add_trait="craven"
+		add_trait="just"
+		add_trait="lustful"
+	}	
+	772.1.1 = {
+		religion=pirate
+	}		 
+	777.1.1 = {
+		employer=1162 # Leif
+		remove_trait="class_thief"
+		add_trait="class_rogue"
+		religion=church_of_edda
+	}	
+	# Gets a government post, stays in office for a few years. Pirate outposts around Kelves are destroyed, then he vanishes.
+	782.1.1={
+		death = {
+			death_reason=death_missing
+		} 
+	}
+}
+# Mercenary hired by the Lifis Pirates
+1403={
+	name="Shiva"
+	dynasty=2138
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	746.1.1={ # 30 in 776
+		birth=yes
+	}
+	758.1.1={
+		add_trait="class_myrmidon" 
+		add_trait="base_class_myrmidon"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	761.1.1 = {
+		add_trait="flamboyant_schemer"
+		add_trait="light_foot_leader"
+		add_trait="cynical"
+		add_trait="just"
+		add_trait="shy"
+	}	
+	776.1.1 = {
+		employer=1402 # Lifis
+	}	
+	777.1.1 = {
+		employer=1162 # Leif
+		remove_trait="class_myrmidon"
+		add_trait="class_swordmaster"
+	}	
+	# vanishes
+	779.1.1={
+		death = {
+			death_reason=death_missing
+		} 
+	}
+}
+# Reformed bandit, the leader of the Mount Violdrake Bandits, who went straight due to Eyvel's influence. 
+1439={
+	name="Dagdar"
+	dynasty=2159
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	trait=strong
+	731.1.1={ # 45 in 776
+		birth=yes
+	}
+	743.1.1={
+		add_trait="class_fighter" 
+		add_trait="base_class_fighter"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	746.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="heavy_infantry_leader"
+		add_trait="mountain_terrain_leader"
+		add_trait="rough_terrain_leader"
+		add_trait="kind"
+		add_trait="patient"
+		add_trait="just"
+	}	
+	751.1.1 = {
+		remove_trait="class_fighter"
+		add_trait="class_warrior"
+	}	
+	776.1.1 = {
+		employer=1081 # Eyvel	
+		effect = {
+			c_1081 = { # Eyvel
+				reverse_opinion = {
+					modifier = opinion_gained_respect
+					who = ROOT
+					years = 30
+				}
+			}	
+		}
+	}	
+	777.1.1 = {
+		employer=1162 # Leif
+	}	
+	805.1.1={
+		death = yes
+	}
+}
+1440={
+	name="Tanya"
+	female=yes
+	father=1439
+	dynasty=2159
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	758.1.1={ # 18 in 776
+		birth=yes
+	}
+	770.1.1={
+		add_trait="class_archer_female" 
+		add_trait="base_class_archer"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	773.1.1 = {
+		add_trait="misguided_warrior"
+		add_trait="light_foot_leader"
+		add_trait="mountain_terrain_leader"
+		add_trait="rough_terrain_leader"
+		add_trait="wroth"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="kind"
+	}	
+	776.1.1 = {
+		employer=1081 # Eyvel	
+	}	
+	777.1.1 = {
+		employer=1162 # Leif
+		remove_trait="class_archer_female"
+		add_trait="class_sniper_female"
+	}	
+	816.1.1={
+		death = yes
+	}
+}
+# Violdrake bandit under Dagdar. 
+1441={
+	name="Gomes"
+	dynasty=2160
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	trait=strong
+	746.1.1={ 
+		birth=yes
+		employer=1439 #Dagdar
+	}
+	758.1.1={
+		add_trait="class_fighter" 
+		add_trait="base_class_fighter"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	761.1.1 = {
+		add_trait="amateurish_plotter"
+		add_trait="heavy_infantry_leader"
+		add_trait="mountain_terrain_leader"
+		add_trait="rough_terrain_leader"
+		add_trait="deceitful"
+		add_trait="cynical"
+		add_trait="wroth"
+	}	
+	766.1.1 = {
+		remove_trait="class_fighter"
+		add_trait="class_warrior"
+	}	
+	777.1.1={
+		death = {
+			death_reason=death_battle
+			killer=1162 # Leif
+		}
+	}
+}
+# Axe fighter from Fiana 
+1442={
+	name="Osian" # Orsin
+	father=1443
+	dynasty=2161
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	758.1.1={ # 18 in 776
+		birth=yes
+	}
+	761.1.1={
+		employer=1081 # Eyvel
+	}
+	770.1.1={
+		add_trait="class_fighter" 
+		add_trait="base_class_fighter"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	773.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="aggressive_leader"
+		add_trait="rough_terrain_leader"
+		add_trait="just"
+		add_trait="brave"
+		add_trait="wroth"
+	}	
+	777.1.1 = {
+		employer=1162 # Leif
+		remove_trait="class_fighter"
+		add_trait="class_warrior"
+	}	
+	779.1.1 = {
+		add_spouse=1440 # Tanya
+	}	
+	813.1.1={
+		death = yes
+	}
+}
+# Osian's father
+1443={
+	name="Oswulf" 
+	dynasty=2161
+	culture=thracian
+	religion=church_of_edda
+	740.1.1={ 
+		birth=yes
+	}
+	752.1.1={
+		add_trait="class_fighter" 
+		add_trait="base_class_fighter"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	797.1.1={
+		death = yes
+	}
+}
+# Axe fighter from Fiana 
+1444={
+	name="Halvan" # 
+	father=1446
+	mother=1447
+	dynasty=2162
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	757.1.1={ # 19 in 776
+		birth=yes
+		employer=1448 # Fiana
+	}
+	761.1.1={
+		employer=1081 # Eyvel
+	}
+	769.1.1={
+		add_trait="class_fighter" 
+		add_trait="base_class_fighter"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	772.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="defensive_leader"
+		add_trait="rough_terrain_leader"
+		add_trait="just"
+		add_trait="brave"
+		add_trait="patient"
+		add_trait="shy"
+	}	
+	777.1.1 = {
+		employer=1162 # Leif
+		remove_trait="class_fighter"
+		add_trait="class_warrior"
+	}
+	811.1.1={
+		death = yes
+	}
+}
+# Halvan's little sister
+1445={
+	name="Patricia" 
+	female=yes	
+	father=1446
+	mother=1447
+	dynasty=2162
+	culture=thracian
+	religion=church_of_edda
+	766.1.1={ 
+		birth=yes
+		employer=1448 # Fiana
+	}
+	779.1.1 = {
+		employer=1444 # Halvan
+	}
+	827.1.1={
+		death = yes
+	}
+}
+# Non-canon; parents for Halvan
+1446={
+	name="Haimo" 
+	dynasty=2162
+	culture=thracian
+	religion=church_of_edda
+	737.1.1={ 
+		birth=yes
+		employer=1448 # Fiana
+	}
+	749.1.1={
+		add_trait="class_fighter" 
+		add_trait="base_class_fighter"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	788.1.1={
+		death = yes
+	}
+}
+1447={
+	name="Busilla" 
+	female=yes
+	culture=thracian
+	religion=church_of_edda
+	738.1.1={ 
+		birth=yes
+		employer=1448 # Fiana
+	}
+	761.1.1={
+	}
+	789.1.1={
+		death = yes
+	}
+}
+# Non-canon; ruler for Fiana
+1448={
+	name="Frery" 
+	culture=thracian
+	religion=church_of_edda
+	722.1.1={ 
+		birth=yes
+	}
+	779.1.1={
+		death = yes
+	}
+}
+# Youth from Fiana, he is also a member of the Mount Violdrake Bandits. 
+1449={
+	name="Marty" 
+	dynasty=2163
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	750.1.1={ # 26 in 776
+		birth=yes
+		employer=1448 # Fiana
+	}
+	760.1.1={
+		employer=1439 #Dagdar
+	}
+	761.1.1={
+		employer=1081 # Eyvel
+	}
+	762.1.1={
+		add_trait="class_brigand" 
+		add_trait="base_class_brigand"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	773.1.1 = {
+		add_trait="misguided_warrior"
+		add_trait="aggressive_leader"
+		add_trait="rough_terrain_leader"
+		add_trait="shy"
+		add_trait="humble"
+		add_trait="craven"
+		add_trait="kind"
+	}
+	777.1.1 = {
+		employer=1162 # Leif
+		remove_trait="class_brigand"
+		add_trait="class_berserker"
+	}	
+	779.1.1 = {
+		employer=1439 # Dagdar 
+	}	
+	809.1.1={
+		death = yes
+	}
+}
+
+# Bandit who fights for Lifis. 
+1450={
+	name="Bucks"
+	dynasty=2164
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	755.1.1={ 
+		birth=yes
+	}
+	767.1.1={
+		add_trait="class_fighter" 
+		add_trait="base_class_fighter"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	770.1.1 = {
+		add_trait="misguided_warrior"
+		add_trait="heavy_infantry_leader"
+		add_trait="rough_terrain_leader"
+		add_trait="proud"
+		add_trait="greedy"
+		add_trait="wroth"
+	}	
+	775.1.1 = {
+		remove_trait="class_fighter"
+		add_trait="class_warrior"
+	}	
+	776.1.1 = {
+		employer=1402 # Lifis
+	}	
+	777.1.1={
+		death = {
+			death_reason=death_battle
+			killer=1162 # Leif
+		}
+	}
+}
+
+# Hunter from the village of Iss who joins the Fiana Freeblades in an effort to protect his village from raids by the Lifis Pirates.
+1451={
+	name="Ronan"
+	mother=1452
+	dynasty=2165
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	760.1.1={  # 16 in 776
+		birth=yes
+		employer=1453
+	}
+	772.1.1={
+		add_trait="class_archer" 
+		add_trait="base_class_archer"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	775.1.1 = {
+		add_trait="misguided_warrior"
+		add_trait="light_foot_leader"
+		add_trait="just"
+		add_trait="brave"
+	}	
+	777.1.1 = {
+		remove_trait="class_archer"
+		add_trait="class_sniper"
+		employer=1162 # Leif
+	}	
+	811.1.1={
+		death = yes
+	}
+}
+# Non-canon, mother for Ronan
+1452={
+	name="Hermessent"
+	female=yes
+	dynasty=2165
+	culture=thracian
+	religion=church_of_edda
+	742.1.1={ 
+		birth=yes
+		employer=1453
+	}
+	800.1.1={
+		death = yes
+	}
+}
+# Non-canon, ruler for Iss
+1453={
+	name="Lancelin"
+	culture=thracian
+	religion=church_of_edda
+	726.1.1={ 
+		birth=yes
+	}
+	779.1.1={
+		death = yes
+	}
+}
+# Travant's confidant. In charge of Luthecia.
+1454={
+	name="Disler"
+	dynasty=2166
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	733.1.1={ 
+		birth=yes
+	}
+	745.01.01={
+		add_friend=1154 #Travant
+		add_trait="class_knight"
+		add_trait="base_class_knight"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+			c_1154 = { # Travant
+				reverse_opinion = {
+					modifier = opinion_loyal_servant
+					who = ROOT
+					years = 100
+				}
+			}	
+		}
+	} 
+	748.1.1 = {
+		add_trait="intricate_webweaver"
+		add_trait="defensive_leader"
+		add_trait="mountain_terrain_leader"
+		add_trait="deceitful"
+		add_trait="proud"
+		add_trait="wroth"
+	}	
+	753.1.1 = {
+		remove_trait="class_knight"
+		add_trait="class_general"
+	}	
+	778.1.1={
+		death = {
+			death_reason=death_battle
+			killer=1038 # Seliph
+		}
+	}
+}
+# In charge of Meace.
+1455={
+	name="Maikov"
+	dynasty=2167
+	culture=thracian
+	religion=church_of_edda
+	#disallow_random_traits=yes
+	742.1.1={ 
+		birth=yes
+	}
+	754.01.01={
+		add_trait="class_knight"
+		add_trait="base_class_knight"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	757.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="defensive_leader"
+		add_trait="just"
+		add_trait="wroth"
+	}	
+	762.1.1 = {
+		remove_trait="class_knight"
+		add_trait="class_general"
+	}	
+	778.1.1={
+		death = {
+			death_reason=death_battle
+			killer=1038 # Seliph
+		}
+	}
+}
+
+# Hannibal's subordinate, left to guard Kapathogia Castle.
+1456={
+	name="Kanatz"
+	dynasty=2168
+	culture=thracian
+	religion=church_of_edda
+	#disallow_random_traits=yes
+	742.1.1={ 
+		birth=yes
+	}
+	754.01.01={
+		add_trait="class_knight"
+		add_trait="base_class_knight"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	757.1.1 = {
+		add_trait="misguided_warrior"
+		add_trait="defensive_leader"
+		add_trait="just"
+		add_trait="kind"
+	}	
+	762.1.1 = {
+		remove_trait="class_knight"
+		add_trait="class_general"
+	}	
+	778.1.1={
+		death = {
+			death_reason=death_battle
+			killer=1038 # Seliph
+		}
+	}
+}
+# Dragon Knight hired by Gomes
+1457={
+	name="Rumei"
+	dynasty=2169
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	751.1.1={ 
+		birth=yes
+	}
+	763.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	766.1.1 = {
+		add_trait="misguided_warrior"
+		add_trait="mountain_terrain_leader"
+		add_trait="kind"
+		add_trait="diligent"
+		add_trait="arbitrary"
+		add_trait="brave"
+	}	
+	768.1.1 = {
+		add_spouse=1458
+	}	
+	777.1.1={
+		death = {
+			death_reason=death_battle
+			killer=1162 # Leif
+		}
+	}
+}
+# Rumei's family
+1458={
+	name="Matheode"
+	female=yes
+	culture=thracian
+	religion=church_of_edda
+	752.1.1={ 
+		birth=yes
+	}	
+	813.1.1={
+		death = yes
+	}
+}
+1459={
+	name="Eline"
+	female=yes
+	father=1457
+	mother=1458
+	dynasty=2169
+	culture=thracian
+	religion=church_of_edda
+	769.1.1={ 
+		birth=yes
+	}	
+	821.1.1={
+		death = yes
+	}
+}
+1460={
+	name="Mahal"
+	father=1457
+	mother=1458
+	dynasty=2169
+	culture=thracian
+	religion=church_of_edda
+	770.1.1={ 
+		birth=yes
+	}	
+	825.1.1={
+		death = yes
+	}
+}
+1461={
+	name="Min"
+	female=yes
+	father=1457
+	mother=1458
+	dynasty=2169
+	culture=thracian
+	religion=church_of_edda
+	771.1.1={ 
+		birth=yes
+	}	
+	826.1.1={
+		death = yes
+	}
+}
+# Dragon Knight hired to defend Danzich
+1462={
+	name="Seimetol"
+	dynasty=2170
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	755.1.1={ 
+		birth=yes
+	}
+	767.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	770.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="flanker"
+		add_trait="cynical"
+		add_trait="arbitrary"
+		add_trait="patient"
+	}	
+	777.1.1={
+		death = {
+			death_reason=death_battle
+			killer=1162 # Leif
+		}
+	}
+}
+
+# Dragon Knight of Thracia and protector of Linoan.
+1463={
+	name="Dean"
+	father=1465
+	mother=1466
+	dynasty=2171
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	749.1.1={ # 27 in 776
+		birth=yes
+	}
+	761.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"		
+		}
+	} 
+	764.1.1 = {
+		add_trait="skilled_tactician"
+		add_trait="defensive_leader"
+		add_trait="just"
+		add_trait="diligent"
+		add_trait="brave"
+	}	
+	773.1.1 = {
+		employer=1169 # Linoan
+		effect = {
+			c_1169 = { # Linoan
+				reverse_opinion = {
+					modifier = opinion_crush
+					who = ROOT
+					years = 5
+				}
+			}
+		}
+	}	
+	777.1.1 = {
+		remove_trait="class_wyvern_rider"
+		add_trait="class_wyvern_lord"
+		employer=1162 #Leif
+	}	
+	779.1.1 = {
+		employer=1161 #Altena
+	}	
+	804.1.1={ 
+		death = yes
+	}
+}
+# Dragon Knight of Thracia. Dean's sister.
+1464={
+	name="Eda"
+	female=yes
+	father=1465
+	mother=1466
+	dynasty=2171
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	755.1.1={ # 21 in 776
+		birth=yes
+	}
+	767.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"		
+		}
+	} 
+	770.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="aggressive_leader"
+		add_trait="just"
+		add_trait="diligent"
+		add_trait="brave"
+		add_trait="wroth"
+	}	
+	773.1.1 = {
+		employer=1169 # Linoan
+	}	
+	777.1.1 = {
+		remove_trait="class_wyvern_rider"
+		add_trait="class_wyvern_lord"
+		employer=1162 #Leif
+	}	
+	779.1.1 = {
+		employer=1161 #Altena
+	}	
+	812.1.1={ 
+		death = yes
+	}
+}
+# Non-canon; parents for Dean/Eda
+1465={
+	name="Wymund"
+	dynasty=2171
+	culture=thracian
+	religion=church_of_edda
+	729.1.1={ 
+		birth=yes
+	}
+	741.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"		
+		}
+	} 
+	747.01.01={
+		add_spouse=1466
+	} 	
+	781.1.1={ 
+		death = yes
+	}
+}
+1466={
+	name="Aveis"
+	female=yes
+	culture=thracian
+	religion=church_of_edda
+	730.1.1={ 
+		birth=yes
+	}
+	782.1.1={ 
+		death = yes
+	}
+}
+# I have no idea who this is, but apparently Eda knows her.
+1467={
+	name="Kate"
+	female=yes
+	culture=thracian
+	religion=church_of_edda
+	755.1.1={ 
+		birth=yes
+		employer=1465
+	}
+	810.1.1={ 
+		death = yes
+	}
+}
+# Dragon Knight of Thracia. Attacks rebel forces in an attempt to seize Manster
+1468={
+	name="Coruta"
+	dynasty=2172
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	743.1.1={
+		birth=yes
+	}
+	755.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"		
+		}
+	} 
+	758.1.1 = {
+		add_trait="tough_soldier"
+		add_trait="aggressive_leader"
+		add_trait="flanker"
+		add_trait="mountain_terrain_leader"
+		add_trait="wroth"
+		add_trait="cruel"
+		add_trait="cynical"
+		add_trait="proud"
+	}	
+	778.1.1={
+		death = {
+			death_reason=death_battle
+			killer=1038 # Seliph
+		}
+	}
+}
+# Dragon Knight of Thracia. Monitors the border at Dandrum.
+1469={
+	name="Dobalzark"
+	dynasty=2173
+	culture=thracian
+	religion=church_of_edda
+	753.1.1={
+		birth=yes
+	}
+	765.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"		
+		}
+	} 
+	768.1.1 = {
+		add_trait="misguided_warrior"
+		add_trait="mountain_terrain_leader"
+	}	
+	777.1.1={
+		death = {
+			death_reason=death_battle
+			killer=1162 # Leif
+		}
+	}
+}
+# Dragon Knight of Thracia. Attacks Leif at Mount Violdrake.
+1470={
+	name="Merlock"
+	dynasty=2174
+	culture=thracian
+	religion=church_of_edda
+	746.1.1={
+		birth=yes
+	}
+	758.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"		
+		}
+	} 
+	761.1.1 = {
+		add_trait="misguided_warrior"
+		add_trait="mountain_terrain_leader"
+		add_trait="aggressive_leader"
+		add_trait="wroth"
+	}	
+	777.1.1={
+		death = {
+			death_reason=death_battle
+			killer=1162 # Leif
+		}
+	}
+}
+# Dragon Knight of Thracia. 2nd in command at the Yied Massacre.
+1471={
+	name="Magorn"
+	dynasty=2175
+	culture=thracian
+	religion=church_of_edda
+	disallow_random_traits=yes
+	730.1.1={
+		birth=yes
+	}
+	742.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"		
+		}
+	} 
+	745.1.1 = {
+		add_trait="skilled_tactician"
+		add_trait="aggressive_leader"
+		add_trait="flanker"
+		add_trait="cynical"
+		add_trait="content"
+		add_trait="proud"
+	}
+	750.1.1 = {
+		remove_trait="class_wyvern_rider"
+		add_trait="class_wyvern_lord"
+	}	
+	761.1.1={
+		death = {
+			death_reason=death_battle
+			killer=1032 # Sigurd, Yied Massacre
+		}
+	}
+}
+# Dragon Knight of Thracia. Attacks Sigurd in Agustria
+1472={
+	name="Papilion"
+	dynasty=2176
+	culture=thracian
+	religion=church_of_edda
+	726.1.1={
+		birth=yes
+	}
+	738.01.01={
+		add_trait="class_wyvern_rider"
+		add_trait="base_class_wyvern_rider"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"		
+		}
+	} 
+	741.1.1 = {
+		add_trait="misguided_warrior"
+		add_trait="aggressive_leader"
+		add_trait="ambitious"
+		add_trait="proud"
+	}
+	760.1.1={
+		death = {
+			death_reason=death_battle
+			killer=1032 # Sigurd
+		}
+	}
+}

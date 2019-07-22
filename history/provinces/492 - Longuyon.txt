@@ -1,0 +1,30 @@
+# 492 - Longuyon
+
+# County Title
+title = c_longuyon
+
+# Settlements
+max_settlements = 3
+
+b_longuyon = tribal
+#b_longuyon_2 = temple
+#b_longuyon_3 = city
+
+# Misc
+culture = verdanian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+}
+
+448.1.1 = { 
+	culture = verdanian
+}
+
+649.1.1 = { 
+	religion = church_of_edda
+	culture = verdanian
+}

@@ -1,0 +1,38 @@
+# If kingdoms have a de jure empire at some point and then have it removed, they will eventually flip back.
+# These titles exist so an empire we do not want to exist anymore can't come back
+e_verdane = {
+	color={ 253 158 51 }
+	color2={ 255 255 255 }
+
+	capital = 489
+	culture = verdanian	
+	allow = { any_realm_title = { de_jure_liege_or_above = e_verdane } } 
+}
+
+e_miletos = {
+	color={ 104 8 103 }
+	color2={ 255 255 255 }
+
+	capital = 506
+	culture = grannvalean
+	allow = { any_realm_title = { de_jure_liege_or_above = e_miletos } } 
+}
+
+
+e_orgahil = {
+	color={ 110 150 220 }
+	color2={ 255 255 255 }
+
+	capital = 517
+	culture = agustrian
+	allow = { any_realm_title = { de_jure_liege_or_above = e_orgahil } } 
+}
+
+e_yied = {
+	color={ 163 121 57 }
+	color2={ 255 255 255 }
+
+	capital = 525
+	culture = grannvalean
+	allow = { any_realm_title = { de_jure_liege_or_above = e_yied } } 
+}

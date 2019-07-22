@@ -1,0 +1,45 @@
+# 435 - Leonster
+
+# County Title
+title = c_leonster
+
+# Settlements
+max_settlements = 6
+
+b_leonster_castle = castle
+b_leonster = temple
+#b_leonster_2 = city
+#b_ceatharlach = city
+#b_leithghlinn = city
+#b_mide = castle
+
+# Misc
+culture = mansterian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_leonster_castle = tribal
+}
+500.1.1 = { 
+	b_leonster_castle = castle
+b_leonster_2 = city
+b_ceatharlach = city
+b_leithghlinn = city
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = thracian
+}
+666.1.1 = { 
+	culture = mansterian
+}
+752.1.1 = { 
+	b_mide = castle
+}
+
+779.1.1 = { 
+	culture = new_thracian
+}

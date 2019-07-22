@@ -1,0 +1,36 @@
+# 494 - Spirit Forest
+
+# County Title
+title = c_spirit_forest
+
+# Settlements
+max_settlements = 4
+
+b_muktinath = tribal
+b_surkhang = city
+b_spirit_forest = temple
+#b_charang = temple
+
+# Misc
+culture = verdanian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	capital = b_spirit_forest
+}
+
+448.1.1 = { 
+	culture = verdanian
+}
+535.1.1 = { 
+	religion = maerist
+}
+
+649.1.1 = { 
+	religion = church_of_edda
+	culture = verdanian
+	capital = b_muktinath
+}

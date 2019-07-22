@@ -1,0 +1,877 @@
+province;red;green;blue;x;x
+1;76;81;81;Virtus;x
+2;159;167;167;Temperantia;x
+3;62;79;79;Fortitudo;x
+4;90;103;103;Iustitia;x
+5;63;0;18;Bern;x
+6;122;0;33;Aarberg;x
+7;224;30;82;Landskron;x
+8;206;65;103;Boltigen;x
+9;64;9;24;Erlenbach;x
+10;164;59;88;Basel;x
+11;188;67;101;Bettingen;x
+12;179;2;51;Orvin;x
+13;130;14;46;Glarus;x
+14;184;58;93;Ennenda;x
+15;147;14;51;Riedern;x
+16;189;30;75;Netstal;x
+17;131;42;67;Uri;x
+18;163;112;126;Bauen;x
+19;119;58;75;Isenthal;x
+20;129;62;81;Fribourg;x
+21;93;36;52;Galmiz;x
+22;100;67;76;Murist;x
+23;153;91;109;Unterwalden;x
+24;101;68;77;Obwalden;x
+25;106;49;65;Nidwalden;x
+26;141;72;89;Appenzell;x
+27;86;50;59;Gonten;x
+28;126;66;82;Rute;x
+29;230;128;156;Haslen;x
+30;201;122;142;Zug;x
+31;107;72;81;Risch;x
+32;167;105;122;Walchwil;x
+33;146;88;104;Solothurn;x
+34;189;96;122;Dorneck;x
+35;144;53;78;Olten;x
+36;106;96;108;Calach;x
+37;119;139;139;Marbach;x
+38;84;89;89;Buron;x
+39;130;120;132;Regia;x
+40;163;177;177;Sion;x
+41;112;122;122;Remigen;x
+42;56;64;64;Kaisten;x
+43;50;78;78;Muhen;x
+44;123;147;147;Gallen;x
+45;93;108;108;Balgach;x
+46;128;144;144;Amden;x
+47;207;216;216;Jura;x
+48;144;152;152;Cornol;x
+49;168;178;178;Bonfol;x
+50;159;168;168;Yens;x
+51;109;125;125;Sarnen;x
+52;150;165;165;Hori;x
+53;112;115;115;Meilen;x
+54;68;72;72;Rorbas;x
+55;80;90;90;Vaud;x
+56;144;184;184;Morges;x
+57;125;132;132;Aigle;x
+58;96;106;106;Nyon;x
+59;141;134;134;Arles;x
+60;88;83;83;Itingen;x
+61;183;174;174;Birseck;x
+62;148;146;146;Lucerne;x
+63;169;169;169;Ascona;x
+64;115;111;111;Cevio;x
+65;157;87;87;Xanthus;x
+66;160;127;127;Cibyra;x
+67;137;120;120;Acaliss;x
+68;206;99;99;Calynda;x
+69;145;102;102;Araxa;x
+70;218;143;143;Lebessus;x
+71;134;85;85;Caunus;x
+72;182;145;145;Oren;x
+73;174;143;143;Nisa;x
+74;226;175;175;Marciana;x
+75;202;177;177;Choma;x
+76;129;96;96;Mugla;x
+77;176;148;148;Comba;x
+78;7;80;5;Ostia;x
+79;4;62;2;Durandal;x
+80;11;117;7;Ragna;x
+81;111;223;107;Arycanda;x
+82;149;214;147;Zem;x
+83;61;136;58;Aperlae;x
+84;107;188;104;Patara;x
+85;158;210;156;Thria;x
+86;137;238;133;Myra;x
+87;23;216;16;Worde;x
+88;138;176;137;Olst;x
+89;98;143;96;Ryerde;x
+90;70;137;67;Sidyma;x
+91;112;216;35;Laus;x
+92;120;176;78;Idebessus;x
+93;67;142;12;Tios;x
+94;13;129;84;Badon;x
+95;18;186;121;Bubon;x
+96;47;169;122;Balbura;x
+97;154;241;151;Santaruz;x
+98;113;195;110;Cyaneae;x
+99;20;98;17;Caelin;x
+100;32;123;28;Alta;x
+101;109;179;62;Khathelet;x
+102;177;209;156;Antiphellos;x
+103;164;197;163;Araphen;x
+104;112;142;111;Limyra;x
+105;103;190;101;Tuscana;x
+106;23;244;18;Rhodia;x
+107;4;86;1;Tania;x
+108;57;94;56;Amelas;x
+109;32;159;98;Pherae;x
+110;34;175;107;Phellus;x
+111;41;194;120;Phestos;x
+112;139;197;38;Cornwell;x
+113;183;226;109;Dias;x
+114;38;167;34;Telmessus;x
+115;6;112;3;Trebenna;x
+116;78;233;191;Arcadia;x
+117;22;85;68;Gortynia;x
+118;140;211;192;Kynouria;x
+119;35;150;119;Levidi;x
+120;193;239;148;Mantineia;x
+121;89;112;66;Nestani;x
+122;161;194;129;Pikernis;x
+123;146;234;62;Kapsas;x
+124;154;225;85;Tegea;x
+125;181;255;109;Sagkas;x
+126;88;106;71;Loukas;x
+127;181;207;156;Tyros;x
+128;116;216;19;Akovos;x
+129;115;135;95;Rizes;x
+130;120;167;72;Vytina;x
+131;76;117;34;Elati;x
+132;175;239;112;Lasta;x
+133;245;109;12;Mallota;x
+134;235;169;121;Soulos;x
+135;177;115;71;Plaka;x
+136;183;100;40;Vangos;x
+137;215;165;130;Isaris;x
+138;198;91;16;Vastas;x
+139;204;164;135;Chirades;x
+140;182;149;126;Thoknia;x
+141;214;136;80;Gefyra;x
+142;182;106;52;Tripotamo;x
+143;185;97;33;Souli;x
+144;136;87;52;Karyon;x
+145;234;143;202;Kafti;x
+146;175;69;138;Makri;x
+147;190;40;138;Perthori;x
+148;131;47;102;Skopi;x
+149;167;119;51;Jutes;x
+150;214;141;38;Condate;x
+151;205;146;63;Moridin;x
+152;219;173;106;Segontium;x
+153;106;70;18;Dubris;x
+154;194;144;72;Vectis;x
+155;249;183;89;Lindinis;x
+156;235;187;118;Mamucium;x
+157;236;159;50;Pontes;x
+158;183;127;48;Calcaria;x
+159;185;114;13;Eburacum;x
+160;175;113;25;Armagh;x
+161;209;162;94;Lindum;x
+162;198;123;16;Vinovia;x
+163;158;98;12;Coria;x
+164;216;171;107;Mediolanum;x
+165;194;126;29;Silurum;x
+166;165;120;56;Salinae;x
+167;90;63;25;Edina;x
+168;237;187;116;Belgarum;x
+169;90;57;11;Caromago;x
+170;153;141;126;Alauna;x
+171;223;186;134;Devana;x
+172;201;146;73;Graupius;x
+173;108;93;73;Evidensca;x
+174;216;196;168;Trimontium;x
+175;216;138;28;Dia;x
+176;195;125;27;Corinium;x
+177;164;101;12;Danum;x
+178;237;178;94;Navio;x
+179;111;69;10;Olicana;x
+180;241;145;9;Isca;x
+181;248;104;71;Taliver;x
+182;223;154;138;Hardres;x
+183;240;82;46;Berenger;x
+184;240;144;121;Pinabel;x
+185;157;135;130;Ganelon;x
+186;116;91;86;Foulkes;x
+187;143;117;112;Mulagir;x
+188;179;130;3;Bulgar;x
+189;222;177;63;Mani;x
+190;236;192;80;Balkh;x
+191;177;135;28;Volga;x
+192;185;138;16;Gelonus;x
+193;187;159;87;Sistan;x
+194;137;99;1;Saka;x
+195;218;179;79;Pamir;x
+196;159;126;39;Shan;x
+197;141;111;31;Media;x
+198;214;198;155;Ecbatana;x
+199;164;138;69;Atropatene;x
+200;248;187;28;Talas;x
+201;243;206;108;Naryn;x
+202;201;169;85;Batken;x
+203;183;157;88;Tarim;x
+204;214;185;108;Kunlun;x
+205;210;167;54;Kashgar;x
+206;86;31;65;Aquleia;x
+207;118;56;94;Berua;x
+208;165;43;119;Cura;x
+209;211;146;186;Vetluna;x
+210;166;81;133;Capeva;x
+211;236;178;213;Orcla;x
+212;22;25;73;Alesia;x
+213;60;62;91;Fulginia;x
+214;107;115;225;Perusia;x
+215;113;120;213;Reglay;x
+216;55;64;190;Rasela;x
+217;18;24;109;Russellae;x
+218;129;137;240;Colonnata;x
+219;6;16;144;Caerleon;x
+220;9;21;188;Caisra;x
+221;105;111;192;Agylla;x
+222;65;69;128;Tarchna;x
+223;35;40;115;Bolsena;x
+224;99;109;237;Satria;x
+225;155;161;242;Amina;x
+226;13;21;127;Siene;x
+227;89;94;157;Blera;x
+228;165;170;238;Marturi;x
+229;84;91;187;Catuna;x
+230;116;122;219;Felathri;x
+231;7;12;93;Nucra;x
+232;60;65;144;Velkha;x
+233;99;107;231;Capna;x
+234;53;64;217;Liburna;x
+235;83;93;221;Clevsin;x
+236;57;71;247;Manthra;x
+237;22;32;163;Irna;x
+238;38;44;121;Cassina;x
+239;187;191;242;Arritim;x
+240;16;29;198;Halethi;x
+241;83;88;155;Herclena;x
+242;112;118;196;Bellona;x
+243;69;75;144;Velzna;x
+244;227;227;242;Edessa;x
+245;161;161;168;Adma;x
+246;102;102;122;Pyrene;x
+247;87;87;117;Orhay;x
+248;137;137;155;Riha;x
+249;110;110;133;Troas;x
+250;109;109;219;Sigeia;x
+251;73;73;123;Antigonia;x
+252;120;120;185;Carrhae;x
+253;178;178;232;Melas;x
+254;87;87;122;Ida;x
+255;115;115;165;Aisarna;x
+256;111;111;222;Cebrene;x
+257;135;135;163;Hortia;x
+258;52;52;82;Sabatia;x
+259;107;107;135;Vipena;x
+260;113;113;183;Spina;x
+261;46;46;76;Neandreia;x
+262;92;92;139;Kavi;x
+263;138;138;150;Mutina;x
+264;89;89;145;Anth;x
+265;96;96;126;Clavna;x
+266;110;110;159;Sestos;x
+267;79;79;110;Arciun;x
+268;54;54;89;Carmna;x
+269;62;62;104;Sigeion;x
+270;99;99;212;Atria;x
+271;123;123;245;Felsina;x
+272;115;115;251;Cardia;x
+273;83;83;124;Cainua;x
+274;92;92;156;Aisinia;x
+275;85;85;98;Phlera;x
+276;66;66;84;Sabate;x
+277;155;155;250;Remy;x
+278;93;93;114;Arimna;x
+279;109;109;185;Velera;x
+280;170;170;207;Pathva;x
+281;137;137;219;Remnun;x
+282;50;50;76;Ice Dragon Mountains;x
+283;63;63;95;Maltet Mountains;x
+284;96;102;102;The Seasonless Peaks;x
+285;86;81;81;Wyvern Mountains;x
+286;0;29;236;Eastern Coast of Edessa;x
+287;58;1;13;Northern Coast of Edessa;x
+288;13;141;0;Barigan Bay;x
+289;176;170;0;Bay of Scamander;x
+290;0;173;155;Central Sea of Ilia;x
+291;173;102;0;Western Sea of Ilia;x
+292;188;235;0;Sea of Etruria;x
+293;0;93;9;Bay of Remy;x
+294;110;0;134;Coast of Dia;x
+295;223;0;52;Strait of Dia;x
+296;0;242;228;Strait of Armads;x
+297;0;35;147;Durban's Strait;x
+298;168;26;3;Coast of Jutes;x
+299;229;162;0;Coast of Dubris;x
+300;0;180;0;Bay of Fibernia;x
+301;141;0;206;Strait of Edina;x
+302;41;117;0;Western Coast of Scotia;x
+303;170;201;1;Coast of Caledonia;x
+304;24;93;0;Southern Coast of Fibernia;x
+305;231;0;120;Outer Bay of Aquelia;x
+306;0;239;236;Bay of Aquelia;x
+307;170;0;40;Nabatan Coast;x
+308;148;2;216;Southern Coast of Scotia;x
+309;101;59;0;Northern Sea of Kafti;x
+310;237;162;0;Elibian Ocean;x
+311;232;0;180;Coast of Kafti;x
+312;0;103;151;Central Sea of Kafti;x
+313;0;185;122;Southern Sea of Kafti;x
+314;169;0;0;Western Missur Coast;x
+315;189;236;0;Central Missur Coast;x
+316;222;163;3;Outer Sea of Lycia;x
+317;0;19;80;Inner Sea of Lycia;x
+318;58;245;0;Bay of Lycia;x
+319;194;169;0;Sea of Pherae;x
+320;190;0;156;Valor Coast;x
+321;166;39;0;Cornwell Coast;x
+322;166;0;221;Sea of Marciana;x
+323;0;181;197;Terina Coast;x
+324;124;123;0;Sea of Calynda;x
+325;1;219;93;Terina Cliffs;x
+326;232;0;0;Aareshore;x
+327;0;150;228;Lake Calach;x
+328;232;0;213;River Aare;x
+329;234;237;0;River Aare;x
+330;0;215;30;River Aare;x
+331;228;134;0;River Aare;x
+332;243;0;137;River Scamander;x
+333;224;203;106;Belhalla;x
+334;213;189;76;Glasir;x
+335;214;197;121;Laeradr;x
+336;213;182;37;Valholl;x
+337;201;85;57;Velthomer;x
+338;165;63;39;Galar;x
+339;234;100;68;Kvasir;x
+340;135;42;20;Gilling;x
+341;223;130;108;Suttungr;x
+342;213;195;67;Edda;x
+343;239;227;141;Grimnismal;x
+344;167;154;58;Havamal;x
+345;233;217;102;Lokasenna;x
+346;218;210;150;Alvissmal;x
+347;185;53;41;Chalphy;x
+348;170;25;11;Thjalfi;x
+349;216;103;93;Roskva;x
+350;143;41;31;Harbardsljod;x
+351;24;39;92;Friege;x
+352;50;82;194;Donar;x
+353;55;81;170;Tor;x
+354;29;92;78;Dozel;x
+355;23;71;60;Monza;x
+356;38;121;103;Lombardy;x
+357;35;103;103;Jungby;x
+358;54;146;146;Inguin;x
+359;22;112;112;Yngvi;x
+360;23;64;64;Ingwaz;x
+361;64;174;174;Ingwine;x
+362;37;117;88;Agusty;x
+363;22;74;55;Hotherus;x
+364;45;145;109;Hodur;x
+365;68;227;169;Griplur;x
+366;44;163;120;Hromundar;x
+367;179;118;64;Madino;x
+368;236;157;88;Santala;x
+369;210;137;73;Lorantha;x
+370;176;32;0;Silvail;x
+371;127;25;2;Mascagni;x
+372;200;75;48;Targioni;x
+373;227;129;108;Tozzetti;x
+374;64;24;24;Anphony;x
+375;237;91;91;Dunsinane;x
+376;147;67;67;Birnam;x
+377;129;50;50;Glamis;x
+378;58;22;22;Cawdor;x
+379;0;104;48;Heirhein;x
+380;3;166;78;Stemilion;x
+381;1;70;33;Castillon;x
+382;2;96;46;Blaye;x
+383;81;136;81;Nordion;x
+384;102;174;102;Norn;x
+385;134;227;134;Urd;x
+386;55;93;55;Verdandi;x
+387;34;56;34;Skuld;x
+388;0;56;16;Mackily;x
+389;4;226;67;Truro;x
+390;5;153;48;Moresk;x
+391;3;244;72;Malpas;x
+392;43;57;84;Silesse;x
+393;66;77;98;Ziebice;x
+394;76;82;94;Slega;x
+395;79;104;151;Braniborsko;x
+396;40;0;80;Zaxon;x
+397;67;3;131;Roztoka;x
+398;81;22;141;Upper Jawor;x
+399;116;0;232;Goplo;x
+400;48;0;104;Thove;x
+401;88;8;180;Nysa;x
+402;59;1;126;Prudnice;x
+403;99;20;192;Truso;x
+404;76;52;104;Sosnowiec;x
+405;177;168;171;Sailane;x
+406;118;112;114;Rawa;x
+407;169;163;165;Brynice;x
+408;172;76;89;Lubeck;x
+409;114;52;61;Lower Jawor;x
+410;223;102;119;Sasko;x
+411;24;108;69;Isaach;x
+412;42;151;100;Jacobe;x
+413;49;175;117;Easaw;x
+414;19;84;54;Rebehkah;x
+415;18;116;71;Basematt;x
+416;156;90;42;Rivough;x
+417;142;75;26;Siyabli;x
+418;112;64;29;Mollakend;x
+419;218;138;80;Tatoba;x
+420;244;159;97;Kosalar;x
+421;224;227;199;Sophara;x
+422;164;166;145;Degou;x
+423;242;245;215;Baratou;x
+424;193;202;120;Kankelena;x
+425;191;197;144;Mansaba;x
+426;115;79;32;Ganeishire;x
+427;166;113;45;Abergele;x
+428;83;57;24;Mochdre;x
+429;121;88;45;Llangollen;x
+430;179;144;98;Ruthin;x
+431;127;106;63;Tirnanog;x
+432;88;74;44;Tirtairngire;x
+433;178;149;90;Magmell;x
+434;234;197;121;Tirfothuinn;x
+435;57;66;105;Leonster;x
+436;103;123;206;Norden;x
+437;40;46;74;Melfiye;x
+438;60;70;114;Solwood;x
+439;123;145;239;Osraige;x
+440;16;104;32;Alster;x
+441;8;54;17;Dakia;x
+442;18;110;35;Gartan;x
+443;11;70;22;Clochar;x
+444;20;161;46;Latharna;x
+445;31;205;62;Airgialla;x
+446;72;40;104;Conote;x
+447;114;67;161;Breifne;x
+448;50;28;71;Liatroim;x
+449;248;168;0;Manster;x
+450;187;127;0;Danzich;x
+451;211;143;1;Kelves;x
+452;255;175;6;Adare;x
+453;163;111;2;Luimneach;x
+454;120;120;144;Melgln;x
+455;76;76;95;Dungot;x
+456;96;96;115;Tahra;x
+457;151;151;191;Frest;x
+458;178;61;49;Thracia;x
+459;211;78;65;Verissa;x
+460;150;51;41;Deleus;x
+461;206;70;57;Galata;x
+462;136;47;38;Madyta;x
+463;104;24;40;Kapathogia;x
+464;113;26;44;Heraclea;x
+465;82;14;28;Panidos;x
+466;152;86;1;Dandrum;x
+467;80;88;128;Mount Violdrake;x
+468;244;170;43;Noel;x
+469;144;32;40;Meace;x
+470;131;30;37;Fionnghlas;x
+471;178;39;49;Ailinne;x
+472;127;8;17;Daru;x
+473;56;64;0;Luthecia;x
+474;110;126;0;Lysimachia;x
+475;90;103;2;Selymbria;x
+476;49;56;1;Blachernae;x
+477;34;37;11;Grutia;x
+478;71;77;24;Syrallum;x
+479;44;48;12;Aulaeitichus;x
+480;109;119;30;Gallipoli;x
+481;159;171;63;Chariopolis;x
+482;240;112;8;Iss;x
+483;93;30;24;Fiana;x
+484;170;78;3;Eochaill;x
+485;255;119;8;Savan;x
+486;203;95;6;Aonach;x
+487;206;108;29;Caiseal;x
+488;150;80;23;Iubhair;x
+489;228;157;57;Verdane;x
+490;223;141;24;Stenay;x
+491;207;140;46;Etain;x
+492;232;181;108;Longuyon;x
+493;48;91;81;Marpha;x
+494;67;170;146;Spirit Forest;x
+495;4;66;51;Kagbeni;x
+496;54;210;174;Dhami;x
+497;9;123;96;Lete;x
+498;178;146;85;Genoa;x
+499;233;169;47;Rapallo;x
+500;198;164;100;Savona;x
+501;99;72;20;Albenga;x
+502;152;136;56;Evans;x
+503;229;211;124;Augea;x
+504;162;138;18;Nogna;x
+505;182;164;76;Gizia;x
+506;57;0;57;Miletos;x
+507;85;2;85;Magnesia;x
+508;148;6;148;Palation;x
+509;87;65;122;Chronos;x
+510;134;100;188;Saeculum;x
+511;128;104;166;Aevum;x
+512;99;99;16;Rada;x
+513;153;153;20;Hagfors;x
+514;60;60;9;Sunnemo;x
+515;147;132;192;Peruluke;x
+516;105;93;141;Tralles;x
+517;160;140;221;Iassos;x
+518;106;224;223;Orgahil;x
+519;127;237;236;Detroyes;x
+520;80;168;167;Pulci;x
+521;40;93;93;Perrault;x
+522;89;184;183;Daulnoy;x
+523;183;126;177;Basile;x
+524;214;147;207;Uberti;x
+525;79;65;62;Yied;x
+526;215;175;166;Aed;x
+527;96;84;81;Lir;x
+528;61;49;46;Aodh;x
+529;79;58;53;Aoibh;x
+530;82;0;41;Darna;x
+531;107;1;54;Murias;x
+532;212;49;131;Gorias;x
+533;80;21;51;Anu;x
+534;157;44;100;Finias;x
+535;217;2;109;Falias;x
+536;174;175;177;Phinora;x
+537;48;48;48;Kharga;x
+538;95;95;96;Siwa;x
+539;213;214;215;Dahkla;x
+540;106;106;107;Farafra;x
+541;57;58;59;Bahariya;x
+542;216;178;2;Grann's Hall;x
+543;3;31;84;Sudeten Mountains;x
+544;3;35;20;Moriah Mountains;x
+545;218;0;0;Cobaldrake Mountains;x
+546;55;0;0;Scarldrake Mountains;x
+547;156;32;146;Great River of Thracia;x
+548;32;156;59;Great River of Thracia;x
+549;32;149;156;Great River of Thracia;x
+550;9;65;158;Lake Verdane;x
+551;9;158;156;Strait of Iss;x
+552;9;158;111;Verissa Coast;x
+553;9;158;69;Thracia Coast;x
+554;125;158;9;Horn of Thracia;x
+555;158;153;9;Grutia Coast;x
+556;158;107;9;Chronos Coast;x
+557;158;83;9;Luthecia Bay;x
+558;158;65;9;Rada Coast;x
+559;158;44;9;Miletos Sea;x
+560;158;9;90;Peruluke Sea;x
+561;158;9;135;Lete Coast;x
+562;111;9;158;Dhami Coast;x
+563;34;9;158;Verdane Coast;x
+564;11;121;158;Heirhein's Watch;x
+565;9;149;158;Nordion Bay;x
+566;9;158;135;Anphony Coast;x
+567;9;158;62;Anphony Bay;x
+568;9;158;41;Tozzetti Coast;x
+569;100;158;9;Silvail Strait;x
+570;158;111;9;Ogre's Cauldron;x
+571;158;62;9;Yedu Sea;x
+572;158;9;93;Yedu Sea;x
+573;107;9;158;Yedu Sea;x
+574;128;158;9;Western Sea of Orgahil;x
+575;158;146;9;Northern Sea of Orgahil;x
+576;158;9;55;Silessea;x
+577;158;9;142;Sea of Thove;x
+578;128;9;158;Immram Bay;x
+579;23;9;158;Tirnanog Coast;x
+580;9;121;158;Ganeisea;x
+581;9;158;125;Isaach Coast;x
+582;9;93;158;Outer Thracia Bay;x
+583;69;0;245;Thracia Bay;x
+584;100;9;158;Thracian Sea;x
+585;158;9;100;Thracian Sea;x
+586;158;9;30;Thracian Sea;x
+587;13;121;158;Luimneach Coast;x
+588;142;42;227;Drake Sea;x
+589;227;42;194;Drake Sea;x
+590;242;245;25;Magsea;x
+591;25;245;46;Magsea;x
+592;245;25;165;Magsea;x
+593;245;196;25;Magsea;x
+594;56;25;245;Magsea;x
+595;25;245;165;Magsea;x
+596;149;25;245;Magsea;x
+597;245;25;237;Magsea;x
+598;245;25;129;Magsea;x
+599;227;42;142;Elibian Sea;x
+600;164;42;227;Elibian Sea;x
+601;227;59;42;Elibian Sea;x
+602;107;42;227;Elibian Sea;x
+603;227;125;42;Elibian Sea;x
+604;227;190;42;Elibian Sea;x
+605;46;42;227;Elibian Sea;x
+606;42;142;227;Elibian Sea;x
+607;52;201;182;Elibian Sea;x
+608;90;227;42;Elibian Sea;x
+609;190;227;42;Elibian Sea;x
+610;42;112;227;Elibian Sea;x
+611;42;227;142;Elibian Sea;x
+612;42;227;203;Elibian Sea;x
+613;109;12;12;Balor;x
+614;150;42;42;Elatha;x
+615;85;30;30;Tethra;x
+616;187;84;84;Cichol;x
+617;109;59;59;Conand;x
+618;236;60;61;Nelaras;x
+619;203;60;61;Kisthene ;x
+620;133;35;36;Kydonies;x
+621;226;122;123;Ayvalik;x
+622;118;2;2;Grado;x
+623;95;15;15;Borbolla;x
+624;139;4;4;Barraca;x
+625;202;33;33;Portiella;x
+626;164;9;9;Pereda;x
+627;145;49;49;Moutas;x
+628;170;99;99;Cabanin;x
+629;204;100;100;Aguera;x
+630;157;8;8;Tolinas;x
+631;233;9;9;Barreiros;x
+632;142;17;17;Canedo;x
+633;207;39;39;Bercio;x
+634;204;75;75;Tresmuria;x
+635;164;23;23;Vallina;x
+636;155;38;38;Vigana;x
+637;103;32;32;Correidoria;x
+638;180;33;33;Pedreu;x
+639;74;22;22;Dorou;x
+640;193;56;56;Veiga;x
+641;185;14;14;Caldoveiro;x
+642;191;21;21;Macetes;x
+643;167;31;31;Noceda;x
+644;145;24;24;Tronca;x
+645;184;66;66;Alvare;x
+646;128;192;72;Novales;x
+647;88;158;26;Fornos;x
+648;84;127;45;Bondello;x
+649;58;119;4;Caridad;x
+650;150;67;67;Albul;x
+651;160;60;60;Merin;x
+652;151;32;32;Alcubiella;x
+653;108;26;26;Rodaco;x
+654;184;88;88;Renvall;x
+655;172;38;38;Pelayo;x
+656;237;115;115;Prioto;x
+657;117;64;64;Rellan;x
+658;200;101;101;Carbayin;x
+659;128;112;72;Adlas;x
+660;126;95;16;Espina;x
+661;91;68;11;Ferraras;x
+662;98;86;56;Corradas;x
+663;157;125;46;Espriella;x
+664;205;172;88;Pozanco;x
+665;104;80;48;Silva;x
+666;149;116;71;Barredo;x
+667;145;97;33;Corros;x
+668;105;64;10;Piedra;x
+669;137;9;9;Taizel;x
+670;210;44;44;Rozallana;x
+671;215;74;74;Cabayeda;x
+672;219;84;84;Campusa;x
+673;183;67;67;Villandas;x
+674;190;12;12;Seaza;x
+675;103;17;17;Ambas;x
+676;57;11;11;Cubia;x
+677;110;35;35;Tablao;x
+678;163;50;50;Rubiano;x
+679;118;45;45;Calea;x
+680;139;11;11;Morada;x
+681;104;30;57;Bethroen;x
+682;153;59;93;Reglal;x
+683;93;10;40;Entelvalle;x
+684;174;28;81;Triapena;x
+685;138;17;61;Castanedo;x
+686;162;20;72;Bravuco;x
+687;121;22;58;Matiega;x
+688;165;56;95;Morana;x
+689;197;68;114;Bayo;x
+690;132;53;81;Caleya;x
+691;233;114;157;Cadenado;x
+692;120;32;64;Rigwald;x
+693;107;10;46;Gorrion;x
+694;147;24;69;Condesa;x
+695;207;247;225;Frelia;x
+696;130;186;155;Vidais;x
+697;70;157;109;Caldas;x
+698;116;241;172;Alvorinha;x
+699;122;69;79;Cumeira;x
+700;183;88;107;Barrosa;x
+701;118;34;50;Nadadouro;x
+702;186;69;92;Cercas;x
+703;214;138;153;Landal;x
+704;88;72;75;Walles;x
+705;127;88;95;Covoes;x
+706;215;151;163;Relvas;x
+707;155;134;138;Mouraria;x
+708;145;129;130;Valni;x
+709;180;156;157;Portela;x
+710;96;87;88;Vigia;x
+711;95;82;35;Leiria;x
+712;108;94;42;Bouro;x
+713;137;124;74;Osseira;x
+714;178;166;121;Antas;x
+715;128;120;89;Batalha;x
+716;79;73;50;Eiras;x
+717;171;163;133;Barrocas;x
+718;208;184;80;Mulan;x
+719;235;214;122;Mestras;x
+720;169;150;66;Hortas;x
+721;177;151;40;Nazare;x
+722;253;223;95;Arega;x
+723;156;128;7;Aguda;x
+724;188;171;100;Campelo;x
+725;175;205;188;Bombarral;x
+726;71;165;112;Alvados;x
+727;203;241;220;Alcaria;x
+728;90;141;112;Graca;x
+729;120;148;132;Rolica;x
+730;159;221;186;Juncal;x
+731;132;168;68;Pombal;x
+732;179;236;77;Abiul;x
+733;86;117;30;Pelariga;x
+734;153;169;125;Obidos;x
+735;117;144;69;Amoreira;x
+736;114;128;91;Vau;x
+737;128;170;54;Ferraria;x
+738;110;122;93;Alcobaca;x
+739;162;176;141;Benedita;x
+740;63;74;48;Vestiaria;x
+741;156;182;120;Vimeiro;x
+742;105;152;39;Maiorga;x
+743;102;176;177;Renais;x
+744;31;99;100;Pilon;x
+745;57;147;148;Dipre;x
+746;93;199;200;Goujon;x
+747;29;177;178;Delorme;x
+748;101;211;212;Lescot;x
+749;49;176;177;Palissy;x
+750;135;245;246;Quarton;x
+751;69;113;39;Bellange;x
+752;51;93;23;Quesnel;x
+753;92;174;36;Freminet;x
+754;65;88;52;Caron;x
+755;94;159;58;Deuret;x
+756;87;119;68;Prieur;x
+757;164;204;141;Clouet;x
+758;98;133;78;Bontemps;x
+759;93;118;78;Froment;x
+760;160;199;137;Colombe;x
+761;114;129;104;Bellechose;x
+762;101;53;63;Aures;x
+763;154;69;87;Perreal;x
+764;130;81;91;Fouquet;x
+765;95;56;64;Serafew;x
+766;152;87;100;Scorel;x
+767;137;90;100;Floris;x
+768;89;44;53;Za'ha Woods;x
+769;88;133;55;Marmion;x
+770;61;99;34;Dubreuil;x
+771;99;200;27;Patinir;x
+772;225;90;122;Ide;x
+773;194;37;74;Lark;x
+774;190;68;97;Grunewald;x
+775;199;64;96;Grien;x
+776;164;53;79;Borgo;x
+777;167;76;97;Cranach;x
+778;190;212;208;Jehanna;x
+779;116;225;205;Suguta;x
+780;158;162;161;Teri;x
+781;237;246;244;Khawa;x
+782;30;193;164;Selima;x
+783;132;237;218;Danakil;x
+784;158;216;206;Chebbi;x
+785;79;150;137;Ubari;x
+786;79;201;179;Rebiana;x
+787;21;229;191;Wahiba;x
+788;32;86;76;Merheb;x
+789;49;172;150;Calanshio;x
+790;23;115;98;Thar;x
+791;84;224;199;Bayuda;x
+792;116;130;127;Lompoul;x
+793;173;182;180;Bazaruto;x
+794;122;156;149;Tottori;x
+795;64;96;56;Mourdi;x
+796;110;169;95;Akrotiri;x
+797;232;220;82;Hamill;x
+798;245;236;131;Texel;x
+799;193;181;42;Ashdod;x
+800;56;200;56;Narube;x
+801;141;231;141;Nyiri;x
+802;28;169;28;Polond;x
+803;84;144;84;Lut;x
+804;96;236;96;Aoukar;x
+805;47;136;47;Kobuk;x
+806;121;207;121;Cronulla;x
+807;23;145;23;Dyuni;x
+808;78;150;78;Atacama;x
+809;155;228;215;Lagdou;x
+810;50;128;114;Curonian;x
+811;144;206;195;Fiambala;x
+812;70;141;128;Arcachon;x
+813;119;178;168;Pilat;x
+814;166;208;200;Oursi;x
+815;179;241;229;Kenfig;x
+816;105;164;153;Margam;x
+817;120;0;142;Rausten;x
+818;212;105;232;Edensor;x
+819;145;52;162;Atlow;x
+820;206;7;243;Calke;x
+821;92;24;105;Heanor;x
+822;170;100;183;Etwall;x
+823;194;63;219;Rowarth;x
+824;186;66;209;Belper;x
+825;145;70;159;Codnor;x
+826;215;145;229;Eyam;x
+827;127;79;137;Dethick;x
+828;177;114;188;Staveley;x
+829;148;67;162;Monyash;x
+830;189;144;197;Hassop;x
+831;122;29;138;Ballidon;x
+832;224;126;241;Linton;x
+833;64;5;74;Melkaen;x
+834;69;35;75;Hulland;x
+835;126;96;131;Grindlow;x
+836;150;80;162;Dunsa;x
+837;216;135;230;Glossop;x
+838;166;93;179;Astwith;x
+839;212;59;239;Derwent;x
+840;208;43;238;Rylah;x
+841;214;124;230;Mimir;x
+842;145;61;160;Crowden;x
+843;151;12;176;Youlgreave;x
+844;97;8;113;Melkana;x
+845;161;115;16;Kiris;x
+846;127;90;11;Tekirova;x
+847;244;178;34;Beldibi;x
+848;227;173;60;Teraz;x
+849;241;201;117;Senirkent;x
+850;110;79;14;Kemer;x
+851;174;134;52;Aglasun;x
+852;162;133;73;Atabey;x
+853;152;112;72;Cirali;x
+854;225;178;131;Yalvac;x
+855;104;71;39;Aksu;x
+856;153;128;76;Camyuva;x
+857;214;166;67;Egirdir;x
+858;113;93;50;Burdur;x
+859;192;165;109;Golhisar;x
+860;200;144;56;Pelyn;x
+861;245;186;92;Gelendost;x
+862;169;107;9;Cavdir;x
+863;221;189;139;Pokhara;x
+864;176;156;124;Isparta;x
+865;143;114;69;Yesilova;x
+866;176;152;115;Gonen;x
+867;198;201;115;Baleal;x
+868;168;173;35;Vermoil;x
+869;219;224;76;Cela;x
+870;70;59;117;Nazonia;x
+871;90;76;146;Coruna;x
+872;141;120;229;Merallus;x
+873;158;142;224;Sedma;x
+874;87;71;153;Falibria;x
+875;47;29;127;Rohatina;x
+876;44;12;175;Pestra;x

@@ -1,0 +1,30 @@
+# 507 - Magnesia
+
+# County Title
+title = c_magnesia
+
+# Settlements
+max_settlements = 4
+
+b_magnesia = castle
+b_magnesia_2 = temple
+b_magnesia_3 = city
+#b_lebedos = city
+
+# Misc
+culture = grannvalean
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+}
+444.1.1 = { 
+	religion = loptyrian
+}
+
+649.1.1 = { 
+	religion = church_of_edda
+	culture = grannvalean
+}

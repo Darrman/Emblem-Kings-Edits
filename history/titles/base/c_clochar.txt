@@ -1,0 +1,23 @@
+# c_clochar > d_alster
+180.1.1={
+	law = status_of_women_4
+	law = true_cognatic_succession
+	law = succ_primogeniture
+	liege = d_alster
+	#holder = 0
+}
+440.1.1={
+	holder=1017 # 
+}
+450.1.1={
+	liege = e_loptous
+}
+649.1.1={
+	liege = d_alster
+}
+649.1.1={
+	#holder=0 
+}
+752.1.1={
+	holder=1351 # Conomor
+}

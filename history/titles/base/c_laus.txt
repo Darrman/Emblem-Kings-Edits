@@ -1,0 +1,20 @@
+180.1.1={holder=1768} # Placeholder character to fix independent barony issue
+# e_elibe
+180.1.1={
+	law = status_of_women_4
+	law = true_cognatic_succession
+	law = succ_primogeniture
+}
+180.1.1={
+	liege=d_laus
+}
+180.1.1={
+	holder=2014
+}
+
+1126.01.01 = {
+	holder=118 #Darin
+}
+1161.01.01 = {
+	holder=119 #Erik
+}

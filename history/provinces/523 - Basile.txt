@@ -1,0 +1,28 @@
+# 523 - Basile
+
+# County Title
+title = c_basile
+
+# Settlements
+max_settlements = 2
+
+b_basile = tribal
+#b_blagi_tower = temple
+
+# Misc
+culture = agustrian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+}
+535.1.1 = { 
+	religion = maerist
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = agustrian
+	b_blagi_tower = temple
+}

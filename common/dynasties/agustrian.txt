@@ -1,0 +1,336 @@
+# Canon
+1008={
+	can_appear=no
+	used_for_random=no
+	name="Agusty"
+	culture="agustrian"
+	coat_of_arms = {
+		religion="church_of_edda"
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+    }
+}
+1013={
+	can_appear=no
+	used_for_random=no
+	name="Nordion"
+	culture="agustrian"
+	coat_of_arms = {
+		religion="church_of_edda"
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+    }
+}
+1021={ # for Boldor and Eliott
+	can_appear=no
+	used_for_random=no
+	name="Heirhein"
+	culture="agustrian"
+	coat_of_arms = {
+		religion="church_of_edda"
+		template = 0
+		layer = {
+            texture = 1
+            texture_internal = 19
+            emblem = 0
+            color = 10
+            color = 11
+            color = 6
+        }
+    }
+}
+1022={ # for Macbeth
+	can_appear=no
+	used_for_random=no
+	name="Anphony"
+	culture="agustrian"
+	coat_of_arms = {
+		religion="church_of_edda"
+		template = 0
+		layer = {
+            texture = 0
+            texture_internal = 45
+            emblem = 0
+            color = 0
+            color = 7
+            color = 6
+        }
+    }
+}
+1023={ # for Clement
+	can_appear=no
+	used_for_random=no
+	name="Mackily"
+	culture="agustrian"
+	coat_of_arms = {
+		religion="church_of_edda"
+		template = 0
+		layer = {
+            texture = 0
+            texture_internal = 46
+            emblem = 0
+            color = 0
+            color = 11
+            color = 6
+        }
+    }
+}
+1024={ # for the Captain of the Orgahil Pirates
+	can_appear=no
+	used_for_random=no
+	name="of Orgahil"
+	culture="agustrian"
+	coat_of_arms = {
+		religion="pirate"
+		template = 0
+        layer = {
+            texture = 0
+            texture_internal = 14
+            emblem = 0
+            color = 12
+            color = 11
+            color = 7
+        }
+    }
+}
+# for Alva/Eva/Eve
+2188={
+	can_appear=no
+	used_for_random=no
+	name="of Nordion"
+	culture="agustrian"
+	religion="church_of_edda"  
+	coat_of_arms = {
+		religion="church_of_edda"        
+		template = 0
+        layer = {
+            texture = 0
+            texture_internal = 2
+            emblem = 0
+            color = 5
+            color = 4
+            color = 9
+        }
+    } 
+}
+# for Zyne
+2189={
+	can_appear=no
+	used_for_random=no
+	name="Hotherus"
+	culture="agustrian"
+	religion="church_of_edda"  
+	coat_of_arms = {
+		religion="church_of_edda"        
+		template = 0
+        layer = {
+            texture = 0
+            texture_internal = 13
+            emblem = 0
+            color = 3
+            color = 5
+            color = 9
+        }
+    } 
+}
+# For Jacoban
+2190={
+	name="of Santala"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+# For Philip
+2191={
+	name="of Castillion"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+# For Pizarl 
+2192={
+	name="of Perrault"
+	culture="agustrian"
+	religion="pirate"
+}
+# For Dobarl
+2193={
+	name="of Daulnoy"
+	culture="agustrian"
+	religion="pirate"
+}
+# Breton from vanilla
+1269={
+	name="of Dinan"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1270={
+	name="of Vitré"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1271={
+	name="of Cornouaille"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1272={
+	name="of Rohan"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1273={
+	name="of Porhoët"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1274={
+	name="of Brittany"
+	culture="agustrian"
+}
+1275={
+	name="of Châteaubriant"
+	culture="agustrian"
+}
+1276={
+	name="of Nantes"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1277={
+	name="Leon"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1278={
+	name="Guennec"
+	culture="agustrian"
+}
+1279={
+	name="Pensec"
+	culture="agustrian"
+}
+1280={
+	name="Scoarnec"
+	culture="agustrian"
+}
+1281={
+	name="Riowall"
+	culture="agustrian"
+}
+1282={
+	name="of Vannes"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1283={
+	name="Breizh"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1284={
+	name="of Bretagne"
+	culture="agustrian"
+}
+1285={
+	name="Kerouac"
+	culture="agustrian"
+}
+1286={
+	name="Paignon"
+	culture="agustrian"
+}
+1287={
+	name="Sant Nazar"
+	culture="agustrian"
+}
+1288={
+	name="Tanguy"
+	culture="agustrian"
+}
+1289={
+	name="Parisy"
+	culture="agustrian"
+}
+1290={
+	name="Henbont"
+	culture="agustrian"
+}
+1291={
+	name="of Herve"
+	culture="agustrian"
+}
+1292={
+	name="Sant Brieuc"
+	culture="agustrian"
+}
+1293={
+	name="Sant Mikael"
+	culture="agustrian"
+}
+1294={
+	name="Leon"
+	culture="agustrian"
+}
+1295={
+	name="of Leon"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1296={
+	name="Gwened"
+	culture="agustrian"
+}
+1297={
+	name="Naoned"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1298={
+	name="of Rennes"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1299={
+	name="Domnonea"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1300={
+	name="of Poher"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1301={
+	name="of Rieux"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1302={
+	name="Devnent"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1303={
+	name="Cerneu"
+	culture="agustrian"
+	religion="church_of_edda"
+}
+1304={
+	name="Leon"
+	culture="agustrian"
+	religion="church_of_edda"
+}

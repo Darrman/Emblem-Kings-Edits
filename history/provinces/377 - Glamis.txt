@@ -1,0 +1,26 @@
+# 377 - Glamis
+
+# County Title
+title = c_glamis
+
+# Settlements
+max_settlements = 3
+
+b_glamis = castle
+b_glamis_2 = temple
+b_glamis_3 = city
+
+# Misc
+culture = agustrian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+}
+
+649.1.1 = { 
+	religion = church_of_edda
+	culture = agustrian
+}

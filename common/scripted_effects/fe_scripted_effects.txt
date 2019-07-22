@@ -1,0 +1,2439 @@
+remove_all_classes_effect = {		
+	if = {
+		limit = { trait = base_class_knight }
+		remove_trait = base_class_knight
+	}
+	if = {
+		limit = { trait = base_class_cavalier }
+		remove_trait = base_class_cavalier
+	}
+	if = {
+		limit = { trait = base_class_archer }
+		remove_trait = base_class_archer
+	}
+	if = {
+		limit = { trait = base_class_horse_archer }
+		remove_trait = base_class_horse_archer
+	}
+	if = {
+		limit = { trait = base_class_mercenary }
+		remove_trait = base_class_mercenary
+	}
+	if = {
+		limit = { trait = base_class_fighter }
+		remove_trait = base_class_fighter
+	}
+	if = {
+		limit = { trait = base_class_myrmidon }
+		remove_trait = base_class_myrmidon
+	}
+	if = {
+		limit = { trait = base_class_thief }
+		remove_trait = base_class_thief
+	}
+	if = {
+		limit = { trait = base_class_pirate }
+		remove_trait = base_class_pirate
+	}
+	if = {
+		limit = { trait = base_class_brigand }
+		remove_trait = base_class_brigand
+	}
+	if = {
+		limit = { trait = base_class_priest }
+		remove_trait = base_class_priest
+	}
+	if = {
+		limit = { trait = base_class_monk }
+		remove_trait = base_class_monk
+	}
+	if = {
+		limit = { trait = base_class_mage }
+		remove_trait = base_class_mage
+	}
+	if = {
+		limit = { trait = base_class_dark_mage }
+		remove_trait = base_class_dark_mage
+	}
+	if = {
+		limit = { trait = base_class_wyvern_rider }
+		remove_trait = base_class_wyvern_rider
+	}
+	if = {
+		limit = { trait = base_class_pegasus_knight }
+		remove_trait = base_class_pegasus_knight
+	}
+	if = {
+		limit = { trait = base_class_manakete }
+		remove_trait = base_class_manakete
+	}
+	if = {
+		limit = { trait = base_class_soldier }
+		remove_trait = base_class_soldier
+	}
+	if = {
+		limit = { trait = base_class_dancer }
+		remove_trait = base_class_dancer
+	}
+	if = {
+		limit = { trait = base_class_bard }
+		remove_trait = base_class_bard
+	}
+	if = {
+		limit = { trait = base_class_troubador }
+		remove_trait = base_class_troubador
+	}
+	if = {
+		limit = { trait = base_class_cleric }
+		remove_trait = base_class_cleric
+	}
+	if = {
+		limit = { trait = class_archdruid }
+		remove_trait = class_archdruid
+	}
+	if = {
+		limit = { trait = class_archer }
+		remove_trait = class_archer
+	}
+	if = {
+		limit = { trait = class_archer_female }
+		remove_trait = class_archer_female
+	}
+	if = {
+		limit = { trait = class_archsage }
+		remove_trait = class_archsage
+	}
+	if = {
+		limit = { trait = class_assassin }
+		remove_trait = class_assassin
+	}
+	if = {
+		limit = { trait = class_assassin_female }
+		remove_trait = class_assassin_female
+	}
+	if = {
+		limit = { trait = class_bard }
+		remove_trait = class_bard
+	}
+	if = {
+		limit = { trait = class_berserker }
+		remove_trait = class_berserker
+	}
+	if = {
+		limit = { trait = class_bishop }
+		remove_trait = class_bishop
+	}
+	if = {
+		limit = { trait = class_bishop_female }
+		remove_trait = class_bishop_female
+	}
+	if = {
+		limit = { trait = class_brigand }
+		remove_trait = class_brigand
+	}
+	if = {
+		limit = { trait = class_cavalier }
+		remove_trait = class_cavalier
+	}
+	if = {
+		limit = { trait = class_cleric }
+		remove_trait = class_cleric
+	}
+	if = {
+		limit = { trait = class_dancer }
+		remove_trait = class_dancer
+	}
+	if = {
+		limit = { trait = class_dark_druid }
+		remove_trait = class_dark_druid
+	}
+	if = {
+		limit = { trait = class_sorceror }
+		remove_trait = class_sorceror
+	}
+	if = {
+		limit = { trait = class_sorceror_female }
+		remove_trait = class_sorceror_female
+	}
+	if = {
+		limit = { trait = class_falcon_knight }
+		remove_trait = class_falcon_knight
+	}
+	if = {
+		limit = { trait = class_fighter }
+		remove_trait = class_fighter
+	}
+	if = {
+		limit = { trait = class_general }
+		remove_trait = class_general
+	}
+	if = {
+		limit = { trait = class_great_knight }
+		remove_trait = class_great_knight
+	}
+	if = {
+		limit = { trait = class_hero }
+		remove_trait = class_hero
+	}
+	if = {
+		limit = { trait = class_hero_female }
+		remove_trait = class_hero_female
+	}
+	if = {
+		limit = { trait = class_knight }
+		remove_trait = class_knight
+	}
+	if = {
+		limit = { trait = class_mage }
+		remove_trait = class_mage
+	}
+	if = {
+		limit = { trait = class_mage_female }
+		remove_trait = class_mage_female
+	}
+	if = {
+		limit = { trait = class_mage_knight }
+		remove_trait = class_mage_knight
+	}
+	if = {
+		limit = { trait = class_mage_knight_female }
+		remove_trait = class_mage_knight_female
+	}
+	if = {
+		limit = { trait = class_magic_seal }
+		remove_trait = class_magic_seal
+	}
+	if = {
+		limit = { trait = class_manakete }
+		remove_trait = class_manakete
+	}
+	if = {
+		limit = { trait = class_manakete_female }
+		remove_trait = class_manakete_female
+	}
+	if = {
+		limit = { trait = class_mercenary }
+		remove_trait = class_mercenary
+	}
+	if = {
+		limit = { trait = class_mercenary_female }
+		remove_trait = class_mercenary_female
+	}
+	if = {
+		limit = { trait = class_monk }
+		remove_trait = class_monk
+	}
+	if = {
+		limit = { trait = class_myrmidon }
+		remove_trait = class_myrmidon
+	}
+	if = {
+		limit = { trait = class_myrmidon_female }
+		remove_trait = class_myrmidon_female
+	}
+	if = {
+		limit = { trait = class_horse_archer }
+		remove_trait = class_horse_archer
+	}
+	if = {
+		limit = { trait = class_horse_archer_female }
+		remove_trait = class_horse_archer_female
+	}
+	if = {
+		limit = { trait = class_paladin }
+		remove_trait = class_paladin
+	}
+	if = {
+		limit = { trait = class_pegasus_knight }
+		remove_trait = class_pegasus_knight
+	}
+	if = {
+		limit = { trait = class_pirate }
+		remove_trait = class_pirate
+	}
+	if = {
+		limit = { trait = class_priest }
+		remove_trait = class_priest
+	}
+	if = {
+		limit = { trait = class_bow_knight }
+		remove_trait = class_bow_knight
+	}
+	if = {
+		limit = { trait = class_bow_knight_female }
+		remove_trait = class_bow_knight_female
+	}
+	if = {
+		limit = { trait = class_rogue }
+		remove_trait = class_rogue
+	}
+	if = {
+		limit = { trait = class_sage }
+		remove_trait = class_sage
+	}
+	if = {
+		limit = { trait = class_sage_female }
+		remove_trait = class_sage_female
+	}
+	if = {
+		limit = { trait = class_dark_mage }
+		remove_trait = class_dark_mage
+	}
+	if = {
+		limit = { trait = class_dark_mage_female }
+		remove_trait = class_dark_mage_female
+	}
+	if = {
+		limit = { trait = class_sniper }
+		remove_trait = class_sniper
+	}
+	if = {
+		limit = { trait = class_sniper_female }
+		remove_trait = class_sniper_female
+	}
+	if = {
+		limit = { trait = class_soldier }
+		remove_trait = class_soldier
+	}
+	if = {
+		limit = { trait = class_swordmaster }
+		remove_trait = class_swordmaster
+	}
+	if = {
+		limit = { trait = class_swordmaster_female }
+		remove_trait = class_swordmaster_female
+	}
+	if = {
+		limit = { trait = class_thief }
+		remove_trait = class_thief
+	}
+	if = {
+		limit = { trait = class_thief_female }
+		remove_trait = class_thief_female
+	}
+	if = {
+		limit = { trait = class_troubador }
+		remove_trait = class_troubador
+	}
+	if = {
+		limit = { trait = class_war_cleric }
+		remove_trait = class_war_cleric
+	}
+	if = {
+		limit = { trait = class_war_priest }
+		remove_trait = class_war_priest
+	}
+	if = {
+		limit = { trait = class_warrior }
+		remove_trait = class_warrior
+	}
+	if = {
+		limit = { trait = class_wyvern_knight }
+		remove_trait = class_wyvern_knight
+	}
+	if = {
+		limit = { trait = class_wyvern_lord }
+		remove_trait = class_wyvern_lord
+	}
+	if = {
+		limit = { trait = class_wyvern_rider }
+		remove_trait = class_wyvern_rider
+	}
+}
+
+add_regalia_effect = {
+	if = {
+		limit = {
+			has_character_flag="regalia_gespenst"
+		}
+		clr_character_flag="regalia_gespenst"
+		add_artifact = regalia_gespenst
+		set_global_flag="regalia_gespenst_held"		
+	}
+	if = {
+		limit = {
+			has_character_flag="regalia_luce"
+		}
+		clr_character_flag="regalia_luce"
+		add_artifact = regalia_luce
+		set_global_flag="regalia_luce_held"		
+	}
+	if = {
+		limit = {
+			has_character_flag="regalia_excalibur_fe7"
+		}
+		clr_character_flag="regalia_excalibur_fe7"
+		add_artifact = regalia_excalibur_fe7
+		set_global_flag="regalia_excalibur_held"				
+	}
+	if = {
+		limit = {
+			has_character_flag="regalia_rienfleche"
+		}
+		clr_character_flag="regalia_rienfleche"
+		add_artifact = regalia_rienfleche
+		set_global_flag="regalia_rienfleche_held"				
+	}
+	if = {
+		limit = {
+			has_character_flag="regalia_basilikos"
+		}
+		clr_character_flag="regalia_basilikos"
+		add_artifact = regalia_basilikos
+		set_global_flag="regalia_basilikos_held"			
+	}
+	if = {
+		limit = {
+			has_character_flag="regalia_rex_hasta"
+		}
+		clr_character_flag="regalia_rex_hasta"
+		add_artifact = regalia_rex_hasta
+		set_global_flag="regalia_rex_hasta_held"	
+	}
+	if = {
+		limit = {
+			has_character_flag="regalia_regal_blade"
+		}
+		clr_character_flag="regalia_regal_blade"
+		add_artifact = regalia_regal_blade	
+		set_global_flag="regalia_regal_blade_held"	
+	}
+	
+	new_artifact = {
+		set_creation_date = -1.1.1
+	}		
+}
+
+add_item_effect = {
+	if = {
+		limit = { has_character_flag=ninis_grace }
+		clr_character_flag=ninis_grace
+		add_artifact=ninis_grace
+	}
+	if = {
+		limit = { has_character_flag=fillas_might }
+		clr_character_flag=fillas_might
+		add_artifact=fillas_might
+	}
+	if = {
+		limit = { has_character_flag=thors_ire }
+		clr_character_flag=thors_ire
+		add_artifact=thors_ire
+	}
+	if = {
+		limit = { has_character_flag=sets_litany }
+		clr_character_flag=sets_litany
+		add_artifact=sets_litany
+	}
+	if = {
+		limit = { has_character_flag=delphi_shield }
+		clr_character_flag=delphi_shield
+		add_artifact=delphi_shield
+	}
+	if = {
+		limit = { has_character_flag=iron_rune }
+		clr_character_flag=iron_rune
+		add_artifact=iron_rune
+	}
+	if = {
+		limit = { has_character_flag=boots }
+		clr_character_flag=boots
+		add_artifact=boots
+	}
+	if = {
+		limit = { has_character_flag=arms_scroll }
+		clr_character_flag=arms_scroll
+		add_artifact=arms_scroll
+	}
+	if = {
+		limit = { has_character_flag=dracoshield }
+		clr_character_flag=dracoshield
+		add_artifact=dracoshield
+	}
+	if = {
+		limit = { has_character_flag=goddess_icon }
+		clr_character_flag=goddess_icon
+		add_artifact=goddess_icon
+	}
+	if = {
+		limit = { has_character_flag=secret_book }
+		clr_character_flag=secret_book
+		add_artifact=secret_book
+	}
+	if = {
+		limit = { has_character_flag=talisman }
+		clr_character_flag=talisman
+		add_artifact=talisman
+	}
+	if = {
+		limit = { has_character_flag=elysian_whip }
+		clr_character_flag=elysian_whip
+		add_artifact=elysian_whip
+	}
+	if = {
+		limit = { has_character_flag=guiding_ring }
+		clr_character_flag=guiding_ring
+		add_artifact=guiding_ring
+	}
+	if = {
+		limit = { has_character_flag=hero_crest }
+		clr_character_flag=hero_crest
+		add_artifact=hero_crest
+	}
+	if = {
+		limit = { has_character_flag=knight_crest }
+		clr_character_flag=knight_crest
+		add_artifact=knight_crest
+	}
+	if = {
+		limit = { has_character_flag=orions_bolt }
+		clr_character_flag=orions_bolt
+		add_artifact=orions_bolt
+	}
+	if = {
+		limit = { has_character_flag=silver_card }
+		clr_character_flag=silver_card
+		add_artifact=silver_card
+	}
+	if = {
+		limit = { has_character_flag=member_card }
+		clr_character_flag=member_card
+		add_artifact=member_card
+	}
+	
+	new_artifact = {
+		set_creation_date = -1.1.1
+	}		
+}
+set_random_major_item_flag_effect = {
+	random_list = {
+		1 = {
+			modifier = { factor = 0 has_artifact=ninis_grace }
+			set_character_flag=ninis_grace
+		}
+		1 = {
+			modifier = { factor = 0 has_artifact=fillas_might }
+			set_character_flag=fillas_might
+		}
+		1 = {
+			modifier = { factor = 0 has_artifact=thors_ire }
+			set_character_flag=thors_ire
+		}
+		1 = {
+			modifier = { factor = 0 has_artifact=sets_litany }
+			set_character_flag=sets_litany
+		}
+	}
+}
+set_random_medium_item_flag_effect = {
+	random_list = {
+		1 = {
+			modifier={factor=0 has_artifact=delphi_shield}
+			set_character_flag=delphi_shield
+		}
+		1 = {
+			modifier={factor=0 has_artifact=iron_rune}
+			set_character_flag=iron_rune
+		}
+		1 = {
+			modifier={factor=0 has_artifact=boots}
+			set_character_flag=boots
+		}
+		1 = {
+			modifier={factor=0 has_artifact=arms_scroll}
+			set_character_flag=arms_scroll
+		}
+		1 = {
+			modifier={factor=0 has_artifact=dracoshield}
+			set_character_flag=dracoshield
+		}
+		1 = {
+			modifier={factor=0 has_artifact=goddess_icon}
+			set_character_flag=goddess_icon
+		}
+		1 = {
+			modifier={factor=0 has_artifact=secret_book}
+			set_character_flag=secret_book
+		}
+		1 = {
+			modifier={factor=0 has_artifact=talisman}
+			set_character_flag=talisman
+		}
+		1 = {
+			modifier={factor=0 has_artifact=elysian_whip}
+			set_character_flag=elysian_whip
+		}
+		1 = {
+			modifier={factor=0 has_artifact=guiding_ring}
+			set_character_flag=guiding_ring
+		}
+		1 = {
+			modifier={factor=0 has_artifact=hero_crest}
+			set_character_flag=hero_crest
+		}
+		1 = {
+			modifier={factor=0 has_artifact=knight_crest}
+			set_character_flag=knight_crest
+		}
+		1 = {
+			modifier={factor=0 has_artifact=orions_bolt}
+			set_character_flag=orions_bolt
+		}
+		1 = {
+			modifier={factor=0 has_artifact=silver_card}
+			set_character_flag=silver_card
+		}
+		1 = {
+			modifier={factor=0 has_artifact=member_card}
+			set_character_flag=member_card
+		}
+	}
+}
+
+artifact_duty_effect = {
+	if = {
+		limit = { has_character_modifier = relic_rumor_minor }
+		prestige = 10
+        reverse_opinion = {
+			who = FROM
+			modifier = opinion_extremely_disappointed
+			years = 20
+		}
+	}
+	if = {
+		limit = { has_character_modifier = relic_rumor_medium }
+		prestige = 10
+        reverse_opinion = {
+			who = FROM
+			modifier = opinion_very_disappointed
+			years = 15
+		}
+	}
+	if = {
+		limit = { has_character_modifier = relic_rumor_major }
+		prestige = 10
+        reverse_opinion = {
+			who = FROM
+		modifier = opinion_disappointed
+			years = 10
+		}
+	}	
+}
+
+artifact_money_effect = {
+	if = {
+		limit = { has_character_modifier = relic_rumor_minor }
+		reverse_opinion = {
+			who = FROM
+			modifier = opinion_was_rewarded
+			years = 5
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_found_minor_artifact
+			years = 5
+		}
+		transfer_scaled_wealth = {
+			to = FROM
+			value = 0.25
+			min = 20
+		}
+	}
+	if = {
+		limit = { has_character_modifier = relic_rumor_medium }
+		reverse_opinion = {
+			who = FROM
+			modifier = opinion_was_rewarded
+			years = 10
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_found_medium_artifact
+			years = 5
+		}
+		transfer_scaled_wealth = {
+			to = FROM
+			value = 0.5
+			min = 35
+		}
+	}
+	if = {
+		limit = { has_character_modifier = relic_rumor_major }
+		reverse_opinion = {
+			who = FROM
+			modifier = opinion_was_rewarded
+			years = 15
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_found_major_artifact
+			years = 5
+		}
+		transfer_scaled_wealth = {
+			to = FROM
+			value = 1
+			min = 50
+		}
+	}	
+}
+
+artifact_favor_effect = {
+	if = {
+		limit = { has_character_modifier = relic_rumor_minor }
+		reverse_opinion = {
+			who = FROM
+			modifier = opinion_was_rewarded
+			years = 5
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_found_minor_artifact
+			years = 5
+		}
+        reverse_add_favor = FROM
+	}
+	if = {
+		limit = { has_character_modifier = relic_rumor_medium }
+		reverse_opinion = {
+			who = FROM
+			modifier = opinion_was_rewarded
+			years = 10
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_found_medium_artifact
+			years = 5
+		}
+        reverse_add_favor = FROM
+	}
+	if = {
+		limit = { has_character_modifier = relic_rumor_major }
+		reverse_opinion = {
+			who = FROM
+			modifier = opinion_was_rewarded
+			years = 15
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_found_major_artifact
+			years = 5
+		}
+        reverse_add_favor = FROM
+	}	
+}
+
+artifact_prestige_effect = {
+	if = {
+		limit = { has_character_modifier = relic_rumor_minor }
+		reverse_opinion = {
+			who = FROM
+			modifier = opinion_was_praised
+			years = 5
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_found_minor_artifact
+			years = 5
+		}
+		FROM = { prestige = 25 }
+		random = {
+			chance = 20
+			add_friend = FROM
+		}
+	}
+	if = {
+		limit = { has_character_modifier = relic_rumor_medium }
+		reverse_opinion = {
+			who = FROM
+			modifier = opinion_was_praised
+			years = 10
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_found_medium_artifact
+			years = 5
+		}
+		FROM = { prestige = 50 }
+		random = {
+			chance = 20
+			add_friend = FROM
+		}
+	}
+	if = {
+		limit = { has_character_modifier = relic_rumor_major }
+		reverse_opinion = {
+			who = FROM
+			modifier = opinion_was_praised
+			years = 15
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_found_major_artifact
+			years = 5
+		}
+		FROM = { prestige = 100 }
+		random = {
+			chance = 20
+			add_friend = FROM
+		}		
+	}	
+}
+add_random_regalia_from_owned_ruins_effect = {
+	# Randomly pick a non-claimed regalia to hand out
+	random_list = {
+		100 = {
+			modifier = {
+				factor = 0
+				NOT = {
+					any_demesne_province = {
+						has_province_modifier = ancient_ruins
+						region = world_elibe
+					}
+				}
+			}
+			set_random_regalia_flag_elibe = yes
+		}
+		# Add regalia from other continents here
+	}
+		
+	# Inform them of their prize
+	character_event = { id = regalia.21 }
+}
+
+add_random_regalia_from_location_effect = {
+	# Randomly pick a non-claimed regalia to hand out
+	random_list = {
+		100 = {
+			modifier = {
+				factor = 0
+				NOT = {
+					location = {
+						region = world_elibe
+					}
+				}
+			}
+			set_random_regalia_flag_elibe = yes
+		}
+		# Add regalia from other continents here
+	}
+	
+	location = {
+		set_province_flag = regalia_found
+	}
+		
+	# Inform them of their prize
+	character_event = { id = regalia.21 }
+}
+
+add_random_regalia_from_capital_effect = {
+	set_random_regalia_flag_effect = yes
+	# This one does not have a notify event...
+	add_regalia_effect = yes
+}
+
+set_random_regalia_flag_effect = {
+	random_list = {
+		100 = {
+			modifier = {
+				factor = 0
+				NOT = {
+					capital_scope = {
+						region = world_elibe
+					}
+				}
+			}
+			set_random_regalia_flag_elibe = yes
+		}
+		# Add regalia from other continents here
+	}
+}
+
+set_random_regalia_flag_elibe = {
+	random_list = {
+		15 = {
+			modifier = {
+				factor = 0
+				has_global_flag="regalia_gespenst_held"
+			}
+			set_character_flag="regalia_gespenst"
+		}
+		15 = {
+			modifier = {
+				factor = 0
+				has_global_flag="regalia_luce_held"
+			}
+			set_character_flag="regalia_luce"
+		}
+		14 = {
+			modifier = {
+				factor = 0
+				has_global_flag="regalia_excalibur_fe7_held"
+			}
+			set_character_flag="regalia_excalibur_fe7"
+		}
+		14 = {
+			modifier = {
+				factor = 0
+				has_global_flag="regalia_rienfleche_held"
+			}
+			set_character_flag="regalia_rienfleche"
+		}
+		14 = {
+			modifier = {
+				factor = 0
+				has_global_flag="regalia_basilikos_held"
+			}
+			set_character_flag="regalia_basilikos"
+		}
+		14 = {
+			modifier = {
+				factor = 0
+				has_global_flag="regalia_rex_hasta_held"
+			}
+			set_character_flag="regalia_rex_hasta"
+		}
+		14 = {
+			modifier = {
+				factor = 0
+				has_global_flag="regalia_regal_blade_held"
+			}
+			set_character_flag="regalia_regal_blade"
+		}
+	}
+}
+
+heal_effect = {
+	if = {
+		limit = { 
+			#OR = {
+				trait = wounded 
+				#trait = maimed 
+				#trait = severely_injured 
+			#}
+		}
+		add_trait = scarred
+	}
+	if = {
+		limit = { trait = wounded }
+		remove_trait = wounded
+	}
+	#if = {
+	#	limit = { trait = maimed }
+	#	remove_trait = maimed
+	#}
+	#if = {
+	#	limit = { trait = severely_injured }
+	#	remove_trait = severely_injured
+	#}
+	if = {
+		limit = { trait = depressed }
+		remove_trait = depressed
+	}
+	if = {
+		limit = { trait = stressed }
+		remove_trait = stressed
+	}
+	if = {
+		limit = { trait = lovers_pox }
+		remove_trait = lovers_pox
+	}
+	if = {
+		limit = { trait = ill }
+		remove_trait = ill
+	}
+	if = {
+		limit = { trait = pneumonic }
+		remove_trait = pneumonic
+	}
+	if = {
+		limit = { trait = leper }
+		remove_trait = leper
+	}
+	if = {
+	 	limit = { trait = has_typhoid_fever }
+	 	remove_trait = has_typhoid_fever
+		set_character_flag = immune_typhoid_fever
+	}
+	if = {
+	 	limit = { trait = has_bubonic_plague }
+	 	remove_trait = has_bubonic_plague
+		set_character_flag = immune_bubonic_plague
+	}
+	if = {
+	 	limit = { trait = has_measles }
+	 	remove_trait = has_measles
+		set_character_flag = immune_measles
+	}
+	if = {
+	 	limit = { trait = has_small_pox }
+	 	remove_trait = has_small_pox
+		set_character_flag = immune_small_pox
+	}
+	if = {
+	 	limit = { trait = has_aztec_disease }
+	 	remove_trait = has_aztec_disease
+		set_character_flag = immune_aztec_disease
+	}
+	if = {
+	 	limit = { trait = syphilitic }
+	 	remove_trait = syphilitic
+		set_character_flag = immune_syphilitic
+	}				
+	if = {
+		limit = { trait = sickly }
+		remove_trait = sickly
+	}			
+	if = {
+		limit = { trait = abdominal_pain }
+		remove_trait = abdominal_pain
+	}
+	if = {
+		limit = { trait = cough }
+		remove_trait = cough
+	}
+	if = {
+		limit = { trait = fever }
+		remove_trait = fever
+	}
+	if = {
+		limit = { trait = malaise }
+		remove_trait = malaise
+	}
+	if = {
+		limit = { trait = fatigue }
+		remove_trait = fatigue
+	}
+	if = {
+		limit = { trait = chest_pain }
+		remove_trait = chest_pain
+	}
+	if = {
+		limit = { trait = vomiting }
+		remove_trait = vomiting
+	}
+	if = {
+		limit = { trait = diarrhea }
+		remove_trait = diarrhea
+	}
+	if = {
+		limit = { trait = headache }
+		remove_trait = headache
+	}
+	if = {
+		limit = { trait = cramps }
+		remove_trait = cramps
+	}
+	if = {
+		limit = { trait = rash }
+		remove_trait = rash
+	}
+	if = {
+		limit = { trait = infection }
+		remove_trait = infection
+	}
+	if = {
+	 	limit = { trait = cancer }
+	 	remove_trait = cancer
+	}  
+	if = {
+	 	limit = { trait = flu }
+	 	remove_trait = flu
+	}  
+	if = {
+	 	limit = { trait = dysentery }
+	 	remove_trait = dysentery
+	}  
+	if = {
+	 	limit = { trait = gout }
+	 	remove_trait = gout
+	}  
+	if = {
+	 	limit = { trait = food_poisoning }
+	 	remove_trait = food_poisoning
+	}  
+	if = {
+	 	limit = { trait = rabies }
+	 	remove_trait = rabies
+	}  
+	if = {
+	 	limit = { trait = scurvy }
+	 	remove_trait = scurvy
+	}
+	if = {
+	 	limit = { trait = has_tuberculosis }
+	 	remove_trait = has_tuberculosis
+	}
+	if = {
+	 	limit = { trait = has_typhus }
+	 	remove_trait = has_typhus
+	}
+	hidden_tooltip = {
+		remove_character_modifier = symptom_treatment_1
+		remove_character_modifier = symptom_treatment_2
+		remove_character_modifier = symptom_treatment_3
+		remove_character_modifier = symptom_treatment_4
+		clr_character_flag = developing_illness		
+		remove_disease_flags_effect = yes
+		clear_disease_level_effect = yes
+		remove_treatment_modifiers_effect = yes
+	}
+}
+
+mend_effect = {
+	add_trait = scarred
+	
+	if = {
+		limit = { trait = infirm }
+		remove_trait = infirm
+	}	
+	if = {
+		limit = { trait = maimed }
+		remove_trait = maimed
+	}
+	if = {
+		limit = { trait = incapable }
+		remove_trait = incapable
+	}	
+	if = {
+		limit = { trait = disfigured }
+		remove_trait = disfigured
+	}
+	if = {
+		limit = { trait = mangled }
+		remove_trait = mangled
+	}
+	if = {
+		limit = { trait = severely_injured }
+		remove_trait = severely_injured
+	}	
+}
+remove_personality_effect = {
+	if = {
+		limit = { trait = ambitious }
+		remove_trait = ambitious
+	}
+	if = {
+		limit = { trait = arbitrary }
+		remove_trait = arbitrary
+	}
+	if = {
+		limit = { trait = brave }
+		remove_trait = brave
+	}
+	if = {
+		limit = { trait = charitable }
+		remove_trait = charitable
+	}
+	if = {
+		limit = { trait = chaste }
+		remove_trait = chaste
+	}
+	if = {
+		limit = { trait = content }
+		remove_trait = content
+	}
+	if = {
+		limit = { trait = craven }
+		remove_trait = craven
+	}
+	if = {
+		limit = { trait = cruel }
+		remove_trait = cruel
+	}
+	if = {
+		limit = { trait = curious }
+		remove_trait = curious
+	}
+	if = {
+		limit = { trait = cynical }
+		remove_trait = cynical
+	}
+	if = {
+		limit = { trait = deceitful }
+		remove_trait = deceitful
+	}
+	if = {
+		limit = { trait = depressed }
+		remove_trait = depressed
+	}
+	if = {
+		limit = { trait = diligent }
+		remove_trait = diligent
+	}
+	if = {
+		limit = { trait = drunkard }
+		remove_trait = drunkard
+	}
+	if = {
+		limit = { trait = envious }
+		remove_trait = envious
+	}
+	if = {
+		limit = { trait = erudite }
+		remove_trait = erudite
+	}
+	if = {
+		limit = { trait = fussy }
+		remove_trait = fussy
+	}
+	if = {
+		limit = { trait = gluttonous }
+		remove_trait = gluttonous
+	}
+	if = {
+		limit = { trait = greedy }
+		remove_trait = greedy
+	}
+	if = {
+		limit = { trait = gregarious }
+		remove_trait = gregarious
+	}
+	if = {
+		limit = { trait = haughty }
+		remove_trait = haughty
+	}
+	if = {
+		limit = { trait = honest }
+		remove_trait = honest
+	}
+	if = {
+		limit = { trait = humble }
+		remove_trait = humble
+	}
+	if = {
+		limit = { trait = idolizer }
+		remove_trait = idolizer
+	}
+	if = {
+		limit = { trait = indolent }
+		remove_trait = indolent
+	}
+	if = {
+		limit = { trait = just }
+		remove_trait = just
+	}
+	if = {
+		limit = { trait = kind }
+		remove_trait = kind
+	}
+	if = {
+		limit = { trait = lunatic }
+		remove_trait = lunatic
+	}
+	if = {
+		limit = { trait = lustful }
+		remove_trait = lustful
+	}
+	if = {
+		limit = { trait = paranoid }
+		remove_trait = paranoid
+	}
+	if = {
+		limit = { trait = patient }
+		remove_trait = patient
+	}
+	if = {
+		limit = { trait = playful }
+		remove_trait = playful
+	}
+	if = {
+		limit = { trait = proud }
+		remove_trait = proud
+	}
+	if = {
+		limit = { trait = rowdy }
+		remove_trait = rowdy
+	}
+	if = {
+		limit = { trait = shy }
+		remove_trait = shy
+	}
+	if = {
+		limit = { trait = slothful }
+		remove_trait = slothful
+	}
+	if = {
+		limit = { trait = stressed }
+		remove_trait = stressed
+	}
+	if = {
+		limit = { trait = stubborn }
+		remove_trait = stubborn
+	}
+	if = {
+		limit = { trait = temperate }
+		remove_trait = temperate
+	}
+	if = {
+		limit = { trait = timid }
+		remove_trait = timid
+	}
+	if = {
+		limit = { trait = trusting }
+		remove_trait = trusting
+	}
+	if = {
+		limit = { trait = willful }
+		remove_trait = willful
+	}
+	if = {
+		limit = { trait = wroth }
+		remove_trait = wroth
+	}
+	if = {
+		limit = { trait = zealous }
+		remove_trait = zealous
+	}
+}
+
+# Horrible hack to get around the rule that nobody can join merc's wars
+remove_elibe_mercenary_effect = {
+	if = {
+		limit = {
+			mercenary = yes
+		}
+		# Give them a temporary duchy so they don't lose any vassals
+		if = {
+			limit = {
+				d_temp = {
+					has_holder = yes
+				}
+			}
+			set_character_flag = temp_mercenary_2
+			d_temp_2 = {
+				grant_title = PREV
+			}
+		}
+		if = {
+			limit = {
+				d_temp = {
+					has_holder = no
+				}
+			}
+			set_character_flag = temp_mercenary
+			d_temp = {
+				grant_title = PREV
+			}
+		}
+		
+		# For each Elibian merc title I have, flag it so it can be recovered later. Then destroy it.
+		if = {
+			limit = {
+				d_black_fang = {
+					holder_scope = { character = PREVPREV }
+				}
+			}			
+			d_black_fang = {
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary } }
+					set_title_flag = temp_mercenary
+				}
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary_2 } }
+					set_title_flag = temp_mercenary_2
+				}
+				unsafe_destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {
+				d_talon_company = {
+					holder_scope = { character = PREVPREV }
+				}
+			}			
+			d_talon_company = {
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary } }
+					set_title_flag = temp_mercenary
+				}
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary_2 } }
+					set_title_flag = temp_mercenary_2
+				}
+				unsafe_destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {
+				d_tiger_company = {
+					holder_scope = { character = PREVPREV }
+				}
+			}			
+			d_tiger_company = {
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary } }
+					set_title_flag = temp_mercenary
+				}
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary_2 } }
+					set_title_flag = temp_mercenary_2
+				}
+				unsafe_destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {
+				d_davros = {
+					holder_scope = { character = PREVPREV }
+				}
+			}			
+			d_davros = {
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary } }
+					set_title_flag = temp_mercenary
+				}
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary_2 } }
+					set_title_flag = temp_mercenary_2
+				}
+				unsafe_destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {
+				d_ilia_pegasus_knights_1 = {
+					holder_scope = { character = PREVPREV }
+				}
+			}			
+			d_ilia_pegasus_knights_1 = {
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary } }
+					set_title_flag = temp_mercenary
+				}
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary_2 } }
+					set_title_flag = temp_mercenary_2
+				}
+				unsafe_destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {
+				d_ilia_pegasus_knights_2 = {
+					holder_scope = { character = PREVPREV }
+				}
+			}			
+			d_ilia_pegasus_knights_2 = {
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary } }
+					set_title_flag = temp_mercenary
+				}
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary_2 } }
+					set_title_flag = temp_mercenary_2
+				}
+				unsafe_destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {
+				d_ilia_pegasus_knights_3 = {
+					holder_scope = { character = PREVPREV }
+				}
+			}			
+			d_ilia_pegasus_knights_3 = {
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary } }
+					set_title_flag = temp_mercenary
+				}
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary_2 } }
+					set_title_flag = temp_mercenary_2
+				}
+				unsafe_destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {
+				d_ilia_pegasus_knights_4 = {
+					holder_scope = { character = PREVPREV }
+				}
+			}			
+			d_ilia_pegasus_knights_4 = {
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary } }
+					set_title_flag = temp_mercenary
+				}
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary_2 } }
+					set_title_flag = temp_mercenary_2
+				}
+				unsafe_destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {
+				d_ilia_pegasus_knights_5 = {
+					holder_scope = { character = PREVPREV }
+				}
+			}			
+			d_ilia_pegasus_knights_5 = {
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary } }
+					set_title_flag = temp_mercenary
+				}
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary_2 } }
+					set_title_flag = temp_mercenary_2
+				}
+				unsafe_destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {
+				d_ilia_mercenary_knights = {
+					holder_scope = { character = PREVPREV }
+				}
+			}			
+			d_ilia_mercenary_knights = {
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary } }
+					set_title_flag = temp_mercenary
+				}
+				if = {
+					limit = { PREV = { has_character_flag = temp_mercenary_2 } }
+					set_title_flag = temp_mercenary_2
+				}
+				unsafe_destroy_landed_title = THIS
+			}
+		}
+	}
+}
+
+# Part two of the horrible hack to get around the mercenary war issue.
+add_elibe_mercenary_effect = {	
+	# For each Elibian merc title I used to have, give it back to me. Then clear the temporary flag.
+	if = {
+		limit = {
+			d_black_fang = {
+				OR = {
+					AND = {
+						has_title_flag = temp_mercenary
+						PREV = { has_character_flag = temp_mercenary }
+					}
+					AND = {
+						has_title_flag = temp_mercenary_2
+						PREV = { has_character_flag = temp_mercenary_2 }
+					}
+				}
+			}
+		}			
+		d_black_fang = {
+			clr_title_flag = temp_mercenary
+			clr_title_flag = temp_mercenary_2
+			grant_title = PREV
+		}
+	}
+	if = {
+		limit = {
+			d_talon_company = {
+				OR = {
+					AND = {
+						has_title_flag = temp_mercenary
+						PREV = { has_character_flag = temp_mercenary }
+					}
+					AND = {
+						has_title_flag = temp_mercenary_2
+						PREV = { has_character_flag = temp_mercenary_2 }
+					}
+				}
+			}
+		}			
+		d_talon_company = {
+			clr_title_flag = temp_mercenary
+			clr_title_flag = temp_mercenary_2
+			grant_title = PREV
+		}
+	}
+	if = {
+		limit = {
+			d_tiger_company = {
+				OR = {
+					AND = {
+						has_title_flag = temp_mercenary
+						PREV = { has_character_flag = temp_mercenary }
+					}
+					AND = {
+						has_title_flag = temp_mercenary_2
+						PREV = { has_character_flag = temp_mercenary_2 }
+					}
+				}
+			}
+		}			
+		d_tiger_company = {
+			clr_title_flag = temp_mercenary
+			clr_title_flag = temp_mercenary_2
+			grant_title = PREV
+		}
+	}
+	if = {
+		limit = {
+			d_davros = {
+				OR = {
+					AND = {
+						has_title_flag = temp_mercenary
+						PREV = { has_character_flag = temp_mercenary }
+					}
+					AND = {
+						has_title_flag = temp_mercenary_2
+						PREV = { has_character_flag = temp_mercenary_2 }
+					}
+				}
+			}
+		}			
+		d_davros = {
+			clr_title_flag = temp_mercenary
+			clr_title_flag = temp_mercenary_2
+			grant_title = PREV
+		}
+	}
+	if = {
+		limit = {
+			d_ilia_pegasus_knights_1 = {
+				OR = {
+					AND = {
+						has_title_flag = temp_mercenary
+						PREV = { has_character_flag = temp_mercenary }
+					}
+					AND = {
+						has_title_flag = temp_mercenary_2
+						PREV = { has_character_flag = temp_mercenary_2 }
+					}
+				}
+			}
+		}			
+		d_ilia_pegasus_knights_1 = {
+			clr_title_flag = temp_mercenary
+			clr_title_flag = temp_mercenary_2
+			grant_title = PREV
+		}
+	}
+	if = {
+		limit = {
+			d_ilia_pegasus_knights_2 = {
+				OR = {
+					AND = {
+						has_title_flag = temp_mercenary
+						PREV = { has_character_flag = temp_mercenary }
+					}
+					AND = {
+						has_title_flag = temp_mercenary_2
+						PREV = { has_character_flag = temp_mercenary_2 }
+					}
+				}
+			}
+		}			
+		d_ilia_pegasus_knights_2 = {
+			clr_title_flag = temp_mercenary
+			clr_title_flag = temp_mercenary_2
+			grant_title = PREV
+		}
+	}
+	if = {
+		limit = {
+			d_ilia_pegasus_knights_3 = {
+				OR = {
+					AND = {
+						has_title_flag = temp_mercenary
+						PREV = { has_character_flag = temp_mercenary }
+					}
+					AND = {
+						has_title_flag = temp_mercenary_2
+						PREV = { has_character_flag = temp_mercenary_2 }
+					}
+				}
+			}
+		}			
+		d_ilia_pegasus_knights_3 = {
+			clr_title_flag = temp_mercenary
+			clr_title_flag = temp_mercenary_2
+			grant_title = PREV
+		}
+	}
+	if = {
+		limit = {
+			d_ilia_pegasus_knights_4 = {
+				OR = {
+					AND = {
+						has_title_flag = temp_mercenary
+						PREV = { has_character_flag = temp_mercenary }
+					}
+					AND = {
+						has_title_flag = temp_mercenary_2
+						PREV = { has_character_flag = temp_mercenary_2 }
+					}
+				}
+			}
+		}			
+		d_ilia_pegasus_knights_4 = {
+			clr_title_flag = temp_mercenary
+			clr_title_flag = temp_mercenary_2
+			grant_title = PREV
+		}
+	}
+	if = {
+		limit = {
+			d_ilia_pegasus_knights_5 = {
+				OR = {
+					AND = {
+						has_title_flag = temp_mercenary
+						PREV = { has_character_flag = temp_mercenary }
+					}
+					AND = {
+						has_title_flag = temp_mercenary_2
+						PREV = { has_character_flag = temp_mercenary_2 }
+					}
+				}
+			}
+		}			
+		d_ilia_pegasus_knights_5 = {
+			clr_title_flag = temp_mercenary
+			clr_title_flag = temp_mercenary_2
+			grant_title = PREV
+		}
+	}
+	if = {
+		limit = {
+			d_ilia_mercenary_knights = {
+				OR = {
+					AND = {
+						has_title_flag = temp_mercenary
+						PREV = { has_character_flag = temp_mercenary }
+					}
+					AND = {
+						has_title_flag = temp_mercenary_2
+						PREV = { has_character_flag = temp_mercenary_2 }
+					}
+				}
+			}
+		}			
+		d_ilia_mercenary_knights = {
+			clr_title_flag = temp_mercenary
+			clr_title_flag = temp_mercenary_2
+			grant_title = PREV
+		}
+	}
+	
+	if = {
+		limit = {
+			d_temp = {
+				holder_scope = { character = PREVPREV }
+			}
+		}
+		d_temp = {
+			unsafe_destroy_landed_title = THIS
+		}
+	}
+	if = {
+		limit = {
+			d_temp_2 = {
+				holder_scope = { character = PREVPREV }
+			}
+		}
+		d_temp_2 = {
+			unsafe_destroy_landed_title = THIS
+		}
+	}
+	clr_character_flag = temp_mercenary
+	clr_character_flag = temp_mercenary_2
+}
+
+# For mercs who lose to Zephiel's invasion.
+# They can't be vassalized by the governor with the merc title, and giving the county titles new holders doesn't work. So we need to make a new merc leader.
+release_elibe_mercenary_titles_effect = {
+	if = {
+		limit = {
+			OR = {
+				d_black_fang = {
+					holder_scope = { character = PREVPREV}
+				}
+				d_talon_company = {
+					holder_scope = { character = PREVPREV}
+				}
+				d_tiger_company = {
+					holder_scope = { character = PREVPREV}
+				}
+				d_davros = {
+					holder_scope = { character = PREVPREV}
+				}
+				d_ilia_pegasus_knights_1 = {
+					holder_scope = { character = PREVPREV}
+				}
+				d_ilia_pegasus_knights_2 = {
+					holder_scope = { character = PREVPREV}
+				}
+				d_ilia_pegasus_knights_3 = {
+					holder_scope = { character = PREVPREV}
+				}
+				d_ilia_pegasus_knights_4 = {
+					holder_scope = { character = PREVPREV}
+				}
+				d_ilia_pegasus_knights_5 = {
+					holder_scope = { character = PREVPREV}
+				}
+				d_ilia_mercenary_knights = {
+					holder_scope = { character = PREVPREV}
+				}
+			
+			}
+		}
+		any_demesne_title = {
+			limit = {
+				OR = {
+					title=d_black_fang
+					title=d_talon_company
+					title=d_tiger_company
+					title=d_davros
+					title=d_ilia_pegasus_knights_1
+					title=d_ilia_pegasus_knights_2
+					title=d_ilia_pegasus_knights_3
+					title=d_ilia_pegasus_knights_4
+					title=d_ilia_pegasus_knights_5
+					title=d_ilia_mercenary_knights
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = PREV
+				culture = PREV
+				female = no
+				age = 20			
+			}
+			new_character = {
+				#grant_title = PREV
+				usurp_title = { target = PREV type = invasion }
+				set_defacto_liege = THIS
+			}
+		}
+	}
+}
+
+buy_tier_1_weapon_effect = {
+	wealth = -50
+}
+buy_tier_2_weapon_effect = {
+	wealth = -100
+}
+buy_tier_3_weapon_effect = {
+	wealth = -200
+}
+buy_tier_1_staff_effect = {
+	wealth = -50
+}
+buy_tier_2_staff_effect = {
+	wealth = -100
+}
+buy_tier_3_staff_effect = {
+	wealth = -200
+}
+buy_tier_1_item_effect = {
+	wealth = -50
+}
+buy_tier_2_item_effect = {
+	wealth = -100
+}
+buy_tier_3_item_effect = {
+	wealth = -200
+}
+# THIS must be the duchy being taken.
+# FROM is the top liege taking it.
+# ROOT is the top liege losing it.
+seize_agustria_title_effect = {
+	if = {
+		limit = {
+			ROOT = { 
+				any_realm_title = { title = PREVPREV } 
+			}
+		}
+		if = {
+			limit = {
+				holder_scope = {
+					ai = no
+					NOT = { num_of_duke_titles = 2 }
+				}
+			}
+			holder_scope = {
+				any_demesne_title = {
+					limit = {
+						OR = { 
+							tier = FROM
+							higher_tier_than = FROM
+						}
+					}
+					destroy_landed_title = THIS
+				}
+				set_defacto_liege = FROM
+			}
+		}else = {
+			usurp_title = FROM 
+			hidden_tooltip = {
+				FROM = {
+					create_random_steward = {
+						random_traits = yes
+						female = no
+						age = 30
+					}
+					any_demesne_title = {
+						limit = {
+							OR = {
+								title = PREVPREV
+								de_jure_liege_or_above = PREVPREV
+							}
+						}
+						new_character = {
+							grant_title = { target = PREV type = invasion }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+set_silesse_claim_flag_effect = {
+	hidden_tooltip = {
+		if = {
+			limit = {
+				has_character_flag = is_fe4_maios
+			}
+			set_global_flag = fe4_maios_defeated 
+		}
+		if = {
+			limit = {
+				has_character_flag = is_fe4_daccar
+			}
+			set_global_flag = fe4_daccar_defeated 
+		}
+		character_event = { id = fe4_silesse.4 }
+	}
+}
+move_and_take_children_effect = {
+	if = {
+		limit = {
+			is_ruler = no
+			OR = {
+				is_married = no
+				spouse = {
+					is_ruler = no
+				}
+			}
+		}
+		move_character = PREV	
+		any_child = {
+			limit = {
+				is_ruler = no
+				is_adult = no
+				prisoner = no
+			}
+			move_character = PREVPREV
+		}
+	}
+}
+destroy_all_held_titles_effect = {	
+	any_demesne_title = {
+		if = {
+			limit = {
+				OR = {
+					tier = DUKE
+					tier = KING
+					tier = EMPEROR
+				}
+			}
+			destroy_landed_title = THIS
+		}else = {
+			create_character = {
+				random_traits = yes
+				dynasty = NONE
+				female = no
+				age = 20
+				religion = THIS
+				culture = THIS
+			}
+			new_character = {
+				usurp_title = { target = PREV } 
+				set_defacto_liege = THIS	
+			}
+		}
+	}
+}
+fix_loptyrian_bishop_capitals_effect = {	
+	any_vassal = {
+		limit = {
+			religion = loptyrian
+			is_theocracy = yes
+		}
+		any_vassal = {
+			set_defacto_liege = PREVPREV
+		}
+		any_demesne_province = {
+			limit = {
+				capital_holding = {
+					holding_type = temple
+				}
+			}
+			random_province_holding = {
+				limit = {
+					holding_type = castle
+					holder_scope = {
+						tier = BARON
+					}
+				}
+				make_capital_holding = yes
+			}
+		}
+		set_government_type = feudal_government
+		primary_title = {
+			add_law = { law = status_of_women_4 cooldown = no opinion_effect = no }
+			add_law = { law = true_cognatic_succession cooldown = no opinion_effect = no }
+			add_law = { law = succ_primogeniture cooldown = no opinion_effect = no }
+		}
+		
+		any_demesne_title = {
+			grant_title = PREVPREV
+		}
+		
+#		death = { 
+#			death_reason = death_missing
+#		} 	
+	}
+}
+
+grant_title_to_character_or_non_loptyrian_dynasty_head_effect = {
+	if = {
+		limit = { 
+			dynasty_head = { 
+				NOT = { religion = loptyrian } 
+				NOT = { trait = possessed_forseti } 
+			} 
+		}
+		dynasty_head = { 
+			ROOT = {
+				any_demesne_title = {
+					limit = { de_jure_liege_or_above = PREVPREVPREVPREV }
+					grant_title = PREVPREV
+				}
+			}
+			grant_title = PREVPREV 
+		}
+	}else = {	
+		ROOT = {
+			any_demesne_title = {
+				limit = { de_jure_liege_or_above = PREVPREVPREV }
+				grant_title = PREVPREV 
+			}
+		}					
+		grant_title = PREV
+	}
+}
+grant_crusader_title_effect = {
+	hidden_tooltip = { 
+		ROOT = { usurp_title = PREVPREV } 
+	}
+	grant_title_to_character_or_non_loptyrian_dynasty_head_effect = yes
+}
+grant_title_to_crusader_effect = {
+	ROOT = {
+		usurp_title = PREVPREV
+	}
+	if = {
+		limit = { 
+			can_start_crusader_kingdom_trigger = yes
+		}
+		ROOT = {
+			any_demesne_title = {
+				limit = { de_jure_liege_or_above = PREVPREVPREV }
+				grant_title = PREVPREV 
+			}
+		}		
+#		any_landed_title = {
+#			limit = { 
+#				tier = COUNT 
+#				de_jure_liege_or_above = PREVPREV 
+#				holder_scope = { any_liege = { character = ROOT } ai=yes }
+#			}
+#			usurp_title = { target = PREV type = invasion }
+#		}			
+		grant_title = PREV
+	}else = {	
+		create_charaxter = {
+			age = 20
+			female = no
+			random_traits = yes
+			dynasty = random
+			culture = ROOT
+			religion = ROOT
+		}
+		new_character = {	
+			ROOT = {
+				any_demesne_title = {
+					limit = { de_jure_liege_or_above = PREVPREVPREVPREV }
+					grant_title = PREVPREVPREV 
+				}
+			}					
+			grant_title = PREVPREV
+		}	
+	}
+}
+spawn_jugdral_rebel_small_stack_effect = {
+	random_realm_province = {
+		d_jugdral_rebels = {
+			holder_scope = {
+				spawn_unit = {
+					province = PREVPREV
+					home = PREVPREV
+					owner = THIS
+					match_character = ROOT
+					match_mult = 0.09
+					attrition = 0
+					maintenance_multiplier = 0
+					disband_on_peace = yes
+				}
+				spawn_unit = {
+					province = PREVPREV
+					home = PREVPREV
+					owner = THIS
+					match_character = ROOT
+					match_mult = 0.09
+					attrition = 0
+					maintenance_multiplier = 0
+					disband_on_peace = yes
+				}
+				spawn_unit = {
+					province = PREVPREV
+					home = PREVPREV
+					owner = THIS
+					match_character = ROOT
+					match_mult = 0.09
+					attrition = 0
+					maintenance_multiplier = 0
+					disband_on_peace = yes
+				}
+			}
+		}
+	}
+}
+spawn_jugdral_crusader_stack_effect = {
+	capital_scope = {
+		owner = {
+			spawn_unit = {
+				owner = THIS
+				province = PREV
+				troops = {
+					magic_users = { 200 200 }
+					knights = { 100 100 }
+					light_cavalry = { 200 200 }
+					heavy_infantry = { 500 500 }
+				}
+				attrition = 0
+				disband_on_peace = yes
+				maintenance_multiplier = 0
+			}					
+		}
+	}
+}
+spawn_galle_stack_effect = {
+	capital_scope = {
+		owner = {
+			spawn_unit = {
+				owner = THIS
+				province = PREV
+				troops = {
+					magic_users = { 100 100 }
+					heavy_infantry = { 200 200 }
+				}
+				attrition = 0
+				maintenance_multiplier = 0
+			}	
+			spawn_unit = {
+				owner = THIS
+				province = PREV
+				troops = {
+					magic_users = { 200 200 }
+					heavy_infantry = { 200 200 }
+				}
+				attrition = 0
+				maintenance_multiplier = 0
+			}	
+			spawn_unit = {
+				owner = THIS
+				province = PREV
+				troops = {
+					magic_users = { 100 100 }
+					heavy_infantry = { 200 200 }
+				}
+				attrition = 0
+				maintenance_multiplier = 0
+			}				
+		}
+	}
+}
+
+post_crusade_jugdral_de_jure_titles_effect = {
+	k_grannvale = {
+		de_jure_liege = e_grannvale
+	}
+	d_belhalla = {
+		de_jure_liege = k_grannvale
+	}
+	d_chalphy = {
+		de_jure_liege = k_grannvale
+	}
+	d_edda = {
+		de_jure_liege = k_grannvale
+	}
+	d_velthomer = {
+		de_jure_liege = k_grannvale
+	}
+	d_friege = {
+		de_jure_liege = k_grannvale
+	}
+	d_dozel = {
+		de_jure_liege = k_grannvale
+	}
+	d_jungby = {
+		de_jure_liege = k_grannvale
+	}
+	d_agusty = {
+		de_jure_liege = k_agustria
+	}
+	d_madino = {
+		de_jure_liege = k_agustria
+	}
+	d_silvail = {
+		de_jure_liege = k_agustria
+	}
+	d_anphony = {
+		de_jure_liege = k_agustria
+	}
+	d_heirhein = {
+		de_jure_liege = k_agustria
+	}
+	d_nordion = {
+		de_jure_liege = k_agustria
+	}
+	d_mackily = {
+		de_jure_liege = k_agustria
+	}
+	k_agustria = {
+		de_jure_liege = e_grannvale
+	}
+	d_silesse = {
+		de_jure_liege = k_silesse
+	}
+	d_zaxon = {
+		de_jure_liege = k_silesse
+	}
+	d_thove = {
+		de_jure_liege = k_silesse
+	}
+	d_sailane = {
+		de_jure_liege = k_silesse
+	}
+	d_lubeck = {
+		de_jure_liege = k_silesse
+	}
+	k_silesse = {
+		de_jure_liege = e_grannvale
+	}
+	d_isaach = {
+		de_jure_liege = k_isaach
+	}
+	d_rivough = {
+		de_jure_liege = k_isaach
+	}
+	d_sophara = {
+		de_jure_liege = k_isaach
+	}
+	d_ganeishire = {
+		de_jure_liege = k_isaach
+	}
+	d_tirnanog = {
+		de_jure_liege = k_isaach
+	}
+	k_isaach = {
+		de_jure_liege = e_grannvale
+	}
+	d_leonster = {
+		de_jure_liege = k_thracia
+	}
+	d_alster = {
+		de_jure_liege = k_thracia
+	}
+	d_conote = {
+		de_jure_liege = k_thracia
+	}
+	d_manster = {
+		de_jure_liege = k_thracia
+	}
+	d_melgln = {
+		de_jure_liege = k_thracia
+	}
+	d_tahra = {
+		de_jure_liege = k_thracia
+	}
+	d_thracia = {
+		de_jure_liege = k_thracia
+	}
+	d_kapathogia = {
+		de_jure_liege = k_thracia
+	}
+	d_noel = {
+		de_jure_liege = k_thracia
+	}
+	d_meace = {
+		de_jure_liege = k_thracia
+	}
+	d_luthecia = {
+		de_jure_liege = k_thracia
+	}
+	d_grutia = {
+		de_jure_liege = k_thracia
+	}
+	d_iss = {
+		de_jure_liege = k_thracia
+	}
+	d_savan = {
+		de_jure_liege = k_thracia
+	}
+	d_leonster = {
+		de_jure_liege = k_thracia
+	}
+	k_thracia = {
+		de_jure_liege = e_grannvale
+	}
+	d_dahkla = {
+		de_jure_liege = k_yied
+	}
+	d_anu = {
+		de_jure_liege = k_yied
+	}
+	d_lir = {
+		de_jure_liege = k_yied
+	}
+	d_peruluke = {
+		de_jure_liege = k_miletos
+	}
+	k_orgahil = {
+		de_jure_liege = e_orgahil
+	}
+	k_verdane = {
+		de_jure_liege = e_verdane
+	}
+	k_miletos = {
+		de_jure_liege = e_miletos
+	}
+	k_yied = {
+		de_jure_liege = e_yied
+	}
+}
+
+post_loptous_jugdral_de_jure_titles_effect = {
+	d_jungby = {
+		de_jure_liege = k_ollerus
+	}
+	d_evans = {
+		de_jure_liege = k_verdane
+	}
+	d_genoa = {
+		de_jure_liege = k_verdane
+	}
+	d_nordion = {
+		de_jure_liege = k_heirhein
+	}
+	d_heirhein = {
+		de_jure_liege = k_heirhein
+	}
+	d_anphony = {
+		de_jure_liege = k_heirhein
+	}
+	d_silvail = {
+		de_jure_liege = k_heirhein
+	}
+	k_orgahil = {
+		de_jure_liege = e_loptous
+	}
+	k_verdane = {
+		de_jure_liege = e_loptous
+	}
+	k_miletos = {
+		de_jure_liege = e_loptous
+	}
+	k_yied = {
+		de_jure_liege = e_loptous
+	}
+	k_ollerus = {
+		de_jure_liege = e_loptous
+	}
+	k_heirhein = {
+		de_jure_liege = e_loptous
+	}
+	k_madino = {
+		de_jure_liege = e_loptous
+	}
+	k_tor = {
+		de_jure_liege = e_loptous
+	}
+	k_valhalla = {
+		de_jure_liege = e_loptous
+	}
+	k_melgln = {
+		de_jure_liege = e_loptous
+	}
+	k_lubeck = {
+		de_jure_liege = e_loptous
+	}
+	k_sailane = {
+		de_jure_liege = e_loptous
+	}
+	k_tirnanog = {
+		de_jure_liege = e_loptous
+	}
+	k_rivough = {
+		de_jure_liege = e_loptous
+	}
+	k_luthecia = {
+		de_jure_liege = e_loptous
+	}
+	k_conote = {
+		de_jure_liege = e_loptous
+	}
+	k_savan = {
+		de_jure_liege = e_loptous
+	}
+	k_kapathogia = {
+		de_jure_liege = e_loptous
+	}
+	k_grutia = {
+		de_jure_liege = e_loptous
+	}
+}
+
+jugdral_culture_change_effect = {
+	capital_scope = {
+		if = {
+			limit = { 
+				OR = {
+					region = world_jugdral_agustria
+					region = world_jugdral_orgahil
+				}		
+			}
+			ROOT = { culture = agustrian }
+		}else_if = {
+			limit = { region = world_jugdral_silesse }
+			ROOT = { culture = silessian }
+		}else_if = {
+			limit = { region = world_jugdral_isaach }
+			ROOT = { culture = isaachian }
+		}else_if = {
+			limit = 
+			{ region = world_jugdral_thracia }
+			ROOT = { culture = thracian }
+		}else_if = {
+			limit = { region = world_jugdral_verdane }
+			ROOT = { culture = verdanian }
+		}else = {
+			ROOT = { culture = grannvalean }
+		}
+	}
+}

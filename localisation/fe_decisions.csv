@@ -1,0 +1,147 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+promote;Promote;;;;;;;;;;;;;x
+promote_desc;Promote to an advanced class.;;;;;;;;;;;;;x
+promote_sorceror;Promote;;;;;;;;;;;;;x
+promote_sorceror_desc;There is an ancient ritual that allows a mage to draw in a large amount of magic power. This would increase my power and lifespan dramatically, but may lead to some personality changes. There is also the risk that the power will overwhelm my mind and leave me comatose.;;;;;;;;;;;;;x
+promote_sage;Promote;;;;;;;;;;;;;x
+promote_sage_desc;There is an avenue of research that seems especially promising. Persuing it would lead to mastery of all forms of magic and a greatly increased lifespan.;;;;;;;;;;;;;x
+decide_what_to_do_with_regalia;Decide on regalia inheritance;;;;;;;;;;;;;x
+decide_what_to_do_with_regalia_desc;Decide what to do with your regalia after your death.;;;;;;;;;;;;;x
+decide_what_to_do_with_regalia_tooltip;You have a decision to make.;;;;;;;;;;;;;x
+create_golden_church;Create the Golden See;;;;;;;;;;;;;x
+create_golden_church_desc;If I am "pious" enough and control Aquleia, I can create a Golden Bishop to serve as the head of the faith in opposition to the foolish High Bishop of the Elimine Church.;;;;;;;;;;;;;x
+form_kingdom_of_lycia;Form the Kingdom of Lycia;;;;;;;;;;;;;x
+form_kingdom_of_lycia_desc;With enough prestige and the approval of your peers, the Lycian League can be reformed into a true kingdom.;;;;;;;;;;;;;x
+form_kingdom_of_lycia.tooltip.allow;At least §Y10§! of the §Y14§! marches of §YLycia§! exist, and all marches of §YLycia§! have no holder or the current holder's opinion of §Y[Root.GetTitledFirstName]§! is at least §Y50§!.\n;;;;;;;;;;;;;x
+create_war_dragons;Create War Dragons;;;;;;;;;;;;;x
+create_war_dragons_desc;Your Demon Dragon can be called upon to create War Dragons for your army.;;;;;;;;;;;;;x
+create_war_dragons.tooltip.allow;The Demon Dragon has not reached the limit on the number of War Dragons it can control §Y(9)§!.;;;;;;;;;;;;;x
+create_war_dragons.tooltip;Three new War Dragons will be created.;;;;;;;;;;;;;x
+create_morph;Create Morph;;;;;;;;;;;;;x
+create_morph_desc;Use your arcane knowledge to create an artificial human.;;;;;;;;;;;;;x
+return_elibe_to_dragons;Return Elibe to the Dragons;;;;;;;;;;;;;x
+return_elibe_to_dragons_desc;With control over enough of the continent and the support of a true dragon, I can give this land a ruler who will free us from misery and suffering.;;;;;;;;;;;;;x
+return_elibe_to_dragons.tooltip.allow;§Y[Root.GetTitledFirstName]§! completely controls at least §Y5§! regions of old Elibe - §YBern§!, §YLycia§!, §YEtruria§!, §YIlia§!, §YNabata§!, §YSacae§!, and §Ythe Western Isles§!.\n;;;;;;;;;;;;;x
+return_elibe_to_dragons_TOOLTIP;Any empire-level titles you hold are forfeit.\nThe Hierophant will become your new liege, and the liege of any king-level vassals you have.;;;;;;;;;;;;;x
+hire_black_fang;Hire a Black Fang assassin;;;;;;;;;;;;;x
+hire_black_fang_desc;The Black Fang are a notorious guild of assassins. They would be able to dispose of [Root.PlotTarget.GetTitledFirstName] quickly and quietly...;;;;;;;;;;;;;x
+hire_black_fang_tooltip;The Black Fang will consider your request.;;;;;;;;;;;;;x
+hire_black_fang_SPYMASTER;[Root.GetSpymasterName] [This.GetTitledFirstName] has intrigue at least 18! \n;;;;;;;;;;;;;x
+demand_fire_emblem;Demand Fire Emblem;;;;;;;;;;;;;x
+demand_fire_emblem_desc;Demand that [Root.GetTitledFirstName] hand over your realm's national treasure.;;;;;;;;;;;;;x
+demand_fire_emblem.tooltip;[Root.GetTitledFirstName] is unlikely to agree unless you are on good terms, [Root.GetSheHe] owes you a favor, or you allowed [Root.GetHerHim] to take it.;;;;;;;;;;;;;x
+take_fire_emblem_from_prisoner;Take Fire Emblem;;;;;;;;;;;;;x
+take_fire_emblem_from_prisoner_desc;Demand that [Root.GetTitledFirstName] surrender the Fire Emblem as a condition of [Root.GetHerHis] release.;;;;;;;;;;;;;x
+assassinate_personally;Assassinate Plot Target;;;;;;;;;;;;;x
+assassinate_personally_desc;There's someone who needs to die, and I happen to be a trained assassin. I could see to [Root.PlotTarget.GetHerHis] death personally.;;;;;;;;;;;;;x
+assassinate_personally.tooltip;You will attempt to sneak into [Root.PlotTarget.Capital.GetName] and assassinate [Root.PlotTarget.GetTitledFirstName]. Failure may result in your plot being exposed, along with your death or imprisonment.;;;;;;;;;;;;;x
+convert_to_anima;Embrace Anima Magic;;;;;;;;;;;;;x
+convert_to_anima_desc;I could abandon the [Root.Religion.GetName] faith and focus my studies on anima magic.;;;;;;;;;;;;;x
+convert_to_dark;Embrace Elder Magic;;;;;;;;;;;;;x
+convert_to_dark_desc;I could abandon the [Root.Religion.GetName] faith and focus my studies on elder magic.;;;;;;;;;;;;;x
+open_the_dragons_gate;Open the Dragon's Gate;;;;;;;;;;;;;x
+open_the_dragons_gate_desc;With enough quintessence and the collaboration - willing or not - of a dragon, I can open the gate to the realm of dragons.;;;;;;;;;;;;;x
+quintessence_heal;Quintessence Heal;;;;;;;;;;;;;x
+quintessence_heal_desc;Quintessence can be used on one's self to recover quickly from all manner of illnesses and grievous wounds.;;;;;;;;;;;;;x
+quintessence_heal_tooltip;You will recover from your ailments after a few days.;;;;;;;;;;;;;x
+quintessence_mend;Quintessence Mend;;;;;;;;;;;;;x
+quintessence_mend_desc;Quintessence can be used on one's self to recover from even the most serious of injuries.;;;;;;;;;;;;;x
+quintessence_mend_tooltip;You will recover from your wounds after several days.;;;;;;;;;;;;;x
+quintessence_immortality;Stop Aging;;;;;;;;;;;;;x
+quintessence_immortality_desc;A simple ritual using quintessence repeated every few years will halt the aging process entirely.;;;;;;;;;;;;;x
+drain_quintessence_from_prisoner;Drain Quintessence;;;;;;;;;;;;;x
+drain_quintessence_from_prisoner_desc;Drain [Root.GetTitledFirstName] of quintessence. Unfortunately, the process will be fatal for [Root.GetHerHim].;;;;;;;;;;;;;x
+drain_quintessence_from_prisoner_tooltip;[From.GetTitledFirstName] gains [From.Religion.GetPietyName].\n;;;;;;;;;;;;;x
+drain_quintessence_from_prisoner.tooltip;The more advanced in a class a character is, the more quintessence can be had by draining them.;;;;;;;;;;;;;x
+quintessence_create_tome;Create Regalia Tome;;;;;;;;;;;;;x
+quintessence_create_tome_desc;Quintessence can be imbued into a tome to create a personal weapon of great power.;;;;;;;;;;;;;x
+visit_weapon_shop_1;Vist Armory;;;;;;;;;;;;;x
+visit_weapon_shop_1_desc;A variety of weapons can be purchased at the armory in [Root.Location.GetName].;;;;;;;;;;;;;x
+visit_weapon_shop_2;Vist Armory;;;;;;;;;;;;;x
+visit_weapon_shop_2_desc;A variety of weapons can be purchased at the armory in [Root.Location.GetName].;;;;;;;;;;;;;x
+visit_weapon_shop_3;Vist Armory;;;;;;;;;;;;;x
+visit_weapon_shop_3_desc;A variety of weapons can be purchased at the armory in [Root.Location.GetName].;;;;;;;;;;;;;x
+visit_item_shop_1;Vist Shop;;;;;;;;;;;;;x
+visit_item_shop_1_desc;A variety of items and staves can be purchased at the shop in [Root.Location.GetName].;;;;;;;;;;;;;x
+visit_item_shop_2;Vist Shop;;;;;;;;;;;;;x
+visit_item_shop_2_desc;A variety of items and staves can be purchased at the shop in [Root.Location.GetName].;;;;;;;;;;;;;x
+visit_item_shop_3;Vist Shop;;;;;;;;;;;;;x
+visit_item_shop_3_desc;A variety of items and staves can be purchased at the shop in [Root.Location.GetName].;;;;;;;;;;;;;x
+declare_dragon_liberation_war;Declare Liberation War;;;;;;;;;;;;;x
+declare_dragon_liberation_war_desc;We can resume preparation for the war as soon as we are ready.;;;;;;;;;;;;;x
+plot_coup_decision_100;[Root.GetPlot];[Root.GetPlot];[Root.GetPlot];;[Root.GetPlot];;;;;;;;;x
+plot_coup_decision_100_desc;Put the plot into motion by launching a coup in the [Root.PlotTargetTitle.GetFullBaseName].;;;;;;;;;;;;;x
+plot_coup_decision_75;[Root.GetPlot];[Root.GetPlot];[Root.GetPlot];;[Root.GetPlot];;;;;;;;;x
+plot_coup_decision_75_desc;Put the plot into motion by launching a coup in the [Root.PlotTargetTitle.GetFullBaseName].;;;;;;;;;;;;;x
+regalia_claim_binding_blade;Claim the Binding Blade;;;;;;;;;;;;;x
+regalia_claim_binding_blade_desc;The Binding Blade is locked away in the Shrine of Seals. With the Fire Emblem, I can undo the lock and claim the sword for myself.;;;;;;;;;;;;;x
+regalia_claim_binding_blade.tooltip;§Y[Root.GetTitledFirstName]§! will obtain the §YBinding Blade§! artifact.;;;;;;;;;;;;;x
+regalia_search.tooltip;§Y[Root.GetTitledFirstName]§! begins searching for a legendary weapon in §Y[Root.Location.GetName]§!.;;;;;;;;;;;;;x
+regalia_search_for_durandal;Search for Regalia;;;;;;;;;;;;;x
+regalia_search_for_durandal_desc;There are rumors of a legendary weapon to be found in §Y[Root.Location.GetName]§!...;;;;;;;;;;;;;x
+regalia_search_for_armads;Search for Regalia;;;;;;;;;;;;;x
+regalia_search_for_armads_desc;There are rumors of a legendary weapon to be found in §Y[Root.Location.GetName]§!...;;;;;;;;;;;;;x
+regalia_search_for_eckesachs;Search for Regalia;;;;;;;;;;;;;x
+regalia_search_for_eckesachs_desc;There are rumors of a legendary weapon to be found in §Y[Root.Location.GetName]§!...;;;;;;;;;;;;;x
+regalia_search_for_apocalypse;Search for Regalia;;;;;;;;;;;;;x
+regalia_search_for_apocalypse_desc;There are rumors of a legendary weapon to be found in §Y[Root.Location.GetName]§!...;;;;;;;;;;;;;x
+regalia_search_for_maltet;Search for Regalia;;;;;;;;;;;;;x
+regalia_search_for_maltet_desc;There are rumors of a legendary weapon to be found in §Y[Root.Location.GetName]§!...;;;;;;;;;;;;;x
+regalia_search_for_mulagir;Search for Regalia;;;;;;;;;;;;;x
+regalia_search_for_mulagir_desc;There are rumors of a legendary weapon to be found in §Y[Root.Location.GetName]§!...;;;;;;;;;;;;;x
+regalia_search_for_aureola;Search for Regalia;;;;;;;;;;;;;x
+regalia_search_for_aureola_desc;There are rumors of a legendary weapon to be found in §Y[Root.Location.GetName]§!...;;;;;;;;;;;;;x
+regalia_search_for_forblaze;Search for Regalia;;;;;;;;;;;;;x
+regalia_search_for_forblaze_desc;There are rumors of a legendary weapon to be found in §Y[Root.Location.GetName]§!...;;;;;;;;;;;;;x
+restore_bishop_in_aquleia;Restore the Bishop to Aquleia;;;;;;;;;;;;;x
+restore_bishop_in_aquleia_desc;The leader of the church has lost control of their secular domain, but it is within my power to restore the Tower to them!;;;;;;;;;;;;;x
+consume_vulenary;Consume Vulenary;;;;;;;;;;;;;x
+consume_vulenary_desc;Consuming a vulenary will restore a small amount of health.;;;;;;;;;;;;;x
+consume_vulenary.tooltip;The vulenary is consumed and [From.GetTitledFirstName] gets a small boost to [From.GetHerHis] health temporarily.;;;;;;;;;;;;;x
+consume_concoction;Consume Concoction;;;;;;;;;;;;;x
+consume_concoction_desc;Consuming a concoction will restore a moderate amount of health.;;;;;;;;;;;;;x
+consume_concoction.tooltip;The concoction is consumed and [From.GetTitledFirstName] gets a moderate boost to [From.GetHerHis] health temporarily.;;;;;;;;;;;;;x
+consume_elixir;Consume Elixir;;;;;;;;;;;;;x
+consume_elixir_desc;Consuming an elixir will restore a large amount of health.;;;;;;;;;;;;;x
+consume_elixir.tooltip;The elixir is consumed and [From.GetTitledFirstName] gets a large boost to [From.GetHerHis] health temporarily.;;;;;;;;;;;;;x
+raise_weisseritter;Raise Weisseritter;;;;;;;;;;;;;x
+raise_weisseritter_desc;Raise the §YWeisseritter§!, §YBelhalla§!'s knight brigade of mages and armor knights.;;;;;;;;;;;;;x
+raise_grunritter;Raise Grünritter;;;;;;;;;;;;;x
+raise_grunritter_desc;Raise the §YGrünritter§!, §YChalphy§!'s knight brigade of mounted swordsmen.;;;;;;;;;;;;;x
+raise_grauritter;Raise Grau Ritter;;;;;;;;;;;;;x
+raise_grauritter_desc;Raise the §YGrau Ritter§!, §YDozel§!'s knight brigade of mounted axe-wielders.;;;;;;;;;;;;;x
+raise_gelb_ritter;Raise Gelb Ritter;;;;;;;;;;;;;x
+raise_gelb_ritter_desc;Raise the §YGelb Ritter§!, §YFriege§!'s knight brigade of thunder mages.;;;;;;;;;;;;;x
+raise_beige_ritter;Raise Beige Ritter;;;;;;;;;;;;;x
+raise_beige_ritter_desc;Raise the §YBeige Ritter§!, §YJungby§!'s knight brigade of mounted archers.;;;;;;;;;;;;;x
+raise_rot_ritter;Raise Rot Ritter;;;;;;;;;;;;;x
+raise_rot_ritter_desc;Raise the §YRot Ritter§!, §YVelthomer§!'s knight brigade of fire mages.;;;;;;;;;;;;;x
+raise_cross_knights;Raise Cross Knights;;;;;;;;;;;;;x
+raise_cross_knights_desc;Raise the §YCross Knights§!, §YNordion§!'s elite cavaliers.;;;;;;;;;;;;;x
+raise_lanceritter;Raise Lanceritter;;;;;;;;;;;;;x
+raise_lanceritter_desc;Raise the §YLanceritter§!, §YLeonster§!'s knight legion.;;;;;;;;;;;;;x
+raise_dragon_knights;Raise Dragon Knights;;;;;;;;;;;;;x
+raise_dragon_knights_desc;Raise the §YDragon Knights§!, §YThracia§!'s elite wyvern riders.;;;;;;;;;;;;;x
+raise_knight_brigade.tooltip.allow;Has not already raised this knight brigade;;;;;;;;;;;;;x
+marry_loptyian_minor_bloods;Marry the Chosen Ones;;;;;;;;;;;;;x
+marry_loptyian_minor_bloods_desc;If the Loptyrian Order identifies a man and a woman with holy blood, we can try persuading them to marry. The child of such a union would be powerful enough for our lord to possess and return to this plane once more.;;;;;;;;;;;;;x
+marry_loptyian_minor_bloods.tooltip;[From.GetTitledFirstName] seeks out the vessels of the holy blood.;;;;;;;;;;;;;x
+marry_loptyian_minor_bloods.allow;A male and female with minor Loptous holy blood have been identified by the Loptyrian Order.;;;;;;;;;;;;;x
+hold_child_hunt;Hold Child Hunt;;;;;;;;;;;;;x
+hold_child_hunt_desc;;;;;;;;;;;;;;x
+hold_witch_hunt_church_of_edda;Hold Witch Hunt;;;;;;;;;;;;;x
+hold_witch_hunt_church_of_edda_desc;;;;;;;;;;;;;;x
+summon_the_deadlords;Summon the Deadlords;;;;;;;;;;;;;x
+summon_the_deadlords_desc;Through a dark ritual known to few and within the power of only the greatest mages, corpses can be raised as powerful undead warriors. This ritual goes beyond simply reviving bodies to fight with skills they had in life - it summons the spirits of twelve dark warlords into the vessels, who warp them into forms fitting their power. However, the materials required are expensive and the ritual must be conducted in stages over the course of a year. It cannot be repeated by the same mage.;;;;;;;;;;;;;x
+found_church_of_edda;Found the Church of Edda;;;;;;;;;;;;;x
+found_church_of_edda_desc;To help the land heal from Loptyrian domination, I could start a new church that brings the teachings of our old gods in a form fit for this modern age.;;;;;;;;;;;;;x
+create_church_of_loptous;Create the Church of Loptous;;;;;;;;;;;;;x
+create_church_of_loptous_desc;With enough authority, I could organize my followers into a formal church.;;;;;;;;;;;;;x
+create_schwarze_rosen;Create the Schwarze Rosen;;;;;;;;;;;;;x
+create_schwarze_rosen_desc;We can fund the creation of a Loptyrian holy order to strike fear into the hearts of our enemies.;;;;;;;;;;;;;x
+form_new_thracia;Reunite Thracia;;;;;;;;;;;;;x
+form_new_thracia_desc;With control of the entire Thracian peninsula, I could unite north and south Thracia into the single kingdom they were always meant to be.;;;;;;;;;;;;;x
+reunite_thracia;Reunite Thracia;;;;;;;;;;;;;x
+reunite_thracia_desc;With control of the entire Thracian peninsula, I could reintegrate the breakaway Manster District into the true Kingdom of Thracia.;;;;;;;;;;;;;x
+convert_to_post_crusade_jugdrali;Embrace Post-Crusade Culture;;;;;;;;;;;;;x
+convert_to_post_crusade_jugdrali_desc;Many of our subjects are adopting new ways and traditions, integrating them with local customs. Perhaps we should do the same...;;;;;;;;;;;;;x

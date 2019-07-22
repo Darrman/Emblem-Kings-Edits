@@ -1,0 +1,17 @@
+# c_kaisten
+
+# County Title
+title = c_kaisten
+
+# Settlements
+max_settlements = 3
+
+b_kaisten = tribal
+#b_kaisten_2 = temple
+#b_nebikon = tribal
+
+# Misc
+culture = bernese
+religion = elimine_church
+
+#History

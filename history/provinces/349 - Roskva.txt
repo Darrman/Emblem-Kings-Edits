@@ -1,0 +1,31 @@
+# 349 - Roskva
+
+# County Title
+title = c_roskva
+
+# Settlements
+max_settlements = 4
+
+b_roskva = castle
+b_roskva_2 = temple
+#b_roskva_3 = city
+#b_tanngnjostr = city
+
+# Misc
+culture = grannvalean
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_roskva = tribal
+}
+500.1.1 = { 
+	b_roskva = castle
+	b_roskva_3 = city
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = grannvalean
+}

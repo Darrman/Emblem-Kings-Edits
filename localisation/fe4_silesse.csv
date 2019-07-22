@@ -1,0 +1,27 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+fe4_silesse.3.desc;I've had my eye on [From.PrimaryTitle.GetName] for some time. Now that [From.GetTitledFirstName] has taken over, it may not be as well defended as before.;;;;;;;;;;;;;x
+fe4_silesse.3.A;Commander, give the order to strike!;;;;;;;;;;;;;x
+fe4_silesse.3.A.tooltip;§Y[Root.GetTitledName]§! attacks §Y[From.PrimaryTitle.GetName]§!;;;;;;;;;;;;;x
+fe4_silesse.3.B;We won't attack [From.GetTitledFirstName] yet.;;;;;;;;;;;;;x
+fe4_silesse.6.desc.1;My brother has been defeated and his war is over. He never did realize that he was a mere pawn in my greater scheme. With him out of the way and the loyalists bloodied, now is the time to capture [Root.Liege.PrimaryTitle.GetName] for myself!;;;;;;;;;;;;;x
+fe4_silesse.6.desc.2;I expected the situation in [Root.Liege.PrimaryTitle.GetName] to be more turbulent by now. I didn't plan it this way, but [Root.Liege.GetTitledFirstName]'s guard seems to be down. I may be able to take over the realm if I strike quickly.;;;;;;;;;;;;;x
+fe4_silesse.6.A;Commander, lead your knights to victory!;;;;;;;;;;;;;x
+fe4_silesse.6.A.tooltip;§Y[Root.GetTitledName]§! declares war on §Y[Root.Liege.GetTitledName]§!;;;;;;;;;;;;;x
+fe4_silesse.6.B;I can't afford to rush this. I'll make my move later.;;;;;;;;;;;;;x
+fe4_silesse.7.desc;[From.GetLordLady] [From.GetFirstName] wrote to us some time ago, asking for [Root.PrimaryTitle.GetName]'s support in the civil war [From.GetSheHe] planned to start. [From.GetFirstName] has finally made [From.GetHerHis] move and will be expecting our reinforcements soon.;;;;;;;;;;;;;x
+fe4_silesse.7.A;[From.GetHerHisCap] enemies will fall before us.;;;;;;;;;;;;;x
+fe4_silesse.7.A.tooltip;§Y[Root.GetTitledName]§! provides the §YBeige Ritter§! to §Y[From.GetTitledName]§! for [From.GetHerHis] war. §Y[From.GetTitledName]§! will owe §Y[Root.GetTitledName]§! a favor.;;;;;;;;;;;;;x
+fe4_silesse.7.B;Let [From.GetHerHim] stand or fall on [From.GetHerHis] own.;;;;;;;;;;;;;x
+fe4_silesse.9.desc;[Root.GetTitledFirstName],\nI believe you could use some reinforcements. The Beige Ritter stands ready to make your enemies fall from the sky. All I ask in exchange is a favor. \nSigned,\n[From.GetTitledName];;;;;;;;;;;;;x
+fe4_silesse.9.A;Those knights are impressive. I welcome your aid.;;;;;;;;;;;;;x
+fe4_silesse.9.B;I do not need your help.;;;;;;;;;;;;;x
+fe4_silesse.10.desc;[Root.GetTitledFirstName],\nThank you for your offer, but I believe my own armies are sufficient to achieve victory.\nSigned,\n[From.GetTitledName];;;;;;;;;;;;;x
+fe4_silesse.10.A;I see.;;;;;;;;;;;;;x
+fe4_silesse.11.desc;This will eventually start the Light Inheritor event chain.;;;;;;;;;;;;;x
+fe4_silesse.11.A;But it's not written yet...;;;;;;;;;;;;;x
+fe4_silesse..title;;;;;;;;;;;;;;x
+fe4_silesse..desc;;;;;;;;;;;;;;x
+fe4_silesse..A;;;;;;;;;;;;;;x
+fe4_silesse..B;;;;;;;;;;;;;;x
+fe4_silesse..C;;;;;;;;;;;;;;x
+fe4_silesse..D;;;;;;;;;;;;;;x

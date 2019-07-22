@@ -1,0 +1,272 @@
+0180.01.01={
+	law = status_of_women_4
+	law = true_cognatic_succession
+	law = succ_primogeniture
+	liege = k_agustria
+}
+0180.01.01={
+	de_jure_liege = k_grann
+}
+0440.01.01={
+	liege = k_grann
+	holder=826 # 
+}
+0448.01.01={
+	de_jure_liege = k_heirhein
+	liege = e_loptous
+}
+0449.01.01={
+	holder=801 # Galle I, following the Great Purge
+}
+0509.01.02={
+	holder=6647
+}
+0552.01.02={
+	holder=6646
+}
+0604.01.01={
+	holder=6645
+}
+0649.01.01={
+	liege = k_agustria
+	de_jure_liege = k_agustria
+	holder=1026 # House Nordion
+}
+0685.01.01={
+	holder=1232 # 
+}
+0719.01.01={
+	holder=1233 # 
+}
+0732.01.01={
+	holder=1091 # Eldigan's father
+}
+0741.01.01={
+	holder=1094 # Eldigan
+}
+0759.01.01={
+	liege = k_grannvale
+	holder=1032 # Sigurd
+}
+0760.01.01={
+	liege = k_agustria
+	holder=1029 # Azmur
+}
+0761.01.01={
+	holder=1049 # Arvis
+}
+0770.01.01={
+	liege = e_grannvale
+	holder=1275 # Dark Bishop
+}
+0779.01.01={
+	liege = k_agustria
+	holder=1096 # Diarmuid
+}
+0816.01.01={
+	holder=6576
+}
+0852.01.01={
+	holder=6577
+}
+0886.01.01={
+	holder=6578
+}
+0924.12.31={
+	holder=6579
+}
+0964.12.31={
+	holder=6580
+}
+1010.12.30={
+	holder=6581
+}
+1044.12.30={
+	holder=6582
+}
+1087.12.30={
+	holder=6583
+}
+1129.12.29={
+	holder=6584
+}
+1165.12.29={
+	holder=6585
+}
+1208.12.29={
+	holder=6586
+}
+1243.12.29={
+	holder=6587
+}
+1283.12.29={
+	holder=6588
+}
+1323.12.28={
+	holder=6589
+}
+1360.12.28={
+	holder=6590
+}
+1408.12.27={
+	holder=6591
+}
+1457.12.27={
+	holder=6592
+}
+1491.12.27={
+	holder=6593
+}
+1542.12.26={
+	holder=6594
+}
+1586.01.05={
+	holder=6595
+}
+1635.01.05={
+	holder=6596
+}
+1681.01.05={
+	holder=6597
+}
+1730.01.05={
+	holder=6598
+}
+1765.01.05={
+	holder=6599
+}
+1806.01.05={
+	holder=6600
+}
+1849.01.05={
+	holder=6601
+}
+1899.01.05={
+	holder=6602
+}
+1939.01.05={
+	holder=6603
+}
+1987.01.05={
+	holder=6604
+}
+2032.01.05={
+	holder=6605
+}
+2082.01.05={
+	holder=6606
+}
+2122.01.05={
+	holder=6607
+}
+2157.01.05={
+	holder=6608
+}
+2199.01.05={
+	holder=6609
+}
+2250.01.05={
+	holder=6610
+}
+2292.01.05={
+	holder=6611
+}
+2344.01.05={
+	holder=6612
+}
+2381.01.05={
+	holder=6613
+}
+2433.01.05={
+	holder=6614
+}
+2481.01.05={
+	holder=6615
+}
+2518.01.05={
+	holder=6616
+}
+2560.01.05={
+	holder=6617
+}
+2602.01.05={
+	holder=6618
+}
+2646.01.05={
+	holder=6619
+}
+2678.01.05={
+	holder=6620
+}
+2716.01.05={
+	holder=6621
+}
+2758.01.05={
+	holder=6622
+}
+2797.01.05={
+	holder=6623
+}
+2844.01.05={
+	holder=6624
+}
+2893.01.05={
+	holder=6625
+}
+2930.01.05={
+	holder=6626
+}
+2975.01.05={
+	holder=6627
+}
+3013.01.05={
+	holder=6628
+}
+3051.01.05={
+	holder=6629
+}
+3100.01.05={
+	holder=6630
+}
+3133.01.05={
+	holder=6631
+}
+3171.01.05={
+	holder=6632
+}
+3216.01.05={
+	holder=6633
+}
+3262.01.05={
+	holder=6634
+}
+3309.01.05={
+	holder=6635
+}
+3361.01.05={
+	holder=6636
+}
+3407.01.05={
+	holder=6637
+}
+3455.01.05={
+	holder=6638
+}
+3492.01.05={
+	holder=6639
+}
+3530.01.05={
+	holder=6640
+}
+3570.01.05={
+	holder=6641
+}
+3621.01.05={
+	holder=6642
+}
+3655.01.05={
+	holder=6643
+}
+3705.01.05={
+	holder=6644
+}

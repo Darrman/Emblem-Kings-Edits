@@ -1,0 +1,9 @@
+180.1.1={
+	liege=c_donar
+}
+762.1.1={
+	holder=1329 # Fred's father
+}
+770.1.1={
+	holder=0 # 
+}

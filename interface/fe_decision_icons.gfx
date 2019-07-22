@@ -1,0 +1,251 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_decide_what_to_do_with_regalia"
+		texturefile = "gfx\\interface\\decision_icon_commit_suicide.dds"
+	}
+	spriteType = {
+		name = "GFX_form_kingdom_of_lycia"
+		texturefile = "gfx\\interface\\decision_icon_form_new_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_create_war_dragons"
+		texturefile = "gfx\\interface\\decision_icon_feast.dds"
+	}
+	spriteType = {
+		name = "GFX_create_morph"
+		texturefile = "gfx\\interface\\decision_icon_morphs.dds"
+	}
+	spriteType = {
+		name = "GFX_create_golden_church"
+		texturefile = "gfx\\interface\\decision_icon_borrow_money.dds"
+	}
+	spriteType = {
+		name = "GFX_return_elibe_to_dragons"
+		texturefile = "gfx\\interface\\decision_icon_buy_indulgence_for_sins.dds"
+	}
+	spriteType = {
+		name = "GFX_demand_fire_emblem"
+		texturefile = "gfx\\interface\\decision_icon_fire_emblem.dds"
+	}
+	spriteType = {
+		name = "GFX_promote"
+		texturefile = "gfx\\interface\\decision_icon_promote.dds"
+	}
+	spriteType = {
+		name = "GFX_hire_black_fang"
+		texturefile = "gfx\\interface\\decision_icon_bronze_knife.dds"
+	}
+	spriteType = {
+		name = "GFX_assassinate_personally"
+		texturefile = "gfx\\interface\\decision_icon_assassin.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_to_anima"
+		texturefile = "gfx\\interface\\decision_icon_anima.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_to_dark"
+		texturefile = "gfx\\interface\\decision_icon_dark.dds"
+	}
+	spriteType = {
+		name = "GFX_open_the_dragons_gate"
+		texturefile = "gfx\\interface\\decision_icon_pick_main_deity.dds"
+	}
+	spriteType = {
+		name = "GFX_promote_sorceror"
+		texturefile = "gfx\\interface\\decision_icon_dark.dds"
+	}
+	spriteType = {
+		name = "GFX_promote_sage"
+		texturefile = "gfx\\interface\\decision_icon_anima.dds"
+	}
+	spriteType = {
+		name = "GFX_quintessence_immortality"
+		texturefile = "gfx\\interface\\decision_icon_convert_to_local_religion.dds"
+	}
+	spriteType = {
+		name = "GFX_quintessence_heal"
+		texturefile = "gfx\\interface\\decision_icon_seek_treatment.dds"
+	}
+	spriteType = {
+		name = "GFX_quintessence_mend"
+		texturefile = "gfx\\interface\\decision_icon_seek_treatment.dds"
+	}
+	spriteType = {
+		name = "GFX_quintessence_create_tome"
+		texturefile = "gfx\\interface\\decision_icon_ereshkigal.dds"
+	}
+	spriteType = {
+		name = "GFX_visit_weapon_shop_1"
+		texturefile = "gfx\\interface\\decision_icon_borrow_money.dds"
+	}
+	spriteType = {
+		name = "GFX_visit_weapon_shop_2"
+		texturefile = "gfx\\interface\\decision_icon_borrow_money.dds"
+	}
+	spriteType = {
+		name = "GFX_visit_weapon_shop_3"
+		texturefile = "gfx\\interface\\decision_icon_borrow_money.dds"
+	}
+	spriteType = {
+		name = "GFX_visit_item_shop_1"
+		texturefile = "gfx\\interface\\decision_icon_borrow_money.dds"
+	}
+	spriteType = {
+		name = "GFX_visit_item_shop_2"
+		texturefile = "gfx\\interface\\decision_icon_borrow_money.dds"
+	}
+	spriteType = {
+		name = "GFX_visit_item_shop_3"
+		texturefile = "gfx\\interface\\decision_icon_borrow_money.dds"
+	}
+	spriteType = {
+		name = "GFX_declare_dragon_liberation_war"
+		texturefile = "gfx\\interface\\decision_icon_donate_to_holy_order.dds"
+	}
+	spriteType = {
+		name = "GFX_plot_coup_decision_100"
+		texturefile = "gfx\\interface\\decision_icon_faction_claimant_ultimatum.dds"
+	}
+	spriteType = {
+		name = "GFX_plot_coup_decision_75"
+		texturefile = "gfx\\interface\\decision_icon_faction_claimant_ultimatum.dds"
+	}
+	spriteType = {
+		name = "GFX_regalia_claim_binding_blade"
+		texturefile = "gfx\\interface\\decision_icon_falchion.dds"
+	}
+	spriteType = {
+		name = "GFX_regalia_search_for_durandal"
+		texturefile = "gfx\\interface\\decision_icon_falchion.dds"
+	}
+	spriteType = {
+		name = "GFX_regalia_search_for_armads"
+		texturefile = "gfx\\interface\\decision_icon_falchion.dds"
+	}
+	spriteType = {
+		name = "GFX_regalia_search_for_eckesachs"
+		texturefile = "gfx\\interface\\decision_icon_falchion.dds"
+	}
+	spriteType = {
+		name = "GFX_regalia_search_for_apocalypse"
+		texturefile = "gfx\\interface\\decision_icon_falchion.dds"
+	}
+	spriteType = {
+		name = "GFX_regalia_search_for_maltet"
+		texturefile = "gfx\\interface\\decision_icon_falchion.dds"
+	}
+	spriteType = {
+		name = "GFX_regalia_search_for_mulagir"
+		texturefile = "gfx\\interface\\decision_icon_falchion.dds"
+	}
+	spriteType = {
+		name = "GFX_regalia_search_for_aureola"
+		texturefile = "gfx\\interface\\decision_icon_falchion.dds"
+	}
+	spriteType = {
+		name = "GFX_regalia_search_for_forblaze"
+		texturefile = "gfx\\interface\\decision_icon_falchion.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_reform_tyrant_government_ultimatum"
+		texturefile = "gfx\\interface\\decision_icon_faction_reform_tyrant_government_ultimatum.dds"
+	}
+	spriteType = {
+		name = "GFX_restore_bishop_in_aquleia"
+		texturefile = "gfx\\interface\\decision_icon_light.dds"
+	}
+	spriteType = {
+		name = "GFX_consume_vulenary"
+		texturefile = "gfx\\interface\\decision_icon_vulenary.dds"
+	}
+	spriteType = {
+		name = "GFX_consume_concoction"
+		texturefile = "gfx\\interface\\decision_icon_vulenary.dds"
+	}
+	spriteType = {
+		name = "GFX_consume_elixir"
+		texturefile = "gfx\\interface\\decision_icon_vulenary.dds"
+	}
+	spriteType = {
+		name = "GFX_raise_weisseritter"
+		texturefile = "gfx\\interface\\decision_icon_belhalla.dds"
+	}
+	spriteType = {
+		name = "GFX_raise_grunritter"
+		texturefile = "gfx\\interface\\decision_icon_chalphy.dds"
+	}
+	spriteType = {
+		name = "GFX_raise_grauritter"
+		texturefile = "gfx\\interface\\decision_icon_dozel.dds"
+	}
+	spriteType = {
+		name = "GFX_raise_gelb_ritter"
+		texturefile = "gfx\\interface\\decision_icon_friege.dds"
+	}
+	spriteType = {
+		name = "GFX_raise_beige_ritter"
+		texturefile = "gfx\\interface\\decision_icon_jungby.dds"
+	}
+	spriteType = {
+		name = "GFX_raise_rot_ritter"
+		texturefile = "gfx\\interface\\decision_icon_velthomer.dds"
+	}
+	spriteType = {
+		name = "GFX_raise_cross_knights"
+		texturefile = "gfx\\interface\\decision_icon_nordion.dds"
+	}
+	spriteType = {
+		name = "GFX_raise_lanceritter"
+		texturefile = "gfx\\interface\\decision_icon_leonster.dds"
+	}
+	spriteType = {
+		name = "GFX_raise_dragon_knights"
+		texturefile = "gfx\\interface\\decision_icon_thracia.dds"
+	}
+	spriteType = {
+		name = "GFX_marry_loptyian_minor_bloods"
+		texturefile = "gfx\\interface\\decision_icon_pick_main_deity.dds"
+	}
+	spriteType = {
+		name = "GFX_found_church_of_edda"
+		texturefile = "gfx\\interface\\decision_icon_church_of_edda.dds"
+	}
+	spriteType = {
+		name = "GFX_create_church_of_loptous"
+		texturefile = "gfx\\interface\\decision_icon_restore_high_priesthood.dds"
+	}
+	spriteType = {
+		name = "GFX_vassalize_church_of_loptous"
+		texturefile = "gfx\\interface\\decision_icon_vassalize_holy_order.dds"
+	}
+	spriteType = {
+		name = "GFX_create_schwarze_rosen"
+		texturefile = "gfx\\interface\\decision_icon_donate_to_holy_order.dds"
+	}
+	spriteType = {
+		name = "GFX_hold_child_hunt"
+		texturefile = "gfx\\interface\\decision_icon_hunting.dds"
+	}
+	spriteType = {
+		name = "GFX_hold_witch_hunt_church_of_edda"
+		texturefile = "gfx\\interface\\decision_icon_hunting.dds"
+	}
+	spriteType = {
+		name = "GFX_summon_the_deadlords"
+		texturefile = "gfx\\interface\\decision_icon_morphs.dds"
+	}
+	spriteType = {
+		name = "GFX_form_new_thracia"
+		texturefile = "gfx\\interface\\decision_icon_form_new_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_reunite_thracia"
+		texturefile = "gfx\\interface\\decision_icon_form_new_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_to_post_crusade_jugdrali"
+		texturefile = "gfx\\interface\\decision_icon_convert_to_norman.dds"
+	}
+}

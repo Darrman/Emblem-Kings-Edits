@@ -1,0 +1,956 @@
+namespace = startup
+
+character_event = {
+	id = startup.1
+	#desc = "startup.1.desc"
+	
+	is_triggered_only = yes #Triggered from on_startup
+	only_rulers = yes
+	
+	trigger = {
+		NOT = { has_global_flag = initialized }
+		has_landed_title = k_naga
+	}
+	immediate = { 
+		set_global_flag = initialized 
+	}
+	
+	option = {
+		#name = startup.1.A
+		name = OK
+		# Fix automatically generated rulers
+		character_event = { id = startup.10 }
+		
+		if = {
+			limit = { year = 440 }
+			# Structures on Valor
+			1 = { #Virtus
+				add_province_modifier = { name = ancient_ruins duration = -1 }
+				add_province_modifier = { name = dragons_gate_elibe duration = -1 }
+			}
+			2 = { #Temperantia
+				add_province_modifier = { name = ancient_ruins duration = -1 }
+			}
+			# The area in Ilia where Bern found that weather magic tome
+			261 = { #Neandreia
+				add_province_modifier = { name = ancient_ruins duration = -1 }
+			}
+			# Arcadia
+			116 = { 
+				add_province_modifier = { name = ancient_ruins duration = -1 }
+			}
+		}
+		
+		# Artifacts
+		character_event = { id = startup_artifacts.1 }
+		
+		# Create immortal characters via event, so they look the appropriate age
+		if = {
+			limit = { always = no }
+		if = { # Athos and Bramimond
+			limit = { 
+				year = 120
+				NOT = { year = 1161 }
+			}
+			character_event = {
+				id = fe_immortal.1
+			}
+		}
+		if = { # Ninian and Nils
+			limit = { 
+				year = 1159
+				NOT = { year = 1161 }
+			}
+			character_event = {
+				id = fe_immortal.2
+			}
+		}
+		if = { # Fae
+			limit = { 
+				year = 845
+				NOT = { year = 4204 }
+			}
+			character_event = {
+				id = fe_immortal.3
+			}
+		}
+		if = { # Sophia
+			limit = { 
+				year = 905
+				NOT = { year = 1400 }
+			}
+			character_event = {
+				id = fe_immortal.4
+			}
+		}
+		
+		}
+		
+		# Jugdral-specific character stuff
+		character_event = {
+			id = startup.5
+		}
+		
+		# Startup events for scenarios
+
+
+		if = { # Descent of Loptous 
+			limit = { 
+				year = 440
+				NOT = { year = 447 }
+			}
+			character_event = {
+				id = startup.17
+			}
+		}
+		if = { # Invasion of Grann
+			limit = { 
+				year = 447
+				NOT = { year = 448 }
+			}
+			character_event = {
+				id = startup.18
+			}
+		}
+		if = { # Maera's Rebellion 
+			limit = { 
+				year = 535
+				NOT = { year = 536 }
+			}
+			character_event = {
+				id = startup.16
+			}
+		}
+		if = { # Genealogy, pre-Crusader revolt
+			limit = { 
+				year = 611
+				NOT = { year = 632 }
+			}
+			character_event = {
+				id = startup.14
+			}
+		}
+		if = { # Genealogy, during the Crusader revolt
+			limit = { 
+				year = 632
+				NOT = { year = 648 }
+			}
+			character_event = {
+				id = startup.15
+			}
+		}
+		if = { # Genealogy, pre-Birth of the Holy Knight
+			limit = { 
+				year = 755
+				NOT = { year = 756 }
+			}
+			character_event = {
+				id = startup.9
+			}
+		}
+		if = { # Genealogy, Birth of the Holy Knight
+			limit = { 
+				year = 756
+				NOT = { year = 759 }
+			}
+			character_event = {
+				id = startup.8
+			}
+		}
+		if = { # Genealogy, Battle of Belhalla
+			limit = { 
+				year = 760
+				NOT = { year = 761 }
+			}
+			character_event = {
+				id = startup.13
+			}
+		}
+		if = { # Thracia 776
+			limit = { 
+				year = 776
+				NOT = { year = 777 }
+			}
+			character_event = {
+				id = startup.11
+			}
+		}
+		if = { # Genealogy Endgame
+			limit = { 
+				year = 777
+				NOT = { year = 778 }
+			}
+			character_event = {
+				id = startup.12
+			}
+		}
+		if = { # Lyn's Story
+			limit = { 
+				year = 1159
+				NOT = { year = 1160 }
+			}
+			character_event = {
+				id = startup.3
+			}
+		}
+		
+		if = { # Blazing Sword
+			limit = { 
+				year = 1160
+				NOT = { year = 1161 }
+			}
+			character_event = {
+				id =  startup.4
+			}
+		}
+		
+		if = { # Binding Blade
+			limit = { 
+				year = 1180
+				NOT = { year = 1181 }
+			}
+			character_event = {
+				id =  startup.2
+			}
+		}
+		
+	}
+}
+
+# Binding Blade setup
+character_event = {
+	id = startup.2
+	
+	is_triggered_only = yes 
+	
+	immediate = {
+		set_global_flag = scenario_fe6_binding_blade	
+	}
+	option = {
+		random_character = {
+			limit = {
+				has_character_flag = is_fe6_mildain
+			}
+			character_event = { id = fe6_etruria.1 }
+		}
+		
+		if = {
+			limit = {
+				has_game_rule = {
+					name = fe_story
+					value = on
+				}
+			}
+			random_character = {
+				limit = {
+					has_character_flag = is_fe6_echidna
+				}
+				character_event = { id = fe6_west.1 days = 1 }
+			}
+			random_character = {
+				limit = {
+					has_character_flag = is_fe6_zephiel
+				}
+				set_character_flag = searching_for_demon_dragon
+				character_event = {
+					id =  fe6.6
+					days = 1
+				}
+				character_event = {
+					id =  fe6.11
+					days = 40
+				}
+			}
+			any_playable_ruler = {
+				limit = {
+					OR = {
+						has_landed_title = d_siene
+						has_landed_title = d_tarchna
+						has_landed_title = d_alesia
+						has_landed_title = c_berua
+						has_landed_title = c_cura
+						has_landed_title = c_vetluna
+						has_landed_title = c_capeva
+						has_landed_title = c_orcla
+					}
+				}
+				
+				k_etruria = {
+					holder_scope = {					
+						reverse_opinion = {
+							modifier = opinion_incompetent_fool
+							who = PREVPREV
+							years = 5
+						}
+					}
+				}
+				
+				if = {
+					limit = { NOT = { has_landed_title = d_siene } }
+					d_siene = {
+						holder_scope = {					
+							reverse_opinion = {
+								modifier = opinion_political_ally
+								who = PREVPREV
+								years = 5
+							}
+						}
+					}
+				}
+				if = {
+					limit = { NOT = { has_landed_title = d_tarchna } }
+					d_tarchna = {
+						holder_scope = {					
+							reverse_opinion = {
+								modifier = opinion_political_ally
+								who = PREVPREV
+								years = 5
+							}
+						}
+					}
+				}
+				if = {
+					limit = { NOT = { has_landed_title = d_alesia } }
+					d_alesia = {
+						holder_scope = {					
+							reverse_opinion = {
+								modifier = opinion_political_ally
+								who = PREVPREV
+								years = 5
+							}
+						}
+					}
+				}
+				if = {
+					limit = { NOT = { has_landed_title = c_berua } }
+					c_berua = {
+						holder_scope = {					
+							reverse_opinion = {
+								modifier = opinion_political_ally
+								who = PREVPREV
+								years = 5
+							}
+						}
+					}
+				}
+				if = {
+					limit = { NOT = { has_landed_title = c_cura } }
+					c_cura = {
+						holder_scope = {					
+							reverse_opinion = {
+								modifier = opinion_political_ally
+								who = PREVPREV
+								years = 5
+							}
+						}
+					}
+				}
+				if = {
+					limit = { NOT = { has_landed_title = c_vetluna } }
+					c_vetluna = {
+						holder_scope = {					
+							reverse_opinion = {
+								modifier = opinion_political_ally
+								who = PREVPREV
+								years = 5
+							}
+						}
+					}
+				}
+				if = {
+					limit = { NOT = { has_landed_title = c_capeva } }
+					c_capeva = {
+						holder_scope = {					
+							reverse_opinion = {
+								modifier = opinion_political_ally
+								who = PREVPREV
+								years = 5
+							}
+						}
+					}
+				}
+				if = {
+					limit = { NOT = { has_landed_title = c_orcla } }
+					c_orcla = {
+						holder_scope = {					
+							reverse_opinion = {
+								modifier = opinion_political_ally
+								who = PREVPREV
+								years = 5
+							}
+						}
+					}
+				}
+				
+			}
+		}
+	}
+}
+
+# The Girl from the Plains setup
+character_event = {
+	id = startup.3
+	
+	is_triggered_only = yes 
+	
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_global_flag = scenario_fe7_the_girl_from_the_plains }
+				d_lyn = {
+					has_holder = yes
+					holder_scope = {						
+						has_character_flag = is_fe7_lyn
+						any_current_enemy = {
+							has_landed_title = d_caelin
+							has_character_flag = is_fe7_lundgren
+						}
+					}
+				}
+			}
+			set_global_flag = scenario_fe7_the_girl_from_the_plains
+			
+			if = {
+				limit = {
+					has_game_rule = {
+						name = fe_story
+						value = on
+					}
+				}
+				d_lyn = {
+					holder_scope = {
+						character_event = { id = fe7_lyn.1 days = 20 random = 5 }
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = OK
+	}
+}
+
+# Blazing Sword setup
+character_event = {
+	id = startup.4
+	
+	is_triggered_only = yes 
+	
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_global_flag = scenario_fe7_blazing_sword }
+			}
+			set_global_flag = scenario_fe7_blazing_sword
+			
+			if = {
+				limit = {
+					has_game_rule = {
+						name = fe_story
+						value = on
+					}
+				}
+				k_lycia = {
+					set_title_flag = quintessence_conspiracy_zone 
+				}
+				d_ostia = {									
+					set_title_flag = quintessence_conspiracy_target 
+				}
+				e_nergal = {
+					holder_scope = {
+						set_character_flag = quintessence_conspiracy_leader
+						character_event = { id = fe7_eliwood.13 days = 90 random = 10 }
+					}
+				}
+				d_pherae = {
+					holder_scope = {
+						set_character_flag = blazing_sword_startup
+						character_event = { id = fe7_eliwood.11 days = 1 }
+					}
+				}
+				d_laus = {
+					holder_scope = {
+						set_character_flag = quintessence_conspiracy_member
+					}
+				}
+				d_santaruz = {
+					holder_scope = {
+						set_character_flag = quintessence_conspiracy_member
+					}
+				}
+			}
+			# Need to get rid of Elbert even if story events are disabled
+			random_character = {
+				limit = {
+					has_character_flag = is_fe7_elbert
+				}
+				character_event = { id = fe7_eliwood.25 days = 1}
+			}
+		}
+	}
+	option = {
+		name = OK
+	}
+}
+
+# Generic Jugdral setup
+character_event = {
+	id = startup.5
+	
+	is_triggered_only = yes 
+	
+	immediate = {
+		# Create dummy characters for people who disappear and show up later as a member of a different family
+		if = { # Brigid
+			limit = { 
+				year = 743
+				NOT = { year = 760 }
+			}
+			character_event = {
+				id = fe4_dynasty.1
+			}
+		}
+		if = { # Brigid again
+			limit = { 
+				year = 761
+				NOT = { year = 785 }
+			}
+			character_event = {
+				id = fe4_dynasty.4
+			}
+		}
+		if = { # Silvia
+			limit = { 
+				year = 746
+			}
+			character_event = {
+				id = fe4_dynasty.5
+			}
+		}
+		if = { # Altena
+			limit = { 
+				year = 761
+				NOT = { year = 778 }
+			}
+			character_event = {
+				id = fe4_dynasty.8
+			}
+		}
+		
+		# Darna Fortress setup
+		if = { 
+			limit = { 
+				year = 770
+				NOT = { year = 778 }
+			}
+			# Make sure Bramsel has it
+			c_1253 = {
+				c_darna = {
+					grant_title = PREV
+				}
+			}
+		}
+		
+		# Loptyrians hide their faith
+		if = { 
+			limit = { 
+				NOT = {
+					has_game_rule = {
+						name = secret_cults
+						value = none
+					}
+				}
+			}
+			if = { 
+				limit = { 
+					year = 649
+					NOT = { year = 770 }
+				}
+				any_playable_ruler = {
+					limit = {
+						has_character_flag = secret_loptyrian_dark_bishop
+					}
+					character_event = { id = startup.6 }	
+				}
+			}
+		}
+		# Hide Silvia's dynasty. Doing it here so we can keep the history file correct.
+		c_1045 = {
+			set_father = 0
+		}
+		
+		# Charlot doesn't know his mother
+		c_1248 = {
+			set_mother = 0
+		}
+		# Neither does Coirpre
+		c_1247 = {
+			set_mother = 0
+		}
+		if = { 
+			limit = { 
+				year = 757
+				NOT = { year = 760 }
+			}
+			c_1049 = { # Arvis
+				character_event = { id = loptyrian.1 days = 7 } # Get noticed by the Loptyrians
+			}
+		}
+		if = { 
+			limit = { 
+				year = 759
+				NOT = { year = 760 }
+			}
+			c_1203 = { # Deirdre
+				character_event = { id = loptyrian.1 days = 7 } # Get noticed by the Loptyrians
+			}
+		}
+		
+		# Schedule holy blood manifestation for historical characters?
+	}
+	option = {
+		name = OK
+	}
+}
+
+# Remotely call the falsely_confess_faith_effect since trying to do it from the main block makes it fail due to scope issues.
+character_event = {
+	id = startup.6
+	
+	is_triggered_only = yes
+	hide_window=yes	
+	
+	immediate = {
+		character_event = { id = startup.7 }	
+	}
+	option = {
+		name = OK
+	}
+}
+character_event = {
+	id = startup.7
+	
+	is_triggered_only = yes
+	hide_window=yes
+	
+	immediate = {
+		falsely_confess_faith_effect = yes		
+	}
+	option = {
+		name = OK
+	}
+}
+
+
+# Genealogy of the Holy War setup, 757
+# Specifically, for the Birth of the Holy Knight scenario
+character_event = {
+	id = startup.8
+	
+	is_triggered_only = yes 
+	
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_global_flag = scenario_fe4_genealogy_of_the_holy_war }
+			}
+			set_global_flag = scenario_fe4_genealogy_of_the_holy_war
+			
+			# Would be nice to set the castle to looted here, but there doesn't seem to be a command for that.
+			#c_jungby = { }
+			
+			if = {
+				limit = {
+					has_game_rule = {
+						name = fe_story
+						value = on
+					}
+				}
+				c_1032 = { # Sigurd
+					if = { # Keep AI Sigurd unmarried until the end of the Verdane war, so he's available for Deirdre
+						limit = { ai = yes }
+						add_trait = no_marriage
+					}
+				}
+				c_1049 = { # Arvis
+					character_event = { id = fe4_grannvale_verdane.1 days = 30 } # Give Sigurd the Silver Sword
+				}
+#				c_1160 = { # Quan
+#					character_event = { id = fe4_grannvale_verdane.4 days = 1 }
+#				}
+				c_1136 = { # Shannan
+					set_character_flag = fe4_isaach_hiding_in_verdane			
+				}
+				c_1135 = { # Ayra
+					#character_event = { id = fe4_grannvale_verdane.10 days = 90 }	
+					add_trait = no_marriage
+				}
+#				c_etain = { # Jamke
+#					holder_scope = {
+#						character_event = { id = fe4_grannvale_verdane.7 days = 120 }
+#					}
+#				}
+				c_1203 = { # Deirdre
+					add_trait = no_marriage					
+				}
+			}
+		}
+	}
+	option = {
+		name = OK
+	}
+}
+# Pre FE4 events for Grannvale-Isaach war, 756
+character_event = {
+	id = startup.9
+	
+	is_triggered_only = yes 
+	
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_global_flag = scenario_fe4_genealogy_of_the_holy_war }
+			}
+			set_global_flag = scenario_fe4_genealogy_of_the_holy_war
+			
+			k_isaach = {
+				holder_scope = {
+					character_event = { id = fe4_grannvale_isaach.1 days = 1}
+				}
+			}
+		}
+	}
+	option = {
+		name = OK
+	}
+}
+character_event = {
+	id = startup.10
+	
+	is_triggered_only = yes 
+	
+	immediate = {
+		# Fix automatically created barons with wrong culture/religion. Not sure why this happens - vanilla bug?
+		any_landed_title = {
+			limit = {
+				tier = BARON
+			}
+			holder_scope = {
+				if = {
+					limit = {
+						tier = BARON
+						NOT = {
+							liege = {
+								religion = PREV
+							}
+						}
+						NOT = {
+							liege = {
+								culture = PREV
+							}
+						}
+					}
+					character_event = { id = util.4 }
+				}
+			}
+		}
+		
+		# Also fix rulers created by the automatic character builder who have the wrong culture (e.g. Grannvalean when Grannvale doesn't exist yet).
+		# Yes, I *should* fix the builder instead of doing this inefficient hack. It's on the list!
+		if = {
+			limit = {
+				NOT = { year = 649 }
+			}
+			any_character = {
+				limit = {
+					culture_group = jugdrali
+					NOT = { culture = grann }
+				}
+				culture = grann
+			}
+			any_character = {
+				limit = {
+					religion = church_of_edda
+				}
+				religion = earthen_pagan
+			}
+		}
+	}
+	option = {
+		name = OK
+	}
+}
+# Thracia 776 Setup
+character_event = {
+	id = startup.11
+	
+	is_triggered_only = yes 
+	
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_global_flag = scenario_fe5 }
+			}
+			set_global_flag = scenario_fe5
+			
+			d_schwarze_rosen = {
+				holder_scope = {
+					character_event = { id = magic.22 days = 1}
+				}
+			}
+		}
+	}
+	option = {
+		name = OK
+	}
+}
+# Genealogy Endgame Setup
+character_event = {
+	id = startup.12
+	
+	is_triggered_only = yes 
+	
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_global_flag = scenario_fe4_the_last_holy_war }
+			}
+			set_global_flag = scenario_fe4_the_last_holy_war
+			
+			e_grannvale = {
+				holder_scope = {
+					character_event = { id = magic.22 days = 1}
+				}
+			}
+		}
+	}
+	option = {
+		name = OK
+	}
+}
+# Battle of Belhalla setup
+character_event = {
+	id = startup.13
+	is_triggered_only = yes 
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_global_flag = scenario_fe4_genealogy_of_the_holy_war }
+			}
+			set_global_flag = scenario_fe4_genealogy_of_the_holy_war
+			
+			if = {
+				limit = {
+					has_game_rule = {
+						name = fe_story
+						value = on
+					}
+					c_1032 = {
+						war = yes
+						any_war = { 
+							using_cb = battle_of_belhalla
+						}
+						is_primary_war_defender = yes
+					}
+				}
+				c_1032 = { # Sigurd
+					character_event = {	id = fe4_belhalla.27 days = 10 random = 4 }
+				}
+				c_1160 = { # Quan
+					character_event = { id = fe4_belhalla.6 days=7 random=3 }
+				}
+				c_1049 = { # Arvis
+					character_event = {	id = fe4_belhalla.17 days = 365 random = 14 }
+				}
+			}
+		}
+	}
+	option = {
+		name = OK
+	}
+}
+# Jugdral Rebellion setup (pre-crusaders)
+character_event = {
+	id = startup.14
+	is_triggered_only = yes 
+	immediate = {
+		e_loptous = {
+			holder_scope = {
+				character_event = { id = fe4_crusade.3 }
+			}
+		}
+	}
+	option = {
+		name = OK
+	}
+}
+# Jugdral Crusader holy war setup
+character_event = {
+	id = startup.15
+	is_triggered_only = yes 
+	immediate = {
+		e_crusaders = {
+			holder_scope = {
+				character_event = { id = fe4_crusade.6 }
+			}
+		}
+	}
+	option = {
+		name = OK
+	}
+}
+# Maera's Rebellion setup
+character_event = {
+	id = startup.16
+	is_triggered_only = yes 
+	immediate = {
+		c_818 = { # Maera
+			character_event = { id = loptous.11 days = 1 }
+		}
+	}
+	option = {
+		name = OK
+	}
+}
+# Descent of Loptous setup
+character_event = {
+	id = startup.17
+	is_triggered_only = yes 
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_global_flag = scenario_descent_of_loptous }
+			}
+			set_global_flag = scenario_descent_of_loptous
+		}
+		c_801 = { # Galle
+			character_event = { id = galle.1 days = 1 }
+			if = {
+				limit = { year = 446 }
+				set_character_flag = summoned_deadlords
+				character_event = { id = magic.22 days = 365 }
+			}
+		}
+	}
+	option = {
+		name = OK
+	}
+}
+character_event = {
+	id = startup.18
+	is_triggered_only = yes 
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_global_flag = scenario_descent_of_loptous }
+			}
+			set_global_flag = scenario_descent_of_loptous
+		}
+		c_801 = { # Galle
+			character_event = { id = magic.22 days = 1}
+		}
+	}
+	option = {
+		name = OK
+	}
+}

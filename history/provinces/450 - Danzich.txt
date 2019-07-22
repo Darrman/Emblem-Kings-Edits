@@ -1,0 +1,44 @@
+# 450 - Danzich
+
+# County Title
+title = c_danzich
+
+# Settlements
+max_settlements = 4
+
+b_fort_danzich = castle
+b_danzich = temple
+#b_danzich_2 = city
+#b_danzig = castle
+
+# Misc
+culture = mansterian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_fort_danzich = tribal
+}
+500.1.1 = { 
+	b_fort_danzich = castle
+b_danzich_2 = city
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = thracian
+}
+666.1.1 = { 
+	culture = mansterian
+}
+776.1.1 = { 
+	b_danzig = castle
+}
+777.1.1 = { 
+	b_danzig = temple
+}
+
+779.1.1 = { 
+	culture = new_thracian
+}

@@ -1,0 +1,344 @@
+namespace = fire_emblem
+
+# Death of the Fire Emblem holder
+#id = fire_emblem.1
+
+
+character_event = {
+	id = fire_emblem.2
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	# We're not bothering to make sure this fires for the heir if they become an adult when they're already the king, but we could.
+	trigger = {	
+		liege = {
+			primary_title = {
+				has_title_flag = fire_emblem_succession	
+			}	
+			current_heir = {
+				character = ROOT
+			}			
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				liege = {
+					fire_emblem_in_realm_trigger = yes
+				}
+			}
+			liege = {
+				character_event = { id = fire_emblem.3 }
+			}	
+		}	
+		
+		if = {
+			limit = {
+				liege = {
+					NOT = { fire_emblem_in_realm_trigger = yes }			
+				}
+			}
+			liege = {
+				character_event = { id = fire_emblem.4 }
+			}	
+		}	
+	}		
+}
+
+character_event = {
+	id = fire_emblem.3
+	desc = "fire_emblem.3.desc"
+	
+	picture = "GFX_evt_coronation" 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "fire_emblem.3.A"
+		current_heir = {
+			prestige = 100
+		}
+	}
+}
+
+character_event = {
+	id = fire_emblem.4
+	desc = "fire_emblem.4.desc"
+	
+	picture = "GFX_evt_coronation" 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "fire_emblem.4.A"
+		prestige = -100
+		current_heir = {
+			prestige = -100
+		}
+	}
+	option = {
+		name = "fire_emblem.4.B"
+		trigger = {
+			current_heir = {
+				OR = {
+					reverse_opinion = { who = ROOT value = 0} 
+					ROOT = {
+						AND = {
+							has_plot = plot_disinherit_character
+							plot_target_char = {
+								character = PREVPREV
+							}
+						}
+					}
+				}
+			}
+		}
+		current_heir = {
+			prestige = -500
+			add_trait = disinherited
+		}
+	}
+}
+
+# Hand out the FE to its new owner. 
+# id = fire_emblem.5
+
+# Holder of the Fire Emblem is asked for its return by its rightful owner
+character_event = {
+	id = fire_emblem.6
+	desc = "fire_emblem.6.desc"
+	
+	picture = "GFX_evt_emissary" 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "fire_emblem.6.A"
+		
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 3
+				opinion = { who = FROM value = 50 } 
+			}
+			modifier = {
+				factor = 20
+				trait = just
+			}
+			modifier = {
+				factor = 3
+				trait = charitable
+			}
+			modifier = {
+				factor = 2
+				trait = kind
+			}
+			modifier = {
+				factor = 1.5
+				trait = humble
+			}
+			modifier = {
+				factor = 1.5
+				trait = content
+			}
+		}
+		custom_tooltip = {			
+			text = "fire_emblem.6.A.tooltip"
+			
+			hidden_tooltip = {
+				FROMFROM = { character_event = { id = fire_emblem.7 }}
+			}
+		}
+	}
+	option = {
+		name = "fire_emblem.6.B"
+		trigger = {
+			NOT = { has_opinion_modifier = { who = FROMFROM modifier = opinion_employer } }
+		}
+		
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 3
+				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = envious
+			}
+			modifier = {
+				factor = 2
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 1.5
+				trait = proud
+			}
+			modifier = {
+				factor = 1.5
+				trait = ambitious
+			}
+		}
+		opinion = {
+			modifier = opinion_irritated
+			who = FROMFROM
+			years = 1
+		} 
+		hidden_tooltip = {
+			FROMFROM = { character_event = {id = fire_emblem.8 } }
+		}
+	}
+}
+
+# Emblem returned. ROOT = new holder, FROM = character giving it up
+character_event = {
+	id = fire_emblem.7
+	desc = "fire_emblem.7.desc"
+	
+	picture = "GFX_evt_emissary" 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EXCELLENT"
+		#hidden_tooltip = {
+			FROM = {
+				if = {
+					limit = {
+						has_artifact = fire_emblem_elibe
+						ROOT = { primary_title = { region = world_elibe } }
+					}
+					
+					random_artifact = {
+						limit = {
+							artifact_type = fire_emblem_elibe
+						}
+						transfer_artifact = {
+							from = PREV
+							to = ROOT
+						}
+					}
+				}
+				
+				if = {
+					limit = {
+						prisoner = yes
+						host = { character = ROOT }
+					}
+					prisoner = no
+				}
+				
+				hidden_tooltip = {
+					if = {
+						limit = {
+							has_opinion_modifier = { who = ROOT modifier = opinion_employer } 
+						}
+						remove_opinion = { who = ROOT modifier = opinion_employer } 
+					}
+					if = {
+						limit = {
+							has_opinion_modifier = { who = ROOT modifier = opinion_job_target } 
+						}
+						remove_opinion = { who = ROOT modifier = opinion_job_target } 
+					}
+				}
+				
+				if = {
+					limit = {
+						NAND = {
+							has_opinion_modifier = { who = ROOT modifier = opinion_employer } 
+							prisoner = yes
+							host = { character = ROOT }
+						}
+					}
+					
+					reverse_opinion = {
+						modifier = opinion_grateful
+						who = ROOT
+						years = 1
+					} 
+				}
+			}
+		#}
+	}
+}
+
+# Emblem not returned, notify requestor
+character_event = {
+	id = fire_emblem.8
+	desc = "fire_emblem.8.desc"
+	
+	picture = "GFX_evt_emissary" 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "fire_emblem.8.A"
+		opinion = {
+			modifier = opinion_denied_fire_emblem_request
+			who = FROM
+			years = 10
+		} 
+	}
+}
+
+# Requestor can call in a favor to force the return
+character_event = {
+	id = fire_emblem.9
+	desc = "fire_emblem.9.desc"
+	
+	picture = "GFX_evt_whispers" 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "fire_emblem.9.A"
+		hidden_tooltip = {
+			FROM = { character_event = { id = fire_emblem.11 days = 10 random = 3 } }
+		}
+	}
+	option = {
+		name = "fire_emblem.9.B"
+		trigger = {
+			ai = no
+		}
+		hidden_tooltip = {
+			FROM = { character_event = { id = fire_emblem.10 days = 10 random = 3 } }
+		}
+	}
+}
+
+# Hidden event to get the scopes to work right for a regular request called from the do-you-want-to-burn-a-favor event.
+character_event = {
+	id = fire_emblem.10
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		character_event = { id = fire_emblem.6 }
+	}
+}
+
+# Holder of the Fire Emblem is forced to return it via a favor
+character_event = {
+	id = fire_emblem.11
+	desc = "fire_emblem.11.desc"
+	
+	picture = "GFX_evt_emissary" 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "fire_emblem.11.A"
+		reverse_remove_favor = FROM
+		custom_tooltip = {			
+			text = "fire_emblem.6.A.tooltip"
+			
+			hidden_tooltip = {
+				FROM = { character_event = { id = fire_emblem.7 } }
+			}
+		}
+	}
+}

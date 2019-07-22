@@ -1,0 +1,17 @@
+#180.1.1={
+#	liege=k_etruria
+#}
+180.1.1=
+{
+	law = status_of_women_4
+	holder=201 # St. Elimine
+}
+#TODO: Fill in the blanks
+1100.1.1=
+{
+	holder=262 # filler
+}
+1150.1.1=
+{
+	holder=208 # Bishop Jodel
+}

@@ -1,0 +1,77 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+k_valor;Valor;Valor;Valor;;Valor;;;;;;;;;x
+k_valor_adj;Valorian;Valorian;Valorian;;Valorian;;;;;;;;;x
+k_bern;Bern;Bern;Bern;;Bern;;;;;;;;;x
+k_bern_adj;Bernese;Bernese;Bernese;;Bernese;;;;;;;;;x
+k_calach;Calach;Calach;Calach;;Calach;;;;;;;;;x
+k_calach_adj;Calachian;Calachian;Calachian;;Calachian;;;;;;;;;x
+k_terina;Terina;Terina;Terina;;Terina;;;;;;;;;x
+k_terina_adj;Terinan;Terinan;Terinan;;Terinan;;;;;;;;;x
+k_lycia;Lycia;Lycia;Lycia;;Lycia;;;;;;;;;x
+k_lycia_adj;Lycian;Lycian;Lycian;;Lycian;;;;;;;;;x
+k_nabata;Nabata;Nabata;Nabata;;Nabata;;;;;;;;;x
+k_nabata_adj;Nabatan;Nabatan;Nabatan;;Nabatan;;;;;;;;;x
+k_missur;Missur;Missur;Missur;;Missur;;;;;;;;;x
+k_missur_adj;Missuri;Missuri;Missuri;;Missuri;;;;;;;;;x
+k_kafti;Kafti;Kafti;Kafti;;Kafti;;;;;;;;;x
+k_kafti_adj;Kaftian;Kaftian;Kaftian;;Kaftian;;;;;;;;;x
+k_the_western_isles;The Western Isles;The Western Isles;The Western Isles;;The Western Isles;;;;;;;;;x
+k_the_western_isles_adj;Western Islander;Western Islander;Western Islander;;Western Islander;;;;;;;;;x
+k_the_taliver_mountains;The Taliver Mountains;The Taliver Mountains;The Taliver Mountains;;The Taliver Mountains;;;;;;;;;x
+k_the_taliver_mountains_adj;Taliver Mountains;Taliver Mountains;Taliver Mountains;;Taliver Mountains;;;;;;;;;x
+k_sacae;Sacae;Sacae;Sacae;;Sacae;;;;;;;;;x
+k_sacae_adj;Sacaean;Sacaean;Sacaean;;Sacaean;;;;;;;;;x
+k_etruria;Etruria;Etruria;Etruria;;Etruria;;;;;;;;;x
+k_etruria_adj;Etrurian;Etrurian;Etrurian;;Etrurian;;;;;;;;;x
+k_ilia;Ilia;Ilia;Ilia;;Ilia;;;;;;;;;x
+k_ilia_adj;Ilian;Ilian;Ilian;;Ilian;;;;;;;;;x
+k_grannvale;Grannvale;Grannvale;Grannvale;;Grannvale;;;;;;;;;x
+k_grannvale_adj;Grannvalean;Grannvalean;Grannvalean;;Grannvalean;;;;;;;;;x
+k_agustria;Agustria;Agustria;Agustria;;Agustria;;;;;;;;;x
+k_agustria_adj;Agustrian;Agustrian;Agustrian;;Agustrian;;;;;;;;;x
+k_silesse;Silesse;Silesse;Silesse;;Silesse;;;;;;;;;x
+k_silesse_adj;Silessian;Silessian;Silessian;;Silessian;;;;;;;;;x
+k_isaach;Isaach;Isaach;Isaach;;Isaach;;;;;;;;;x
+k_isaach_adj;Isaachian;Isaachian;Isaachian;;Isaachian;;;;;;;;;x
+k_manster;Manster;Manster;Manster;;Manster;;;;;;;;;x
+k_manster_adj;Mansterian;Mansterian;Mansterian;;Mansterian;;;;;;;;;x
+k_thracia;Thracia;Thracia;Thracia;;Thracia;;;;;;;;;x
+k_thracia_adj;Thracian;Thracian;Thracian;;Thracian;;;;;;;;;x
+k_verdane;Verdane;Verdane;Verdane;;Verdane;;;;;;;;;x
+k_verdane_adj;Verdanian;Verdanian;Verdanian;;Verdanian;;;;;;;;;x
+k_miletos;Miletos;Miletos;Miletos;;Miletos;;;;;;;;;x
+k_miletos_adj;Miletosi;Miletosi;Miletosi;;Miletosi;;;;;;;;;x
+k_orgahil;Orgahil;Orgahil;Orgahil;;Orgahil;;;;;;;;;x
+k_orgahil_adj;Orgahil;Orgahil;Orgahil;;Orgahil;;;;;;;;;x
+k_yied;Yied;Yied;Yied;;Yied;;;;;;;;;x
+k_yied_adj;Yiedite;Yiedite;Yiedite;;Yiedite;;;;;;;;;x
+k_new_thracia;New Thracia;New Thracia;New Thracia;;New Thracia;;;;;;;;;x
+k_new_thracia_adj;New Thracian;New Thracian;New Thracian;;New Thracian;;;;;;;;;x
+k_western_union;Western Union;Western Union;Western Union;;Western Union;;;;;;;;;x
+k_western_union_adj;Western Unionian;Western Unionian;Western Unionian;;Western Unionian;;;;;;;;;x
+k_grado;Grado;Grado;Grado;;Grado;;;;;;;;;x
+k_grado_adj;Gradoan;Gradoan;Gradoan;;Gradoan;;;;;;;;;x
+k_renvall;Renvall;Renvall;Renvall;;Renvall;;;;;;;;;x
+k_renvall_adj;Renvallite;Renvallite;Renvallite;;Renvallite;;;;;;;;;x
+k_albul;Albul;Albul;Albul;;Albul;;;;;;;;;x
+k_albul_adj;Albulite;Albulite;Albulite;;Albulite;;;;;;;;;x
+k_taizel;Taizel;Taizel;Taizel;;Taizel;;;;;;;;;x
+k_taizel_adj;Taizelite;Taizelite;Taizelite;;Taizelite;;;;;;;;;x
+k_bethroen;Bethroen;Bethroen;Bethroen;;Bethroen;;;;;;;;;x
+k_bethroen_adj;Bethroenite;Bethroenite;Bethroenite;;Bethroenite;;;;;;;;;x
+k_frelia;Frelia;Frelia;Frelia;;Frelia;;;;;;;;;x
+k_frelia_adj;Frelian;Frelian;Frelian;;Frelian;;;;;;;;;x
+k_renais;Renais;Renais;Renais;;Renais;;;;;;;;;x
+k_renais_adj;Renaisite;Renaisite;Renaisite;;Renaisite;;;;;;;;;x
+k_jehanna;Jehanna;Jehanna;Jehanna;;Jehanna;;;;;;;;;x
+k_jehanna_adj;Jehannan;Jehannan;Jehannan;;Jehannan;;;;;;;;;x
+k_rausten;Rausten;Rausten;Rausten;;Rausten;;;;;;;;;x
+k_rausten_adj;Raustenite;Raustenite;Raustenite;;Raustenite;;;;;;;;;x
+k_carcino;Carcino;Carcino;Carcino;;Carcino;;;;;;;;;x
+k_carcino_adj;Carcinoan;Carcinoan;Carcinoan;;Carcinoan;;;;;;;;;x
+k_nelaras;Nelaras;Nelaras;Nelaras;;Nelaras;;;;;;;;;x
+k_nelaras_adj;Nelarasite;Nelarasite;Nelarasite;;Nelarasite;;;;;;;;;x
+k_baleal;Baleal;Baleal;Baleal;;Baleal;;;;;;;;;x
+k_baleal_adj;Balealite;Balealite;Balealite;;Balealite;;;;;;;;;x
+k_nazonia;Nazonia;Nazonia;Nazonia;;Nazonia;;;;;;;;;x
+k_nazonia_adj;Nazonian;Nazonian;Nazonian;;Nazonian;;;;;;;;;x

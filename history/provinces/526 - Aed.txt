@@ -1,0 +1,26 @@
+# 526 - Aed
+
+# County Title
+title = c_aed
+
+# Settlements
+max_settlements = 3
+
+b_aed = tribal
+#b_aed_2 = temple
+#b_aed_3 = city
+
+# Misc
+culture = grannvalean
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+}
+
+649.1.1 = { 
+	religion = church_of_edda
+	culture = grannvalean
+}

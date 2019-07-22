@@ -1,0 +1,295 @@
+# Geographical regions
+# Regions can be declared with one or more of the following fields:
+#	duchies = { }, takes duchy title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region. 
+#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+
+###########################################################################
+# World Regions
+#	These groups are mutually exclusive on the same tier
+###########################################################################
+
+world_elibe_valor = {
+	duchies = {
+		d_valor
+	}
+}
+world_elibe_bern = {
+	duchies = {
+		d_bern
+		d_appenzell
+		d_basel
+		d_fribourg
+		d_glarus
+		d_solothurn
+		d_unterwalden
+		d_uri
+		d_zug
+	}
+}
+world_elibe_etruria = {
+	duchies = {
+		d_aquleia
+		d_alesia
+		d_arritim
+		d_caerleon
+		d_clevsin
+		d_felathri
+		d_reglay
+		d_siene
+		d_tarchna
+	}
+}
+world_elibe_ilia = {
+	duchies = {
+		d_edessa
+		d_cardia
+		d_carrhae
+		d_cebrene
+		d_neandreia
+		d_remy
+		d_sestos
+		d_sigeion
+		d_troas
+	}
+}
+world_elibe_lycia = {
+	duchies = {
+		d_ostia
+		d_araphen
+		d_badon
+		d_caelin
+		d_cornwell
+		d_khathelet
+		d_laus
+		d_pherae
+		d_ryerde
+		d_santaruz
+		d_tania
+		d_thria
+		d_tuscana
+		d_worde		
+	}
+}
+world_elibe_nabata = {
+	duchies = {
+		d_arcadia
+		d_mantineia
+		d_tegea
+		d_tyros
+		d_vytina
+	}
+}
+world_elibe_sacae = {
+	duchies = {
+		d_bulgar
+		d_gelonus
+		d_media
+		d_pamir
+		d_talas
+		d_tarim
+	}
+}
+world_elibe_western_isles = {
+	duchies = {
+		d_jutes
+		d_caledonia
+		d_coria
+		d_dia
+		d_eburacum
+		d_hibernia
+		d_scotia
+		d_vectis
+	}
+}
+world_elibe_taliver = {
+	duchies = {
+		d_taliver
+		d_ganelon
+	}
+}
+world_elibe_missur = {
+	duchies = {
+		d_mallota
+		d_gefyra
+		d_isaris
+	}
+}
+world_elibe_calach = {
+	duchies = {
+		d_calach
+		d_arles
+		d_gallen
+		d_jura
+		d_lucerne
+		d_sarnen
+		d_sion
+		d_vaud
+	}
+}
+world_elibe_terina = {
+	duchies = {
+		d_xanthus
+		d_araxa
+		d_nisa			
+	}
+}
+world_elibe_greater_bern = {
+	regions = {
+		world_elibe_bern
+		world_elibe_calach
+		world_elibe_terina
+	}
+}
+world_elibe_greater_missur = {
+	regions = {
+		world_elibe_nabata
+		world_elibe_missur
+	}	
+	duchies = {
+		d_kafti		
+	}
+}
+world_elibe = {
+	regions = {
+		world_elibe_valor
+		world_elibe_etruria
+		world_elibe_lycia
+		world_elibe_ilia
+		world_elibe_sacae
+		world_elibe_western_isles
+		world_elibe_taliver
+		world_elibe_greater_bern
+		world_elibe_greater_missur		
+	}
+}
+
+world_jugdral_orgahil = {
+	duchies = {
+		d_orgahil
+		d_blagi
+	}
+}
+world_jugdral_yied = {
+	duchies = {
+		d_yied
+		d_lir
+		d_darna
+		d_anu
+		d_phinora
+		d_dahkla
+	}
+}
+world_jugdral_miletos = {
+	duchies = {
+		d_miletos
+		d_chronos
+		d_rada
+		d_peruluke
+	}
+}
+world_jugdral_verdane = {
+	duchies = {
+		d_verdane
+		d_marpha
+		d_genoa
+		d_evans
+	}
+}
+world_jugdral_southern_thracia = {
+	duchies = {
+		d_thracia
+		d_kapathogia
+		d_noel
+		d_meace
+		d_luthecia
+		d_grutia
+		d_iss
+		d_savan
+	}
+}
+world_jugdral_northern_thracia = {
+	duchies = {
+		d_leonster
+		d_alster
+		d_conote
+		d_manster
+		d_melgln
+		d_tahra
+	}
+}
+world_jugdral_isaach = {
+	duchies = {
+		d_isaach
+		d_rivough
+		d_sophara
+		d_ganeishire
+		d_tirnanog
+	}
+}
+world_jugdral_silesse = {
+	duchies = {
+		d_silesse
+		d_zaxon
+		d_thove
+		d_sailane
+		d_lubeck
+	}
+}
+world_jugdral_agustria = {
+	duchies = {
+		d_agusty
+		d_madino
+		d_silvail
+		d_anphony
+		d_heirhein
+		d_nordion
+		d_mackily
+	}
+}
+world_jugdral_grannvale = {
+	duchies = {
+		d_belhalla
+		d_velthomer
+		d_edda
+		d_chalphy
+		d_friege
+		d_dozel
+		d_jungby
+	}
+}
+world_jugdral_thracia = {
+	regions = {
+		world_jugdral_northern_thracia
+		world_jugdral_southern_thracia
+	}	
+}
+world_jugdral = {
+	regions = {
+		world_jugdral_grannvale		
+		world_jugdral_agustria
+		world_jugdral_silesse
+		world_jugdral_isaach
+		world_jugdral_thracia
+		world_jugdral_miletos
+		world_jugdral_verdane
+		world_jugdral_yied
+		world_jugdral_orgahil
+	}	
+}
+
+
+###########################################################################
+# Custom Regions
+###########################################################################
+
+custom_historical_plague_free_zone = {
+	duchies = {
+		d_valor
+	}
+	counties = {
+		c_spina c_clavna c_neandreia c_regia c_uri c_spirit_forest c_dhami c_kagbeni c_truso c_goplo c_upper_jawor c_sosnowiec c_ailinne c_mount_violdrake c_dandrum c_noel c_gartan
+	}
+}

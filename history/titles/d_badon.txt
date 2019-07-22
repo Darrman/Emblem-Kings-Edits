@@ -1,0 +1,14 @@
+0180.01.01={
+	law = status_of_women_4
+	law = true_cognatic_succession
+	law = succ_primogeniture
+}
+0180.01.01={
+	holder=2015
+}
+0207.01.01={
+	holder=0
+}
+1181.01.01={
+	de_jure_liege=k_lycia
+}

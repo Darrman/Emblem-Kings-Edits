@@ -1,0 +1,36 @@
+# 383 - Nordion
+
+# County Title
+title = c_nordion
+
+# Settlements
+max_settlements = 4
+
+b_nordion_castle = castle
+b_nordion = temple
+b_nordion_2 = city
+#b_moira = temple
+
+# Misc
+culture = agustrian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+}
+449.1.1 = { 
+	religion = loptyrian # Following the Great Purge
+}
+
+649.1.1 = { 
+	religion = church_of_edda
+	culture = agustrian
+}
+770.1.1 = { 
+	capital = b_nordion
+}
+779.1.1 = { 
+	capital = b_nordion_castle
+}

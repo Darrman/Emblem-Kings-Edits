@@ -1,0 +1,31 @@
+180.1.1={
+	law = status_of_women_4
+	law = true_cognatic_succession
+	law = succ_primogeniture
+}
+632.1.1={
+	holder=1001 # Heim	
+	set_global_flag = jugdral_crusade_started
+	effect = {
+		set_title_flag = crusade_allowed
+	}
+}
+649.1.1={
+	holder=0 # Victory!
+	effect = {
+		clr_title_flag = crusade_allowed
+	}
+}
+777.1.1={
+	holder=1038 # Seliph
+	effect = {
+		set_global_flag = last_holy_war_started
+		set_title_flag = crusade_allowed
+	}
+}
+779.1.1={
+	holder=0 # Victory!
+	effect = {
+		clr_title_flag = crusade_allowed
+	}
+}

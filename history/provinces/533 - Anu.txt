@@ -1,0 +1,27 @@
+# 533 - Anu
+
+# County Title
+title = c_anu
+
+# Settlements
+max_settlements = 4
+
+b_anu = tribal
+#b_anu_2 = temple
+#b_anu_3 = city
+#b_nemed = castle
+
+# Misc
+culture = grannvalean
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+}
+
+649.1.1 = { 
+	religion = church_of_edda
+	culture = grannvalean
+}

@@ -1,0 +1,36 @@
+# 374 - Anphony
+
+# County Title
+title = c_anphony
+
+# Settlements
+max_settlements = 4
+
+b_anphony_castle = castle
+b_anphony = temple
+b_anphony_2 = city
+#b_angus = castle
+
+# Misc
+culture = agustrian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+}
+449.1.1 = { 
+	religion = loptyrian # Following the Great Purge
+}
+
+649.1.1 = { 
+	religion = church_of_edda
+	culture = agustrian
+}
+770.1.1 = { 
+	capital = b_anphony
+}
+779.1.1 = { 
+	capital = b_anphony_castle
+}

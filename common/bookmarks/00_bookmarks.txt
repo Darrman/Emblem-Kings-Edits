@@ -1,0 +1,868 @@
+
+bm_fe4_descent_of_loptous =
+{
+	name = "bm_fe4_descent_of_loptous"
+	desc = "bm_fe4_descent_of_loptous_desc"
+	date = 440.1.1
+	
+	era = yes						## Will be shown on Era screen.
+	custom_start = yes				## Choosing "Custom Start" will open this bookmark
+	picture = GFX_pick_era_image_1
+	
+	selectable_character = {
+		id = 801 # Bishop Galle I
+		age = 17
+		name = ERA_CHAR_NAME_GALLE_I
+		title = d_loptous 
+		title_name = d_loptous 
+		character = {
+			religion="loptyrian"
+			dna="agfab0i00e0"
+			properties="0e0a0000000000"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=801			
+		}
+	}
+	# Grann Republic
+	# Verdane
+	# Miletos
+	# Rivough
+	# Conote
+}
+bm_fe4_founding_of_jugdral =
+{
+	name = "bm_fe4_founding_of_jugdral"
+	desc = "bm_fe4_founding_of_jugdral_desc"
+	date = 649.1.1
+	
+	selectable_character = {
+		id = 1001 # Heim
+		age = 37
+		name = ERA_CHAR_NAME_HEIM
+		title = k_grannvale 
+		title_name = k_grannvale 
+		character = {
+			#dna="bjafijifecn" 
+			#properties="ci0ehd00000000"
+			religion="church_of_edda"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1001		
+		}
+	}
+	selectable_character = {
+		id = 1008 # Hezul
+		age = 34
+		name = ERA_CHAR_NAME_HEZUL
+		title = k_agustria
+		title_name = k_agustria 
+		character = {
+			#dna="" 
+			#properties=""
+			religion="church_of_edda"
+			culture="agustrian"
+			government = feudal_government
+			dynasty=1008		
+		}
+	}
+	selectable_character = {
+		id = 10 # Ced
+		age = 33
+		name = ERA_CHAR_NAME_CED
+		title = k_silesse 
+		title_name = k_silesse 
+		character = {
+			#dna="" 
+			#properties=""
+			religion="church_of_edda"
+			culture="silessian"
+			government = feudal_government
+			dynasty=1009		
+		}
+	}
+	selectable_character = {
+		id = 1010 # 
+		age = 34
+		name = ERA_CHAR_NAME_OD
+		title = k_isaach 
+		title_name = k_isaach 
+		character = {
+			#dna="" 
+			#properties=""
+			religion="church_of_edda"
+			culture="isaachian"
+			government = feudal_government
+			dynasty=1010		
+		}
+	}
+	selectable_character = {
+		id = 1011 # 
+		age = 34
+		name = ERA_CHAR_NAME_DAIN
+		title = k_thracia 
+		title_name = k_thracia 
+		character = {
+			#dna="" 
+			#properties=""
+			religion="church_of_edda"
+			culture="thracian"
+			government = feudal_government
+			dynasty=1011		
+		}
+	}
+	selectable_character = {
+		id = 1012 # 
+		age = 33
+		name = ERA_CHAR_NAME_NOBA
+		title = d_leonster 
+		title_name = d_leonster 
+		character = {
+			#dna="" 
+			#properties=""
+			female=yes
+			religion="church_of_edda"
+			culture="thracian"
+			government = feudal_government
+			dynasty=1012		
+		}
+	}
+	selectable_character = {
+		id = 1002 # 
+		age = 33
+		name = ERA_CHAR_NAME_BALDR
+		title = d_chalphy
+		title_name = d_chalphy
+		character = {
+			#dna="" 
+			#properties=""
+			religion="church_of_edda"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1002		
+		}
+	}
+	selectable_character = {
+		id = 1003 # 
+		age = 33
+		name = ERA_CHAR_NAME_BLAGI
+		title = d_edda
+		title_name = d_edda
+		character = {
+			#dna="" 
+			#properties=""
+			religion="church_of_edda"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1003		
+		}
+	}
+	selectable_character = {
+		id = 1004 # 
+		age = 33
+		name = ERA_CHAR_NAME_FJALAR
+		title = d_velthomer
+		title_name = d_velthomer
+		character = {
+			#dna="" 
+			#properties=""
+			female=yes
+			religion="church_of_edda"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1004		
+		}
+	}
+	selectable_character = {
+		id = 1005 # 
+		age = 34
+		name = ERA_CHAR_NAME_THRUD
+		title = d_friege
+		title_name = d_friege
+		character = {
+			#dna="" 
+			#properties=""
+			religion="church_of_edda"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1005		
+		}
+	}
+	selectable_character = {
+		id = 1006 # 
+		age = 34
+		name = ERA_CHAR_NAME_NEIR
+		title = d_dozel
+		title_name = d_dozel
+		character = {
+			#dna="" 
+			#properties=""
+			religion="church_of_edda"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1006		
+		}
+	}
+	selectable_character = {
+		id = 1007 # 
+		age = 33
+		name = ERA_CHAR_NAME_ULIR
+		title = d_jungby
+		title_name = d_jungby
+		character = {
+			#dna="" 
+			#properties=""
+			religion="church_of_edda"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1007		
+		}
+	}
+	selectable_character = {
+		id = 1027 # 
+		age = 20
+		name = ERA_CHAR_NAME_VAHA
+		title = c_yied 
+		title_name = c_yied 
+		character = {
+			#dna="" 
+			#properties=""
+			female=yes
+			religion="loptyrian"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=2079
+		}
+	}
+	# 
+	# 
+	# Odo
+	# Dain
+	# Loptyrians
+}
+
+bm_fe4_birth_of_the_holy_knight =
+{
+	name = "bm_fe4_birth_of_the_holy_knight"
+	desc = "bm_fe4_birth_of_the_holy_knight_desc"
+	date = 757.1.1
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_2
+	
+	selectable_character = {
+		id = 1032 # Sigurd
+		age = 22
+		name = ERA_CHAR_NAME_SIGURD
+		title = d_chalphy 
+		title_name = d_chalphy 
+		character = {
+			dna="cf0ge0gblf0"
+			properties="fd0e0d00000000"
+			religion="church_of_edda"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1002		
+		}
+	}
+	selectable_character = {
+		id = 1180 # Batou
+		age = 63
+		name = ERA_CHAR_NAME_BATOU
+		title = k_verdane 
+		title_name = k_verdane 
+		character = {
+			dna="agacabbaaay"
+			properties="ai00ia00000000"
+			religion="church_of_edda"
+			culture="verdanian"
+			government = feudal_government
+			dynasty=1014		
+		}
+	}
+	selectable_character = {
+		id = 1049 # Arvis
+		age = 25
+		name = ERA_CHAR_NAME_ARVIS
+		title = d_velthomer 
+		title_name = d_velthomer 
+		character = {
+			dna="0ficb0ebk00"
+			properties="cj0d0d00000000"
+			religion="church_of_edda"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1004		
+		}
+	}
+	selectable_character = {
+		id = 1254 # Manfroy
+		age = 30
+		name = ERA_CHAR_NAME_MANFROY
+		title = c_yied 
+		title_name = c_yied 
+		character = {  
+			dna="ajbjjpaabav"
+			properties="cl0eoi00000000"
+			religion="loptyrian"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=2079		
+		}
+	}
+	selectable_character = {
+		id = 1134 # Mariccle
+		age = 29
+		name = ERA_CHAR_NAME_MARICCLE
+		title = k_isaach 
+		title_name = k_isaach 
+		character = {  
+			dna="0ca0h0dcaa0"
+			properties="ag0a0c00000000"
+			religion="church_of_edda"
+			culture="isaachian"
+			government = feudal_government
+			dynasty=1010		
+		}
+	}
+	selectable_character = {
+		id = 1029 # Azmur
+		age = 65
+		name = ERA_CHAR_NAME_AZMUR
+		title = k_grannvale 
+		title_name = k_grannvale 
+		character = {  
+			dna="0bhc00bbc00"
+			properties="al0adc00000000"
+			religion="church_of_edda"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1001		
+		}
+	}
+}
+bm_fe5_thracia_776 =
+{
+	name = "bm_fe5_thracia_776"
+	desc = "bm_fe5_thracia_776_desc"
+	date = 776.1.1
+	
+	#era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_3
+	
+	selectable_character = {
+		id = 1162 # Leif
+		age = 15
+		name = ERA_CHAR_NAME_LEIF
+		title = k_leif 
+		title_name = k_leif 
+		character = {
+			dna="ahhdgcccgaj"
+			properties="cm0ejd00000000"
+			religion="church_of_edda"
+			culture="mansterian"
+			government = feudal_government
+			dynasty=1012		
+		}
+	}
+	selectable_character = {
+		id = 1112 # Ced
+		age = 16
+		name = ERA_CHAR_NAME_CED
+		title = d_magi_squad 
+		title_name = d_magi_squad 
+		character = {
+			dna="amlfdtkdabx"
+			properties="ci0ehd00000000"
+			religion="church_of_edda"
+			culture="silessian"
+			government = feudal_government
+			dynasty=1009		
+		}
+	}
+	selectable_character = {
+		id = 1058 # Bloom
+		age = 37
+		name = ERA_CHAR_NAME_BLOOM
+		title = k_manster 
+		title_name = k_manster 
+		character = {
+			#dna="abfdvaaaah"
+			#properties="am0bjb00000000"
+			dna="acfdf0aaqa0"
+			properties="am0b0b00000000"
+			religion="loptyrian"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1005		
+		}
+	}
+	selectable_character = {
+		id = 1154 # Travant
+		age = 46
+		name = ERA_CHAR_NAME_TRAVANT
+		title = k_thracia 
+		title_name = k_thracia 
+		character = {
+			dna="cdcgalgakfz"
+			properties="ad0aoa00000000"
+			religion="church_of_edda"
+			culture="thracian"
+			government = feudal_government
+			dynasty=1011		
+		}
+	}
+	# Raydrik
+	selectable_character = {
+		id = 1053 # Saias
+		age = 27
+		name = ERA_CHAR_NAME_SAIAS
+		title = c_volva
+		title_name = c_volva 
+		character = {
+			dna="aebhbtibkaz"
+			properties="ce0j0j00000000"
+			religion="loptyrian"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1015		
+		}
+	}
+	# Veld? No, he's a holy order leader.
+}
+bm_fe4_the_last_holy_war =
+{
+	name = "bm_fe4_the_last_holy_war"
+	desc = "bm_fe4_the_last_holy_war_desc"
+	date = 777.1.1
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_3
+	
+	selectable_character = {
+		id = 1038 # Seliph
+		age = 18
+		name = ERA_CHAR_NAME_SELIPH
+		title = e_crusaders 
+		title_name = e_crusaders 
+		character = {
+			dna="00bfc0iblf0" 
+			properties="fg0e0k00000000"
+			religion="church_of_edda"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1002		
+		}
+	}
+	selectable_character = {
+		id = 1162 # Leif
+		age = 16
+		name = ERA_CHAR_NAME_LEIF
+		title = k_leif 
+		title_name = k_leif 
+		character = {
+			dna="ahhdgcccgaj"
+			properties="cm0ejd00000000"
+			religion="church_of_edda"
+			culture="mansterian"
+			government = feudal_government
+			dynasty=1012		
+		}
+	}
+	selectable_character = {
+		id = 1051 # Julius
+		age = 16
+		name = ERA_CHAR_NAME_JULIUS
+		title = e_grannvale 
+		title_name = e_grannvale 
+		character = {
+			dna="0gice0a0k00"
+			properties="hn0a0000000000"
+			religion="loptyrian"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1004		
+		}
+	}
+	selectable_character = {
+		id = 1058 # Bloom
+		age = 38
+		name = ERA_CHAR_NAME_BLOOM
+		title = k_manster 
+		title_name = k_manster 
+		character = {
+			#dna="abfdvaaaah"
+			#properties="am0bjb00000000"
+			dna="acfdf0aaqa0"
+			dna="0gice0a0k00"
+			properties="am0b0b00000000"
+			religion="loptyrian"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1005		
+		}
+	}
+	selectable_character = {
+		id = 1073 # Danann
+		age = 39
+		name = ERA_CHAR_NAME_DANANN
+		title = k_isaach 
+		title_name = k_isaach 
+		character = {
+			dna="aihcjcgbbac"
+			properties="aa0bmb00000000"
+			religion="loptyrian"
+			culture="grannvalean"
+			government = feudal_government
+			dynasty=1006		
+		}
+	}
+	selectable_character = {
+		id = 1154 # Travant
+		age = 47
+		name = ERA_CHAR_NAME_TRAVANT
+		title = k_thracia 
+		title_name = k_thracia 
+		character = {
+			dna="cdcgalgakfz"
+			properties="ad0aoa00000000"
+			religion="church_of_edda"
+			culture="thracian"
+			government = feudal_government
+			dynasty=1011		
+		}
+	}
+}
+
+bm_fe7_girl_from_the_plains =
+{
+	name = "bm_fe7_girl_from_the_plains"
+	desc = "bm_fe7_girl_from_the_plains_desc"
+	date = 1159.1.1
+	
+#	era = yes						## Will be shown on Era screen.
+#	picture = GFX_pick_era_image_1159
+	
+	selectable_character = {
+		id = 111 # Lyn
+		age=15
+		name = ERA_CHAR_NAME_LYN
+		title = d_lyn
+		title_name = d_lyn
+		
+		character = {
+			female=yes
+			dna="aamiiocjaaj" 
+			properties="cl0ecd00000000"
+			religion="divine_sky_pagan"
+			culture="lycian"
+			government = feudal_government
+			dynasty=505
+		}
+	}
+	
+	selectable_character = {
+		id = 112 # Lundgren
+		age=50
+		name = ERA_CHAR_NAME_LUNDGREN
+		title = d_caelin
+		title_name = d_caelin
+		
+		character = {
+			dna="bgigitkhaan" 
+			properties="cj0chd00000000"
+			religion="elimine_church"
+			culture="lycian"
+			government = feudal_government
+			dynasty=103
+		}
+	}
+	
+	selectable_character = {
+		id = 105 # Elbert
+		age = 34
+		name = ERA_CHAR_NAME_ELBERT
+		title = d_pherae 
+		title_name = d_pherae 
+		character = {
+			dna="bmlmkchfegc" 
+			properties="ce0ced00000000"
+			religion="elimine_church"
+			culture="lycian"
+			government = feudal_government
+			dynasty=102		
+		}
+	}
+	
+	selectable_character = {
+		id = 526 # Batta
+		age=21
+		name = ERA_CHAR_NAME_BATTA
+		title = c_kashgar
+		title_name = c_kashgar
+		
+		character = {
+			dna="baijgrbagbo" 
+			properties="ch0chk00000000"
+			religion="divine_sky_pagan"
+			culture="etrurian"
+			government = tribal_government
+			dynasty=583
+		}
+	}
+	
+	selectable_character = {
+		id = 528 # Glass
+		age=20
+		name = ERA_CHAR_NAME_GLASS
+		title = c_tarim
+		title_name = c_tarim
+		
+		character = {
+			dna="allmhacbbat" 
+			properties="gh0cdk00000000"
+			religion="divine_sky_pagan"
+			culture="etrurian"
+			government = tribal_government
+			dynasty=508
+		}
+	}
+	
+#	selectable_character = {
+#		id = 533 # Bug
+#		age=29
+#		name = ERA_CHAR_NAME_BUG
+#		title = d_ganelon_bandits
+#		title_name = d_ganelon_bandits
+#		
+#		character = {
+#			dna="bfabeyefaaq" 
+#			properties="cl0cgk00000000"
+#			religion="divine_sky_pagan"
+#			culture="sacaean"
+#			government = tribal_government
+#			dynasty=585
+#		}
+#	}
+}
+
+bm_fe7_blazing_sword =
+{
+	name = "bm_fe7_blazing_sword"
+	desc = "bm_fe7_blazing_sword_desc"
+	date = 1160.1.1
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_4
+	
+	selectable_character = {
+		id = 107 # Eliwood
+		age = 17
+		name = ERA_CHAR_NAME_ELIWOOD
+		title = d_pherae 
+		title_name = d_pherae 
+		character = {
+			dna="bjafijifecn" 
+			properties="ci0ehd00000000"
+			religion="elimine_church"
+			culture="lycian"
+			government = feudal_government
+			dynasty=102		
+		}
+	}
+	selectable_character = {
+		id = 102 # Uther
+		age = 30
+		name = ERA_CHAR_NAME_UTHER
+		#title = k_lycian_league
+		title = d_ostia
+		character = {
+			dna="cllmdshiacj" 
+			properties="aj0bab00000000"
+			religion="elimine_church"
+			culture="lycian"
+			government = feudal_government
+			dynasty=101
+		}
+	}
+	selectable_character = {
+		id = 118 # Darin
+		age = 33
+		name = ERA_CHAR_NAME_DARIN
+		title = d_laus 
+		title_name = d_laus 
+		character = {
+			dna="bkbiddcffbz" 
+			properties="cg0chd00000000"
+			religion="elimine_church"
+			culture="lycian"
+			government = feudal_government
+			dynasty=104	
+		}
+	}
+	selectable_character = {
+		id = 402 # Desmond
+		age = 38
+		name = ERA_CHAR_NAME_DESMOND
+		title = k_bern
+		title_name = k_bern
+		character = {
+			dna="dfhfdoaciaf" 
+			properties="aj0bba00000000"
+			religion="elimine_church"
+			culture="bernese"
+			government = feudal_government
+			dynasty=401
+		}
+	}
+	selectable_character = {
+		id = 603 # Hawkeye
+		age = 34
+		name = ERA_CHAR_NAME_HAWKEYE
+		title = d_arcadia
+		title_name = d_arcadia
+		character = {
+			dna="bdbfarlbaay" 
+			properties="cc0ded00000000"
+			religion="elibe_spirits_pagan"
+			culture="nabatan"
+			government = feudal_government
+			dynasty=603
+		}
+	}
+	selectable_character = {
+		id = 308 # Nergal
+		age = 30 # Not really, but for the portrait...
+		name = ERA_CHAR_NAME_NERGAL
+		title = e_nergal
+		title_name = e_nergal
+		character = {
+			dna="cfjddlgbabj" 
+			properties="ai0ba000000000"
+			religion="dark"
+			culture="ilian"
+			government = tyrant_government
+			dynasty=305
+		}
+	}
+}
+
+bm_fe6_binding_blade =
+{
+	name = "bm_fe6_binding_blade"
+	desc = "bm_fe6_binding_blade_desc"
+	date = 1180.1.1
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_5
+	
+	selectable_character = {
+		id = 108 # Roy
+		age = 15
+		name = ERA_CHAR_NAME_ROY
+		title = d_pherae 
+		title_name = d_pherae 
+		character = {
+			dna="bmafkqcdean" 
+			properties="ci0dhd00000000"
+			religion="elimine_church"
+			culture="lycian"
+			government = feudal_government
+			dynasty=102		
+		}
+	}
+	selectable_character = {
+		id = 103 # Hector
+		age = 37
+		name = ERA_CHAR_NAME_HECTOR
+		#title = k_lycian_league
+		title = d_ostia
+		character = {
+			dna="cakdedmeaca" 
+			properties="ae00bc00000000"
+			religion="elimine_church"
+			culture="lycian"
+			government = feudal_government
+			dynasty=101
+		}
+	}
+	selectable_character = {
+		id = 403 # Zephiel
+		age = 35
+		name = ERA_CHAR_NAME_ZEPHIEL
+		title = k_bern
+		title_name = k_bern
+		character = {
+			dna="acjadzebicy" 
+			properties="ah00da00000000"
+			religion="dragon_liberation"
+			culture="bernese"
+			government = feudal_government
+			dynasty=401
+		}
+	}
+	selectable_character = {
+		id = 202 # Mordred
+		age = 60
+		name = ERA_CHAR_NAME_MORDRED
+		title = k_etruria
+		title_name = k_etruria
+		character = {
+			dna="aabfbsdhgcw" 
+			properties="ad0aca00000000"
+			religion="elimine_church"
+			culture="etrurian"
+			government = feudal_government
+			dynasty=202
+		}
+	}
+	selectable_character = {
+		id = 502 # Dayan
+		age=54
+		name = ERA_CHAR_NAME_DAYAN
+		title = d_gelonus
+		title_name = d_gelonus
+		
+		character = {
+			dna="bjddewajaam" 
+			properties="gl0bad00000000"
+			religion="divine_sky_pagan"
+			culture="sacaean"
+			government = nomadic_government
+			dynasty=502
+		}
+	}
+	selectable_character = {
+		id = 326 # Zelot
+		age=33
+		name = ERA_CHAR_NAME_ZELOT
+		title = d_ilia_mercenary_knights
+		title_name = d_ilia_mercenary_knights
+		
+		character = {
+			dna="calkamajaas"
+			properties="ce0dhd000000"
+			religion="elimine_church"
+			culture="ilian"
+			government = feudal_government
+			dynasty=303
+		}
+	}
+	selectable_character = {
+		id = 702 # Echidna
+		age=25
+		name = ERA_CHAR_NAME_ECHIDNA
+		title = c_salinae
+		title_name = c_salinae
+		
+		character = {
+			female=yes
+			dna="dmjfikjbbby"
+			properties="cc0cgk000000"
+			religion="elimine_church"
+			culture="western_islander"
+			government = tribal_government
+			dynasty=702
+		}
+	}
+}

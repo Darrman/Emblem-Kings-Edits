@@ -1,0 +1,21 @@
+180.1.1={holder=1636} # Placeholder character to fix independent barony issue
+# e_elibe
+180.1.1={
+	law = status_of_women_4
+	law = true_cognatic_succession
+	law = succ_primogeniture
+}
+180.1.1={
+	liege=d_cornwell
+}
+180.1.1={
+	holder=2023
+}
+1111.1.1={
+	holder=121 #Raven's father
+}
+1158.1.1={
+	holder=757
+	#liege=k_lycian_league
+	liege=0
+}

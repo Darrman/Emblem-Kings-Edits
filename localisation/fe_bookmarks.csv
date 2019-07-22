@@ -1,0 +1,98 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+PICK_YOUR_STARTING_ERA;Choose Your Starting Era;Choisissez l'époque à laquelle vous débutez;Wählt Eure Startperiode;;Elige Tu Época de Inicio;;;;;;;;;x;;
+PICK_STARTING_ERA_TEXT;Emblem Kings covers several dates in Fire Emblem history.  Choose where in the timeline you want your game to start.;;;;;;;;;;;;;x
+bm_fe7_girl_from_the_plains;The Girl from the Plains;;;;;;;;;;;;;x
+bm_fe7_girl_from_the_plains_desc;Lyn, the last survivor of the Lorca clan, has learned that she is the granddaughter of Marquess Hausen of Caelin. As she begins her journey towards Caelin, Hausen's younger brother Lundgren plots to keep her away from the throne... and hasten his own inheritance.;;;;;;;;;;;;;x
+bm_fe7_blazing_sword;The Blazing Sword;;;;;;;;;;;;;x
+bm_fe7_blazing_sword_desc;The continent of Elibe teeters on the brink of war. In Lycia, Marquess Elbert of Pherae vanishes among whispers of rebellion, while shadowy figures slip in and out of castles in Laus and Santaruz. In Bern, a succession crisis looms as the envious King Desmond schemes to keep his popular and talented son off the throne. A league of assassins can be connected to all these events, directed by a mysterious sorceror...;;;;;;;;;;;;;x
+bm_fe6_binding_blade;The Binding Blade;;;;;;;;;;;;;x
+bm_fe6_binding_blade_desc;A thousand-year peace is shattered as King Zephiel of Bern begins to conquer the continent. He plans for the divided people of Sacae and Ilia to fall quickly, allowing Bern to turn its attention to the other major powers - the Kingdom of Etruria and the Lycian League. Can the wealth of Etruria or the champions of Lycia prevail against the secret weapons of Bern, or will King Zephiel succeed in his plan to "liberate" Elibe?;;;;;;;;;;;;;x
+bm_fe4_descent_of_loptous;Descent of Loptous;;;;;;;;;;;;;x
+bm_fe4_descent_of_loptous_desc;It is the dawn of the age of humanity. In Archanea, the dragon wars reach an end. The Divine Dragon tribe subdues the feral Earth Dragons before sealing their own powers away and entrusting the future to the humans they fought to protect. The first great human civilization, the Grann Republic of Jugdral, celebrates the 110th year since its founding. However, the republic is about to face a crisis that will change the continent forever. A young priest has returned from journeys overseas, preaching a strange new religion and wielding ominous magic...;;;;;;;;;;;;;x
+bm_fe4_founding_of_jugdral;The Founding of Jugdral;;;;;;;;;;;;;x
+bm_fe4_founding_of_jugdral_desc;The Holy War is over. Emperor Galle XVII lies dead and his brutal empire has been shattered by the Twelve Crusaders. With Jugdral at peace for the first time in fifteen years, the Crusaders part ways and found new nations to build a brighter future for the land.;;;;;;;;;;;;;x
+bm_fe4_birth_of_the_holy_knight;Birth of the Holy Knight;;;;;;;;;;;;;x
+bm_fe4_birth_of_the_holy_knight_desc;The Kingdom of Grannvale declares war on the Kingdom of Isaach following an attack on Darna, a site sacred to both nations. With the bulk of Grannvale's army in the east, soldiers of Verdane sieze the opportunity to raid the country's western lands and capture territory and noble prisoners. These events are just the overt moves of a grand scheme involving Grannvalean court intrigue and an ancient cult...;;;;;;;;;;;;;x
+bm_fe5_thracia_776;Thracia 776;;;;;;;;;;;;;x
+bm_fe5_thracia_776_desc;In the aftermath of the Battle of Belhalla in 761, almost the entirety of Jugdral fell under the domination of the Grannvale Empire. Due to the treachery of Raydrik of Conote, the Manster District was subjugated first by Thracia and then by House Friege of Grannvale. Prince Leif of Leonster, the rightful king of Manster, has managed to evade imperial forces for thirteen years. With the empire closing in on his refuge in Fiana, Leif's rebels may be forced to make their move...;;;;;;;;;;;;;x
+bm_fe4_the_last_holy_war;The Last Holy War;;;;;;;;;;;;;x
+bm_fe4_the_last_holy_war_desc;The fifteen years since the Grannvale Empire unitied the continent have seen the land shoved back into a darker age. The empire's rule grows more oppressive by the day and members of the Loptyrian Order practice their twisted rituals in the open. The hope of the people rests with Seliph Chalphy, Sigurd's son and member of the resistance army gathering in Isaach.;;;;;;;;;;;;;x
+bm_fe7_blazing_sword;The Blazing Sword;;;;;;;;;;;;;x
+bm_fe7_blazing_sword;The Blazing Sword;;;;;;;;;;;;;x
+PICK_ERA_YEAR;$YEAR$ G.C.;$YEAR$ G.C.;$YEAR$ G.C.;;$YEAR$ G.C.;;;;;;;;;x;;
+ERA_CHAR_NAME_GALLE_I;Galle Loptous;;;;;;;;;;;;;x
+ERA_CHAR_INFO_801;Bishop Galle was originally a priest of the Earthen religion. He believed the legends that drinking the blood of a legendary creature would grant him incredible power, and travelled the world in search of such a beast. He found himself in Archanea during the dragon war, where he formed a blood pact with the Earth Dragon Loptous. Galle inherited the dragon's power and malevolent will.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_LYN;Lyndis Lorca;;;;;;;;;;;;;x
+ERA_CHAR_INFO_111;A young girl from the Lorca tribe. Stouthearted and kind.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_LUNDGREN;Lundgren Caelin;;;;;;;;;;;;;x
+ERA_CHAR_INFO_112;Marquess Caelin's brother. Hungers to rule over Caelin.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_ELBERT;Elbert Pherae;;;;;;;;;;;;;x
+ERA_CHAR_INFO_105;The beloved and benevolent ruler of Pherae.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_ELIWOOD;Eliwood Pherae;;;;;;;;;;;;;x
+ERA_CHAR_INFO_107;Marquess Pherae's young son. Just and honorable.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_UTHER;Uther Ostia;;;;;;;;;;;;;x
+ERA_CHAR_INFO_102;The strong-willed Marquess of Ostia.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_DESMOND;Desmond of Bern;;;;;;;;;;;;;x
+ERA_CHAR_INFO_402;A man of average skill and intellect, with a envious and cruel streak.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_ROY;Roy Pherae;;;;;;;;;;;;;x
+ERA_CHAR_INFO_108;The next heir to Pherae. The protagonist of this story.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_HECTOR;Hector Ostia;;;;;;;;;;;;;x
+ERA_CHAR_INFO_103;The leader of the Lycian League and the Marquess of Ostia.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_ZEPHIEL;Zephiel of Bern;;;;;;;;;;;;;x
+ERA_CHAR_INFO_403;The mighty king of Bern. A talented and gifted genius.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_MORDRED;Mordred Aquleia;;;;;;;;;;;;;x
+ERA_CHAR_INFO_202;The old king of Etruria, grief-stricken over the loss of his son and heir.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_DAYAN;Dayan the Silver Wolf;;;;;;;;;;;;;x
+ERA_CHAR_INFO_502;The leader of the Kutolah clan, one of the largest Sacaean nomad tribes.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_ZELOT;Zelot Edessa;;;;;;;;;;;;;x
+ERA_CHAR_INFO_326;The head of the Ilian Mercenary Knights.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_ECHIDNA;Echidna;;;;;;;;;;;;;x
+ERA_CHAR_INFO_702;The leader of the resistance movement against Etruria in the Western Isles.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_DARIN;Darin Laus;;;;;;;;;;;;;x
+ERA_CHAR_INFO_118;The power-hungry marquess of Laus.;;;;;;;;;;;;;x###
+ERA_CHAR_NAME_HAWKEYE;Hawkeye;;;;;;;;;;;;;x
+ERA_CHAR_INFO_603;The protector of Nabata. A mysterious air surrounds him.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_NERGAL;Nergal;;;;;;;;;;;;;x
+ERA_CHAR_INFO_308;An avaricious fiend who turns death into power.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_BATTA;Batta the Beast;;;;;;;;;;;;;x
+ERA_CHAR_INFO_526;A Ganelon bandit called the Beast for his savagery,;;;;;;;;;;;;;x
+ERA_CHAR_NAME_GLASS;Glass;;;;;;;;;;;;;x
+ERA_CHAR_INFO_528;The gods fear his peerless swordplay.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_BUG;Bug;;;;;;;;;;;;;x
+ERA_CHAR_INFO_533;The leader of the Ganelon Bandits.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_HEIM;Heim Belhalla;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1001;The leader of the Twelve Crusaders.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_SIGURD;Sigurd Chalphy;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1032;Son of Duke Byron of Chalphy. Placed in charge of the family duchy when Byron left to join the war against Isaach, Sigurd finds himself faced with an invasion from the Kingdom of Verdane and the machinations of his father's enemies at court.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_ARVIS;Arvis Velthomer;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1049;The charismatic and talented Duke of Velthomer. He schemes to take greater power within the kingdom and create a world free of prejudice where all peoples can live without fear of repression.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_SELIPH;Seliph Baldos Chalphy;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1038;The son of Duke Sigurd of Chalphy and Empress Deirdre of Grannvale. Raised in Isaach after the Battle of Belhalla, Seliph has become the focal point of the rebellion against the empire and the hope of its people.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_JULIUS;Julius Velthomer;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1051;The Imperial Prince of Grannvale and de facto ruler of the empire. As a youth, Julius was possessed by the Earth Dragon Loptous. He quickly undermined his father's rule, reducing Emperor Arvis to a figurehead and elevating Loptyrian priests to positions of power. With every day that passes, Julius's Grannvale grows closer to the horrifying Loptous Empire of old...;;;;;;;;;;;;;x
+ERA_CHAR_NAME_AZMUR;Azmur Belhalla;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1029;The old king of Grannvale. His age and declining health have caused him to entrust much of his responsibilities to his skilled and respected son Prince Kurth.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_MARICCLE;Mariccle Isaach;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1134;The former Crown Prince of Isaach, forced to take the crown after his father was executed during an attempt to broker peace with Grannvale. He believes the war cannot be won, but hopes his sister and son will survive to return Isaach to glory...;;;;;;;;;;;;;x
+ERA_CHAR_NAME_MANFROY;Manfroy of Yied;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1254;The archbishop and leader of the Loptous Sect, striving to revive his dark god.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_BATOU;Batou Verdane;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1180;The old king of Verdane. Batou has dedicated his reign to building peace with the Kingdom of Grannvale and ending the frequent raids his people make into Grannvalean territory.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_LEIF;Leif Faris Claus;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1162;The Prince of Leonster and leader of the rebellion against the Grannvale Empire in Manster.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_BLOOM;Bloom Friege;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1058;The Duke of Friege, made King of North Thracia after the Grannvale Empire's conquest of the region. He rules as an authoritarian despot but is somewhat decent compared to his fellow imperial nobles. Bloom opposes the atrocities committed by the Loptyrian Church and does not indulge in them himself. However, he does nothing to stop them.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_DANANN;Danann Dozel;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1073;The Duke of Dozel, appointed King of Isaach after its conquest by the Grannvale Empire. Danann indulges in the luxuries of his position and allows agents of the Loptyrian Church to do as they please in Isaach.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_TRAVANT;Travant Thracia;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1154;The King of Thracia. A passionate man willing to go to any lengths and tarnish his own reputation to realize his dream of a prosperous and united Thracian peninsula.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_RAYDRIK;Raydrik of Conote;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1240;A Conote noble and former general in the Mansterian army. Raydrik was responsible for Manster's defeat at the battle of River Thracia, attacking King Calf's army from behind instead of supporting them as promised. He later betrayed Thracia to Grannvale and was made Duke of Manster as a reward for his help in the invasion.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_CED;Ced Silesse;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1112;The Prince of Silesse who left his occupied homeland to search for his missing father. His journey took him to the Manster District, where he witnessed the suffering of its people and fell in with the Magi, a band of rebels.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_SAIAS;Saias of Velthomer;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1053;The court archbishop of Velthomer and general in the imperial army. A talented and inspiring leader.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_VELD;Veld of Aed;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1158;A high-ranking bishop of the Loptyrian Church, responsible for planning many of the schemes that led to their rise to prominence.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_;;;;;;;;;;;;;;x
+ERA_CHAR_INFO_;The .;;;;;;;;;;;;;x

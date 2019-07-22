@@ -1,0 +1,13 @@
+180.1.1={
+	law = status_of_women_4
+	law = true_cognatic_succession
+	law = succ_primogeniture
+	liege = c_danzich
+	#holder = 0
+}
+763.1.1={
+	holder=1348 # Zaom
+}
+777.1.1={
+	holder=0 
+}

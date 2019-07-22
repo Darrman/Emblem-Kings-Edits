@@ -1,0 +1,34 @@
+# 493 - Marpha
+
+# County Title
+title = c_marpha
+
+# Settlements
+max_settlements = 3
+
+b_marpha_castle = castle
+#b_marpha = city
+b_marpha_2 = temple
+
+# Misc
+culture = verdanian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_marpha_castle = tribal
+}
+
+448.1.1 = { 
+	culture = verdanian
+}
+500.1.1 = { 
+	b_marpha_castle = castle
+	#b_marpha = city
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = verdanian
+}

@@ -1,0 +1,2813 @@
+namespace = fe7
+##################################
+# FE7 / The Blazing Sword Events #
+##################################
+# fe7.1	Destroy Nergal's realm on death
+
+#Nergal dies and his realm does not outlive him.
+character_event = {
+	id = fe7.1
+	desc = "EVTDESCfe7.1"
+	picture = GFX_evt_death
+	
+	is_triggered_only = yes
+	only_rulers = yes
+
+	trigger = {
+		has_landed_title = e_nergal
+	}
+	
+	immediate = {
+		# All vassals become independent
+		any_vassal = {
+			limit = { 
+				higher_tier_than = BARON 
+			} 
+			set_defacto_liege = THIS
+		}	
+		
+		#Destroy Nergal's titles higher than count
+		any_demesne_title = {
+			limit = {
+				is_landless_type_title = no
+				higher_tier_than = COUNT
+				#NOT = { title = e_nergal }
+			}
+			destroy_landed_title = ROOT
+		}		
+		
+		# Hand out what's left to random new people of the title's culture/religion
+		any_demesne_title = {
+			limit = {
+				lower_tier_than = DUKE
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = NONE
+				female = no
+				age = 20
+				religion = THIS
+				culture = THIS
+			}
+			new_character = {
+				usurp_title = { target = PREV } 
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTAfe7.1"	
+	}
+}
+
+# Create Morph(s)
+character_event = {
+	id = fe7.2
+	desc = "EVTDESCfe7.2"
+	picture = GFX_evt_library
+	
+	is_triggered_only = yes
+	only_rulers = yes
+	
+	immediate = {
+	
+	}
+
+	option = {
+		name = "EVTOPTAfe7.2"	
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 0
+				any_courtier = {
+					trait = morph
+				}
+			}
+		}
+		character_event = { id = fe7.3 }
+	}
+	option = {
+		name = "EVTOPTBfe7.2"
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = {
+					any_courtier = {
+						trait = morph
+					}
+				}
+			}
+		}
+		location = {
+			ROOT = {
+				spawn_unit = {
+					owner = ROOT
+					province = PREV
+					home = PREV
+					troops = {
+						magic_users = { 50 50 }
+						knights = { 50 50 }
+						archers = { 150 150 }
+						heavy_infantry = { 250 250 }
+					}
+					attrition = 0
+					maintenance_multiplier = 0
+				}
+				spawn_unit = {
+					owner = ROOT
+					province = PREV
+					home = PREV
+					troops = {
+						magic_users = { 50 50 }
+						knights = { 50 50 }
+						archers = { 150 150 }
+						heavy_infantry = { 250 250 }
+					}
+					attrition = 0
+					maintenance_multiplier = 0
+				}
+				spawn_unit = {
+					owner = ROOT
+					province = PREV
+					home = PREV
+					troops = {
+						magic_users = { 50 50 }
+						knights = { 50 50 }
+						archers = { 150 150 }
+						heavy_infantry = { 250 250 }
+					}
+					attrition = 0
+					maintenance_multiplier = 0
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTCfe7.2"
+		ai_chance = { 
+			factor = 0
+		}
+		piety=500
+	}
+}
+character_event = {
+	id = fe7.3
+	desc = "EVTDESCfe7.3"
+	picture = GFX_evt_library
+	
+	is_triggered_only = yes
+	only_rulers = yes
+	
+
+	option = {
+		name = "EVTOPTAfe7.3" #Warrior
+		
+		# Male or female?
+		random_list = {
+			50 = {
+				create_character = {
+					random_traits = no
+					religion = FROM
+					culture = FROM
+					female = no
+					dynasty=none
+					age = 20
+					attributes = {
+						martial = 10
+						diplomacy = 10
+						stewardship = 10
+						intrigue = 10
+						learning = 10
+					}
+					trait = morph
+					trait = fair
+				}
+				
+				new_character = {
+					# Assign a class
+					random_list = {
+						6 = {
+							add_trait=class_assassin
+							add_trait = base_class_thief
+						}
+						5 = {
+							add_trait=class_berserker
+							add_trait = base_class_brigand
+						}
+						5 = {
+							add_trait=class_bishop
+							add_trait = base_class_priest
+						}
+						6 = {
+							add_trait=class_sorceror
+							add_trait = base_class_dark_mage
+						}
+						6 = {
+							add_trait=class_general
+							add_trait = base_class_knight
+						}
+						5 = {
+							add_trait=class_great_knight
+							add_trait = base_class_cavalier
+						}
+						6 = {
+							add_trait=class_hero
+							add_trait = base_class_mercenary
+						}
+						5 = {
+							add_trait=class_mage_knight
+							add_trait = base_class_mage
+						}
+						6 = {
+							add_trait=class_paladin
+							add_trait = base_class_cavalier
+						}
+						5 = {
+							add_trait=class_bow_knight
+							add_trait = base_class_horse_archer
+						}
+						5 = {
+							add_trait=class_rogue
+							add_trait = base_class_thief
+						}
+						6 = {
+							add_trait=class_sage
+							add_trait = base_class_mage
+						}
+						6 = {
+							add_trait=class_sniper
+							add_trait = base_class_archer
+						}
+						6 = {
+							add_trait=class_swordmaster
+							add_trait = base_class_myrmidon
+						}
+						6 = {
+							add_trait=class_warrior
+							add_trait = base_class_fighter
+						}
+						5 = {
+							add_trait=class_wyvern_knight
+							add_trait = base_class_wyvern_rider
+						}
+						6 = {
+							add_trait=class_wyvern_lord
+							add_trait = base_class_wyvern_rider
+						}
+					}
+				}
+			}
+			50 = {
+				create_character = {
+					random_traits = no
+					religion = FROM
+					culture = FROM
+					female = yes
+					dynasty=none
+					age = 20
+					attributes = {
+						martial = 10
+						diplomacy = 10
+						stewardship = 10
+						intrigue = 10
+						learning = 10
+					}
+					trait = morph
+					trait = fair
+				}
+				new_character = {
+					# Assign a class
+					random_list = {
+						5 = {
+							add_trait=class_assassin_female
+							add_trait = base_class_thief
+						}
+						5 = {
+							add_trait=class_bishop_female		
+							add_trait = base_class_cleric
+						}
+						5 = {
+							add_trait=class_sorceror_female		
+							add_trait = base_class_dark_mage
+						}
+						5 = {
+							add_trait=class_falcon_knight		
+							add_trait = base_class_pegasus_knight
+						}
+						5 = {
+							add_trait=class_general		
+							add_trait = base_class_knight
+						}
+						5 = {
+							add_trait=class_great_knight	
+							add_trait = base_class_cavalier
+						}
+						5 = {
+							add_trait=class_hero_female		
+							add_trait = base_class_mercenary
+						}
+						5 = {
+							add_trait=class_mage_knight_female		
+							add_trait = base_class_mage
+						}
+						5 = {
+							add_trait=class_paladin		
+							add_trait = base_class_cavalier
+						}
+						5 = {
+							add_trait=class_bow_knight_female	
+							add_trait = base_class_horse_archer
+						}
+						5 = {
+							add_trait=class_rogue		
+							add_trait = base_class_thief
+						}
+						5 = {
+							add_trait=class_sage_female		
+							add_trait = base_class_mage
+						}
+						5 = {
+							add_trait=class_sniper_female		
+							add_trait = base_class_archer
+						}
+						5 = {
+							add_trait=class_swordmaster_female		
+							add_trait = base_class_myrmidon
+						}
+						5 = {
+							add_trait=class_valkyrie	
+							add_trait = base_class_troubador
+						}
+						5 = {
+							add_trait=class_wyvern_knight	
+							add_trait = base_class_wyvern_rider
+						}
+						5 = {
+							add_trait=class_wyvern_lord		
+							add_trait = base_class_wyvern_rider
+						}
+					}
+				}
+			}
+		}
+		# Assign education trait
+		new_character = {
+			random_list = {
+				40 = {
+					add_trait=brilliant_strategist
+				}
+				50 = {
+					add_trait=skilled_tactician
+				}
+				10 = {
+					add_trait=tough_soldier
+				}
+			}
+			set_character_flag = class_selected
+			set_variable = { which = "level" value = 1 }
+		}
+	}
+	option = {
+		name = "EVTOPTBfe7.3"#Diplomat/Intrigue
+		
+		# Male or female?
+		random_list = {
+			50 = {
+				create_character = {
+					random_traits = no
+					religion = FROM
+					culture = FROM
+					female = no
+					dynasty=none
+					age = 20
+					attributes = {
+						martial = 10
+						diplomacy = 10
+						stewardship = 10
+						intrigue = 10
+						learning = 10
+					}
+					trait = morph
+					trait = fair
+				}
+				
+				new_character = {
+					# Assign a class
+					random_list = {
+						10 = {
+							add_trait=class_assassin
+							add_trait = base_class_thief
+						}
+						10 = {
+							add_trait=class_bishop
+							add_trait = base_class_priest
+						}
+						10 = {
+							add_trait=class_sorceror
+							add_trait = base_class_dark_mage
+						}
+						10 = {
+							add_trait=class_hero
+							add_trait = base_class_mercenary
+						}
+						10 = {
+							add_trait=class_mage_knight
+							add_trait = base_class_mage
+						}
+						10 = {
+							add_trait=class_rogue
+							add_trait = base_class_thief
+						}
+						10 = {
+							add_trait=class_sage
+							add_trait = base_class_mage
+						}
+						10 = {
+							add_trait=class_sniper
+							add_trait = base_class_archer
+						}
+						10 = {
+							add_trait=class_swordmaster
+							add_trait = base_class_myrmidon
+						}
+					}
+				}
+			}
+			50 = {
+				create_character = {
+					random_traits = no
+					religion = FROM
+					culture = FROM
+					female = yes
+					dynasty=none
+					age = 20
+					attributes = {
+						martial = 10
+						diplomacy = 10
+						stewardship = 10
+						intrigue = 10
+						learning = 10
+					}
+					trait = morph
+					trait = fair
+				}
+				new_character = {
+					# Assign a class
+					random_list = {
+						9 = {
+							add_trait=class_assassin_female
+							add_trait = base_class_thief
+						}
+						9 = {
+							add_trait=class_bishop_female	
+							add_trait = base_class_cleric
+						}
+						9 = {
+							add_trait=class_sorceror_female	
+							add_trait = base_class_dark_mage
+						}
+						9 = {
+							add_trait=class_hero_female		
+							add_trait = base_class_mercenary
+						}
+						9 = {
+							add_trait=class_mage_knight_female		
+							add_trait = base_class_mage
+						}
+						9 = {
+							add_trait=class_rogue		
+							add_trait = base_class_thief
+						}
+						10 = {
+							add_trait=class_sage_female	
+							add_trait = base_class_mage
+						}
+						9 = {
+							add_trait=class_sniper_female	
+							add_trait = base_class_archer
+						}
+						9 = {
+							add_trait=class_swordmaster_female		
+							add_trait = base_class_myrmidon	
+						}
+						9 = {
+							add_trait=class_valkyrie
+							add_trait = base_class_troubador
+						}
+					}
+				}
+			}
+		}
+		# Assign education trait
+		new_character = {
+			random_list = {
+				20 = {
+					add_trait=grey_eminence
+				}
+				20 = {
+					add_trait=elusive_shadow
+				}
+				25 = {
+					add_trait=charismatic_negotiator
+				}
+				25 = {
+					add_trait=intricate_webweaver
+				}
+				5 = {
+					add_trait=underhanded_rogue
+				}
+				5 = {
+					add_trait=flamboyant_schemer
+				}
+			}
+			set_character_flag = class_selected
+			set_variable = { which = "level" value = 1 }
+		}
+	}
+	option = {
+		name = "EVTOPTCfe7.3"#???
+		trigger = {
+			always=no
+		}
+	}
+	option = {
+		name = "EVTOPTDfe7.3" #Cancel
+		ai_chance = { 
+			factor = 0
+		}
+		piety=500
+	}
+}
+
+# If Lundgren leaves the throne to Hausen while at war with Lyn
+character_event = {
+	id = fe7.4
+	#desc = fe7.4.desc
+	
+	hide_window = yes
+	is_triggered_only = yes 
+  
+	
+	trigger = {
+		has_game_rule = {
+			name = fe_story
+			value = on
+		}
+		ROOT = {
+			character = 109 # Hausen
+		}
+		FROMFROM = {
+			character = 112 # Lundgren
+			primary_title = {
+				title = FROM
+			}
+			any_war = {
+				using_cb = claim_all_lyn
+			}
+		}
+	}
+	
+	immediate = {
+		ROOT = {
+			character_event = {
+				id=fe7.5
+				days=1
+			}
+		}
+	}
+	option = {
+		name = OK
+	}
+}
+
+# Hausen decides how to settle the war
+narrative_event = {
+	id = fe7.5
+	title = fe7.5.title
+	desc = fe7.5.desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		#remove_trait=slothful
+		remove_trait=infirm
+	}
+	
+	# offer her a place
+	option = {
+		name = fe7.5.A
+		ai_chance = {
+			factor = 99
+		}
+		any_war = {
+			limit = {
+				using_cb = claim_all_lyn
+			}
+			attacker = {
+				character_event = {id=fe7.6}
+			}
+		}
+	}
+	
+	# make her go back to Sacae
+	option = {
+		name = fe7.5.B
+		ai_chance = {
+			factor = 1
+		}
+		any_war = {
+			limit = {
+				using_cb = claim_all_lyn
+			}
+			attacker = {
+				set_character_flag = lyn_rejected
+				character_event = {id=fe7.7}
+			}
+		}
+	}
+
+}
+
+# Lyn gets offer to return to Caelin
+character_event = {
+	id = fe7.6
+	desc = fe7.6.desc
+	picture = GFX_evt_family
+	
+	is_triggered_only = yes
+	
+	# Accept
+	# Hausen gives Lyn a county in his realm, and becomes her liege if he's still a duke.
+	# If for some odd reason Hausen only HAS one county in his realm:
+	# If Lyn is the player and Hausen is an AI, Lyn takes his last title and the duchy.
+	# If Hausen is the player and Lyn is an AI, Lyn just moves to Hausen's court.
+	option = {
+		name = fe7.6.A		
+		ai_chance = {
+			factor = 80
+		}
+		custom_tooltip = {
+			text = fe7.6.A.tooltip
+			hidden_tooltip = {
+				# end the war
+				any_war = {
+					limit = {
+						using_cb = claim_all_lyn
+					}
+					defender = {
+						save_event_target_as = target_lyn_claim_defender
+						add_friend = ROOT
+						end_war = invalid
+					}
+				}
+				any_demesne_title = {
+					limit = {
+						is_landless_type_title = yes
+					}
+					unsafe_destroy_landed_title = ROOT
+				}	
+
+				# give Lyn a county
+				event_target:target_lyn_claim_defender = {
+					# If Hausen has a spare county that could go to Lyn
+					if = {
+						limit = {
+							num_of_count_titles_in_realm = 2
+						}
+						# Prefer screwing over someone else in Hausen's realm (probably Eagler) over Hausen himself giving up a county
+						
+						if = {
+							limit = {
+								any_vassal = {
+									tier = COUNT
+								}
+							}
+							
+							random_vassal = {
+								limit = {
+									tier = COUNT
+								}
+								random_demesne_title = {
+									limit = {
+										tier = COUNT
+									}
+									grant_title = ROOT					
+								}
+							}
+							set_character_flag = lyn_war_title_resolved
+						}
+						if = {
+							limit = {
+								NOR = {
+									any_vassal = {
+										tier = COUNT
+									}
+									has_character_flag = lyn_war_title_resolved
+								}
+							}
+							random_demesne_title = {
+								limit = {
+									tier = COUNT
+								}
+								grant_title = ROOT
+							}
+						}
+						if = {
+							limit = {
+								primary_title = { higher_tier_than = COUNT } 
+							}
+							ROOT = {
+								set_defacto_liege = FROM
+							}
+						}
+					}
+					
+					# If Hausen does NOT have a spare county that could go for Lyn
+					if = {
+						limit = {
+							NOT = {num_of_count_titles_in_realm = 2}
+						}
+						
+						# if Hausen is an AI
+						if = {
+							limit = {
+								ai = yes
+							}
+							
+							abdicate_to = ROOT
+						}
+						# if Hausen is NOT an AI
+						if = {
+							limit = {
+								ai = no
+							}
+							
+							# Lyn becomes a courtier
+							ROOT = { move_character = PREV } 
+						}
+					}
+				}
+			}
+		}
+		
+	}
+	
+	# reject
+	option = {
+		name = fe7.6.B
+		ai_chance = {
+			factor = 20
+		}
+		custom_tooltip = {
+			text = fe7.6.B.tooltip
+			hidden_tooltip = {
+				character_event = { id = fe7.7 }
+				FROM = { character_event = { id = fe7.32 } }
+			}
+		}
+	}
+
+}
+
+# Lyn goes back to Sacae
+character_event = {
+	id = fe7.7
+	#desc = fe7.7.desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	
+	desc = {
+		trigger = {
+			has_character_flag = lyn_rejected
+		}
+		text = fe7.7.desc.1
+	}
+	
+	desc = {
+		trigger = {
+			NOT = { has_character_flag = lyn_rejected }
+		}
+		text = fe7.7.desc.2
+	}
+	
+	# accept
+	option = {
+		name= {
+			text = fe7.7.A.1
+			trigger = {
+				has_character_flag = lyn_rejected
+			}
+		}
+
+		name = {
+			text = fe7.7.A.2
+			trigger = {
+				NOT = { has_character_flag = lyn_rejected }
+			}
+		}
+		custom_tooltip = {
+			text = fe7.7.A.tooltip
+			hidden_tooltip = {
+				clr_character_flag = lyn_rejected
+				set_character_flag = lyn_story_war
+				
+				# end the war with Caelin
+				any_war = {
+					limit = {
+						using_cb = claim_all_lyn
+					}
+					end_war = invalid
+				}
+				
+				# start a new one for one of the counties Hassar held
+				random_claim = {
+					limit = {
+						tier = COUNT
+						de_jure_liege = d_tarim
+					}
+					holder_scope = {
+						top_liege = {
+							reverse_war = {
+								target = ROOT
+								casus_belli = claim_all_lyn
+							}
+						}
+					}
+				}	
+				clr_character_flag = lyn_story_war
+			}
+		}
+	}
+}
+
+# The Black Fang are founded!
+character_event = {
+	id = fe7.8
+	
+	#hide_from = yes
+	hide_window = yes
+	
+	only_playable = yes
+	min_age = 16
+	culture = bernese
+	
+	trigger = {
+		has_game_rule = {
+			name = fe_story
+			value = on
+		}
+		year = 1150
+		k_bern = {
+			has_holder = yes
+			holder_scope = {
+				any_realm_lord = {
+					OR = {
+						trait = cruel
+						trait = arbitrary
+						trait = lunatic
+						trait = impaler
+						trait = possessed
+					}
+				}
+			}
+		}
+		NOT = { 
+			has_global_flag = black_fang_setup
+			has_global_flag = black_fang_founded 
+			has_global_flag = black_fang_destroyed
+		}
+		b_fang_tower = {
+			has_holder = no
+		}
+		57 = { # Vaud
+			NOR = {
+				num_of_settlements = 4
+				AND = {
+					num_of_settlements = 3
+					has_settlement_construction = yes
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	immediate = {
+		# Set a flag so we don't do this ever again. If Brendan bought it or became a ruler, no Fang in this timeline.
+		set_global_flag = black_fang_setup
+		
+		# Does Brendan exist? If so, grab him and create the Fang.
+		if = {
+			limit = {
+				has_global_flag = fe7_brendan_reed_spawned
+			}
+		
+			random_character = {
+				limit = {
+					has_character_flag = fe7_brendan_reed
+					is_landed = no
+					is_heir = no
+					OR = {
+						is_married = no
+						spouse = {
+							is_landed = no	
+							is_heir = no					
+						}
+					}
+				}
+				#save_event_target_as = target_fe7_brendan_reed
+				narrative_event = {
+					id = fe7.9
+				}
+			}
+		}
+		
+		# If Brendan does not exist, create him and his people.
+		if = {
+			limit = {
+				NOT = { has_global_flag = fe7_brendan_reed_spawned }
+			}
+			# Create Brendan
+			create_character = {
+				random_traits = no
+				name = "Brendan"
+				dynasty = 417 # Reed
+				religion = ROOT
+				culture = bernese
+				female = no
+				age = 43
+				attributes = {
+					martial = 10
+					diplomacy = 0
+					stewardship = 2
+					intrigue = 6
+					learning = 2
+				}
+				health = 6
+				#fertility = 0.8
+				trait="tough_soldier"	
+				trait="mountain_terrain_leader"	
+				trait="inspiring_leader"	
+				trait="winter_soldier"
+				trait="strong"	
+				trait="just"	
+				trait="charitable"	
+				trait="brave"
+				trait="scarred"
+				trait="class_warrior"
+				trait="base_class_fighter"
+			}
+			new_character = {	
+				#save_event_target_as = target_fe7_brendan_reed
+				
+				set_variable = { which = "level" value = 1 }
+				set_character_flag = fe7_brendan_reed
+				set_character_flag="class_selected"
+				
+				create_character = {
+					random_traits = no
+					name = "Barbara"
+					dynasty = NONE
+					religion = ROOT
+					culture = bernese
+					female = yes
+					age = 34
+					trait="intricate_webweaver"	
+					trait="just"	
+					trait="charitable"	
+					trait="class_thief_female"	
+					trait="base_class_thief"	
+				}
+				new_character = {
+					set_variable = { which = "level" value = 1 }
+					set_character_flag="class_selected"
+					set_character_flag="class_thief"
+					set_character_flag="black_fang_old"
+					add_spouse = PREV
+					create_character = {
+						random_traits = no
+						name="Lloyd"
+						dynasty = 417
+						religion = ROOT
+						culture = bernese
+						female = no
+						age = 17
+						trait="intricate_webweaver"	
+						trait="strategist"	
+						trait="mountain_terrain_leader"	
+						trait="inspiring_leader"	
+						trait="light_foot_leader"
+						trait="quick"	
+						trait="just"	
+						trait="patient"	
+						trait="brave"
+						trait="class_swordmaster"
+						trait="base_class_myrmidon"
+					}
+					new_character = {
+						set_variable = { which = "level" value = 1 }
+						set_character_flag="class_selected"
+						set_character_flag="class_myrmidon"
+						set_character_flag="black_fang_old"
+						set_character_flag="four_fang_old"
+						give_nickname=nick_the_white_wolf
+						set_father = PREVPREV
+						set_mother = PREV
+					}
+					
+					create_character = {
+						random_traits = no
+						name="Linus"
+						dynasty = 417
+						religion = ROOT
+						culture = bernese
+						female = no
+						age = 16
+						trait="misguided_warrior"	
+						trait="duelist"	
+						trait="aggressive_leader"	
+						trait="unyielding_leader"
+						trait="mountain_terrain_leader"	
+						trait="strong"
+						trait="slow"		
+						trait="just"	
+						trait="brave"	
+						trait="wroth"
+						trait="class_hero"
+						trait="base_class_mercenary"
+					}
+					new_character = {
+						set_variable = { which = "level" value = 1 }
+						set_character_flag="class_selected"
+						set_character_flag="class_mercenary"
+						set_character_flag="black_fang_old"
+						set_character_flag="four_fang_old"
+						give_nickname=nick_the_mad_dog
+						set_father = PREVPREV
+						set_mother = PREV
+					}
+				}
+				narrative_event = {
+					id = fe7.9
+				}
+			}
+		}
+	}
+	
+	option = {
+		name=OK
+	}
+}
+
+# Birth of the Black Fang
+narrative_event = {
+	id = fe7.9
+	title = "fe7.9.title"
+	desc = "fe7.9.desc"
+	picture = GFX_evt_shadow
+	major = yes	
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = black_fang_founded
+		
+		# Create the title and holding, hand them out to Brendan
+		activate_title = { title = d_black_fang status = yes }
+		wealth = 500
+		prestige = 200
+		d_black_fang = {
+			grant_title = ROOT
+		}
+		set_government_type = feudal_government
+		57 = { # Vaud
+			build_holding = {
+				title = b_fang_tower
+				type = castle
+				holder = ROOT
+			}
+		}
+		
+		# Move all of his canon followers (who haven't gone off the rails somehow) to his court
+		any_character = { # I know, it's bad
+			limit = {
+				has_character_flag = black_fang_old
+				is_landed = no
+				is_heir = no
+				OR = {
+					is_married = no
+					spouse = {
+						is_landed = no	
+						is_heir = no					
+					}
+				}
+			}
+			move_character = ROOT
+		}
+		
+		any_courtier = {
+			limit = {
+				has_character_flag = four_fang_old
+			}
+			give_minor_title = title_fang
+			character_event = { id = class.5 } # Promote Lloyd, Linus, and Jerme
+			
+			if = {
+				limit = {
+					has_character_flag = fe7_lloyd
+				}
+				give_nickname = nick_the_white_wolf
+			}
+			if = {
+				limit = {
+					has_character_flag = fe7_linus
+				}
+				give_nickname = nick_the_mad_dog
+			}
+			if = {
+				limit = {
+					has_character_flag = is_fe7_jerme
+				}
+				give_nickname = nick_the_death_kite
+			}
+		}
+		random_courtier = {
+			limit = {
+				has_character_flag = fe7_legault
+			}
+			give_nickname = nick_the_hurricane
+		}
+		random_courtier = {
+			limit = {
+				has_character_flag = is_fe7_uhai
+			}
+			give_nickname = nick_the_soaring_hawk
+			character_event = { id = class.5 } # Promote 
+		}
+	}
+	
+
+	option = {
+		name = "fe7.9.A"
+	}
+}
+
+# Fang grows
+narrative_event = {
+	id = fe7.10
+	title = "fe7.10.title"
+	desc = "fe7.10.desc"
+	major = yes
+	
+	picture = "GFX_evt_shadow"
+	
+	only_playable = yes
+	culture = bernese
+	has_global_flag = black_fang_founded
+	
+	trigger = {
+		has_game_rule = {
+			name = fe_story
+			value = on
+		}
+		year = 1156
+		has_landed_title = d_black_fang
+		NOR = {
+			has_global_flag = black_fang_destroyed
+			has_global_flag = black_fang_grows
+		}
+		
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "OK"
+		trigger = { has_landed_title = d_black_fang }
+		set_global_flag = black_fang_grows
+		
+		# Build new forts
+		if = {
+			limit = {
+				b_fort_kite = {
+					has_holder = no
+				}
+				57 = { # Vaud
+					NOR = {
+						num_of_settlements = 4
+						AND = {
+							num_of_settlements = 3
+							has_settlement_construction = yes
+						}
+					}
+				}
+			}
+			57 = { # Vaud
+				build_holding = {
+					title = b_fort_kite
+					type = castle
+					holder = ROOT
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				b_fort_shrike = {
+					has_holder = no
+				}
+				57 = { # Vaud
+					NOR = {
+						num_of_settlements = 4
+						AND = {
+							num_of_settlements = 3
+							has_settlement_construction = yes
+						}
+					}
+				}
+			}
+			57 = { # Vaud
+				build_holding = {
+					title = b_fort_shrike
+					type = castle
+					holder = ROOT
+				}
+			}
+		}
+		
+		# Move in the new people
+		
+		# Move all of his canon followers (who haven't gone off the rails somehow) to his court
+		any_character = { # I know, it's bad
+			limit = {
+				has_character_flag = black_fang_new
+				is_landed = no
+				is_heir = no
+				OR = {
+					is_married = no
+					spouse = {
+						is_landed = no	
+						is_heir = no					
+					}
+				}
+			}
+			move_character = ROOT
+		}
+		
+		# Kick out a Fang
+		random_courtier = {
+			limit = {
+				has_character_flag = four_fang_old
+				NOR = {
+					has_character_flag = fe7_lloyd
+					has_character_flag = fe7_linus
+				}
+			}
+			remove_title = title_fang
+		}
+		
+		
+		any_courtier = {
+			limit = {
+				has_character_flag = four_fang_new
+			}
+			give_minor_title = title_fang
+			character_event = { id = class.5 } # Promote Ursula 
+			
+			if = {
+				limit = {
+					has_character_flag = is_fe7_ursula
+				}
+				give_nickname = nick_the_blue_crow
+			}
+		}
+		random_courtier = {
+			limit = {
+				has_character_flag = is_fe7_kenneth
+			}
+			give_nickname = nick_the_shrike
+			character_event = { id = class.5 } # Promote 
+			b_fort_shrike = {
+				grant_title = PREV
+			}
+		}
+		random_courtier = {
+			limit = {
+				has_character_flag = is_fe7_aion
+			}
+			give_nickname = nick_the_owl
+		}
+		random_courtier = {
+			limit = {
+				has_character_flag = is_fe7_teodor
+			}
+			give_nickname = nick_the_shadow_hawk
+			character_event = { id = class.5 } # Promote 
+		}
+		random_courtier = {
+			limit = {
+				has_character_flag = is_fe7_jerme
+			}
+			b_fort_kite = {
+				grant_title = PREV
+			}
+		}
+	}
+	option = {
+		name = "fe7.10.A"
+		trigger = { 
+			NOT = { has_landed_title = d_black_fang }
+		}
+	}
+}
+
+# Nergal takes over the Fang
+narrative_event = {
+	id = fe7.11
+	title = "fe7.11.title"
+	desc = "fe7.11.desc"
+	major = yes
+	
+	picture = "GFX_evt_shadow"
+	
+	only_playable = yes
+	culture = bernese
+	has_global_flag = black_fang_grows
+	
+	trigger = {
+		has_game_rule = {
+			name = fe_story
+			value = on
+		}
+		year = 1158
+		has_landed_title = d_black_fang
+		NOR = {
+			has_global_flag = black_fang_destroyed
+			has_global_flag = black_fang_corrupted
+		}
+		has_global_flag = black_fang_founded
+		has_global_flag = black_fang_grows
+		
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "OK"
+		trigger = { has_landed_title = d_black_fang }
+		set_global_flag = black_fang_corrupted
+		
+		e_nergal = {
+			holder_scope = {
+				ROOT = {
+					set_defacto_liege = PREV
+				}
+				# Move in the new people
+
+				# Move all of his canon followers (who haven't gone off the rails somehow) to his court.
+				# Should be Sonia and Jaffar
+				any_courtier = { 
+					limit = {
+						has_character_flag = black_fang_nergal
+						is_landed = no
+						is_heir = no
+						OR = {
+							is_married = no
+							spouse = {
+								is_landed = no	
+								is_heir = no					
+							}
+						}
+					}
+					move_character = ROOT
+				}
+			}
+		}
+
+		# Kill Brendan's wife if she's still around
+		if = {
+			limit = {
+				is_married = yes
+			}
+			spouse = {
+				death = {
+					#death_reason=death_murder_known_trigger
+					death_reason=death_murder_unknown
+					killer=PREV # Nergal
+				}
+			}
+		}
+
+		# If Sonia didn't come over because she's married off/dead/never existed, create a new Morph wife for Brendan
+		if = {
+			limit = {
+				NOT = {
+					any_courtier = {
+						has_character_flag = is_fe7_sonia 
+					}
+				}
+			}		
+			e_nergal = {
+				holder_scope = {
+					create_character = {
+						random_traits = no
+						religion = PREV #THIS?
+						culture = PREV
+						female = yes
+						dynasty=none
+						age = 20
+						attributes = {
+							martial = 10
+							diplomacy = 10
+							stewardship = 10
+							intrigue = 10
+							learning = 10
+						}
+						trait="class_sage_female"
+						trait="base_class_mage"
+						trait="flamboyant_schemer"
+						trait="morph"
+						trait="fair"
+						trait="cruel"
+						trait="proud"
+					}
+					new_character = {
+						set_variable = { which = "level" value = 1 }
+						set_character_flag="class_selected"
+						set_character_flag="class_mage"
+						set_character_flag=is_fe7_sonia
+
+						move_character = ROOT
+					}
+				}
+			}
+		}
+#		e_nergal = {
+#			holder_scope = {
+#				d_black_fang = {
+#					grant_title = PREV
+#				}
+#			}
+#		}
+		# Marry the morph to Brendan
+		random_courtier = {
+			limit = {
+				has_character_flag = is_fe7_sonia
+			}
+			add_spouse=ROOT
+		}
+#		d_black_fang = {
+#			grant_title = ROOT
+#		}
+		
+		# If Jaffar didn't come over, create a new Assassin to take over a Fang slot
+		if = {
+			limit = {
+				NOT = {
+					any_courtier = {
+						has_character_flag = is_fe7_jaffar 
+					}
+				}
+			}
+			e_nergal = {
+				holder_scope = {
+					create_character = {
+						random_traits = yes
+						religion = PREV #THIS?
+						culture = PREV
+						female = no
+						dynasty=none
+						age = 16
+						trait="class_assassin"
+						trait="base_class_thief"
+						trait="elusive_shadow"
+					}
+					new_character = {
+						set_variable = { which = "level" value = 1 }
+						set_character_flag="class_selected"
+						set_character_flag="class_thief"
+						set_character_flag=four_fang_nergal
+						give_nickname=nick_the_viper
+						
+						move_character = ROOT
+					}
+				}
+			}
+		}
+
+		# Kick out a Fang
+		random_courtier = {
+			limit = {
+				OR = {
+					has_character_flag = four_fang_old
+					has_character_flag = four_fang_new
+				}
+				NOR = {
+					has_character_flag = fe7_lloyd
+					has_character_flag = fe7_linus
+					has_character_flag = is_fe7_ursula
+				}
+			}
+			remove_title = title_fang
+		}
+		
+		any_courtier = {
+			limit = {
+				has_character_flag = four_fang_nergal
+			}
+			give_minor_title = title_fang
+			character_event = { id = class.5 } # Promote Jaffar if unpromoted 
+		}
+	}
+	option = {
+		name = "fe7.11.A"
+		trigger = { 
+			NOT = { has_landed_title = d_black_fang }
+		}
+	}
+}
+
+# Fang strikes at unjust ruler #
+# Unjust ruler is warned
+character_event = {
+	id = fe7.12
+	desc = "fe7.12.desc"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	ai = no
+	only_playable = yes
+	only_independent = yes
+	culture_group = elibian
+	has_global_flag = black_fang_founded
+	
+	trigger = {
+		NOT = { has_character_flag = warned_by_black_fang }
+		NOT = { has_global_flag = black_fang_destroyed }
+		OR = {
+			trait = arbitrary
+			trait = cruel
+			trait = greedy
+			trait = impaler
+		}
+		OR = {
+			location = {
+				region = world_elibe_greater_bern
+			}
+			AND = {
+				has_global_flag = black_fang_grows
+				OR = {
+					location = {
+						region = world_elibe_taliver
+					}
+					location = {
+						region = world_elibe_sacae
+					}
+					location = {
+						region = world_elibe_lycia
+					}
+				}
+			}
+		}
+		#NOT = { is_inaccessible_trigger = yes }
+		NOT = { trait = in_hiding }
+		NOT = { realm_intrigue = 30 }
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+	}
+	
+	option = {
+		name = "fe7.12.A"
+		set_character_flag = warned_by_black_fang
+		add_character_modifier = {
+			name = suspected_murder_plot
+			months = 48
+			hidden = yes
+		}
+	}
+}
+
+# Assassins kill random courtier
+character_event = {
+	id = fe7.13
+	desc = "fe7.13.desc"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	only_playable = yes
+	only_independent = yes
+	prisoner = no
+	min_age = 16
+	only_capable = yes
+	ai = no
+	culture_group = elibian
+	has_character_flag = warned_by_black_fang
+	has_global_flag = black_fang_founded
+	
+	trigger = {
+		OR = {
+			trait = arbitrary
+			trait = cruel
+			trait = greedy
+			trait = impaler
+		}
+		OR = {
+			location = {
+				region = world_elibe_greater_bern
+			}
+			AND = {
+				has_global_flag = black_fang_grows
+				OR = {
+					location = {
+						region = world_elibe_taliver
+					}
+					location = {
+						region = world_elibe_sacae
+					}
+					location = {
+						region = world_elibe_lycia
+					}
+				}
+			}
+		}
+		
+		any_courtier = {
+			is_ruler = no
+			NOT = { spouse = { character = ROOT } }
+			is_primary_heir = no
+			in_command = no
+		}
+		NOT = { has_global_flag = black_fang_destroyed }
+		NOT = { is_inaccessible_trigger = yes }
+		NOT = { realm_intrigue = 30 }
+	}
+	
+	immediate = {
+		any_courtier = {
+			limit = {
+				is_ruler = no
+				NOT = { spouse = { character = ROOT } }
+				is_primary_heir = no
+				in_command = no
+			}
+			save_event_target_as = assassin_target
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 22
+	}
+	
+	option = {
+		name = "fe7.13.A"
+		event_target:assassin_target = {
+			death = { death_reason = death_black_fang }
+		}
+		set_character_flag = black_fang_courtier_killed
+	}
+}
+
+# Assassins kill ruler
+character_event = {
+	id = fe7.14
+	desc = "fe7.14.desc"
+	desc = "fe7.14.desc.2"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+
+	only_rulers = yes
+	min_age = 16
+	prisoner = no
+	only_capable = yes
+	culture_group = elibian
+	has_character_flag = black_fang_courtier_killed
+	has_global_flag = black_fang_founded
+	
+	trigger = {
+		OR = {
+			trait = arbitrary
+			trait = cruel
+			trait = greedy
+			trait = impaler
+		}
+		OR = {
+			location = {
+				region = world_elibe_greater_bern
+			}
+			AND = {
+				has_global_flag = black_fang_grows
+				OR = {
+					location = {
+						region = world_elibe_taliver
+					}
+					location = {
+						region = world_elibe_sacae
+					}
+					location = {
+						region = world_elibe_lycia
+					}
+				}
+			}
+		}
+		NOT = { has_global_flag = black_fang_destroyed }
+		NOT = { is_inaccessible_trigger = yes }
+		NOT = { realm_intrigue = 30 }
+	}
+	
+	mean_time_to_happen = {
+		months = 480
+	}
+	
+	option = {
+		name = "fe7.14.A"
+		death = { death_reason = death_black_fang }
+	}
+}
+
+##########################
+# War with the Assassins #
+##########################
+
+# Courtier is killed
+character_event = {
+	id = fe7.15
+	hide_window = yes
+	
+	prisoner = no
+	only_capable = yes
+	min_age = 16
+	ai = yes
+	has_global_flag = black_fang_founded
+	
+	trigger = {
+		is_ruler = no
+		employer = {
+			war = yes
+			is_playable = yes
+			independent = yes
+			prisoner = no
+			NOT = { spouse = { character = ROOT } }
+			d_black_fang = {
+				holder_scope = {
+					war_with = PREVPREV
+				}
+			}
+		}
+		
+		is_primary_heir = no
+		is_pretender = no
+		in_command = no
+		
+		NOT = { has_global_flag = black_fang_destroyed }
+		NOT = { is_inaccessible_trigger = yes }
+		NOT = { realm_intrigue = 30 }
+	}
+	
+	mean_time_to_happen = {
+		months = 880
+	}
+	
+	immediate = {
+		if = {
+			limit = { liege = { NOT = { is_inaccessible_trigger = yes } } }
+			random_list = {
+				33 = {
+					liege = {
+						character_event = { id = fe7.16 }
+					}
+				}
+				33 = {
+					liege = {
+						character_event = { id = fe7.17 }
+					}
+				}
+				33 = {
+					liege = {
+						character_event = { id = fe7.18 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = { liege = { is_inaccessible_trigger = yes } }
+			random_list = {
+				50 = {
+					liege = {
+						character_event = { id = fe7.16 }
+					}
+				}
+				50 = {
+					liege = {
+						character_event = { id = fe7.17 }
+					}
+				}
+			}
+		}
+	}
+}
+
+# Assassins kill random courtier 1
+character_event = {
+	id = fe7.16
+	desc = "fe7.16.desc"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "fe7.16.A"
+		FROM = {
+			death = { death_reason = death_black_fang }
+		}
+	}
+}
+
+# Assassins kill random courtier 2
+character_event = {
+	id = fe7.17
+	desc = "fe7.17.desc"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		trigger = {
+			NOR = { 
+				has_character_modifier = cannibal 
+				trait = cannibal_trait
+			}
+		}
+		name = "fe7.17.A"
+		FROM = {
+			death = { death_reason = death_black_fang }
+		}
+	}
+	option = {
+		trigger = {
+			OR = {
+				has_character_modifier = cannibal
+				trait = cannibal_trait
+			}
+		}
+		name = "fe7.17.A.cannibal"
+		FROM = {
+			death = { death_reason = death_black_fang }
+		}
+	}
+}
+
+# Assassins kill random courtier 3
+character_event = {
+	id = fe7.18
+	desc = "fe7.18.desc"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "fe7.18.A"
+		FROM = {
+			death = { death_reason = death_black_fang }
+		}
+	}
+}
+
+# Assassins warn ruler
+character_event = {
+	id = fe7.19
+	desc = "fe7.19.desc"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	ai = no
+	only_playable = yes
+	only_independent = yes
+	war = yes
+	
+	trigger = {
+		NOT = { has_character_flag = warned_by_black_fang }
+		d_black_fang = {
+			holder_scope = {
+				war_with = ROOT
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+	}
+	
+	option = {
+		name = "fe7.19.A"
+		set_character_flag = warned_by_black_fang
+		add_character_modifier = {
+			name = suspected_murder_plot
+			months = 48
+			hidden = yes
+		}
+	}
+}
+
+# Assassins kill ruler
+character_event = {
+	id = fe7.20
+	desc = "fe7.14.desc"
+	desc = "fe7.14.desc.2"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	only_rulers = yes
+	prisoner = no
+	min_age = 16
+	has_character_flag = warned_by_black_fang
+
+	trigger = {
+		d_black_fang = {
+			holder_scope = {
+				war_with = ROOT
+			}
+		}
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1400
+	}
+	
+	option = {
+		name = "fe7.14.A"
+		death = { death_reason = death_black_fang } 
+	}
+}
+
+##########
+# Random #
+##########
+
+# Courtier is killed
+character_event = {
+	id = fe7.21
+	desc = "fe7.16.desc"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	ai = yes
+	min_age = 16
+	prisoner = no
+	only_capable = yes
+	has_global_flag = black_fang_founded
+	culture_group = elibian
+	
+	trigger = {
+		host = { 
+			character = liege
+			prisoner = no
+		}
+		NOT = { has_global_flag = black_fang_destroyed }
+		OR = {
+			trait = arbitrary
+			trait = cruel
+			trait = greedy
+			trait = impaler
+		}
+		OR = {
+			location = {
+				region = world_elibe_greater_bern
+			}
+			AND = {
+				has_global_flag = black_fang_grows
+				OR = {
+					location = {
+						region = world_elibe_taliver
+					}
+					location = {
+						region = world_elibe_sacae
+					}
+					location = {
+						region = world_elibe_lycia
+					}
+				}
+			}
+		}
+		
+		is_primary_heir = no
+		is_pretender = no
+		in_command = no
+		NOT = { spouse = { character = host } }
+		NOT = { host = { is_inaccessible_trigger = yes } }
+		NOT = { host = { realm_intrigue = 30 } }
+	}
+	
+	mean_time_to_happen = {
+		months = 5500
+		modifier = {
+			factor = 0.5
+			trait = possessed
+		}
+		modifier = {
+			factor = 0.75
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.75
+			trait = impaler
+		}
+		modifier = {
+			factor = 2.0
+			trait = kind
+		}
+		modifier = {
+			factor = 2.0
+			trait = just
+		}
+		modifier = {
+			factor = 2.0
+			trait = charitable
+		}
+		modifier = {
+			factor = 2.0
+			is_female = yes
+		}
+	}
+	
+	option = {
+		name = "OK"
+		if = {
+			limit = { liege = { NOT = { is_inaccessible_trigger = yes } } }
+			random_list = {
+				33 = {
+					liege = {
+						character_event = { id = fe7.16 }
+					}
+				}
+				33 = {
+					liege = {
+						character_event = { id = fe7.17 }
+					}
+				}
+				33 = {
+					liege = {
+						character_event = { id = fe7.18 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = { liege = { is_inaccessible_trigger = yes } }
+			random_list = {
+				50 = {
+					liege = {
+						character_event = { id = fe7.16 }
+					}
+				}
+				50 = {
+					liege = {
+						character_event = { id = fe7.17 }
+					}
+				}
+			}
+		}
+	}	
+}
+
+# The Black Fang destroyed!
+narrative_event = {
+	id = fe7.22
+	title = "fe7.22.title"
+	desc = "fe7.22.desc"
+	major = yes
+	
+	picture = "GFX_evt_shadow"
+	
+	only_rulers = yes
+	culture_group = elibian
+	has_global_flag = black_fang_founded
+	
+	trigger = {
+		has_game_rule = {
+			name = fe_story
+			value = on
+		}
+		year = 1150
+		has_landed_title = d_black_fang
+		NOT = { demesne_size = 1 }
+		NOT = {
+			has_global_flag = black_fang_destroyed
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "OK"
+		trigger = { has_landed_title = d_black_fang }
+		set_global_flag = black_fang_destroyed
+		activate_title = { title = d_black_fang status = no }
+		death = { death_reason = death_battle }
+	}
+	option = {
+		name = "fe7.22.A"
+		trigger = { 
+			NOT = { has_landed_title = d_black_fang }
+		}
+	}
+}
+
+# Interaction events
+
+# Contact attempt notification
+character_event = {
+	id = fe7.23
+	desc = "fe7.23.desc" # Contact the Fang
+	picture = GFX_evt_shadowy_cabal
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {	 
+		name = "fe7.23.A" 
+	}	
+}
+
+# Take out a contract
+character_event = {
+	id = fe7.24
+	desc = "fe7.24.desc"
+	picture = GFX_evt_shadowy_cabal
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	trigger = { 
+		has_landed_title = d_black_fang 
+		FROM = {
+			OR = {
+				has_plot = plot_kill_character
+				has_plot = plot_kill_spouse
+			}
+		}	
+	}
+	
+	immediate = {
+		diplomatic_immunity = yes 
+		wealth = 100
+		# Add assassins if short.
+		if = {
+			limit = {
+				has_landed_title = d_black_fang 
+				NOT = {
+					any_courtier = {
+						age = 16
+						has_character_flag="class_selected"						
+					}
+				}
+			}
+			random_list = {
+				50 = {
+					create_random_intriguer = {
+						random_traits = yes
+						dynasty = none
+						female = no
+					}
+				}	
+				50 = {
+					create_random_intriguer = {
+						random_traits = yes
+						dynasty = none
+						female = yes
+					}
+				}
+			}	
+			new_character = {
+				change_intrigue = 8
+				remove_trait = craven
+				remove_trait = content
+				
+				set_character_flag = class_selected
+				set_variable = { which = "level" value = 1 }
+				
+				if = {
+					limit = {
+						is_female = no
+					}
+					random_list = {
+						25 = {
+							add_trait = base_class_mage
+							add_trait = class_sage						
+						}		
+						30 = {
+							add_trait = base_class_myrmidon
+							add_trait = class_swordmaster						
+						}	
+						45 = {
+							add_trait = base_class_thief
+							add_trait = class_assassin						
+						}	
+					}	
+				}
+				if = {
+					limit = {
+						is_female = yes
+					}
+					random_list = {
+						25 = {
+							add_trait = base_class_mage
+							add_trait = class_sage_female						
+						}	
+						30 = {
+							add_trait = base_class_myrmidon
+							add_trait = class_swordmaster_female						
+						}	
+						45 = {
+							add_trait = base_class_thief
+							add_trait = class_assassin_female						
+						}	
+					}	
+				}
+			}
+		}
+		
+		# Pick a price for the plot target.
+		FROM = {
+			plot_target_char = {
+				if = {
+					limit = { tier = EMPEROR }
+					PREV = { 
+						set_character_flag = target_priced
+						set_character_flag = target_price_emperor 
+					}
+				}
+				if = {
+					limit = { 
+						PREV = { NOT = { has_character_flag = target_priced } }
+						OR = {
+							tier = KING
+							any_claim = { tier = EMPEROR }
+							any_dynasty_member = { is_close_relative = PREV tier = EMPEROR }
+							liege = { is_close_relative = PREV tier = EMPEROR }
+							any_spouse = { tier = EMPEROR }
+						}	
+					}
+					PREV = { 
+						set_character_flag = target_priced
+						set_character_flag = target_price_king
+					}
+				}
+				if = {
+					limit = { 
+						PREV = { NOT = { has_character_flag = target_priced } }
+						OR = {
+							tier = DUKE
+							any_claim = { tier = KING }
+							any_dynasty_member = { is_close_relative = PREV tier = KING }
+							liege = { is_close_relative = PREV tier = KING }
+							any_spouse = { tier = KING }
+							AND = {
+								is_councillor = yes
+								liege = { tier = EMPEROR }
+							}
+						}	
+					}
+					PREV = { 
+						set_character_flag = target_priced
+						set_character_flag = target_price_duke
+					}
+				}
+				if = {
+					limit = { 
+						PREV = { NOT = { has_character_flag = target_priced } }
+						OR = {
+							tier = COUNT
+							any_claim = { tier = DUKE }
+							any_dynasty_member = { is_close_relative = PREV tier = DUKE }
+							liege = { is_close_relative = PREV tier = DUKE }
+							any_spouse = { tier = DUKE }
+							AND = {
+								is_councillor = yes
+								liege = { tier = KING }
+							}
+						}	
+					}
+					PREV = { 
+						set_character_flag = target_priced
+						set_character_flag = target_price_count
+					}
+				}
+				if = {
+					limit = { 
+						PREV = { NOT = { has_character_flag = target_priced } }
+						OR = {
+							tier = BARON
+							any_claim = { tier = COUNT }
+							any_dynasty_member = { is_close_relative = PREV tier = COUNT }
+							liege = { is_close_relative = PREV tier = COUNT }
+							any_spouse = { tier = COUNT }
+							AND = {
+								is_councillor = yes
+								liege = { tier = DUKE }
+							}
+						}	
+					}
+					PREV = {
+						set_character_flag = target_priced
+						set_character_flag = target_price_baron
+					}
+				}
+				if = {
+					limit = { 
+						PREV = { NOT = { has_character_flag = target_priced } }
+					}
+					PREV = { 
+						set_character_flag = target_price_courtier
+					}
+				}
+			}
+			clr_character_flag = target_priced
+		}	
+	}
+	
+	option = {
+		name = fe7.24.A	
+		trigger = {
+			# Only accept contracts on people who deserve it.
+			# Or, accept contracts on anyone if we've dispensed with morality.
+			OR = {
+				has_global_flag = black_fang_corrupted
+				FROM = { 
+					plot_target_char = {
+						OR = {
+							trait = arbitrary
+							trait = cruel
+							trait = greedy
+							trait = impaler
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10	
+			
+			# Who WON'T they kill?
+			# Lovers, friends, and family of the chief, fellow Fang members, liege...
+			modifier = {
+				factor = 0
+				FROM = {
+					plot_target_char = {
+						OR = {
+							is_friend = ROOT
+							is_lover = ROOT
+							is_close_relative = ROOT
+							is_liege_or_above = ROOT
+							employer = {
+								character = ROOT
+							}
+						}
+					}
+				}
+			}	
+		}
+		FROM = { 
+			character_event = { id = fe7.25 } 
+		}
+	}
+	
+	# Not sending assassin
+	option = {
+		name = fe7.24.B
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				NOT = { has_global_flag = black_fang_corrupted }
+				FROM = {
+					plot_target_char = {
+						trait = kind
+					}
+				}
+			}	
+			modifier = {
+				factor = 2
+				NOT = { has_global_flag = black_fang_corrupted }
+				FROM = {
+					plot_target_char = {
+						trait = just
+					}
+				}
+			}	
+			modifier = {
+				factor = 2
+				NOT = { has_global_flag = black_fang_corrupted }
+				FROM = {
+					plot_target_char = {
+						trait = charitable
+					}
+				}
+			}	
+			modifier = {
+				factor = 1.5
+				NOT = { has_global_flag = black_fang_corrupted }
+				FROM = {
+					plot_target_char = {
+						trait = humble
+					}
+				}
+			}	
+			modifier = {
+				factor = 1.5
+				NOT = { has_global_flag = black_fang_corrupted }
+				FROM = {
+					plot_target_char = {
+						trait = honest
+					}
+				}
+			}	
+		}	
+		FROM = { 
+			character_event = { id = fe7.28 } 
+		}	
+	}	
+}
+
+# Black Fang take the contract, name their price
+character_event = {
+	id = fe7.25
+	desc = "fe7.25.desc"
+	picture = GFX_evt_shadowy_cabal
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {	 
+		name = "fe7.25.A" # Pay them
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				trait = wroth
+			}
+			modifier = {
+				factor = 2
+				trait = charitable
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					stewardship = 9
+					trait = temperate
+					NOT = { 
+						OR = {
+							trait = gluttonous 
+							trait = hedonist
+							trait = lunatic
+						}	
+					}	
+				}	
+			}
+			modifier = {
+				factor = 0.25
+				NOT = { trait = lunatic }
+				NOT = { trait = wroth }
+				plot_power = 0.75
+			}
+			modifier = {
+				factor = 0
+				has_character_flag = target_price_courtier
+				NOT = { wealth = 100 }
+			}
+			modifier = {
+				factor = 0
+				has_character_flag = target_price_baron
+				NOT = { wealth = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_character_flag = target_price_count
+				NOT = { wealth = 300 }
+			}
+			modifier = {
+				factor = 0
+				has_character_flag = target_price_duke
+				NOT = { wealth = 500 }
+			}
+			modifier = {
+				factor = 0
+				has_character_flag = target_price_king
+				NOT = { wealth = 750 }
+			}
+			modifier = {
+				factor = 0
+				has_character_flag = target_price_emperor
+				NOT = { wealth = 1000 }
+			}
+		}	
+		if = {
+			limit = { has_character_flag = target_price_courtier }
+			wealth = -100
+			hidden_tooltip = { FROM = { wealth = 100 } }
+		}
+		if = {
+			limit = { has_character_flag = target_price_baron }
+			wealth = -150
+			hidden_tooltip = { FROM = { wealth = 150 } }
+		}
+		if = {
+			limit = { has_character_flag = target_price_count }
+			wealth = -300
+			hidden_tooltip = { FROM = { wealth = 300 } }
+		}
+		if = {
+			limit = { has_character_flag = target_price_duke }
+			wealth = -500
+			hidden_tooltip = { FROM = { wealth = 500 } }
+		}
+		if = {
+			limit = { has_character_flag = target_price_king }
+			wealth = -750
+			hidden_tooltip = { FROM = { wealth = 750 } }
+		}
+		if = {
+			limit = { has_character_flag = target_price_emperor }
+			wealth = -1000
+			hidden_tooltip = { FROM = { wealth = 1000 } }
+		}
+		hidden_tooltip = {
+		character_event = { id = fe7.26 }
+		}
+	}
+	option = {	 
+		name = "fe7.25.B" # Decline
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 3
+				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = patient
+			}
+		}
+		set_character_flag = black_fang_declined	
+		clr_character_flag = contacting_black_fang
+		clr_character_flag = target_price_courtier
+		clr_character_flag = target_price_baron
+		clr_character_flag = target_price_count
+		clr_character_flag = target_price_duke
+		clr_character_flag = target_price_king
+		clr_character_flag = target_price_emperor
+	}	
+}
+
+# Black Fang paid for and dispatched.
+character_event = {
+	id = fe7.26
+	desc = "fe7.26.desc" 
+	picture = GFX_evt_shadowy_cabal
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+		
+	option = {	
+		name = "fe7.26.A"
+		hidden_tooltip = {
+			random_list = {
+				100 = {
+					# They're usually money in the bank, but they're not perfect.
+					modifier = {
+						factor = 0
+						plot_target_char = { # Powerful mages and true dragons are right out.
+							OR = {
+								trait = class_archsage
+								trait = class_archdruid
+								trait = class_dark_druid
+								trait = dragon
+							}
+						}
+					}
+					modifier = {
+						factor = 0.01
+						plot_target_char = { # The best fighters (Hector, Zephiel, etc.) are a coinflip.
+							OR = {
+								combat_rating = 10
+							}
+						}
+					}
+					modifier = {
+						factor = 0.1
+						plot_target_char = { # Very good fighters, talented people, paranoiacs, and schemers are lower odds.
+							OR = {
+								AND = {
+									combat_rating = 6
+									NOT = { combat_rating = 10 }
+								}
+								trait = strong
+								trait = genius
+								trait = paranoid	
+								intrigue = 20
+							}
+						}
+					}
+					set_character_flag = murder_in_motion
+					plot_target_char = {
+						character_event = { id = fe7.27 tooltip = fe7.26.A.tooltip days = 3 }
+					}
+				
+				}
+				1 = {
+					# Notify target
+					plot_target_char = {
+						character_event = { id = fe7.29 days = 3 }
+					}
+					# Notify plotter
+					character_event = { id = fe7.30 days = 7 }		
+				}
+			}
+		}
+	}
+}
+
+# Black Fang murder plot target
+character_event = {
+	id = fe7.27	
+	desc = "fe7.27.desc" 
+	picture = GFX_evt_shadowy_cabal
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	hide_from = yes
+		
+	option = {
+		name = "fe7.27.A"
+		hidden_tooltip = { 
+			character_event = { id = fe7.33 } 
+		}
+	}
+}
+
+# Won't take the contract notification
+character_event = {
+	id = fe7.28
+	desc = "fe7.28.desc" 
+	picture = GFX_evt_shadowy_cabal
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {	 
+		name = "fe7.28.A" 
+	}	
+}
+
+# Notify target of failed assassination attempt
+character_event = {
+	id = fe7.29
+	desc = "fe7.29.desc" 
+	picture = GFX_evt_shadowy_cabal
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {	 
+		name = "fe7.29.A" 
+		d_black_fang = {
+			holder_scope = { 				
+				random_courtier = {
+					limit = {
+						prisoner = no
+						is_adult = yes
+						NAND = {
+							trait = incapable
+							trait = dark_incapable
+						}
+						has_character_flag = class_selected
+					}
+					death = { 
+						death_reason = death_battle
+						killer = ROOT
+					}	
+				}
+			}
+		}	
+	}	
+}
+
+# Notify plotter of failed assassination attempt
+character_event = {
+	id = fe7.30
+	desc = "fe7.30.desc" 
+	picture = GFX_evt_shadowy_cabal
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {	 
+		name = "fe7.30.A" 
+		d_black_fang = {
+			holder_scope = { 
+				reverse_opinion = {
+					modifier = opinion_furious
+					who = ROOT
+					years = 5
+				} 
+			}
+		}	
+	}	
+}
+
+# Remove warned status if you've lain low long enough
+character_event = {
+	id = fe7.31
+	desc = "fe7.31.desc" 
+	picture = GFX_evt_shadowy_cabal
+	border = GFX_event_normal_frame_intrigue
+	 
+	only_rulers = yes
+	trigger = {
+		is_inaccessible_trigger = yes
+		trait = in_hiding
+		has_character_flag = warned_by_black_fang
+	}
+	
+	mean_time_to_happen = {
+		days = 150		
+	}	
+	
+	option = {	 
+		name = "fe7.31.A" 
+		clr_character_flag = warned_by_black_fang
+		random_list = {
+			10 = {}
+			10 = {
+				modifier = {
+					factor = 0
+					NOT = { trait = arbitrary }
+				}
+				remove_trait = arbitrary
+			}
+			10 = {
+				modifier = {
+					factor = 0
+					NOT = { trait = cruel }
+				}
+				remove_trait = cruel
+			}
+			10 = {
+				modifier = {
+					factor = 0
+					NOT = { trait = greedy }
+				}
+				remove_trait = greedy
+			}
+		}
+	}	
+}
+
+# Lyn goes back to Sacae; notify Hausen
+character_event = {
+	id = fe7.32
+	desc = fe7.32.desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = fe7.32.A
+	}
+}
+# killed by unseen Fang assassin
+character_event = {
+	id = fe7.33
+	desc = fe7.33.desc
+	picture = GFX_evt_shadow
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = fe7.33.A
+		# Report success? Not necessary, they get the plot success notification. Maybe put it in if we have good flavor text...
+		#hidden_tooltip = { 
+		#	FROM = { character_event = { id = fe7.xx } }
+		#}
+		death = { 
+			death_reason = death_murder_unknown
+			killer = FROMFROM
+		}		
+	}
+}	

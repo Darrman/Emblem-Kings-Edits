@@ -1,0 +1,108 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+
+# inherit = yes  # Heirs inherit this opinion
+
+# Opinion modifiers can give a reason to do the following actions without penalties
+# prison_reason
+# banish_reason
+# execute_reason
+# revoke_reason
+# divorce_reason
+
+# enemy = yes # This will make the characters enemies of eachother ( effectively at war )
+# crime = yes # Counts as my foe (rivals do too) for the is_foe trigger
+
+# disable_non_aggression_pacts = yes # This temporarily disables all non-aggression pacts between the two characters
+# non_aggression_pact = yes # This gives a temporary non-aggression pact betweem the two characters
+
+
+opinion_draining_soldiers = {
+	opinion = 0
+}
+
+opinion_regalia_trespasser = {
+	opinion = -100
+	months = 1200
+}
+
+opinion_job_target = {
+	opinion = -100
+	months = 120
+}
+
+opinion_employer = {
+	opinion = 30
+}
+
+opinion_dirty_thief = {
+	opinion = -50
+	prison_reason = yes
+	execute_reason = yes
+	months = 120
+}
+
+opinion_forgave_attempted_murder = {
+	opinion = 100
+	months = 1200
+}
+
+opinion_denied_fire_emblem_request = {
+	opinion = -20
+	months = 120
+}
+
+opinion_loyal_retainer = {
+	opinion = 70
+	months = 1200	# For life
+}
+
+opinion_conspirator = {
+	opinion = -50
+	months = 1200
+}
+
+opinion_uncovered_conspiracy = {
+	opinion = -50
+	months = 1200
+}
+
+opinion_dishonorable_provocateur = {
+	opinion = -30
+	months = 120
+}
+
+opinion_betrayed = {
+	opinion = -50
+	months = 120
+}
+
+opinion_supported_coup = {
+	opinion = 25
+	months = 240
+}
+
+opinion_incompetent_fool = {
+	opinion = -100
+	months = 60
+}
+
+opinion_political_ally = {
+	opinion = 50
+	months = 60
+}
+
+opinion_rebel_scum = {
+	opinion = -100
+	months = 120
+}
+opinion_crush = {
+	opinion = 25
+	months = 60
+}
+opinion_spawn_of_loptous = {
+	opinion = -10
+	months = 36
+	prison_reason = yes # This one gives righteous cause to imprison a character
+}

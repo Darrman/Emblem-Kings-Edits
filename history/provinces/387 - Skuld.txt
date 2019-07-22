@@ -1,0 +1,28 @@
+# 387 - Skuld
+
+# County Title
+title = c_skuld
+
+# Settlements
+max_settlements = 5
+
+b_skuld = castle
+b_skuld_2 = temple
+b_skuld_3 = city
+b_parca = city
+b_fata = city
+
+# Misc
+culture = agustrian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+}
+
+649.1.1 = { 
+	religion = church_of_edda
+	culture = agustrian
+}

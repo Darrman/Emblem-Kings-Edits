@@ -1,0 +1,836 @@
+loptous_possession_effect = {
+	custom_tooltip = {
+		text = loptous_possession_effect.tooltip
+		hidden_tooltip = {
+			
+			# Religion and bloodline...
+			if = {
+				limit = { NOT = { religion = loptyrian } }
+				religion = loptyrian
+			}
+			if = {
+				limit = { NOT = { trait = holy_blood_major_loptous } }
+				add_trait = holy_blood_major_loptous
+			}
+			if = {
+				limit = { trait = holy_blood_minor_loptous }
+				remove_trait = holy_blood_minor_loptous
+			}
+			if = {
+				limit = { NOT = { trait = possessed_loptous } }
+				add_trait = possessed_loptous
+			}
+			
+			# Personality - he's like this
+			if = {
+				limit = { NOT = { trait = genius } }
+				add_trait = genius
+			}
+			if = {
+				limit = { NOT = { trait = ambitious } }
+				add_trait = ambitious
+			}
+			if = {
+				limit = { NOT = { trait = cruel } }
+				add_trait = cruel
+			}
+			if = {
+				limit = { NOT = { trait = deceitful } }
+				add_trait = deceitful
+			}
+			if = {
+				limit = { NOT = { trait = envious } }
+				add_trait = envious
+			}
+			if = {
+				limit = { NOT = { trait = gregarious } }
+				add_trait = gregarious
+			}
+			if = {
+				limit = { NOT = { trait = impaler } }
+				add_trait = impaler
+			}
+			if = {
+				limit = { NOT = { trait = mystic } }
+				add_trait = mystic
+			}
+			if = {
+				limit = { NOT = { trait = patient } }
+				add_trait = patient
+			}
+			if = {
+				limit = { NOT = { trait = proud } }
+				add_trait = proud
+			}
+			if = {
+				limit = { NOT = { trait = wroth } }
+				add_trait = wroth
+			}
+			if = {
+				limit = { NOT = { trait = zealous } }
+				add_trait = zealous
+			}
+			if = {
+				limit = { NOT = { trait = inspiring_leader } }
+				add_trait = inspiring_leader
+			}
+			if = {
+				limit = { NOT = { trait = aggressive_leader } }
+				add_trait = aggressive_leader
+			}
+			if = {
+				limit = { NOT = { trait = holy_warrior } }
+				add_trait = holy_warrior
+			}
+			
+			# Loptous is not like this
+			if = {
+				limit = { trait = quick }
+				remove_trait = quick
+			}
+			if = {
+				limit = { trait = arbitrary }
+				remove_trait = arbitrary
+			}
+			if = {
+				limit = { trait = brave }
+				remove_trait = brave
+			}
+			if = {
+				limit = { trait = charitable }
+				remove_trait = charitable
+			}
+			if = {
+				limit = { trait = chaste }
+				remove_trait = chaste
+			}
+			if = {
+				limit = { trait = content }
+				remove_trait = content
+			}
+			if = {
+				limit = { trait = craven }
+				remove_trait = craven
+			}
+			if = {
+				limit = { trait = curious }
+				remove_trait = curious
+			}
+			if = {
+				limit = { trait = cynical }
+				remove_trait = cynical
+			}
+			if = {
+				limit = { trait = depressed }
+				remove_trait = depressed
+			}
+			if = {
+				limit = { trait = diligent }
+				remove_trait = diligent
+			}
+			if = {
+				limit = { trait = drunkard }
+				remove_trait = drunkard
+			}
+			if = {
+				limit = { trait = erudite }
+				remove_trait = erudite
+			}
+			if = {
+				limit = { trait = fussy }
+				remove_trait = fussy
+			}
+			if = {
+				limit = { trait = gluttonous }
+				remove_trait = gluttonous
+			}
+			if = {
+				limit = { trait = greedy }
+				remove_trait = greedy
+			}
+			if = {
+				limit = { trait = haughty }
+				remove_trait = haughty
+			}
+			if = {
+				limit = { trait = honest }
+				remove_trait = honest
+			}
+			if = {
+				limit = { trait = humble }
+				remove_trait = humble
+			}
+			if = {
+				limit = { trait = idolizer }
+				remove_trait = idolizer
+			}
+			if = {
+				limit = { trait = indolent }
+				remove_trait = indolent
+			}
+			if = {
+				limit = { trait = just }
+				remove_trait = just
+			}
+			if = {
+				limit = { trait = kind }
+				remove_trait = kind
+			}
+			if = {
+				limit = { trait = lustful }
+				remove_trait = lustful
+			}
+			if = {
+				limit = { trait = paranoid }
+				remove_trait = paranoid
+			}
+			if = {
+				limit = { trait = playful }
+				remove_trait = playful
+			}
+			if = {
+				limit = { trait = rowdy }
+				remove_trait = rowdy
+			}
+			if = {
+				limit = { trait = shy }
+				remove_trait = shy
+			}
+			if = {
+				limit = { trait = stubborn }
+				remove_trait = stubborn
+			}
+			if = {
+				limit = { trait = temperate }
+				remove_trait = temperate
+			}
+			if = {
+				limit = { trait = timid }
+				remove_trait = timid
+			}
+			if = {
+				limit = { trait = trusting }
+				remove_trait = trusting
+			}
+			if = {
+				limit = { trait = willful }
+				remove_trait = willful
+			}
+			
+			# Fix the class
+			#hidden_tooltip = {	
+				set_character_flag = class_selected
+				
+				remove_all_classes_effect = yes
+				
+				# Add the right stuff!
+				
+				if = {
+					limit = { NOT = { trait = base_class_dark_mage } }
+					add_trait = base_class_dark_mage
+				}
+				
+				if = {
+					limit = { is_female = yes }
+					if = {
+						limit = { NOT = { trait = class_sorceror_female } }
+						add_trait = class_sorceror_female
+					}
+				}
+				if = {
+					limit = { is_female = no }
+					if = {
+						limit = { NOT = { trait = class_sorceror } }
+						add_trait = class_sorceror
+					}
+				}
+				set_variable = { which = "level" value = 20 }		
+			#}
+		}
+	}
+}
+
+add_latent_holy_blood_effect = {
+	if = {
+		limit = {
+			can_inherit_loptous_holy_blood_trigger = yes
+		}
+		add_trait = holy_blood_latent_loptous
+	}
+	if = {
+		limit = {
+			can_inherit_naga_holy_blood_trigger = yes
+		}
+		add_trait = holy_blood_latent_naga
+	}
+	if = {
+		limit = {
+			can_inherit_baldr_holy_blood_trigger = yes
+		}
+		add_trait = holy_blood_latent_baldr
+	}
+	if = {
+		limit = {
+			can_inherit_blagi_holy_blood_trigger = yes
+		}
+		add_trait = holy_blood_latent_blagi
+	}
+	if = {
+		limit = {
+			can_inherit_dain_holy_blood_trigger = yes
+		}
+		add_trait = holy_blood_latent_dain
+	}
+	if = {
+		limit = {
+			can_inherit_fjalar_holy_blood_trigger = yes
+		}
+		add_trait = holy_blood_latent_fjalar
+	}
+	if = {
+		limit = {
+			can_inherit_forseti_holy_blood_trigger = yes
+		}
+		add_trait = holy_blood_latent_forseti
+	}
+	if = {
+		limit = {
+			can_inherit_hezul_holy_blood_trigger = yes
+		}
+		add_trait = holy_blood_latent_hezul
+	}
+	if = {
+		limit = {
+			can_inherit_neir_holy_blood_trigger = yes
+		}
+		add_trait = holy_blood_latent_neir
+	}
+	if = {
+		limit = {
+			can_inherit_noba_holy_blood_trigger = yes
+		}
+		add_trait = holy_blood_latent_noba
+	}
+	if = {
+		limit = {
+			can_inherit_od_holy_blood_trigger = yes
+		}
+		add_trait = holy_blood_latent_od
+	}
+	if = {
+		limit = {
+			can_inherit_thrud_holy_blood_trigger = yes
+		}
+		add_trait = holy_blood_latent_thrud
+	}
+	if = {
+		limit = {
+			can_inherit_ulir_holy_blood_trigger = yes
+		}
+		add_trait = holy_blood_latent_ulir
+	}
+}
+
+add_minor_blood_found_by_loptryians_effect = {
+	set_character_flag = minor_blood_found_by_loptyrians
+	if = {
+		limit = { is_female = yes }
+		if = {
+			limit = {
+				NOT = {	
+					check_variable = { which = global_female_minor_blood_found_by_loptyrians value = 1 } 
+				}
+			}
+			set_variable = { which = global_female_minor_blood_found_by_loptyrians value = 1 } 
+		}else = {
+			change_variable = { which = global_female_minor_blood_found_by_loptyrians value = 1 }
+		}
+	}else = {
+		if = {
+			limit = {
+				NOT = {	
+					check_variable = { which = global_male_minor_blood_found_by_loptyrians value = 1 } 
+				}
+			}
+			set_variable = { which = global_male_minor_blood_found_by_loptyrians value = 1 } 
+		}else = {
+			change_variable = { which = global_male_minor_blood_found_by_loptyrians value = 1 }
+		}
+	}
+}
+remove_minor_blood_found_by_loptryians_effect = {
+	if = {
+		limit = { is_female = yes }
+		change_variable = { which = global_female_minor_blood_found_by_loptyrians value = -1 }
+	}else = {
+		change_variable = { which = global_male_minor_blood_found_by_loptyrians value = -1 }
+	}
+}
+reject_loptyrians_effect = {
+	set_character_flag = rejected_loptyrians
+	clr_character_flag = minor_blood_primary
+	clr_character_flag = minor_blood_secondary
+	clr_character_flag = brainwashed_by_loptyrians
+	remove_minor_blood_found_by_loptryians_effect = yes
+}
+remove_loptyrian_marriage_flags_effect = {
+	clr_character_flag = minor_blood_primary
+	clr_character_flag = minor_blood_secondary
+	clr_character_flag = brainwashed_by_loptyrians
+	remove_trait = no_marriage_hidden
+}
+remove_loptyrian_marriage_traits_effect = {
+	father_even_if_dead = {
+		remove_trait = married_by_loptyrians
+	}	
+	real_father_even_if_dead = {
+		remove_trait = married_by_loptyrians
+	}	
+	mother_even_if_dead = {
+		remove_trait = married_by_loptyrians
+	}
+}
+
+loptous_revival_effect = {
+	hidden_tooltip = {
+		if = {
+			limit = { 
+				has_global_flag = loptous_empire_destroyed
+				NOT = { has_global_flag = loptous_revived }
+			}
+			set_global_flag = loptous_revived
+			
+			any_society_member = {
+				limit = {
+					society_member_of = secret_religious_society_loptyrian
+					NOT = { character = ROOT }
+				}
+				character_event = { id = loptyrian.23 days = 1 }
+			}
+			
+			if = {
+				limit = { 
+					OR = {
+						AND = {
+							is_ruler = yes 
+							any_courtier = {
+								has_naga_holy_blood_trigger = yes
+							}
+						}
+						AND = {
+							is_ruler = no
+							employer = {
+								any_courtier = {
+									has_naga_holy_blood_trigger = yes
+								}
+							}
+						}
+					}
+				}
+				character_event = {	id = loptyrian.20 }
+			}
+		}
+	}
+}
+
+naga_pact_effect = {
+	remove_all_classes_effect = yes
+	set_character_flag=class_selected
+	set_character_flag=magic_or_faith_question
+	add_trait=base_class_monk
+	
+	if = {
+		limit = { is_female = yes }
+		add_trait=class_bishop_female
+	}else = {
+		add_trait=class_bishop
+	}
+	set_variable = { which = "level" value = 20 }	
+	if = {
+		limit = {
+			any_character = { has_artifact = regalia_naga }
+		}
+		random_character = { 
+			limit = { has_artifact = regalia_naga }
+			random_artifact = {
+				limit = {
+					artifact_type = regalia_naga
+				}
+				transfer_artifact = {
+					from = PREV to = PREVPREV 
+				} 
+			}
+		}
+	}else = {
+		add_artifact = regalia_naga
+	}	
+	add_trait=crusader_draconic
+	add_trait=holy_blood_major_naga
+	give_nickname=nick_the_saint
+}
+baldr_pact_effect = {
+	remove_all_classes_effect = yes
+	set_character_flag=class_selected
+	set_character_flag=magic_or_faith_question
+	add_trait=base_class_cavalier
+	add_trait=class_paladin
+	
+	set_variable = { which = "level" value = 20 }	
+	if = {
+		limit = {
+			any_character = { has_artifact = regalia_tyrfing }
+		}
+		random_character = { 
+			limit = { has_artifact = regalia_tyrfing }
+			random_artifact = {
+				limit = {
+					artifact_type = regalia_tyrfing
+				}
+				transfer_artifact = {
+					from = PREV to = PREVPREV 
+				} 
+			}
+		}
+	}else = {
+		add_artifact = regalia_tyrfing
+	}	
+	add_trait=crusader_draconic
+	add_trait=holy_blood_major_baldr
+	give_nickname=nick_the_holy_knight
+}
+blagi_pact_effect = {
+	remove_all_classes_effect = yes
+	set_character_flag=class_selected
+	set_character_flag=magic_or_faith_question
+	add_trait=base_class_priest
+	
+	if = {
+		limit = { is_female = yes }
+		add_trait=class_bishop_female
+	}else = {
+		add_trait=class_bishop
+	}
+	set_variable = { which = "level" value = 20 }	
+	if = {
+		limit = {
+			any_character = { has_artifact = regalia_valkyrie }
+		}
+		random_character = { 
+			limit = { has_artifact = regalia_valkyrie }
+			random_artifact = {
+				limit = {
+					artifact_type = regalia_valkyrie
+				}
+				transfer_artifact = {
+					from = PREV to = PREVPREV 
+				} 
+			}
+		}
+	}else = {
+		add_artifact = regalia_valkyrie
+	}	
+	add_trait=crusader_draconic
+	add_trait=holy_blood_major_blagi
+	give_nickname=nick_the_saint
+}
+fjalar_pact_effect = {
+	remove_all_classes_effect = yes
+	set_character_flag=class_selected
+	set_character_flag=magic_or_faith_question
+	add_trait=base_class_mage
+	
+	if = {
+		limit = { is_female = yes }
+		add_trait=class_sage_female
+	}else = {
+		add_trait=class_sage
+	}
+	set_variable = { which = "level" value = 20 }	
+	if = {
+		limit = {
+			any_character = { has_artifact = regalia_valflame }
+		}
+		random_character = { 
+			limit = { has_artifact = regalia_valflame }
+			random_artifact = {
+				limit = {
+					artifact_type = regalia_valflame
+				}
+				transfer_artifact = {
+					from = PREV to = PREVPREV 
+				} 
+			}
+		}
+	}else = {
+		add_artifact = regalia_valflame
+	}	
+	add_trait=crusader_draconic
+	add_trait=holy_blood_major_fjalar
+	give_nickname=nick_the_mage_fighter
+}
+thrud_pact_effect = {
+	remove_all_classes_effect = yes
+	set_character_flag=class_selected
+	set_character_flag=magic_or_faith_question
+	add_trait=base_class_mage
+	
+	if = {
+		limit = { is_female = yes }
+		add_trait=class_mage_knight_female
+	}else = {
+		add_trait=class_mage_knight
+	}
+	set_variable = { which = "level" value = 20 }	
+	if = {
+		limit = {
+			any_character = { has_artifact = regalia_mjolnir }
+		}
+		random_character = { 
+			limit = { has_artifact = regalia_mjolnir }
+			random_artifact = {
+				limit = {
+					artifact_type = regalia_mjolnir
+				}
+				transfer_artifact = {
+					from = PREV to = PREVPREV 
+				} 
+			}
+		}
+	}else = {
+		add_artifact = regalia_mjolnir
+	}	
+	add_trait=crusader_draconic
+	add_trait=holy_blood_major_thrud
+	give_nickname=nick_the_mage_knight
+}
+neir_pact_effect = {
+	remove_all_classes_effect = yes
+	set_character_flag=class_selected
+	set_character_flag=magic_or_faith_question
+	add_trait=base_class_cavalier
+	add_trait=class_great_knight
+	
+	set_variable = { which = "level" value = 20 }	
+	if = {
+		limit = {
+			any_character = { has_artifact = regalia_helswath }
+		}
+		random_character = { 
+			limit = { has_artifact = regalia_helswath }
+			random_artifact = {
+				limit = {
+					artifact_type = regalia_helswath
+				}
+				transfer_artifact = {
+					from = PREV to = PREVPREV 
+				} 
+			}
+		}
+	}else = {
+		add_artifact = regalia_helswath
+	}	
+	add_trait=crusader_draconic
+	add_trait=holy_blood_major_neir
+	give_nickname=nick_the_axe_knight
+}
+ulir_pact_effect = {
+	remove_all_classes_effect = yes
+	set_character_flag=class_selected
+	set_character_flag=magic_or_faith_question
+	add_trait=base_class_archer
+	
+	if = {
+		limit = { is_female = yes }
+		add_trait=class_sniper_female
+	}else = {
+		add_trait=class_sniper
+	}
+	set_variable = { which = "level" value = 20 }	
+	if = {
+		limit = {
+			any_character = { has_artifact = regalia_yewfelle }
+		}
+		random_character = { 
+			limit = { has_artifact = regalia_yewfelle }
+			random_artifact = {
+				limit = {
+					artifact_type = regalia_yewfelle
+				}
+				transfer_artifact = {
+					from = PREV to = PREVPREV 
+				} 
+			}
+		}
+	}else = {
+		add_artifact = regalia_yewfelle
+	}	
+	add_trait=crusader_draconic
+	add_trait=holy_blood_major_ulir
+	give_nickname=nick_the_bow_user
+}
+hezul_pact_effect = {
+	remove_all_classes_effect = yes
+	set_character_flag=class_selected
+	set_character_flag=magic_or_faith_question
+	add_trait=base_class_cavalier
+	add_trait=class_paladin
+	
+	set_variable = { which = "level" value = 20 }	
+	if = {
+		limit = {
+			any_character = { has_artifact = regalia_mystletainn }
+		}
+		random_character = { 
+			limit = { has_artifact = regalia_mystletainn }
+			random_artifact = {
+				limit = {
+					artifact_type = regalia_mystletainn
+				}
+				transfer_artifact = {
+					from = PREV to = PREVPREV 
+				} 
+			}
+		}
+	}else = {
+		add_artifact = regalia_mystletainn
+	}	
+	add_trait=crusader_draconic
+	add_trait=holy_blood_major_hezul
+	give_nickname=nick_the_black_knight
+}
+forseti_pact_effect = {
+	remove_all_classes_effect = yes
+	set_character_flag=class_selected
+	set_character_flag=magic_or_faith_question
+	add_trait=base_class_mage
+	
+	if = {
+		limit = { is_female = yes }
+		add_trait=class_sage_female
+	}else = {
+		add_trait=class_sage
+	}
+	set_variable = { which = "level" value = 20 }	
+	if = {
+		limit = {
+			any_character = { has_artifact = regalia_forseti }
+		}
+		random_character = { 
+			limit = { has_artifact = regalia_forseti }
+			random_artifact = {
+				limit = {
+					artifact_type = regalia_forseti
+				}
+				transfer_artifact = {
+					from = PREV to = PREVPREV 
+				} 
+			}
+		}
+	}else = {
+		add_artifact = regalia_forseti
+	}	
+	add_trait=crusader_draconic
+	add_trait=holy_blood_major_forseti
+	give_nickname=nick_the_wind_user
+}
+od_pact_effect = {
+	remove_all_classes_effect = yes
+	set_character_flag=class_selected
+	set_character_flag=magic_or_faith_question
+	add_trait=base_class_myrmidon
+	
+	if = {
+		limit = { is_female = yes }
+		add_trait=class_swordmaster_female
+	}else = {
+		add_trait=class_swordmaster
+	}
+	set_variable = { which = "level" value = 20 }	
+	if = {
+		limit = {
+			any_character = { has_artifact = regalia_balmung }
+		}
+		random_character = { 
+			limit = { has_artifact = regalia_balmung }
+			random_artifact = {
+				limit = {
+					artifact_type = regalia_balmung
+				}
+				transfer_artifact = {
+					from = PREV to = PREVPREV 
+				} 
+			}
+		}
+	}else = {
+		add_artifact = regalia_balmung
+	}	
+	add_trait=crusader_draconic
+	add_trait=holy_blood_major_od
+	give_nickname=nick_the_sword_saint
+}
+dain_pact_effect = {
+	remove_all_classes_effect = yes
+	set_character_flag=class_selected
+	set_character_flag=magic_or_faith_question
+	add_trait=base_class_wyvern_rider
+	add_trait=class_wyvern_lord
+	
+	set_variable = { which = "level" value = 20 }	
+	if = {
+		limit = {
+			any_character = { has_artifact = regalia_gungnir }
+		}
+		random_character = { 
+			limit = { has_artifact = regalia_gungnir }
+			random_artifact = {
+				limit = {
+					artifact_type = regalia_gungnir
+				}
+				transfer_artifact = {
+					from = PREV to = PREVPREV 
+				} 
+			}
+		}
+	}else = {
+		add_artifact = regalia_gungnir
+	}	
+	add_trait=crusader_draconic
+	add_trait=holy_blood_major_dain
+	give_nickname=nick_the_dragon_knight
+}
+noba_pact_effect = {
+	remove_all_classes_effect = yes
+	set_character_flag=class_selected
+	set_character_flag=magic_or_faith_question
+	
+	if = {
+		limit = { is_female = yes }
+		add_trait=base_class_pegasus_knight
+		add_trait=class_falcon_knight
+	}else = {
+		add_trait=base_class_cavalier
+		add_trait=class_paladin
+	}
+	set_variable = { which = "level" value = 20 }	
+	if = {
+		limit = {
+			any_character = { has_artifact = regalia_gae_bolg }
+		}
+		random_character = { 
+			limit = { has_artifact = regalia_gae_bolg }
+			random_artifact = {
+				limit = {
+					artifact_type = regalia_gae_bolg
+				}
+				transfer_artifact = {
+					from = PREV to = PREVPREV 
+				} 
+			}
+		}
+	}else = {
+		add_artifact = regalia_gae_bolg
+	}	
+	add_trait=crusader_draconic
+	add_trait=holy_blood_major_noba
+	give_nickname=nick_the_lance_knight
+}

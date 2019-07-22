@@ -1,0 +1,38 @@
+# 447 - Breifne
+
+# County Title
+title = c_breifne
+
+# Settlements
+max_settlements = 4
+
+b_breifne = castle
+b_breifne_2 = temple
+#b_breifne_3 = city
+#b_ardachadh = castle
+
+# Misc
+culture = mansterian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_breifne = tribal
+}
+500.1.1 = { 
+	b_breifne = castle
+b_breifne_3 = city
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = thracian
+}
+666.1.1 = { 
+	culture = mansterian
+}
+
+779.1.1 = { 
+	culture = new_thracian
+}

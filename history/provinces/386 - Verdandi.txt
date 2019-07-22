@@ -1,0 +1,29 @@
+# 386 - Verdandi
+
+# County Title
+title = c_verdandi
+
+# Settlements
+max_settlements = 6
+
+b_verdandi = castle
+b_verdandi_2 = temple
+b_verdandi_3 = city
+b_morta = city
+b_decima = city
+b_nona = city
+
+# Misc
+culture = agustrian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+}
+
+649.1.1 = { 
+	religion = church_of_edda
+	culture = agustrian
+}

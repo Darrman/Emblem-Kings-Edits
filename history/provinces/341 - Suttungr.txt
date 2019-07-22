@@ -1,0 +1,32 @@
+# 341 - Suttungr
+
+# County Title
+title = c_suttungr
+
+# Settlements
+max_settlements = 4
+
+b_suttungr = castle
+#b_suttungr_2 = temple
+#b_suttungr_3 = city
+#b_augi = castle
+
+# Misc
+culture = grannvalean
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_suttungr = tribal
+}
+500.1.1 = { 
+	b_suttungr = castle
+	b_suttungr_2 = temple
+	b_suttungr_3 = city
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = grannvalean
+}

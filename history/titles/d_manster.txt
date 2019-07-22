@@ -1,0 +1,269 @@
+0180.01.01={
+	law = status_of_women_4
+	law = true_cognatic_succession
+	law = succ_primogeniture
+	liege = k_manster
+}
+0180.01.01={
+	de_jure_liege = k_savan
+}
+0450.01.01={
+	liege = e_loptous
+}
+0649.01.01={
+	holder=1012 # Noba TODO: add filler character
+	de_jure_liege = k_thracia
+	liege = k_thracia
+}
+0666.01.01={
+	de_jure_liege = k_manster
+	liege = k_manster
+}
+0668.01.01={
+	holder=6168
+}
+0706.01.01={
+	holder=1344 # Carl's grandfather
+}
+0739.01.01={
+	holder=1342 # Carl's father
+}
+0756.01.01={
+	holder=1341 # Carl
+}
+0762.01.01={
+	liege = k_thracia # Travant invades
+}
+0763.01.01={
+	liege = k_manster # Grannvale invades
+	holder=1058 # Bloom
+}
+0763.01.01={
+	holder=1340 # Raydrik
+}
+0777.01.01={
+	holder=1058 # Bloom
+}
+0777.08.01={
+	holder = 1162 # Leif 
+}
+0779.01.01={
+	holder=1423 # Ilios
+}
+0779.01.01={
+	de_jure_liege = k_new_thracia
+	liege = k_new_thracia
+}
+0785.01.01={
+	holder = 1162 # Leif 
+}
+0824.01.01={
+	holder=6098
+}
+0863.01.01={
+	holder=6099
+}
+0905.12.31={
+	holder=6100
+}
+0945.12.31={
+	holder=6101
+}
+0993.12.31={
+	holder=6102
+}
+1034.12.30={
+	holder=6103
+}
+1083.12.30={
+	holder=6104
+}
+1117.12.29={
+	holder=6105
+}
+1169.12.29={
+	holder=6106
+}
+1217.12.29={
+	holder=6107
+}
+1261.12.29={
+	holder=6108
+}
+1295.12.29={
+	holder=6109
+}
+1336.12.28={
+	holder=6110
+}
+1372.12.28={
+	holder=6111
+}
+1416.12.27={
+	holder=6112
+}
+1452.12.27={
+	holder=6113
+}
+1488.12.27={
+	holder=6114
+}
+1522.12.26={
+	holder=6115
+}
+1555.12.26={
+	holder=6116
+}
+1598.01.05={
+	holder=6117
+}
+1639.01.05={
+	holder=6118
+}
+1682.01.05={
+	holder=6119
+}
+1726.01.05={
+	holder=6120
+}
+1769.01.05={
+	holder=6121
+}
+1809.01.05={
+	holder=6122
+}
+1859.01.05={
+	holder=6123
+}
+1897.01.05={
+	holder=6124
+}
+1939.01.05={
+	holder=6125
+}
+1988.01.05={
+	holder=6126
+}
+2027.01.05={
+	holder=6127
+}
+2070.01.05={
+	holder=6128
+}
+2105.01.05={
+	holder=6129
+}
+2140.01.05={
+	holder=6130
+}
+2188.01.05={
+	holder=6131
+}
+2232.01.05={
+	holder=6132
+}
+2266.01.05={
+	holder=6133
+}
+2319.01.05={
+	holder=6134
+}
+2361.01.05={
+	holder=6135
+}
+2411.01.05={
+	holder=6136
+}
+2460.01.05={
+	holder=6137
+}
+2510.01.05={
+	holder=6138
+}
+2561.01.05={
+	holder=6139
+}
+2597.01.05={
+	holder=6140
+}
+2640.01.05={
+	holder=6141
+}
+2676.01.05={
+	holder=6142
+}
+2728.01.05={
+	holder=6143
+}
+2771.01.05={
+	holder=6144
+}
+2803.01.05={
+	holder=6145
+}
+2842.01.05={
+	holder=6146
+}
+2887.01.05={
+	holder=6147
+}
+2930.01.05={
+	holder=6148
+}
+2966.01.05={
+	holder=6149
+}
+3012.01.05={
+	holder=6150
+}
+3055.01.05={
+	holder=6151
+}
+3107.01.05={
+	holder=6152
+}
+3152.01.05={
+	holder=6153
+}
+3193.01.05={
+	holder=6154
+}
+3228.01.05={
+	holder=6155
+}
+3267.01.05={
+	holder=6156
+}
+3308.01.05={
+	holder=6157
+}
+3352.01.05={
+	holder=6158
+}
+3404.01.05={
+	holder=6159
+}
+3438.01.05={
+	holder=6160
+}
+3478.01.05={
+	holder=6161
+}
+3513.01.05={
+	holder=6162
+}
+3562.01.05={
+	holder=6163
+}
+3600.01.05={
+	holder=6164
+}
+3645.01.05={
+	holder=6165
+}
+3688.01.05={
+	holder=6166
+}
+3732.01.05={
+	holder=6167
+}

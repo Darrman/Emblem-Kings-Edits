@@ -1,0 +1,37 @@
+# 455 - Dungot
+
+# County Title
+title = c_dungot
+
+# Settlements
+max_settlements = 3
+
+b_dungot = tribal
+#b_dungot_2 = temple
+#b_dungot_3 = city
+
+# Misc
+culture = mansterian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = thracian
+}
+666.1.1 = { 
+	culture = mansterian
+}
+777.1.1 = { 
+	b_dungot = castle
+	b_dungot_2 = temple
+	b_dungot_3 = city
+}
+
+779.1.1 = { 
+	culture = new_thracian
+}

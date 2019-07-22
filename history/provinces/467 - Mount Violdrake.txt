@@ -1,0 +1,34 @@
+# 467 - Mount Violdrake
+
+# County Title
+title = c_mount_violdrake
+
+# Settlements
+max_settlements = 3
+
+b_fort_violdrake = castle
+#b_barca = city
+#b_violdrake = temple
+
+# Misc
+culture = thracian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_fort_violdrake = tribal
+}
+500.1.1 = { 
+	b_fort_violdrake = castle
+b_barca = city
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = thracian
+}
+
+779.1.1 = { 
+	culture = new_thracian
+}

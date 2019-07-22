@@ -1,0 +1,40 @@
+# 342 - Edda
+
+# County Title
+title = c_edda
+
+# Settlements
+max_settlements = 5
+
+b_edda_castle = castle
+b_edda = temple
+#b_edda_2 = city
+#b_skirnismal = temple
+#b_thrymskvida = temple
+
+# Misc
+culture = grannvalean
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_edda_castle = tribal
+}
+500.1.1 = { 
+	b_edda_castle = castle
+	b_edda_2 = city
+	b_skirnismal = temple
+	b_thrymskvida = temple
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = grannvalean
+}
+770.1.1 = { 
+	capital = b_edda
+}
+779.1.1 = { 
+	capital = b_edda_castle
+}

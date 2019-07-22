@@ -1,0 +1,37 @@
+# 388 - Mackily
+
+# County Title
+title = c_mackily
+
+# Settlements
+max_settlements = 4
+
+b_mackily_castle = castle
+b_mackily = temple
+#b_mackily_2 = city
+#b_tresillian = city
+
+# Misc
+culture = agustrian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_mackily_castle = tribal
+}
+500.1.1 = { 
+	b_mackily_castle = castle
+	#b_mackily_2 = city
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = agustrian
+}
+770.1.1 = { 
+	capital = b_mackily
+}
+779.1.1 = { 
+	capital = b_mackily_castle
+}

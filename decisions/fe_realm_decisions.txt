@@ -1,0 +1,267 @@
+decisions = {
+	form_kingdom_of_lycia = {
+		only_playable = yes
+		only_independent = yes
+		is_high_prio = yes
+		
+		potential = {
+			OR = {
+				has_landed_title = d_ostia
+				has_landed_title = d_araphen
+				has_landed_title = d_badon
+				has_landed_title = d_caelin
+				has_landed_title = d_cornwell
+				has_landed_title = d_khathelet
+				has_landed_title = d_laus
+				has_landed_title = d_pherae
+				has_landed_title = d_ryerde
+				has_landed_title = d_santaruz
+				has_landed_title = d_tania
+				has_landed_title = d_thria
+				has_landed_title = d_tuscana
+				has_landed_title = d_worde
+			}
+			is_adult = yes
+			prisoner = no
+			NOT = { trait = incapable }
+			#NOT = { has_global_flag = lycia_formed }
+			NOT = { 
+				k_lycia = {
+					any_previous_holder = {
+						always = yes
+					}
+				}
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = form_kingdom_of_lycia.tooltip.allow
+				hidden_tooltip = {
+					calc_true_if = {
+						amount = 10
+						d_ostia = { has_holder = yes }
+						d_caelin = { has_holder = yes }
+						d_badon = { has_holder = yes }
+						d_araphen = { has_holder = yes }
+						d_cornwell = { has_holder = yes }
+						d_khathelet = { has_holder = yes }
+						d_laus = { has_holder = yes }
+						d_pherae = { has_holder = yes }
+						d_ryerde = { has_holder = yes }
+						d_santaruz = { has_holder = yes }
+						d_tania = { has_holder = yes }
+						d_thria = { has_holder = yes }
+						d_tuscana = { has_holder = yes }
+						d_worde = { has_holder = yes }
+					}	
+					ROOT = {
+						d_ostia = {
+							OR = {
+								has_holder = no
+								holder_scope = {
+									opinion = { who = ROOT value = 50 } # King of Lycia popularity 
+								}
+							}
+						}
+						d_caelin = {
+							OR = {
+								has_holder = no
+								holder_scope = {
+									opinion = { who = ROOT value = 50 } # King of Lycia popularity 
+								}
+							}
+						}
+						d_badon = {
+							OR = {
+								has_holder = no
+								holder_scope = {
+									opinion = { who = ROOT value = 50 } # King of Lycia popularity 
+								}
+							}
+						}
+						d_araphen = {
+							OR = {
+								has_holder = no
+								holder_scope = {
+									opinion = { who = ROOT value = 50 } # King of Lycia popularity 
+								}
+							}
+						}
+						d_cornwell = {
+							OR = {
+								has_holder = no
+								holder_scope = {
+									opinion = { who = ROOT value = 50 } # King of Lycia popularity 
+								}
+							}
+						}
+						d_khathelet = {
+							OR = {
+								has_holder = no
+								holder_scope = {
+									opinion = { who = ROOT value = 50 } # King of Lycia popularity 
+								}
+							}
+						}
+						d_laus = {
+							OR = {
+								has_holder = no
+								holder_scope = {
+									opinion = { who = ROOT value = 50 } # King of Lycia popularity 
+								}
+							}
+						}
+						d_pherae = {
+							OR = {
+								has_holder = no
+								holder_scope = {
+									opinion = { who = ROOT value = 50 } # King of Lycia popularity 
+								}
+							}
+						}
+						d_ryerde = {
+							OR = {
+								has_holder = no
+								holder_scope = {
+									opinion = { who = ROOT value = 50 } # King of Lycia popularity 
+								}
+							}
+						}
+						d_santaruz = {
+							OR = {
+								has_holder = no
+								holder_scope = {
+									opinion = { who = ROOT value = 50 } # King of Lycia popularity 
+								}
+							}
+						}
+						d_tania = {
+							OR = {
+								has_holder = no
+								holder_scope = {
+									opinion = { who = ROOT value = 50 } # King of Lycia popularity 
+								}
+							}
+						}
+						d_thria = {
+							OR = {
+								has_holder = no
+								holder_scope = {
+									opinion = { who = ROOT value = 50 } # King of Lycia popularity 
+								}
+							}
+						}
+						d_tuscana = {
+							OR = {
+								has_holder = no
+								holder_scope = {
+									opinion = { who = ROOT value = 50 } # King of Lycia popularity 
+								}
+							}
+						}
+						d_worde = {
+							OR = {
+								has_holder = no
+								holder_scope = {
+									opinion = { who = ROOT value = 50 } # King of Lycia popularity 
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			#primary_title = { title = k_lycian_league }
+			prestige = 1000
+		}
+		effect = {
+			#set_global_flag = lycia_formed
+			narrative_event = { id = fe6.1 tooltip = EVTTOOLTIPfe6.1 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	form_new_thracia = {
+		only_playable = yes
+		only_independent = yes
+		is_high_prio = yes
+		
+		potential = {
+			culture = mansterian
+			primary_title = {
+				title = k_manster
+			}
+			NOT = { 
+				k_new_thracia = {
+					any_previous_holder = {
+						always = yes
+					}
+				}
+			}
+			has_global_flag = thracia_split
+			is_adult = yes
+			prisoner = no
+			NOT = { trait = incapable }
+		}
+		allow = {
+			action_allowed_trigger = yes
+			war = no
+			has_landed_title = k_thracia
+			has_landed_title = k_manster
+			completely_controls_region = world_jugdral_thracia
+			#completely_controls = k_thracia
+			#completely_controls = k_manster
+			prestige = 500
+		}
+		effect = {
+			clr_global_flag = thracia_split
+			set_global_flag = thracia_reunited
+			narrative_event = { id = fe5_thracia_776.15 tooltip = fe5_thracia_776.15.tooltip }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	reunite_thracia = {
+		only_playable = yes
+		only_independent = yes
+		is_high_prio = yes
+		
+		potential = {
+			culture = thracian
+			primary_title = {
+				title = k_thracia
+			}
+			NOT = { 
+				k_new_thracia = {
+					any_previous_holder = {
+						always = yes
+					}
+				}
+			}
+			has_global_flag = thracia_split
+			is_adult = yes
+			prisoner = no
+			NOT = { trait = incapable }
+		}
+		allow = {
+			action_allowed_trigger = yes
+			war = no
+			has_landed_title = k_thracia
+			has_landed_title = k_manster
+			completely_controls_region = world_jugdral_thracia
+			#completely_controls = k_thracia
+			#completely_controls = k_manster
+			prestige = 500
+		}
+		effect = {
+			clr_global_flag = thracia_split
+			set_global_flag = thracia_reunited
+			narrative_event = { id = fe5_thracia_776.17 tooltip = fe5_thracia_776.17.tooltip }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

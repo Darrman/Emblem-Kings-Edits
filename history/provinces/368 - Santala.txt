@@ -1,0 +1,31 @@
+# 368 - Santala
+
+# County Title
+title = c_santala
+
+# Settlements
+max_settlements = 4
+
+b_santala = castle
+b_santala_2 = temple
+#b_santala_3 = city
+#b_eremo = city
+
+# Misc
+culture = agustrian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_santala = tribal
+}
+500.1.1 = { 
+	b_santala = castle
+	#b_santala_3 = city
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = agustrian
+}

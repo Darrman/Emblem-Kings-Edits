@@ -1,0 +1,75 @@
+1={
+	name="Bach"
+	dynasty=300
+	culture=ilian
+	religion=dark
+	trait="quick"
+	741.6.24={
+		birth=yes
+		employer=1028
+	}
+	753.06.24={
+		add_trait="class_dark_mage"
+		add_trait="base_class_dark_mage"
+		effect = {
+			set_variable = { which = "level" value = 1 }
+			set_character_flag="class_selected"
+		}
+	} 
+	756.06.24={
+		add_trait="scholarly_theologian"
+		add_trait="mystic"
+		add_trait="organizer"
+		add_trait="siege_leader"
+		add_trait="diligent"
+		add_trait="temperate"
+		add_trait="greedy"
+		add_trait="shy"
+	} 
+	811.6.24={
+		death=yes
+	}
+}
+
+2={
+	name="Mark"
+	culture=etrurian
+	religion=elimine_church
+	disallow_random_traits="yes" 
+	trait="genius"
+	1140.01.01 = { 
+		birth=yes 
+		effect={ dynasty = none }
+	}
+#	1152.01.01={
+#		add_trait="class_tactician"
+#		effect = {
+#			set_variable = { which = "level" value = 1 }
+#			set_character_flag="class_selected"
+#			set_character_flag="class_tactician"
+#		}
+#	} 
+	1155.01.01 = { 
+		add_trait="brilliant_strategist"
+		add_trait="organizer"
+		add_trait="siege_leader"
+		add_trait="narrow_flank_leader"
+		add_trait="inspiring_leader"
+		add_trait="gamer"
+		add_trait="strategist"
+		add_trait="diligent"
+	}
+	1159.01.01 = { 
+		employer=111 #Lyn
+	}
+	1160.01.01 = { 
+		employer=107 #Eliwood
+	}
+	1161.01.01 = { 
+		#Somewhere totally uninvolved in future events. Not Bern or Etruria.
+		employer=618 #Mayor of Kafti
+	}
+	1230.01.01={
+		death=yes
+	}
+}

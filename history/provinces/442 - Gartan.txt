@@ -1,0 +1,35 @@
+# 442 - Gartan
+
+# County Title
+title = c_gartan
+
+# Settlements
+max_settlements = 2
+
+b_gartan = castle
+#b_dun_libhse = temple
+
+# Misc
+culture = mansterian
+religion = church_of_edda
+
+# History
+440.1.1 = { 
+	religion = earthen_pagan
+	culture = grann
+	b_gartan = tribal
+}
+500.1.1 = { 
+	b_gartan = castle
+}
+649.1.1 = { 
+	religion = church_of_edda
+	culture = thracian
+}
+666.1.1 = { 
+	culture = mansterian
+}
+
+779.1.1 = { 
+	culture = new_thracian
+}

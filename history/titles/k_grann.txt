@@ -1,0 +1,13 @@
+0180.01.01={
+	law = status_of_women_4
+	law = true_cognatic_succession
+	law = succ_primogeniture
+	de_jure_liege = e_grann
+}
+0430.01.01={
+	holder=819 # 
+}
+0448.01.01={
+	holder=0 # Destroyed
+	set_global_flag = grann_republic_destroyed
+}
