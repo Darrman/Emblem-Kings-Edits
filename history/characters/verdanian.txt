@@ -139,6 +139,11 @@
 		add_trait="honest"
 		add_trait="just"
 		add_trait="trusting"
+		diplomacy = 8
+		martial = 2
+		stewardship = 6
+		intrigue = 1
+		learning = 5
 	}	 
 #	714.01.01={
 #		remove_trait="class_fighter"

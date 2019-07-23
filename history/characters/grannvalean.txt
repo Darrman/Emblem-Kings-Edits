@@ -390,7 +390,12 @@
 		add_trait="chaste"
 		add_trait="zealous"
 		add_trait="proud"
-		add_trait=class_ninja
+		diplomacy = 4
+		martial = 3
+		stewardship = 3
+		intrigue = 1
+		learning = 7
+		#add_trait=class_ninja
 	}	
 	 
 	728.1.1 = {
@@ -650,6 +655,11 @@
 		add_trait="trusting"
 		add_trait="honest"
 		add_trait="kind"
+		diplomacy = 7
+		martial = 10
+		stewardship = 4
+		intrigue = 0
+		learning = 4
 	}
 	 
 	755.1.1 = {
@@ -961,6 +971,11 @@
 		add_trait="just"
 		add_trait="brave"
 		add_trait="kind"
+		diplomacy = 9
+		martial = 6
+		stewardship = 5
+		intrigue = 3
+		learning = 3
 	}
 	777.1.1 = {
 		give_nickname=nick_the_scion_of_light
@@ -1542,6 +1557,11 @@
 		add_trait="charitable"
 		add_trait="cynical"
 		add_trait="diligent"
+		diplomacy = 6
+		martial = 5
+		stewardship = 7
+		intrigue = 7 #Capping it off at 30
+		learning = 4
 	} 
 	748.1.1 = {
 		effect={
@@ -1725,6 +1745,11 @@
 		add_trait="holy_warrior"
 		add_trait="inspiring_leader"
 		give_nickname=nick_the_scion_of_darkness
+		diplomacy = 7
+		martial = 8
+		stewardship = 3
+		intrigue = 6
+		learning = 4
 	}
 	777.1.1={
 		effect={
@@ -1848,6 +1873,11 @@
 		add_trait="gregarious"
 		add_trait="diligent"
 		add_trait="erudite"
+		diplomacy = 4
+		martial = 10
+		stewardship = 5
+		intrigue = 2
+		learning = 7
 	}
 	 
 	765.1.1 = {
@@ -2062,6 +2092,11 @@
 		add_trait="wroth"
 		add_trait="ambitious"
 		add_trait="cynical"
+		diplomacy = 4
+		martial = 3
+		stewardship = 3
+		intrigue = 4
+		learning = 3
 	}	 
 	757.1.1 = {
 		remove_trait="class_mage"
@@ -2932,6 +2967,11 @@
 		add_trait="proud"
 		add_trait="ambitious"
 		add_trait="craven"
+		diplomacy = 2
+		martial = 4
+		stewardship = 3
+		intrigue = 3
+		learning = 2
 	}	
 	758.1.1 = {
 		remove_trait="class_knight"
@@ -4925,6 +4965,11 @@
 		add_trait="cruel"
 		add_trait="proud"
 		add_trait="patient"
+		diplomacy = 5
+		martial = 2
+		stewardship = 3
+		intrigue = 6
+		learning = 4
 		effect = {
 			join_society = secret_religious_society_loptyrian
 		}

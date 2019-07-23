@@ -390,6 +390,11 @@
 		add_trait="diligent"
 		add_trait="deceitful"
 		add_trait="brave"
+		diplomacy = 2
+		martial = 8
+		stewardship = 7
+		intrigue = 7
+		learning = 4
 	}	
 	749.1.1 = {
 		add_spouse=1155
