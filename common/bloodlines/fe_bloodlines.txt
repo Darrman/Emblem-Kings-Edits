@@ -1,0 +1,97 @@
+heim = {
+	inheritance = all_descendants
+	matrilineal_override = yes
+	allow_bastards = no
+	active = {
+		religion = church_of_edda
+		}
+	}
+	
+baldo = {
+	inheritance = all_descendants
+	matrilineal_override = yes
+	allow_bastards = no
+	active = {
+		religion = church_of_edda
+		}
+	}
+neir = {
+	inheritance = all_descendants
+	matrilineal_override = yes
+	allow_bastards = no
+	active = {
+		religion = church_of_edda
+		}
+	}
+blagi = {
+	inheritance = all_descendants
+	matrilineal_override = yes
+	allow_bastards = no
+	active = {
+		religion = church_of_edda
+		}
+	}
+tordo = {
+	inheritance = all_descendants
+	matrilineal_override = yes
+	allow_bastards = no
+	active = {
+		religion = church_of_edda
+		}
+	}
+ulir = {
+	inheritance = all_descendants
+	matrilineal_override = yes
+	allow_bastards = no
+	active = {
+		religion = church_of_edda
+		}
+	}
+fala = {
+	inheritance = all_descendants
+	matrilineal_override = yes
+	allow_bastards = no
+	active = {
+		religion = church_of_edda
+		}
+	}
+hezul = {
+	inheritance = all_descendants
+	matrilineal_override = yes
+	allow_bastards = no
+	active = {
+		religion = church_of_edda
+		}
+	}
+odo = {
+	inheritance = all_descendants
+	matrilineal_override = yes
+	allow_bastards = no
+	active = {
+		religion = church_of_edda
+		}
+	}
+dain = {
+	inheritance = all_descendants
+	matrilineal_override = yes
+	allow_bastards = no
+	active = {
+		religion = church_of_edda
+		}
+	}
+noba = {
+	inheritance = all_descendants
+	matrilineal_override = yes
+	allow_bastards = no
+	active = {
+		religion = church_of_edda
+		}
+	}
+sety = {
+	inheritance = all_descendants
+	matrilineal_override = yes
+	allow_bastards = no
+	active = {
+		religion = church_of_edda
+		}
+	}

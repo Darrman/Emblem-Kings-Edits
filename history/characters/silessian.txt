@@ -31,6 +31,9 @@
 		give_nickname=nick_the_wind_user
 		add_trait="crusader_draconic"
 		add_trait="holy_blood_major_forseti"
+		create_bloodline = {
+			type = sety
+		}
 	}
 	# Founding of Jugdral
 	649.1.1 = {

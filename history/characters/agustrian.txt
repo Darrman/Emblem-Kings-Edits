@@ -30,6 +30,9 @@
 		give_nickname=nick_the_black_knight
 		add_trait="crusader_draconic"
 		add_trait="holy_blood_major_hezul"
+		create_bloodline = {
+			type = hezul
+		}
 	}
 	# Founding of Jugdral
 	649.1.1 = {

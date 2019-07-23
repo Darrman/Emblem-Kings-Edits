@@ -30,6 +30,9 @@
 		give_nickname=nick_the_saint
 		add_trait="crusader_draconic"
 		add_trait="holy_blood_major_naga"
+		create_bloodline = {
+			type = heim
+		}
 	}
 	# Founding of Jugdral
 	649.1.1 = {
@@ -72,6 +75,9 @@
 		give_nickname=nick_the_holy_knight
 		add_trait="crusader_draconic"
 		add_trait="holy_blood_major_baldr"
+		create_bloodline = {
+			type = baldo
+		}
 	}
 	# Founding of Jugdral
 	649.1.1 = {
@@ -115,6 +121,9 @@
 		give_nickname=nick_the_saint
 		add_trait="crusader_draconic"
 		add_trait="holy_blood_major_blagi"
+		create_bloodline = {
+			type = blagi
+		}
 	}
 	# Founding of Jugdral
 	649.1.1 = {
@@ -160,6 +169,9 @@
 		give_nickname=nick_the_mage_fighter
 		add_trait="crusader_draconic"
 		add_trait="holy_blood_major_fjalar"
+		create_bloodline = {
+			type = fala
+		}
 	}
 	# Founding of Jugdral
 	649.1.1 = {
@@ -203,6 +215,9 @@
 		give_nickname=nick_the_mage_knight
 		add_trait="crusader_draconic"
 		add_trait="holy_blood_major_thrud"
+		create_bloodline = {
+			type = tordo
+		}
 	}
 	# Founding of Jugdral
 	649.1.1 = {
@@ -245,6 +260,9 @@
 		give_nickname=nick_the_axe_knight
 		add_trait="crusader_draconic"
 		add_trait="holy_blood_major_neir"
+		create_bloodline = {
+			type = neir
+		}
 	}
 	# Founding of Jugdral
 	649.1.1 = {
@@ -287,6 +305,9 @@
 		give_nickname=nick_the_bow_user # Seriously? Come on, Crusaders...
 		add_trait="crusader_draconic"
 		add_trait="holy_blood_major_ulir"
+		create_bloodline = {
+		type = ulir
+		}
 	}
 	# Founding of Jugdral
 	649.1.1 = {

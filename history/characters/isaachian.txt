@@ -30,6 +30,9 @@
 		give_nickname=nick_the_sword_saint
 		add_trait="crusader_draconic"
 		add_trait="holy_blood_major_od"
+		create_bloodline = {
+			type = odo
+		}
 	}
 	# Founding of Jugdral
 	649.1.1 = {

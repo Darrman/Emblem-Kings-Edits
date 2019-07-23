@@ -31,6 +31,9 @@
 		give_nickname=nick_the_dragon_knight
 		add_trait="crusader_draconic"
 		add_trait="holy_blood_major_dain"
+		create_bloodline = {
+			type = dain
+		}
 	}
 	# Founding of Jugdral
 	649.1.1 = {
@@ -78,6 +81,9 @@
 		give_nickname=nick_the_lance_knight
 		add_trait="crusader_draconic"
 		add_trait="holy_blood_major_noba"
+		create_bloodline = {
+			type = noba
+		}
 	}
 	# Founding of Jugdral
 	649.1.1 = {
