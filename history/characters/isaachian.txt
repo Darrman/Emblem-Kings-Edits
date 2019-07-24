@@ -189,6 +189,7 @@
 		stewardship = 5
 		intrigue = 3
 		learning = 4
+		health = 6.0
 	}	
 	748.1.1 = {
 		remove_trait="class_myrmidon"
@@ -229,7 +230,7 @@
 			set_character_flag="class_selected"
 		}
 	} 	 
-	745.1.1 = {
+	755.1.1 = {
 		add_trait="tough_soldier"
 		add_trait="aggressive_leader"
 		add_trait="experimenter"
@@ -237,6 +238,12 @@
 		add_trait="just"
 		add_trait="brave"
 		add_trait="diligent"
+		diplomacy = 2
+		martial = 8
+		stewardship = 6
+		intrigue = 6
+		learning = 2
+		health = 5.5
 	}	
 	757.1.1 = {
 		employer=1182 # Cimbaeth
@@ -297,6 +304,12 @@
 		add_trait="diligent"
 		add_trait="just"
 		add_trait="brave"
+		diplomacy = 7
+		martial = 9
+		stewardship = 5
+		intrigue = 8
+		learning = 3
+		health = 6.5
 	}	
 	765.1.1 = {
 		remove_trait="class_myrmidon"
@@ -359,6 +372,12 @@
 		add_trait="diligent"
 		add_trait="brave"
 		add_trait="wroth"
+		diplomacy = 4
+		martial = 6
+		stewardship = 6
+		intrigue = 7
+		learning = 1
+		health = 6.0
 	}	
 	778.1.1 = {
 		remove_trait="class_myrmidon_female"
@@ -406,6 +425,12 @@
 		add_trait="brave"
 		add_trait="wroth"
 		add_trait="kind"
+		diplomacy = 5
+		martial = 6
+		stewardship = 6
+		intrigue = 7
+		learning = 2
+		health = 6.5
 	}	
 	778.1.1 = {
 		remove_trait="class_myrmidon"
@@ -491,6 +516,12 @@
 		add_trait="shy" # stoic?
 		add_trait="cynical"
 		add_trait="depressed"
+		diplomacy = 3
+		martial = 9
+		stewardship = 8
+		intrigue = 8
+		learning = 4
+		health = 7.0
 	}	
 	760.1.1 = {
 		add_spouse=1141
@@ -566,6 +597,12 @@
 		add_trait="aggressive_leader"
 		add_trait="brave"
 		add_trait="humble" # "My mother was much more skilled than I'll ever be."
+		diplomacy = 4
+		martial = 5
+		stewardship = 6
+		intrigue = 6
+		learning = 2
+		health = 5.5
 	}	
 	778.1.1 = {
 		remove_trait="class_myrmidon_female"
@@ -793,6 +830,12 @@
 		add_trait="greedy" # Cash has been my motivator all these years
 		add_trait="proud"
 		add_trait="cynical"
+		diplomacy = 3
+		martial = 7
+		stewardship = 6
+		intrigue = 6
+		learning = 2
+		health = 7.0
 	}	
 	752.1.1={
 		effect = {
@@ -906,6 +949,12 @@
 		add_trait="humble"
 		add_trait="brave"
 		add_trait="light_foot_leader" 
+		diplomacy = 5
+		martial = 7
+		stewardship = 3
+		intrigue = 2
+		learning = 2
+		health = 6.0
 	}	 
 	 
 	777.1.1 = {
@@ -947,6 +996,12 @@
 		add_trait="just"
 		add_trait="shy"
 		add_trait="humble"
+		diplomacy = 4
+		martial = 1
+		stewardship = 3
+		intrigue = 2
+		learning = 6
+		health = 5.0
 		employer=1038 # Seliph
 		effect = {
 			c_1038 = { # Seliph
@@ -1088,6 +1143,12 @@
 		add_trait="diligent"
 		add_trait="brave"
 		add_trait="wroth"
+		diplomacy = 2
+		martial = 4
+		stewardship = 5
+		intrigue = 6
+		learning = 1
+		health = 5.5
 	}	
 	778.1.1 = {
 		remove_trait="class_myrmidon_female"
@@ -1133,6 +1194,12 @@
 		add_trait="brave"
 		add_trait="wroth"
 		add_trait="kind"
+		diplomacy = 5
+		martial = 4
+		stewardship = 5
+		intrigue = 4
+		learning = 2
+		health = 6.0
 	}	
 	778.1.1 = {
 		remove_trait="class_myrmidon"
@@ -1216,6 +1283,12 @@
 		add_trait="deceitful"
 		add_trait="craven" 
 		add_trait="gregarious"
+		diplomacy = 2
+		martial = 1
+		stewardship = 3
+		intrigue = 2
+		learning = 4
+		health = 5.0
 	}	 
 	769.01.01={
 		remove_trait="class_myrmidon"

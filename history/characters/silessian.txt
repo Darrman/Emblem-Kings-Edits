@@ -196,6 +196,12 @@
 		add_trait="proud"
 		add_trait="envious"
 		add_trait="flanker"
+		diplomacy = 3
+		martial = 4
+		stewardship = 3
+		intrigue = 8
+		learning = 3
+		health = 7.5 #no dropping to flus
 	}	 
 	737.1.1 = {
 		remove_trait="class_mage"
@@ -244,6 +250,12 @@
 		add_trait="deceitful"
 		add_trait="wroth"
 		add_trait="greedy"
+		diplomacy = 2
+		martial = 3
+		stewardship = 2
+		intrigue = 4
+		learning = 3
+		health = 6.0
 	}	
 	747.1.1 = {
 		remove_trait="class_mage"
@@ -268,7 +280,12 @@
 	dynasty=1025
 	culture=silessian
 	religion=church_of_edda
+	diplomacy = 7
 	martial=0 # His way is never to be confused with violence.
+	stewardship = 6
+	intrigue = 2
+	learning = 7
+	health = 6.5
 	717.1.1={
 		birth=yes
 	} 	 
@@ -328,6 +345,12 @@
 		add_trait="content"
 		add_trait="slothful"
 		add_trait="lustful"
+		diplomacy = 5
+		martial = 8
+		stewardship = 6
+		intrigue = 4
+		learning = 6
+		health = 6.0
 	}	
 	760.1.1 = {
 		add_spouse=1117 # Erinys. Ced born here!
@@ -411,6 +434,7 @@
 		stewardship = 5
 		intrigue = 3
 		learning = 5
+		health = 6.0
 	}	
 	776.1.1 = {
 		remove_trait="class_mage"
@@ -501,6 +525,12 @@
 		add_trait="brave"
 		add_trait="zealous"
 		add_trait="just"
+		diplomacy = 6
+		martial = 3
+		stewardship = 4
+		intrigue = 8
+		learning = 5
+		health = 5.5
 	}	
 	779.1.1 = {
 		remove_trait="class_pegasus_knight"
@@ -585,6 +615,12 @@
 		add_trait="content"
 		add_trait="brave"
 		add_trait="strategist"
+		diplomacy = 5
+		martial = 4
+		stewardship = 5
+		intrigue = 3
+		learning = 3
+		health = 5.0
 	}	
 	753.1.1={
 		employer = 1107 # Lewyn's father 
@@ -629,6 +665,12 @@
 		add_trait="trusting"
 		add_trait="humble"
 		add_trait="charitable"
+		diplomacy = 5
+		martial = 4
+		stewardship = 5
+		intrigue = 6
+		learning = 4
+		health = 5.5
 	}	
 	756.1.1={
 		employer = 1107 # Lewyn's father 
@@ -1146,6 +1188,12 @@
 		add_trait="just"
 		add_trait="charitable"
 		add_trait="proud"
+		diplomacy = 2
+		martial = 4
+		stewardship = 3
+		intrigue = 5
+		learning = 3
+		health = 6.0
 	}	
 	777.1.1 = {
 		remove_trait="class_pegasus_knight"
@@ -1228,6 +1276,12 @@
 		add_trait="rough_terrain_leader"
 		add_trait="mountain_terrain_leader"
 		add_trait="patient"
+		diplomacy = 7
+		martial = 4
+		stewardship = 5
+		intrigue = 7
+		learning = 6
+		health = 6.0
 	}	
 	776.1.1 = {
 		remove_trait="class_mage"
@@ -1271,6 +1325,12 @@
 		add_trait="brave"
 		add_trait="zealous"
 		add_trait="just"
+		diplomacy = 6
+		martial = 2
+		stewardship = 3
+		intrigue = 7
+		learning = 2
+		health = 5.5
 	}	
 	779.1.1 = {
 		remove_trait="class_pegasus_knight"
@@ -1378,6 +1438,12 @@
 		add_trait="brave"
 		add_trait="kind"
 		add_trait="just"
+		diplomacy = 7
+		martial = 3
+		stewardship = 4
+		intrigue = 5
+		learning = 6
+		health = 5.0
 		
 		employer=1162 # Leif
 		remove_trait="class_pegasus_knight"
