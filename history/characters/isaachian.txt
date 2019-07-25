@@ -166,6 +166,12 @@
 	religion=church_of_edda
 	disallow_random_traits=yes
 	trait=holy_blood_latent_od
+		diplomacy = 6
+		martial = 5
+		stewardship = 5
+		intrigue = 3
+		learning = 4
+		health = 6.0
 	728.1.1={ 
 		birth=yes
 	}
@@ -184,12 +190,6 @@
 		add_trait="shrewd"
 		add_trait="just"
 		add_trait="brave"
-		diplomacy = 6
-		martial = 5
-		stewardship = 5
-		intrigue = 3
-		learning = 4
-		health = 6.0
 	}	
 	748.1.1 = {
 		remove_trait="class_myrmidon"
@@ -214,6 +214,12 @@
 	religion=church_of_edda
 	disallow_random_traits=yes
 	trait=holy_blood_latent_od
+		diplomacy = 2
+		martial = 8
+		stewardship = 6
+		intrigue = 6
+		learning = 2
+		health = 5.5
 	740.1.1={ 
 		birth=yes
 		effect = {
@@ -238,12 +244,6 @@
 		add_trait="just"
 		add_trait="brave"
 		add_trait="diligent"
-		diplomacy = 2
-		martial = 8
-		stewardship = 6
-		intrigue = 6
-		learning = 2
-		health = 5.5
 	}	
 	757.1.1 = {
 		employer=1182 # Cimbaeth
@@ -273,6 +273,12 @@
 	religion=church_of_edda
 	disallow_random_traits=yes
 	trait=holy_blood_latent_od
+		diplomacy = 7
+		martial = 9
+		stewardship = 5
+		intrigue = 8
+		learning = 3
+		health = 6.5
 	749.1.1={ # Assume Shannan is not ready to fight in 760 - 11?
 		birth=yes
 		effect = {
@@ -304,12 +310,6 @@
 		add_trait="diligent"
 		add_trait="just"
 		add_trait="brave"
-		diplomacy = 7
-		martial = 9
-		stewardship = 5
-		intrigue = 8
-		learning = 3
-		health = 6.5
 	}	
 	765.1.1 = {
 		remove_trait="class_myrmidon"
@@ -330,6 +330,12 @@
 	disallow_random_traits=yes
 	trait=holy_blood_latent_od
 	trait=twin
+		diplomacy = 4
+		martial = 6
+		stewardship = 6
+		intrigue = 7
+		learning = 1
+		health = 6.0
 	758.1.1={ 
 		birth=yes
 	}
@@ -372,12 +378,6 @@
 		add_trait="diligent"
 		add_trait="brave"
 		add_trait="wroth"
-		diplomacy = 4
-		martial = 6
-		stewardship = 6
-		intrigue = 7
-		learning = 1
-		health = 6.0
 	}	
 	778.1.1 = {
 		remove_trait="class_myrmidon_female"
@@ -397,6 +397,12 @@
 	disallow_random_traits=yes
 	trait=holy_blood_latent_od
 	trait=twin
+		diplomacy = 5
+		martial = 6
+		stewardship = 6
+		intrigue = 7
+		learning = 2
+		health = 6.5
 	758.1.1={ 
 		birth=yes
 	}
@@ -425,12 +431,6 @@
 		add_trait="brave"
 		add_trait="wroth"
 		add_trait="kind"
-		diplomacy = 5
-		martial = 6
-		stewardship = 6
-		intrigue = 7
-		learning = 2
-		health = 6.5
 	}	
 	778.1.1 = {
 		remove_trait="class_myrmidon"
@@ -494,6 +494,12 @@
 	disallow_random_traits=yes
 	trait=holy_blood_latent_od
 	trait=strong
+		diplomacy = 3
+		martial = 9
+		stewardship = 8
+		intrigue = 8
+		learning = 4
+		health = 7.0
 	743.1.1={ # Not sure? Mareeta was born in 761, so he's born in 745 at the latest
 		birth=yes
 	}
@@ -516,12 +522,6 @@
 		add_trait="shy" # stoic?
 		add_trait="cynical"
 		add_trait="depressed"
-		diplomacy = 3
-		martial = 9
-		stewardship = 8
-		intrigue = 8
-		learning = 4
-		health = 7.0
 	}	
 	760.1.1 = {
 		add_spouse=1141
@@ -568,6 +568,12 @@
 	religion=church_of_edda
 	disallow_random_traits=yes
 	trait=holy_blood_latent_od
+		diplomacy = 4
+		martial = 5
+		stewardship = 6
+		intrigue = 6
+		learning = 2
+		health = 5.5
 	761.1.1={ 
 		birth=yes
 	}
@@ -597,12 +603,6 @@
 		add_trait="aggressive_leader"
 		add_trait="brave"
 		add_trait="humble" # "My mother was much more skilled than I'll ever be."
-		diplomacy = 4
-		martial = 5
-		stewardship = 6
-		intrigue = 6
-		learning = 2
-		health = 5.5
 	}	
 	778.1.1 = {
 		remove_trait="class_myrmidon_female"
@@ -809,6 +809,12 @@
 	religion=church_of_edda
 	disallow_random_traits=yes
 	trait=holy_blood_latent_od
+		diplomacy = 3
+		martial = 7
+		stewardship = 6
+		intrigue = 6
+		learning = 2
+		health = 7.0
 	735.1.1={ # Had a crush on Ayra growing up. 5 years older? Or in 733? The two are exclusive unless we take liberties with Ayra's age.
 		birth=yes
 	}
@@ -830,12 +836,6 @@
 		add_trait="greedy" # Cash has been my motivator all these years
 		add_trait="proud"
 		add_trait="cynical"
-		diplomacy = 3
-		martial = 7
-		stewardship = 6
-		intrigue = 6
-		learning = 2
-		health = 7.0
 	}	
 	752.1.1={
 		effect = {
@@ -929,6 +929,12 @@
 	culture=isaachian
 	religion=church_of_edda
 	disallow_random_traits=yes
+		diplomacy = 5
+		martial = 7
+		stewardship = 3
+		intrigue = 2
+		learning = 2
+		health = 6.0
 	760.1.1={ 
 		birth=yes
 	}
@@ -949,12 +955,6 @@
 		add_trait="humble"
 		add_trait="brave"
 		add_trait="light_foot_leader" 
-		diplomacy = 5
-		martial = 7
-		stewardship = 3
-		intrigue = 2
-		learning = 2
-		health = 6.0
 	}	 
 	 
 	777.1.1 = {
@@ -979,6 +979,12 @@
 	culture=isaachian
 	religion=church_of_edda
 	disallow_random_traits=yes
+		diplomacy = 4
+		martial = 1
+		stewardship = 3
+		intrigue = 2
+		learning = 6
+		health = 5.0
 	762.1.1={ 
 		birth=yes
 	}
@@ -996,12 +1002,6 @@
 		add_trait="just"
 		add_trait="shy"
 		add_trait="humble"
-		diplomacy = 4
-		martial = 1
-		stewardship = 3
-		intrigue = 2
-		learning = 6
-		health = 5.0
 		employer=1038 # Seliph
 		effect = {
 			c_1038 = { # Seliph
@@ -1096,6 +1096,12 @@
 	religion=church_of_edda
 	disallow_random_traits=yes
 	trait=twin
+		diplomacy = 2
+		martial = 4
+		stewardship = 5
+		intrigue = 6
+		learning = 1
+		health = 5.5
 	758.1.1={ 
 		birth=yes
 	}
@@ -1143,12 +1149,6 @@
 		add_trait="diligent"
 		add_trait="brave"
 		add_trait="wroth"
-		diplomacy = 2
-		martial = 4
-		stewardship = 5
-		intrigue = 6
-		learning = 1
-		health = 5.5
 	}	
 	778.1.1 = {
 		remove_trait="class_myrmidon_female"
@@ -1168,6 +1168,12 @@
 	religion=church_of_edda
 	disallow_random_traits=yes
 	trait=twin
+		diplomacy = 5
+		martial = 4
+		stewardship = 5
+		intrigue = 4
+		learning = 2
+		health = 6.0
 	758.1.1={ 
 		birth=yes
 	}
@@ -1194,12 +1200,6 @@
 		add_trait="brave"
 		add_trait="wroth"
 		add_trait="kind"
-		diplomacy = 5
-		martial = 4
-		stewardship = 5
-		intrigue = 4
-		learning = 2
-		health = 6.0
 	}	
 	778.1.1 = {
 		remove_trait="class_myrmidon"
@@ -1266,6 +1266,12 @@
 	culture=isaachian
 	religion=church_of_edda
 	disallow_random_traits=yes
+		diplomacy = 2
+		martial = 1
+		stewardship = 3
+		intrigue = 2
+		learning = 4
+		health = 5.0
 	749.1.1={ 
 		birth=yes
 	}	
@@ -1283,12 +1289,6 @@
 		add_trait="deceitful"
 		add_trait="craven" 
 		add_trait="gregarious"
-		diplomacy = 2
-		martial = 1
-		stewardship = 3
-		intrigue = 2
-		learning = 4
-		health = 5.0
 	}	 
 	769.01.01={
 		remove_trait="class_myrmidon"
