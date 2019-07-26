@@ -5,203 +5,216 @@
 holy_blood_major_loptous = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.5
-	church_of_edda_opinion = -10
-	loptyrian_opinion = 10
+#	monthly_character_prestige = 0.5 #Stuff like opinion and prestige are judged by perception.
+#	church_of_edda_opinion = -10 #Health bonuses and combat ability come from the blood.
+#	loptyrian_opinion = 10 # Prestige/opinions = bloodline, health/combat = trait.
 	health = 0.5
-	combat_rating = 1
+	combat_rating = 10
 	cached = yes # Keep a cache of all trait holders, to use with the corresponding event trigger
 }
 holy_blood_minor_loptous = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.25
-	church_of_edda_opinion = -5
-	loptyrian_opinion = 5
+#	monthly_character_prestige = 0.25
+#	church_of_edda_opinion = -5
+#	loptyrian_opinion = 5
 	health = 0.25
+	combat_rating = 5
 }
 
 holy_blood_major_naga = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.5
-	church_of_edda_opinion = 10
-	loptyrian_opinion = -10
+#	monthly_character_prestige = 0.5
+#	church_of_edda_opinion = 10
+#	loptyrian_opinion = -10
 	health = 0.5
-	combat_rating = 1
+	combat_rating = 10
 }
 holy_blood_minor_naga = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.25
-	church_of_edda_opinion = 5
-	loptyrian_opinion = -5
+#	monthly_character_prestige = 0.25
+#	church_of_edda_opinion = 5
+#	loptyrian_opinion = -5
 	health = 0.25
+	combat_rating = 5
 }
 holy_blood_major_baldr = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.5
-	church_of_edda_opinion = 10
+#	monthly_character_prestige = 0.5
+#	church_of_edda_opinion = 10
 	health = 0.5
-	combat_rating = 1
+	combat_rating = 10
 }
 holy_blood_minor_baldr = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.25
-	church_of_edda_opinion = 5
+#	monthly_character_prestige = 0.25
+#	church_of_edda_opinion = 5
 	health = 0.25
+	combat_rating = 5
 }
 holy_blood_major_blagi = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.5
-	church_of_edda_opinion = 10
+#	monthly_character_prestige = 0.5
+#	church_of_edda_opinion = 10
 	health = 0.5
-	combat_rating = 1
+	combat_rating = 10
 }
 holy_blood_minor_blagi = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.25
-	church_of_edda_opinion = 5
+#	monthly_character_prestige = 0.25
+#	church_of_edda_opinion = 5
 	health = 0.25
+	combat_rating = 5
 }
 holy_blood_major_dain = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.5
-	church_of_edda_opinion = 10
+#	monthly_character_prestige = 0.5
+#	church_of_edda_opinion = 10
 	health = 0.5
-	combat_rating = 1
+	combat_rating = 10
 }
 holy_blood_minor_dain = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.25
-	church_of_edda_opinion = 5
+#	monthly_character_prestige = 0.25
+#	church_of_edda_opinion = 5
 	health = 0.25
+	combat_rating = 5
 }
 holy_blood_major_fjalar = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.5
-	church_of_edda_opinion = 10
+#	monthly_character_prestige = 0.5
+#	church_of_edda_opinion = 10
 	health = 0.5
-	combat_rating = 1
+	combat_rating = 10
 }
 holy_blood_minor_fjalar = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.25
-	church_of_edda_opinion = 5
+#	monthly_character_prestige = 0.25
+#	church_of_edda_opinion = 5
 	health = 0.25
+	combat_rating = 5
 }
 holy_blood_major_forseti = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.5
-	church_of_edda_opinion = 10
+#	monthly_character_prestige = 0.5
+#	church_of_edda_opinion = 10
 	health = 0.5
-	combat_rating = 1
+	combat_rating = 10
 }
 holy_blood_minor_forseti = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.25
-	church_of_edda_opinion = 5
+#	monthly_character_prestige = 0.25
+#	church_of_edda_opinion = 5
 	health = 0.25
+	combat_rating = 5
 }
 holy_blood_major_hezul = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.5
-	church_of_edda_opinion = 10
+#	monthly_character_prestige = 0.5
+#	church_of_edda_opinion = 10
 	health = 0.5
-	combat_rating = 1
+	combat_rating = 10
 }
 holy_blood_minor_hezul = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.25
-	church_of_edda_opinion = 5
+#	monthly_character_prestige = 0.25
+#	church_of_edda_opinion = 5
 	health = 0.25
+	combat_rating = 5
 }
 holy_blood_major_neir = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.5
-	church_of_edda_opinion = 10
+#	monthly_character_prestige = 0.5
+#	church_of_edda_opinion = 10
 	health = 0.5
-	combat_rating = 1
+	combat_rating = 10
 }
 holy_blood_minor_neir = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.25
-	church_of_edda_opinion = 5
+#	monthly_character_prestige = 0.25
+#	church_of_edda_opinion = 5
 	health = 0.25
+	combat_rating = 5
 }
 holy_blood_major_noba = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.5
-	church_of_edda_opinion = 10
+#	monthly_character_prestige = 0.5
+#	church_of_edda_opinion = 10
 	health = 0.5
-	combat_rating = 1
+	combat_rating = 10
 }
 holy_blood_minor_noba = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.25
-	church_of_edda_opinion = 5
+#	monthly_character_prestige = 0.25
+#	church_of_edda_opinion = 5
 	health = 0.25
+	combat_rating = 5
 }
 holy_blood_major_od = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.5
-	church_of_edda_opinion = 10
+#	monthly_character_prestige = 0.5
+#	church_of_edda_opinion = 10
 	health = 0.5
-	combat_rating = 1
+	combat_rating = 10
 }
 holy_blood_minor_od = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.25
-	church_of_edda_opinion = 5
+#	monthly_character_prestige = 0.25
+#	church_of_edda_opinion = 5
 	health = 0.25
+	combat_rating = 5
 }
 holy_blood_major_thrud = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.5
-	church_of_edda_opinion = 10
+#	monthly_character_prestige = 0.5
+#	church_of_edda_opinion = 10
 	health = 0.5
-	combat_rating = 1
+	combat_rating = 10
 }
 holy_blood_minor_thrud = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.25
-	church_of_edda_opinion = 5
+#	monthly_character_prestige = 0.25
+#	church_of_edda_opinion = 5
 	health = 0.25
+	combat_rating = 5
 }
 holy_blood_major_ulir = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.5
-	church_of_edda_opinion = 10
+#	monthly_character_prestige = 0.5
+#	church_of_edda_opinion = 10
 	health = 0.5
-	combat_rating = 1
+	combat_rating = 10
 }
 holy_blood_minor_ulir = {
 	customizer = no
 	random = no
-	monthly_character_prestige = 0.25
-	church_of_edda_opinion = 5
+#	monthly_character_prestige = 0.25
+#	church_of_edda_opinion = 5
 	health = 0.25
+	combat_rating = 5
 }
 
 # Hidden traits for latent holy blood
@@ -281,7 +294,7 @@ possessed_loptous = {
 	sex_appeal_opinion = 30
 	general_opinion = -10 # That Prince Julius just sends chills down my spine. That gaze of his draws you in, and you just totally lose yourself in it. I've had many friends leave for Belhalla to worship him, but now they're all missing...
 	health = 2
-	combat_rating = 3
+	combat_rating = 30
 	diplomacy = 10
 	martial = 15
 	intrigue = 10
