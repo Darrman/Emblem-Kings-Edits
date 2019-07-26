@@ -6,7 +6,7 @@ class_archdruid= {
 	immortal = yes
 	customizer = no
 	random = no
-	combat_rating = 3
+	combat_rating = 20
 	
 	opposites =  {
 		class_magic_seal
@@ -18,14 +18,14 @@ class_archdruid= {
 class_archer= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	archers_offensive = 0.05
 }
 class_archer_female= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	archers_offensive = 0.05
 }
@@ -33,7 +33,7 @@ class_archsage= {
 	immortal = yes
 	customizer = no
 	random = no
-	combat_rating = 3
+	combat_rating = 20
 	
 	opposites =  {
 		class_magic_seal
@@ -47,7 +47,7 @@ class_archsage= {
 class_assassin= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	command_modifier = {
 		morale_offence = 0.1
@@ -56,7 +56,7 @@ class_assassin= {
 class_assassin_female= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	command_modifier = {
 		morale_offence = 0.1
@@ -75,7 +75,7 @@ class_bard= {
 class_berserker= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	heavy_infantry_offensive = 0.05
 	command_modifier = {
@@ -86,7 +86,7 @@ class_bishop= {
 	health = 2
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	opposites =  {
 		class_magic_seal
@@ -101,7 +101,7 @@ class_bishop_female= {
 	health = 2
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	opposites =  {
 		class_magic_seal
@@ -115,7 +115,7 @@ class_bishop_female= {
 class_brigand= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	heavy_infantry_offensive = 0.03
 	light_infantry_offensive = 0.02
@@ -123,7 +123,7 @@ class_brigand= {
 class_cavalier= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	light_cavalry_offensive = 0.05
 }
@@ -153,7 +153,7 @@ class_dark_druid= {
 	immortal = yes
 	customizer = no
 	random = no
-	combat_rating = 3
+	combat_rating = 20
 	
 	opposites =  {
 		class_magic_seal
@@ -169,7 +169,7 @@ class_sorceror= {
 	health = 2
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	opposites =  {
 		class_magic_seal
@@ -181,7 +181,7 @@ class_sorceror_female= {
 	health = 2
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	opposites =  {
 		class_magic_seal
@@ -192,7 +192,7 @@ class_sorceror_female= {
 class_falcon_knight= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	pegasus_knights_offensive = 0.05
 	pegasus_knights_defensive = 0.05
@@ -200,7 +200,7 @@ class_falcon_knight= {
 class_fighter= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	heavy_infantry_offensive = 0.1
 	light_infantry_offensive = 0.1
@@ -210,14 +210,14 @@ class_fighter= {
 class_general= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	heavy_infantry_defensive = 0.1
 }
 class_great_knight= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	heavy_infantry_defensive = 0.05	
 	knights_defensive = 0.05
@@ -225,7 +225,7 @@ class_great_knight= {
 class_hero= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	heavy_infantry_offensive = 0.05
 	light_infantry_offensive = 0.05
@@ -233,7 +233,7 @@ class_hero= {
 class_hero_female= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	heavy_infantry_offensive = 0.05
 	light_infantry_offensive = 0.05
@@ -241,14 +241,14 @@ class_hero_female= {
 class_knight= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	heavy_infantry_defensive = 0.05	
 }
 class_mage= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	opposites =  {
 		class_magic_seal
@@ -259,7 +259,7 @@ class_mage= {
 class_mage_female= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	opposites =  {
 		class_magic_seal
@@ -271,7 +271,7 @@ class_mage_knight= {
 	health = 2
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	opposites =  {
 		class_magic_seal
@@ -284,7 +284,7 @@ class_mage_knight_female= {
 	health = 2
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	opposites =  {
 		class_magic_seal
@@ -317,7 +317,7 @@ class_magic_seal= {
 class_manakete= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	command_modifier = {
 		morale_offence = 0.1
@@ -327,7 +327,7 @@ class_manakete= {
 class_manakete_female= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	command_modifier = {
 		morale_offence = 0.1
@@ -337,21 +337,21 @@ class_manakete_female= {
 class_mercenary= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	light_infantry_offensive = 0.05
 }
 class_mercenary_female= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	light_infantry_offensive = 0.05
 }
 class_monk= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	opposites =  {
 		class_magic_seal
@@ -362,7 +362,7 @@ class_monk= {
 class_myrmidon= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	light_infantry_offensive = 0.025
 	command_modifier = {
@@ -372,7 +372,7 @@ class_myrmidon= {
 class_myrmidon_female= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	light_infantry_offensive = 0.025
 	command_modifier = {
@@ -383,7 +383,7 @@ class_myrmidon_female= {
 class_horse_archer= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	horse_archers_offensive = 0.05
 }
@@ -391,14 +391,14 @@ class_horse_archer= {
 class_horse_archer_female= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	horse_archers_offensive = 0.05
 }
 class_paladin= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	light_cavalry_offensive = 0.05
 	light_cavalry_defensive = 0.05
@@ -406,14 +406,14 @@ class_paladin= {
 class_pegasus_knight= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	pegasus_knights_offensive = 0.05
 }
 class_pirate= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	heavy_infantry_offensive = 0.02
 	light_infantry_offensive = 0.03
@@ -433,7 +433,7 @@ class_priest= {
 class_bow_knight= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	horse_archers_offensive = 0.05
 	light_infantry_offensive = 0.05
@@ -441,7 +441,7 @@ class_bow_knight= {
 class_bow_knight_female= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	horse_archers_offensive = 0.05
 	light_infantry_offensive = 0.05
@@ -449,7 +449,7 @@ class_bow_knight_female= {
 class_rogue= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	command_modifier = {
 		siege = 0.1
@@ -459,7 +459,7 @@ class_sage= {
 	health = 2
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	opposites =  {
 		class_magic_seal
@@ -471,7 +471,7 @@ class_sage_female= {
 	health = 2
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	opposites =  {
 		class_magic_seal
@@ -482,7 +482,7 @@ class_sage_female= {
 class_dark_mage= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	opposites =  {
 		class_magic_seal
@@ -493,7 +493,7 @@ class_dark_mage= {
 class_dark_mage_female= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	opposites =  {
 		class_magic_seal
@@ -504,7 +504,7 @@ class_dark_mage_female= {
 class_sniper= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	archers_offensive = 0.05
 	command_modifier = {
@@ -514,7 +514,7 @@ class_sniper= {
 class_sniper_female= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	archers_offensive = 0.05
 	command_modifier = {
@@ -524,14 +524,14 @@ class_sniper_female= {
 class_soldier= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	pikemen_offensive = 0.05
 }
 class_swordmaster= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	light_infantry_offensive = 0.05
 	command_modifier = {
@@ -541,7 +541,7 @@ class_swordmaster= {
 class_swordmaster_female= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	light_infantry_offensive = 0.05
 	command_modifier = {
@@ -551,7 +551,7 @@ class_swordmaster_female= {
 class_thief= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	command_modifier = {
 		siege = 0.05
@@ -560,7 +560,7 @@ class_thief= {
 class_thief_female= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	command_modifier = {
 		siege = 0.05
@@ -607,7 +607,7 @@ class_war_priest= {
 class_warrior= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	heavy_infantry_offensive = 0.05
 	archers_offensive = 0.05
@@ -615,7 +615,7 @@ class_warrior= {
 class_wyvern_knight= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	pegasus_knights_offensive = 0.05	
 	wyvern_riders_offensive = 0.05
@@ -623,7 +623,7 @@ class_wyvern_knight= {
 class_wyvern_lord= {
 	customizer = no
 	random = no
-	combat_rating = 2
+	combat_rating = 15
 	
 	wyvern_riders_offensive = 0.05
 	wyvern_riders_defensive = 0.05
@@ -631,7 +631,7 @@ class_wyvern_lord= {
 class_wyvern_rider= {
 	customizer = no
 	random = no
-	combat_rating = 1
+	combat_rating = 7
 	
 	wyvern_riders_offensive = 0.05
 }
