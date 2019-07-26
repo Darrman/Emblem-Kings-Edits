@@ -24,7 +24,7 @@ fire_emblem_elibe = {
 # Legendary Weapons # 
 
 regalia_apocalypse = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	active = { 
@@ -38,7 +38,7 @@ regalia_apocalypse = {
 	slot = weapon
 }
 regalia_armads = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	active = { 
@@ -52,7 +52,7 @@ regalia_armads = {
 	slot = weapon
 }
 regalia_aureola = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	active = { 
@@ -67,7 +67,7 @@ regalia_aureola = {
 }
 
 regalia_binding_blade = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	health = 0.5
@@ -83,7 +83,7 @@ regalia_binding_blade = {
 }
 
 regalia_durandal = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	active = { 
@@ -98,7 +98,7 @@ regalia_durandal = {
 }
 
 regalia_eckesachs = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	active = { 
@@ -115,7 +115,7 @@ regalia_eckesachs = {
 	slot = weapon
 }
 regalia_forblaze = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	active = { 
@@ -129,7 +129,7 @@ regalia_forblaze = {
 	slot = weapon
 }
 regalia_maltet = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	active = { 
@@ -143,7 +143,7 @@ regalia_maltet = {
 	slot = weapon
 }
 regalia_mulagir = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	active = { 
@@ -159,7 +159,7 @@ regalia_mulagir = {
 
 # Other #
 regalia_basilikos = {
-	combat_rating = 2
+	combat_rating = 20
 	monthly_character_prestige = 1
 	martial = 2
 	active = { 
@@ -174,7 +174,7 @@ regalia_basilikos = {
 }
 
 regalia_ereshkigal = {
-	combat_rating = 2
+	combat_rating = 20
 	martial = 2
 	active = { 
 		can_equip_dark_trigger = yes
@@ -188,7 +188,7 @@ regalia_ereshkigal = {
 }
 
 regalia_excalibur_fe7 = {
-	combat_rating = 2
+	combat_rating = 20
 	monthly_character_prestige = 1
 	martial = 2
 	active = { 
@@ -203,7 +203,7 @@ regalia_excalibur_fe7 = {
 }
 
 regalia_gespenst = {
-	combat_rating = 2
+	combat_rating = 20
 	monthly_character_prestige = 1
 	martial = 2
 	active = { 
@@ -218,7 +218,7 @@ regalia_gespenst = {
 }
 
 regalia_irkalla = {
-	combat_rating = 2
+	combat_rating = 20
 	martial = 2
 	active = { 
 		can_equip_anima_trigger = yes
@@ -232,7 +232,7 @@ regalia_irkalla = {
 }
 
 regalia_luce = {
-	combat_rating = 2
+	combat_rating = 20
 	monthly_character_prestige = 1
 	martial = 2
 	active = { 
@@ -247,7 +247,7 @@ regalia_luce = {
 }
 
 regalia_mani_katti = {
-	combat_rating = 2
+	combat_rating = 20
 	monthly_character_prestige = 1
 	martial = 2
 	active = { 
@@ -262,7 +262,7 @@ regalia_mani_katti = {
 }
 
 regalia_regal_blade = {
-	combat_rating = 2
+	combat_rating = 20
 	monthly_character_prestige = 1
 	martial = 2
 	active = { 
@@ -277,7 +277,7 @@ regalia_regal_blade = {
 }
 
 regalia_rex_hasta = {
-	combat_rating = 2
+	combat_rating = 20
 	monthly_character_prestige = 1
 	martial = 2
 	active = { 
@@ -292,7 +292,7 @@ regalia_rex_hasta = {
 }
 
 regalia_rienfleche = {
-	combat_rating = 2
+	combat_rating = 20
 	monthly_character_prestige = 1
 	martial = 2
 	active = { 
@@ -322,7 +322,7 @@ regalia_saints_staff = {
 }
 
 regalia_sol_katti = {
-	combat_rating = 2
+	combat_rating = 20
 	monthly_character_prestige = 1
 	martial = 2
 	active = { 
@@ -342,7 +342,7 @@ regalia_sol_katti = {
 # Legendary Weapons # 
 
 regalia_naga = {
-	combat_rating = 4
+	combat_rating = 40
 	monthly_character_prestige = 1
 	martial = 3
 	church_of_edda_opinion = 10
@@ -358,7 +358,7 @@ regalia_naga = {
 	slot = weapon
 }
 regalia_tyrfing = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	church_of_edda_opinion = 5
@@ -374,7 +374,7 @@ regalia_tyrfing = {
 	slot = weapon
 }
 regalia_yewfelle = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	church_of_edda_opinion = 5
@@ -390,7 +390,7 @@ regalia_yewfelle = {
 	slot = weapon
 }
 regalia_helswath = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	church_of_edda_opinion = 5
@@ -406,7 +406,7 @@ regalia_helswath = {
 	slot = weapon
 }
 regalia_valflame = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	church_of_edda_opinion = 5
@@ -422,7 +422,7 @@ regalia_valflame = {
 	slot = weapon
 }
 regalia_mjolnir = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	church_of_edda_opinion = 5
@@ -438,7 +438,7 @@ regalia_mjolnir = {
 	slot = weapon
 }
 regalia_valkyrie = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	monthly_character_piety = 1
 	diplomacy = 2
@@ -456,7 +456,7 @@ regalia_valkyrie = {
 	slot = staff
 }
 regalia_mystletainn = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	church_of_edda_opinion = 5
@@ -472,7 +472,7 @@ regalia_mystletainn = {
 	slot = weapon
 }
 regalia_balmung = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	church_of_edda_opinion = 5
@@ -488,7 +488,7 @@ regalia_balmung = {
 	slot = weapon
 }
 regalia_gungnir = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	church_of_edda_opinion = 5
@@ -504,7 +504,7 @@ regalia_gungnir = {
 	slot = weapon
 }
 regalia_gae_bolg = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	church_of_edda_opinion = 5
@@ -520,7 +520,7 @@ regalia_gae_bolg = {
 	slot = weapon
 }
 regalia_forseti = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	church_of_edda_opinion = 5
@@ -536,7 +536,7 @@ regalia_forseti = {
 	slot = weapon
 }
 regalia_loptous = {
-	combat_rating = 3
+	combat_rating = 30
 	monthly_character_prestige = 1
 	martial = 3
 	loptyrian_opinion = 5
@@ -555,7 +555,7 @@ regalia_loptous = {
 # Other #
 
 regalia_loptous_sword = {
-	combat_rating = 2
+	combat_rating = 20
 	monthly_character_prestige = 1
 	martial = 2
 	loptyrian_opinion = 5
@@ -571,7 +571,7 @@ regalia_loptous_sword = {
 	slot = weapon
 }
 regalia_blagi_sword = {
-	combat_rating = 2
+	combat_rating = 20
 	monthly_character_prestige = 1
 	martial = 2
 	church_of_edda_opinion = 5
@@ -611,7 +611,7 @@ regalia_kia = {
 ## Weapons ##
 
 iron_sword = {
-	combat_rating = 1
+	combat_rating = 5
 	active = { 
 		can_equip_swords_trigger = yes
 	}
@@ -623,7 +623,7 @@ iron_sword = {
 }
 
 steel_sword = {
-	combat_rating = 1
+	combat_rating = 7
 	martial = 1
 	active = { 
 		can_equip_swords_trigger = yes
@@ -636,7 +636,7 @@ steel_sword = {
 }
 
 silver_sword = {
-	combat_rating = 1
+	combat_rating = 10
 	martial = 1
 	monthly_character_prestige = 0.25
 	active = { 
@@ -650,7 +650,7 @@ silver_sword = {
 }
 
 iron_lance = {
-	combat_rating = 1
+	combat_rating = 5
 	active = { 
 		can_equip_lances_trigger = yes
 	}
@@ -662,7 +662,7 @@ iron_lance = {
 }
 
 steel_lance = {
-	combat_rating = 1
+	combat_rating = 7
 	martial = 1
 	active = { 
 		can_equip_lances_trigger = yes
@@ -675,7 +675,7 @@ steel_lance = {
 }
 
 silver_lance = {
-	combat_rating = 1
+	combat_rating = 10
 	martial = 1
 	monthly_character_prestige = 0.25
 	active = { 
@@ -689,7 +689,7 @@ silver_lance = {
 }
 
 iron_axe = {
-	combat_rating = 1
+	combat_rating = 5
 	active = { 
 		can_equip_axes_trigger = yes
 	}
@@ -701,7 +701,7 @@ iron_axe = {
 }
 
 steel_axe = {
-	combat_rating = 1
+	combat_rating = 7
 	martial = 1
 	active = { 
 		can_equip_axes_trigger = yes
@@ -714,7 +714,7 @@ steel_axe = {
 }
 
 silver_axe = {
-	combat_rating = 1
+	combat_rating = 10
 	martial = 1
 	monthly_character_prestige = 0.25
 	active = { 
@@ -728,7 +728,7 @@ silver_axe = {
 }
 
 iron_bow = {
-	combat_rating = 1
+	combat_rating = 5
 	active = { 
 		can_equip_bows_trigger = yes
 	}
@@ -740,7 +740,7 @@ iron_bow = {
 }
 
 steel_bow = {
-	combat_rating = 1
+	combat_rating = 7
 	martial = 1
 	active = { 
 		can_equip_bows_trigger = yes
@@ -753,7 +753,7 @@ steel_bow = {
 }
 
 silver_bow = {
-	combat_rating = 1
+	combat_rating = 10
 	martial = 1
 	monthly_character_prestige = 0.25
 	active = { 
@@ -767,7 +767,7 @@ silver_bow = {
 }
 
 fire = {
-	combat_rating = 1
+	combat_rating = 5
 	active = { 
 		can_equip_anima_trigger = yes
 	}
@@ -779,7 +779,7 @@ fire = {
 }
 
 elfire = {
-	combat_rating = 1
+	combat_rating = 7
 	martial = 1
 	active = { 
 		can_equip_anima_trigger = yes
@@ -792,7 +792,7 @@ elfire = {
 }
 
 bolganone = {
-	combat_rating = 1
+	combat_rating = 10
 	martial = 1
 	monthly_character_prestige = 0.25
 	active = { 
@@ -806,7 +806,7 @@ bolganone = {
 }
 
 thunder = {
-	combat_rating = 1
+	combat_rating = 5
 	active = { 
 		can_equip_anima_trigger = yes
 	}
@@ -818,7 +818,7 @@ thunder = {
 }
 
 elthunder = {
-	combat_rating = 1
+	combat_rating = 7
 	martial = 1
 	active = { 
 		can_equip_anima_trigger = yes
@@ -831,7 +831,7 @@ elthunder = {
 }
 
 thoron = {
-	combat_rating = 1
+	combat_rating = 10
 	martial = 1
 	monthly_character_prestige = 0.25
 	active = { 
@@ -845,7 +845,7 @@ thoron = {
 }
 
 wind = {
-	combat_rating = 1
+	combat_rating = 5
 	active = { 
 		can_equip_anima_trigger = yes
 	}
@@ -857,7 +857,7 @@ wind = {
 }
 
 elwind = {
-	combat_rating = 1
+	combat_rating = 7
 	martial = 1
 	active = { 
 		can_equip_anima_trigger = yes
@@ -870,7 +870,7 @@ elwind = {
 }
 
 tornado = {
-	combat_rating = 1
+	combat_rating = 10
 	martial = 1
 	monthly_character_prestige = 0.25
 	active = { 
@@ -884,7 +884,7 @@ tornado = {
 }
 
 lightning = {
-	combat_rating = 1
+	combat_rating = 5
 	active = { 
 		can_equip_light_trigger = yes
 	}
@@ -896,7 +896,7 @@ lightning = {
 }
 
 shine = {
-	combat_rating = 1
+	combat_rating = 7
 	martial = 1
 	active = { 
 		can_equip_light_trigger = yes
@@ -909,7 +909,7 @@ shine = {
 }
 
 aura = {
-	combat_rating = 1
+	combat_rating = 10
 	martial = 1
 	monthly_character_prestige = 0.25
 	active = { 
@@ -923,7 +923,7 @@ aura = {
 }
 
 flux = {
-	combat_rating = 1
+	combat_rating = 5
 	active = { 
 		can_equip_dark_trigger = yes
 	}
@@ -935,7 +935,7 @@ flux = {
 }
 
 worm = {
-	combat_rating = 1
+	combat_rating = 7
 	martial = 1
 	active = { 
 		can_equip_dark_trigger = yes
@@ -948,7 +948,7 @@ worm = {
 }
 
 fenrir = {
-	combat_rating = 1
+	combat_rating = 10
 	martial = 1
 	monthly_character_prestige = 0.25
 	active = { 
@@ -963,7 +963,7 @@ fenrir = {
 
 # Non-buyable stuff
 glass_sword = {
-	combat_rating = 1
+	combat_rating = 10
 	command_modifier = {
 		damage = 0.1
 		defence = -0.1
@@ -979,7 +979,7 @@ glass_sword = {
 }
 
 killing_edge = {
-	combat_rating = 1
+	combat_rating = 7
 	martial = 1
 	command_modifier = {
 		morale_offence = 0.1
@@ -995,7 +995,7 @@ killing_edge = {
 }
 
 brave_sword = {
-	combat_rating = 1
+	combat_rating = 10
 	martial = 1
 	command_modifier = {
 		speed = 0.05
@@ -1011,7 +1011,7 @@ brave_sword = {
 }
 
 glass_lance = {
-	combat_rating = 1
+	combat_rating = 10
 	command_modifier = {
 		damage = 0.1
 		defence = -0.1
@@ -1027,7 +1027,7 @@ glass_lance = {
 }
 
 killer_lance = {
-	combat_rating = 1
+	combat_rating = 7
 	martial = 1
 	command_modifier = {
 		morale_offence = 0.1
@@ -1043,7 +1043,7 @@ killer_lance = {
 }
 
 brave_lance = {
-	combat_rating = 1
+	combat_rating = 10
 	martial = 1
 	command_modifier = {
 		speed = 0.05
@@ -1059,7 +1059,7 @@ brave_lance = {
 }
 
 glass_axe = {
-	combat_rating = 1
+	combat_rating = 10
 	command_modifier = {
 		damage = 0.1
 		defence = -0.1
@@ -1075,7 +1075,7 @@ glass_axe = {
 }
 
 killer_axe = {
-	combat_rating = 1
+	combat_rating = 7
 	martial = 1
 	command_modifier = {
 		morale_offence = 0.1
@@ -1091,7 +1091,7 @@ killer_axe = {
 }
 
 brave_axe = {
-	combat_rating = 1
+	combat_rating = 10
 	martial = 1
 	command_modifier = {
 		speed = 0.05
@@ -1107,7 +1107,7 @@ brave_axe = {
 }
 
 glass_bow = {
-	combat_rating = 1
+	combat_rating = 10
 	command_modifier = {
 		damage = 0.1
 		defence = -0.1
@@ -1123,7 +1123,7 @@ glass_bow = {
 }
 
 killer_bow = {
-	combat_rating = 1
+	combat_rating = 7
 	martial = 1
 	command_modifier = {
 		morale_offence = 0.1
@@ -1139,7 +1139,7 @@ killer_bow = {
 }
 
 brave_bow = {
-	combat_rating = 1
+	combat_rating = 10
 	martial = 1
 	command_modifier = {
 		speed = 0.05
