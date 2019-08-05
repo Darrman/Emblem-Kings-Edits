@@ -117,6 +117,12 @@
 	culture=verdanian
 	religion=church_of_edda
 	disallow_random_traits=yes
+		diplomacy = 8
+		martial = 2
+		stewardship = 6
+		intrigue = 1
+		learning = 5
+		health = 6.5
 	694.1.1={
 		birth=yes
 		effect = {
@@ -139,11 +145,6 @@
 		add_trait="honest"
 		add_trait="just"
 		add_trait="trusting"
-		diplomacy = 8
-		martial = 2
-		stewardship = 6
-		intrigue = 1
-		learning = 5
 	}	 
 #	714.01.01={
 #		remove_trait="class_fighter"
@@ -189,6 +190,12 @@
 	culture=verdanian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 2
+	martial = 7
+	stewardship = 2
+	intrigue = 4
+	learning = 1
+	health = 6.0
 	728.1.1={
 		birth=yes
 		effect = {
@@ -232,6 +239,12 @@
 	culture=verdanian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 1
+	martial = 6
+	stewardship = 2
+	intrigue = 4
+	learning = 1
+	health = 5.5
 	729.1.1={
 		birth=yes
 		effect = {
@@ -288,6 +301,12 @@
 	culture=verdanian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 7
+	martial = 6
+	stewardship = 6
+	intrigue = 6
+	learning = 3
+	health = 6.5
 	736.1.1={
 		birth=yes
 		effect = {
@@ -356,6 +375,12 @@
 	culture=verdanian
 	religion=loptyrian
 	disallow_random_traits=yes
+	diplomacy = 6
+	martial = 3
+	stewardship = 4
+	intrigue = 6
+	learning = 5
+	health = 5.5
 	727.1.1={
 		birth=yes
 		#religion=church_of_edda
@@ -400,6 +425,12 @@
 	religion=church_of_edda
 	disallow_random_traits=yes
 	trait=ugly
+	diplomacy = 1
+	martial = 3
+	stewardship = 1
+	intrigue = 2
+	learning = 1
+	health = 5.0
 	737.1.1={
 		birth=yes
 	}	
@@ -433,6 +464,12 @@
 	religion=church_of_edda
 	disallow_random_traits=yes
 	trait=ugly
+	diplomacy = 2
+	martial = 2
+	stewardship = 1
+	intrigue = 2
+	learning = 0
+	health = 5.5
 	737.1.1={
 		birth=yes
 	}	
@@ -765,6 +802,12 @@
 	religion=church_of_edda
 	trait=holy_blood_latent_loptous
 	disallow_random_traits=yes
+	diplomacy = 5
+	martial = 1
+	stewardship = 4
+	intrigue = 1
+	learning = 3
+	health = 5.5
 	714.1.1={
 		birth=yes
 		employer=1193 # Spirit Forest
@@ -830,6 +873,12 @@
 	trait=holy_blood_latent_naga
 	#trait=bastard
 	disallow_random_traits=yes
+	diplomacy = 6
+	martial = 2
+	stewardship = 3
+	intrigue = 1
+	learning = 8
+	health = 6.0
 	739.2.1={
 		birth=yes
 		employer=1193 # Spirit Forest
@@ -1251,6 +1300,12 @@
 	culture=verdanian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 2
+	martial = 1
+	stewardship = 2
+	intrigue = 4
+	learning = 1
+	health = 4.5
 	744.1.1={ # 13 in 757?
 		birth=yes
 		add_trait="rowdy"

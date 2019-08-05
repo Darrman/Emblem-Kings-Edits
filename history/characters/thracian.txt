@@ -366,6 +366,12 @@
 	disallow_random_traits=yes
 	trait=holy_blood_latent_dain
 	trait=strong
+		diplomacy = 2
+		martial = 8
+		stewardship = 7
+		intrigue = 7
+		learning = 4
+		health = 6.5
 	730.1.1={ 
 		birth=yes
 	}
@@ -390,11 +396,6 @@
 		add_trait="diligent"
 		add_trait="deceitful"
 		add_trait="brave"
-		diplomacy = 2
-		martial = 8
-		stewardship = 7
-		intrigue = 7
-		learning = 4
 	}	
 	749.1.1 = {
 		add_spouse=1155
@@ -449,6 +450,12 @@
 	religion=church_of_edda
 	disallow_random_traits=yes
 	trait=holy_blood_latent_dain
+	diplomacy = 1
+	martial = 9
+	stewardship = 5
+	intrigue = 3
+	learning = 2
+	health = 6.0
 	756.1.1={ 
 		birth=yes
 		effect = {
@@ -534,6 +541,11 @@
 	religion=church_of_edda
 	disallow_random_traits=yes
 	trait=strong
+	diplomacy = 6
+	martial = 5
+	stewardship = 5
+	intrigue = 2
+	learning = 4
 	729.1.1={ 
 		birth=yes
 	}
@@ -584,6 +596,12 @@
 	culture=thracian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 1
+	martial = 3
+	stewardship = 2
+	intrigue = 3
+	learning = 2
+	health = 5.0
 	751.1.1={ # 25 in 776
 		birth=yes
 	}
@@ -627,6 +645,12 @@
 	culture=thracian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 2
+	martial = 6
+	stewardship = 6
+	intrigue = 5
+	learning = 3
+	health = 6.0
 	746.1.1={ # 30 in 776
 		birth=yes
 	}
@@ -668,6 +692,12 @@
 	religion=church_of_edda
 	disallow_random_traits=yes
 	trait=strong
+	diplomacy = 6
+	martial = 7
+	stewardship = 5
+	intrigue = 3
+	learning = 2
+	health = 7.0
 	731.1.1={ # 45 in 776
 		birth=yes
 	}
@@ -719,6 +749,12 @@
 	culture=thracian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 4
+	martial = 2
+	stewardship = 3
+	intrigue = 5
+	learning = 2
+	health = 5.0
 	758.1.1={ # 18 in 776
 		birth=yes
 	}
@@ -760,6 +796,12 @@
 	religion=church_of_edda
 	disallow_random_traits=yes
 	trait=strong
+	diplomacy = 3
+	martial = 9
+	stewardship = 3
+	intrigue = 5
+	learning = 0
+	health = 6.5
 	746.1.1={ 
 		birth=yes
 		employer=1439 #Dagdar
@@ -800,6 +842,12 @@
 	culture=thracian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 3
+	martial = 7
+	stewardship = 5
+	intrigue = 5
+	learning = 1
+	health = 6.0
 	758.1.1={ # 18 in 776
 		birth=yes
 	}
@@ -864,6 +912,12 @@
 	culture=thracian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 6
+	martial = 5
+	stewardship = 5
+	intrigue = 4
+	learning = 2
+	health = 5.5
 	757.1.1={ # 19 in 776
 		birth=yes
 		employer=1448 # Fiana
@@ -973,6 +1027,12 @@
 	culture=thracian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 1
+	martial = 5
+	stewardship = 0
+	intrigue = 0
+	learning = 0 #Oh Marty, why are you so bad
+	health = 6.0
 	750.1.1={ # 26 in 776
 		birth=yes
 		employer=1448 # Fiana
@@ -1062,6 +1122,12 @@
 	culture=thracian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 3
+	martial = 1
+	stewardship = 5
+	intrigue = 3
+	learning = 8#Big magic growth! Yay, Ronan!
+	health = 5.5
 	760.1.1={  # 16 in 776
 		birth=yes
 		employer=1453
@@ -1123,6 +1189,12 @@
 	culture=thracian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 1
+	martial = 4
+	stewardship = 2
+	intrigue = 3
+	learning = 1
+	health = 5.0
 	733.1.1={ 
 		birth=yes
 	}
@@ -1367,6 +1439,12 @@
 	culture=thracian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 6
+	martial = 7
+	stewardship = 5
+	intrigue = 6
+	learning = 1
+	health = 6.0
 	749.1.1={ # 27 in 776
 		birth=yes
 	}
@@ -1419,6 +1497,12 @@
 	culture=thracian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 4
+	martial = 3
+	stewardship = 6
+	intrigue = 3
+	learning = 2
+	health = 5.0
 	755.1.1={ # 21 in 776
 		birth=yes
 	}
@@ -1510,6 +1594,12 @@
 	culture=thracian
 	religion=church_of_edda
 	disallow_random_traits=yes
+	diplomacy = 4
+	martial = 6
+	stewardship = 5
+	intrigue = 3
+	learning = 2
+	health = 5.5
 	743.1.1={
 		birth=yes
 	}
