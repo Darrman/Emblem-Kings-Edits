@@ -157,6 +157,9 @@ character_event = {
 									set_mother = PREVPREV
 								}
 							}
+							c_1142 = { #No, Marita is *not* Briggid's biological child, stop passing bloodlines down
+								set_mother = c_1081
+							}
 							
 							#death = { death_reason=death_missing }
 							character_event = { id = fe4_dynasty.13 days = 1 }

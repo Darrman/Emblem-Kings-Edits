@@ -1661,7 +1661,8 @@
 	religion=church_of_edda
 	disallow_random_traits=yes
 	trait=holy_blood_latent_fjalar
-	trait=bastard
+#	trait=bastard #Any kids he has are eligible to inherit Velthomer in the game.
+	trait=legit_bastard #Unlike Victor's other kids, "But, (Alvis) thought of that mistress and Azel as his own family."
 		diplomacy = 4
 		martial = 5
 		stewardship = 3

@@ -46,6 +46,9 @@
 		religion=loptyrian
 		add_trait=holy_blood_major_loptous
 		add_trait=possessed_loptous
+		create_bloodline = {
+			type = lopt
+		}
 		effect = {
 			loptous_possession_effect = yes
 		}

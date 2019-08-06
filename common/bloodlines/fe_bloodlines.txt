@@ -6,7 +6,9 @@ heim = {
 	church_of_edda_opinion = 5
 	loptyrian_opinion = -5
 	active = {
-#		religion = church_of_edda
+		NOT = {
+			religion = loptyrian
+			}
 		}
 	}
 	
@@ -129,6 +131,6 @@ lopt = {
 	church_of_edda_opinion = -5
 	loptyrian_opinion = 5
 	active = {
-#		religion = church_of_edda
+		religion = loptyrian
 		}
 	}
