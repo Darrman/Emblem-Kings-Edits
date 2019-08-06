@@ -862,7 +862,7 @@ draconic_group = {
 			GOD_THE_SPIRITS GOD_LOPTYR 
 		}
 		evil_god_names = {
-			THE_DARK_SPIRITS NAGA
+			THE_DARK_SPIRITS GOD_NAGA
 		}
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_WORD

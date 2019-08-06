@@ -52,7 +52,7 @@ character_event = {
 		ai_chance = {
 			factor = 0
 		}
-		d_loptyr = {
+		d_loptous = {
 			destroy_landed_title = THIS
 		}
 	}	
@@ -98,7 +98,7 @@ character_event = {
 		ai_chance = {
 			factor = 0
 		}
-		d_loptyr = {
+		d_loptous = {
 			destroy_landed_title = THIS
 		}
 	}	
@@ -113,18 +113,18 @@ character_event = {
 	
 	option = {
 		name = galle.3.A
-		e_loptyr = {
+		e_loptous = {
 			grant_title = ROOT
 		}
-		d_loptyr = {
+		d_loptous = {
 			destroy_landed_title = THIS
 		}
 		k_grann = {
 			destroy_landed_title = THIS
 		}
 		hidden_tooltip = {
-			post_loptyr_jugdral_de_jure_titles_effect = yes
-			e_loptyr = {
+			post_loptous_jugdral_de_jure_titles_effect = yes
+			e_loptous = {
 				add_law = { law = status_of_women_4 cooldown = no opinion_effect = no }
 				add_law = { law = true_cognatic_succession cooldown = no opinion_effect = no }
 				add_law = { law = succ_primogeniture cooldown = no opinion_effect = no }
@@ -148,7 +148,7 @@ character_event = {
 		year = 449
 		NOT = { year = 457 }
 		NOT = { has_global_flag = great_purge }
-		imperial_loptyr_in_power_trigger = yes
+		imperial_loptous_in_power_trigger = yes
 		any_vassal = {
 			NOT = { religion = loptyrian }
 		}
@@ -258,12 +258,12 @@ narrative_event = {
 	border = GFX_event_narrative_frame_war
 	
 	only_playable = yes
-	has_global_flag = scenario_descent_of_loptyr
+	has_global_flag = scenario_descent_of_loptous
 
 	major = yes
 	
 	trigger = {
-		has_landed_title = e_loptyr
+		has_landed_title = e_loptous
 		NOT = { has_global_flag = grann_republic_destroyed }
 	}
 
@@ -284,20 +284,20 @@ narrative_event = {
 	option = {
 		name = galle.6.A
 		trigger = {
-			has_landed_title = e_loptyr
+			has_landed_title = e_loptous
 		}
 	}
 	option = {
 		name = galle.6.B
 		trigger = {
-			NOT = { has_landed_title = e_loptyr }
+			NOT = { has_landed_title = e_loptous }
 			religion = loptyrian
 		}
 	}
 	option = {
 		name = galle.6.C
 		trigger = {
-			NOT = { has_landed_title = e_loptyr }
+			NOT = { has_landed_title = e_loptous }
 			NOT = { religion = loptyrian }
 		}
 	}
@@ -317,7 +317,7 @@ character_event = {
 	trigger = {
 		year = 452
 		NOT = { has_global_flag = sorrow_of_miletos }
-		imperial_loptyr_in_power_trigger = yes
+		imperial_loptous_in_power_trigger = yes
 		OR = {
 			owns = 506 # Miletos
 			any_realm_lord = {
@@ -376,7 +376,7 @@ character_event = {
 	trigger = {
 		year = 453
 		NOT = { has_global_flag = massacre_of_edda }
-		imperial_loptyr_in_power_trigger = yes
+		imperial_loptous_in_power_trigger = yes
 		OR = {
 			owns = 342 # Edda
 			any_realm_lord = {
