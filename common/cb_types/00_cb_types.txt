@@ -1682,7 +1682,7 @@ sigurd_invasion = {
 	}
 	
 	on_success_title = {
-		FROM = {
+		FROM = { #Free Aideen
 			if = {
 				limit = {
 					any_realm_character = {
@@ -1699,7 +1699,7 @@ sigurd_invasion = {
 				}
 			}
 		}
-		if = {
+		if = { #Take Evans
 			limit = {
 				FROM = {
 					any_realm_title = {
@@ -1710,7 +1710,8 @@ sigurd_invasion = {
 			c_evans = {
 				usurp_title = { target = ROOT type = invasion }
 			}
-		}else = {
+		}
+		else = {
 			capital_scope = {
 				county = {
 					if = {
@@ -1770,7 +1771,8 @@ sigurd_invasion = {
 			}
 		}
 		
-		destroy_landed_title = ROOT
+#		destroy_landed_title = ROOT #Bugs, destroys Chalphy as well as Verdane
+		destroy_landed_title = FROM
 		hidden_tooltip = { 
 			clr_title_flag = sigurd_invasion_target
 			c_1032 = { # Sigurd
