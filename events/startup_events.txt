@@ -792,6 +792,7 @@ character_event = {
 				NOT = { has_global_flag = scenario_fe5 }
 			}
 			set_global_flag = scenario_fe5
+			set_global_flag = manster_resistance_started #Don't want Leaf getting usurped
 			
 			d_schwarze_rosen = {
 				holder_scope = {
@@ -816,6 +817,7 @@ character_event = {
 				NOT = { has_global_flag = scenario_fe4_the_last_holy_war }
 			}
 			set_global_flag = scenario_fe4_the_last_holy_war
+			set_global_flag = manster_resistance_started #Just to be safe
 			
 			e_grannvale = {
 				holder_scope = {
