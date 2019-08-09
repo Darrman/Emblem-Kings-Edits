@@ -12,7 +12,7 @@ e_elibe = {
 
 		capital = 5
 		culture = bernese
-		allow = { de_jure_liege_or_above = k_bern } 
+		allow = { primary_title = { de_jure_liege_or_above = k_bern } } 
 
 		d_bern = {
 			color={ 63 0 18 }
@@ -707,7 +707,7 @@ e_elibe = {
 
 		capital = 78
 		culture = lycian
-		allow = { de_jure_liege_or_above = k_lycia } 
+		allow = { primary_title = { de_jure_liege_or_above = k_lycia } } 
 
 		d_ostia = {
 			color={ 7 80 5 }
@@ -1308,7 +1308,7 @@ e_elibe = {
 
 		capital = 116
 		culture = nabatan
-		allow = { de_jure_liege_or_above = k_nabata } 
+		allow = { primary_title = { de_jure_liege_or_above = k_nabata } }
 
 		d_arcadia = {
 			color={ 78 233 191 }
@@ -1583,7 +1583,7 @@ e_elibe = {
 
 		capital = 149
 		culture = western_islander
-		allow = { de_jure_liege_or_above = k_the_western_isles } 
+		allow = { primary_title = { de_jure_liege_or_above = k_the_western_isles } }
 
 		d_jutes = {
 			color={ 167 119 51 }
@@ -2074,7 +2074,7 @@ e_elibe = {
 
 		capital = 188
 		culture = sacaean
-		allow = { de_jure_liege_or_above = k_sacae } 
+		allow = { primary_title = { de_jure_liege_or_above = k_sacae } } 
 
 		d_bulgar = {
 			color={ 179 130 3 }
@@ -2339,7 +2339,7 @@ e_elibe = {
 
 		capital = 206
 		culture = etrurian
-		allow = { de_jure_liege_or_above = k_etruria } 
+		allow = { primary_title = { de_jure_liege_or_above = k_etruria } } 
 
 		d_aquleia = {
 			color={ 86 31 65 }
@@ -2940,7 +2940,7 @@ e_elibe = {
 
 		capital = 244
 		culture = ilian
-		allow = { de_jure_liege_or_above = k_ilia } 
+		allow = { primary_title = { de_jure_liege_or_above = k_ilia } } 
 
 		d_edessa = {
 			color={ 227 227 242 }
@@ -3438,7 +3438,7 @@ e_elibe = {
 
 		capital = 166
 		culture = western_islander
-		allow = { de_jure_liege_or_above = k_western_union } 
+		allow = { primary_title = { de_jure_liege_or_above = k_western_union } } 
 
 	}
 }e_grannvale = {
@@ -3456,7 +3456,7 @@ e_elibe = {
 		capital = 333
 		culture = grannvalean
 		dignity = 11
-		allow = { de_jure_liege_or_above = k_grannvale } 
+		allow = { primary_title = { de_jure_liege_or_above = k_grannvale } } 
 
 		d_belhalla = {
 			color={ 224 203 106 }
@@ -3972,7 +3972,7 @@ e_elibe = {
 
 		capital = 362
 		culture = agustrian
-		allow = { de_jure_liege_or_above = k_agustria } 
+		allow = { primary_title = { de_jure_liege_or_above = k_agustria } } 
 
 		d_agusty = {
 			color={ 37 117 88 }
@@ -4442,7 +4442,7 @@ e_elibe = {
 
 		capital = 392
 		culture = silessian
-		allow = { de_jure_liege_or_above = k_silesse } 
+		allow = { primary_title = { de_jure_liege_or_above = k_silesse } } 
 
 		d_silesse = {
 			color={ 43 57 84 }
@@ -4738,7 +4738,7 @@ e_elibe = {
 
 		capital = 411
 		culture = isaachian
-		allow = { de_jure_liege_or_above = k_isaach } 
+		allow = { primary_title = { de_jure_liege_or_above = k_isaach } }
 
 		d_isaach = {
 			color={ 24 108 69 }
@@ -5095,7 +5095,7 @@ e_elibe = {
 		capital = 435
 		culture = mansterian
 		dignity = 15
-		allow = { de_jure_liege_or_above = k_manster } 
+		allow = { primary_title = { de_jure_liege_or_above = k_manster } } 
 
 		d_leonster = {
 			color={ 57 66 105 }
@@ -5469,7 +5469,7 @@ e_elibe = {
 		capital = 458
 		culture = thracian
 		dignity = 8
-		allow = { de_jure_liege_or_above = k_thracia } 
+		allow = { primary_title = { de_jure_liege_or_above = k_thracia } } 
 
 		d_thracia = {
 			color={ 178 61 49 }
@@ -5924,7 +5924,7 @@ e_elibe = {
 
 		capital = 435
 		culture = new_thracian
-		allow = { de_jure_liege_or_above = k_new_thracia } 
+		allow = { primary_title = { de_jure_liege_or_above = k_new_thracia } } 
 
 	}
 }e_grado = {
@@ -5941,7 +5941,7 @@ e_elibe = {
 
 		capital = 622
 		culture = grado
-		allow = { de_jure_liege_or_above = k_grado } 
+		allow = { primary_title = { de_jure_liege_or_above = k_grado } }
 
 		d_grado = {
 			color={ 118 2 2 }
@@ -6197,7 +6197,7 @@ e_elibe = {
 
 		capital = 654
 		culture = grado
-		allow = { de_jure_liege_or_above = k_renvall } 
+		allow = { primary_title = { de_jure_liege_or_above = k_renvall } } 
 
 		d_renvall = {
 			color={ 184 88 88 }
@@ -6460,7 +6460,7 @@ e_elibe = {
 
 		capital = 650
 		culture = grado
-		allow = { de_jure_liege_or_above = k_albul } 
+		allow = { primary_title = { de_jure_liege_or_above = k_albul } }
 
 		d_bercio = {
 			color={ 207 39 39 }
@@ -6699,7 +6699,7 @@ e_elibe = {
 
 		capital = 669
 		culture = grado
-		allow = { de_jure_liege_or_above = k_taizel } 
+		allow = { primary_title = { de_jure_liege_or_above = k_taizel } } 
 
 		d_taizel = {
 			color={ 137 9 9 }
@@ -6887,7 +6887,7 @@ e_elibe = {
 
 		capital = 681
 		culture = grado
-		allow = { de_jure_liege_or_above = k_bethroen } 
+		allow = { primary_title = { de_jure_liege_or_above = k_bethroen } }
 
 		d_bethroen = {
 			color={ 104 30 57 }
@@ -7109,7 +7109,7 @@ e_elibe = {
 
 		capital = 1
 		culture = bernese
-		allow = { de_jure_liege_or_above = k_valor } 
+		allow = { primary_title = { de_jure_liege_or_above = k_valor } }
 
 		d_valor = {
 			color={ 86 71 86 }
@@ -7211,7 +7211,7 @@ e_elibe = {
 
 		capital = 36
 		culture = bernese
-		allow = { de_jure_liege_or_above = k_calach } 
+		allow = { primary_title = { de_jure_liege_or_above = k_calach } }
 
 		d_calach = {
 			color={ 106 96 108 }
@@ -7858,7 +7858,7 @@ e_elibe = {
 
 		capital = 65
 		culture = bernese
-		allow = { de_jure_liege_or_above = k_terina } 
+		allow = { primary_title = { de_jure_liege_or_above = k_terina } }
 
 		d_xanthus = {
 			color={ 157 87 87 }
@@ -8050,7 +8050,7 @@ e_elibe = {
 
 		capital = 133
 		culture = nabatan
-		allow = { de_jure_liege_or_above = k_missur } 
+		allow = { primary_title = { de_jure_liege_or_above = k_missur } }
 
 		d_mallota = {
 			color={ 245 109 12 }
@@ -8230,7 +8230,7 @@ e_elibe = {
 
 		capital = 145
 		culture = nabatan
-		allow = { de_jure_liege_or_above = k_kafti } 
+		allow = { primary_title = { de_jure_liege_or_above = k_kafti } }
 
 		d_kafti = {
 			color={ 234 143 202 }
@@ -8306,7 +8306,7 @@ e_elibe = {
 
 		capital = 181
 		culture = sacaean
-		allow = { de_jure_liege_or_above = k_the_taliver_mountains } 
+		allow = { primary_title = { de_jure_liege_or_above = k_the_taliver_mountains } } 
 
 		d_taliver = {
 			color={ 248 104 71 }
@@ -8404,7 +8404,7 @@ e_elibe = {
 
 		capital = 489
 		culture = verdanian
-		allow = { de_jure_liege_or_above = k_verdane } 
+		allow = { primary_title = { de_jure_liege_or_above = k_verdane } }
 
 		d_verdane = {
 			color={ 228 157 57 }
@@ -8693,7 +8693,7 @@ e_elibe = {
 
 		capital = 506
 		culture = grannvalean
-		allow = { de_jure_liege_or_above = k_miletos } 
+		allow = { primary_title = { de_jure_liege_or_above = k_miletos } }
 
 		d_miletos = {
 			color={ 57 0 57 }
@@ -8889,9 +8889,9 @@ e_elibe = {
 		color={ 110 150 220 }
 		color2={ 255 255 255 }
 
-		capital = 517
+		capital = 518
 		culture = agustrian
-		allow = { de_jure_liege_or_above = k_orgahil } 
+		allow = { primary_title = { de_jure_liege_or_above = k_orgahil } }
 
 		d_orgahil = {
 			color={ 106 224 223 }
@@ -8999,7 +8999,7 @@ e_elibe = {
 
 		capital = 525
 		culture = grannvalean
-		allow = { de_jure_liege_or_above = k_yied } 
+		allow = { primary_title = { de_jure_liege_or_above = k_yied } }
 
 		d_yied = {
 			color={ 79 65 62 }
@@ -9271,7 +9271,7 @@ e_elibe = {
 
 		capital = 695
 		culture = frelian
-		allow = { de_jure_liege_or_above = k_frelia } 
+		allow = { primary_title = { de_jure_liege_or_above = k_frelia } }
 
 		d_frelia = {
 			color={ 207 247 225 }
@@ -10003,7 +10003,7 @@ e_elibe = {
 
 		capital = 743
 		culture = renais
-		allow = { de_jure_liege_or_above = k_renais } 
+		allow = { primary_title = { de_jure_liege_or_above = k_renais } }
 
 		d_renais = {
 			color={ 102 176 177 }
@@ -10523,7 +10523,7 @@ e_elibe = {
 
 		capital = 778
 		culture = jehanna
-		allow = { de_jure_liege_or_above = k_jehanna } 
+		allow = { primary_title = { de_jure_liege_or_above = k_jehanna } }
 
 		d_jehanna = {
 			color={ 190 212 208 }
@@ -11140,7 +11140,7 @@ e_elibe = {
 
 		capital = 817
 		culture = rausten
-		allow = { de_jure_liege_or_above = k_rausten } 
+		allow = { primary_title = { de_jure_liege_or_above = k_rausten } }
 
 		d_rausten = {
 			color={ 120 0 142 }
@@ -11574,7 +11574,7 @@ e_elibe = {
 
 		capital = 845
 		culture = carcino
-		allow = { de_jure_liege_or_above = k_carcino } 
+		allow = { primary_title = { de_jure_liege_or_above = k_carcino } }
 
 		d_kiris = {
 			color={ 161 115 16 }
@@ -11893,7 +11893,7 @@ e_elibe = {
 
 		capital = 613
 		culture = rausten
-		allow = { de_jure_liege_or_above = k_nelaras } 
+		allow = { primary_title = { de_jure_liege_or_above = k_nelaras } }
 
 		d_darkling_woods = {
 			color={ 109 12 12 }
@@ -12029,7 +12029,7 @@ e_elibe = {
 
 		capital = 867
 		culture = frelian
-		allow = { de_jure_liege_or_above = k_baleal } 
+		allow = { primary_title = { de_jure_liege_or_above = k_baleal } }
 
 		d_baleal = {
 			color={ 198 201 115 }
@@ -12083,7 +12083,7 @@ e_elibe = {
 
 		capital = 870
 		culture = grado
-		allow = { de_jure_liege_or_above = k_nazonia } 
+		allow = { primary_title = { de_jure_liege_or_above = k_nazonia } }
 
 		d_nazonia = {
 			color={ 70 59 117 }
