@@ -159,7 +159,12 @@ character_event = {
 							}
 							c_1142 = { #No, Marita is *not* Briggid's biological child, stop passing bloodlines down
 								set_mother = c_1081
+								any_owned_bloodline = {
+									limit = { has_bloodline_flag = bloodline_ulir }
+								remove_bloodline_member = c_1142
+								}
 							}
+						}
 							
 							#death = { death_reason=death_missing }
 							character_event = { id = fe4_dynasty.13 days = 1 }

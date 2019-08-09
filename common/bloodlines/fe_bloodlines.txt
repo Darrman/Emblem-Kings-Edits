@@ -5,6 +5,7 @@ heim = {
 	monthly_character_prestige = 0.25
 	church_of_edda_opinion = 5
 	loptyrian_opinion = -5
+	flags = { bloodline_heim }
 	active = {
 		NOT = {
 			religion = loptyrian
@@ -18,6 +19,7 @@ baldo = {
 	allow_bastards = no
 	monthly_character_prestige = 0.25
 	church_of_edda_opinion = 5
+	flags = { bloodline_baldo }
 	active = {
 #		religion = church_of_edda
 		}
@@ -28,6 +30,7 @@ neir = {
 	allow_bastards = no
 	monthly_character_prestige = 0.25
 	church_of_edda_opinion = 5
+	flags = { bloodline_neir }
 	active = {
 #		religion = church_of_edda
 		}
@@ -38,6 +41,7 @@ blagi = {
 	allow_bastards = no
 	monthly_character_prestige = 0.25
 	church_of_edda_opinion = 5
+	flags = { bloodline_blagi }
 	active = {
 #		religion = church_of_edda
 		}
@@ -48,6 +52,7 @@ tordo = {
 	allow_bastards = no
 	monthly_character_prestige = 0.25
 	church_of_edda_opinion = 5
+	flags = { bloodline_tordo }
 	active = {
 #		religion = church_of_edda
 		}
@@ -58,6 +63,7 @@ ulir = {
 	allow_bastards = no
 	monthly_character_prestige = 0.25
 	church_of_edda_opinion = 5
+	flags = { bloodline_ulir }
 	active = {
 #		religion = church_of_edda
 		}
@@ -68,6 +74,7 @@ fala = {
 	allow_bastards = no
 	monthly_character_prestige = 0.25
 	church_of_edda_opinion = 5
+	flags = { bloodline_fala }
 	active = {
 #		religion = church_of_edda
 		}
@@ -78,6 +85,7 @@ hezul = {
 	allow_bastards = no
 	monthly_character_prestige = 0.25
 	church_of_edda_opinion = 5
+	flags = { bloodline_hezul }
 	active = {
 #		religion = church_of_edda
 		}
@@ -88,6 +96,7 @@ odo = {
 	allow_bastards = no
 	monthly_character_prestige = 0.25
 	church_of_edda_opinion = 5
+	flags = { bloodline_odo }
 	active = {
 #		religion = church_of_edda
 		}
@@ -98,6 +107,7 @@ dain = {
 	allow_bastards = no
 	monthly_character_prestige = 0.25
 	church_of_edda_opinion = 5
+	flags = { bloodline_dain }
 	active = {
 #		religion = church_of_edda
 		}
@@ -108,6 +118,7 @@ noba = {
 	allow_bastards = no
 	monthly_character_prestige = 0.25
 	church_of_edda_opinion = 5
+	flags = { bloodline_noba }
 	active = {
 #		religion = church_of_edda
 		}
@@ -118,6 +129,7 @@ sety = {
 	allow_bastards = no
 	monthly_character_prestige = 0.25
 	church_of_edda_opinion = 5
+	flags = { bloodline_sety }
 	active = {
 #		religion = church_of_edda
 		}
@@ -130,6 +142,7 @@ lopt = {
 	monthly_character_prestige = 0.25
 	church_of_edda_opinion = -5
 	loptyrian_opinion = 5
+	flags = { bloodline_lopt }
 	active = {
 		religion = loptyrian
 		}
