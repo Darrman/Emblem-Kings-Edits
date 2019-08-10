@@ -13,10 +13,10 @@ character_event = {
 	
 	trigger = {
 		year = 611
-		NOT = { has_global_flag = loptyr_empire_destroyed }
+		NOT = { has_global_flag = loptous_empire_destroyed }
 		NOT = { has_global_flag = jugdral_rebellion_started }
-		has_landed_title = e_loptyr
-		trait = possessed_loptyr
+		has_landed_title = e_loptous
+		trait = possessed_loptous
 		independent = yes
 		religion = loptyrian
 		c_darna = {
@@ -139,10 +139,10 @@ character_event = {
 	has_global_flag = jugdral_rebellion_defeated
 	trigger = {
 		year = 632
-		NOT = { has_global_flag = loptyr_empire_destroyed }
+		NOT = { has_global_flag = loptous_empire_destroyed }
 		NOT = { has_global_flag = jugdral_crusade_started }
-		has_landed_title = e_loptyr
-		trait = possessed_loptyr
+		has_landed_title = e_loptous
+		trait = possessed_loptous
 		independent = yes
 		religion = loptyrian
 	}
@@ -537,7 +537,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		set_global_flag = loptyr_empire_destroyed
+		set_global_flag = loptous_empire_destroyed
 		k_valhalla = {
 			destroy_landed_title = THIS
 		}
@@ -593,17 +593,17 @@ character_event = {
 			factor = 0	
 		}
 		
-		event_target:loptyr_defeated_in_crusade_target = {
+		event_target:loptous_defeated_in_crusade_target = {
 			any_vassal = {
 				set_defacto_liege = ROOT
 			}
 			any_demesne_title = {
 				limit = {
 					NOT = {
-						title = e_loptyr
+						title = e_loptous
 					}
 					NOT = {
-						title = d_loptyr
+						title = d_loptous
 					}
 				}
 				usurp_title = { target = ROOT type = invasion }
@@ -612,21 +612,21 @@ character_event = {
 		}
 		if = {
 			limit = {
-				e_loptyr = {
+				e_loptous = {
 					has_holder = yes
 				}
 			}
-			e_loptyr = {
+			e_loptous = {
 				destroy_landed_title = THIS
 			}
 		}
 		if = {
 			limit = {
-				d_loptyr = {
+				d_loptous = {
 					has_holder = yes
 				}
 			}
-			d_loptyr = {
+			d_loptous = {
 				unsafe_destroy_landed_title = THIS
 			}
 		}
@@ -637,7 +637,7 @@ character_event = {
 			factor = 1	
 		}
 		hidden_tooltip = {
-			event_target:loptyr_defeated_in_crusade_target = {
+			event_target:loptous_defeated_in_crusade_target = {
 				fix_loptyrian_bishop_capitals_effect = yes
 				any_vassal = { set_defacto_liege = ROOT }
 				# Destroy the empire, and give anything left to ROOT. 

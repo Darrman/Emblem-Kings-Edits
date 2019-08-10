@@ -6218,6 +6218,8 @@ e_elibe = {
 			c_pelayo = {
 				color={ 172 38 38 }
 				color2={ 255 255 255 }
+				
+				holy_site = valega
 
 
 				b_pelayo = {
@@ -6583,6 +6585,8 @@ e_elibe = {
 			c_novales = {
 				color={ 128 192 72 }
 				color2={ 255 255 255 }
+				
+				holy_site = valega
 
 
 				b_novales = {
@@ -10016,6 +10020,7 @@ e_elibe = {
 				color2={ 255 255 255 }
 
 				holy_site = latona_church
+				holy_site = valega
 
 				b_renais_castle = {
 				}
@@ -11799,7 +11804,8 @@ e_elibe = {
 			c_pelyn = {
 				color={ 200 144 56 }
 				color2={ 255 255 255 }
-
+				
+			holy_site = valega
 
 				b_fort_pelyn = {
 				}
@@ -11906,6 +11912,7 @@ e_elibe = {
 				color2={ 255 255 255 }
 
 				holy_site = darkness
+				holy_site = valega
 
 				b_balor = {
 				}

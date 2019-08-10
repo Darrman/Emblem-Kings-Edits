@@ -993,6 +993,16 @@
 			set_character_flag="class_selected"
 			add_pressed_claim=k_grannvale
 			add_pressed_claim=d_belhalla
+			remove_claim = d_thove #Removing inherited claims from various places Sigurd occupied.
+			remove_claim = d_sailane #They are not Celice's rightful lands, and it also stops him
+			remove_claim = d_agusty #from just conquering half the world with them.
+			remove_claim = d_anphony
+			remove_claim = d_nordion
+			remove_claim = d_heirhein
+			remove_claim = d_evans
+			remove_claim = d_mackily
+			remove_claim = d_zaxon
+			remove_claim = d_sigurd #This shouldn't exist outside of Barhara.
 		}
 	}
 	774.1.1 = {
