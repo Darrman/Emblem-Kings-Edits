@@ -6,3 +6,7 @@
 	liege = d_grado
 	#holder = 0
 }
+
+770.1.1={
+	holder = 40101 #Vigarde
+}

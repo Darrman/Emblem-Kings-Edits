@@ -1,0 +1,26 @@
+40401={
+	name = "Mansel"
+	dynasty = 3121
+	culture = rausten
+	religion = latona_church
+	755.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40402={
+	name = "L'Arachel"
+	dynasty = 3121
+	female = yes
+	culture = rausten
+	religion = latona_church
+	786.1.1={
+		birth=yes
+	}
+	854.1.1={
+		death=yes
+	}
+}

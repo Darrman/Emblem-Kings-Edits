@@ -1,0 +1,213 @@
+40001={
+	name = "Eirika"
+	father = 40003
+	female = yes
+	dynasty = 3001
+	culture = renais
+	religion = latona_church
+	785.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+40002={
+	name = "Ephraim"
+	father = 40003
+	dynasty = 3001
+	culture = renais
+	religion = latona_church
+	785.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+40003={
+	name = "Fado"
+	dynasty = 3001
+	culture = renais
+	religion = latona_church
+	757.1.1={
+		birth=yes
+	}
+	803.1.1={
+		death=yes
+	}
+}
+
+40004={
+	name = "Seth"
+	dynasty = 0
+	culture = renais
+	religion = latona_church
+	778.1.1={
+		birth=yes
+	}
+	835.1.1={
+		death=yes
+	}
+}
+
+40005={
+	name = "Franz"
+	dynasty = 0
+	culture = renais
+	religion = latona_church
+	786.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+40006={
+	name = "Colm"
+	dynasty = 0
+	culture = renais
+	religion = latona_church
+	783.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+40007={
+	name = "Neimi"
+	female = yes
+	dynasty = 0
+	culture = renais
+	religion = latona_church
+	784.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+40008={
+	name = "Garcia"
+	dynasty = 0
+	culture = renais
+	religion = latona_church
+	765.1.1={
+		birth=yes
+	}
+	8400.1.1={
+		death=yes
+	}
+}
+
+40009={
+	name = "Ross"
+	father = 40008
+	dynasty = 0
+	culture = renais
+	religion = latona_church
+	788.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+40010={
+	name = "Artur"
+	dynasty = 0
+	culture = renais
+	religion = latona_church
+	783.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+40011={
+	name = "Lute"
+	female = yes
+	dynasty = 0
+	culture = renais
+	religion = latona_church
+	783.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+40012={
+	name = "Kyle"
+	dynasty = 0
+	culture = renais
+	religion = latona_church
+	783.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+40013={
+	name = "Forde"
+	dynasty = 0
+	culture = renais
+	religion = latona_church
+	783.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+40014={
+	name = "Orson"
+	dynasty = 0
+	culture = renais
+	religion = latona_church
+	783.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+40015={
+	name = "Bone"
+	dynasty = 0
+	culture = renais
+	religion = bandit
+	783.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40016={
+	name = "Bazba"
+	dynasty = 0
+	culture = renais
+	religion = bandit
+	783.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}

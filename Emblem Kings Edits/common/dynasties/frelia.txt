@@ -1,0 +1,4 @@
+3061={
+	name="Frelia"
+	culture=frelian
+}

@@ -1,0 +1,106 @@
+40101={
+	name = "Vigarde"
+	dynasty = 3031
+	culture = grado
+	religion = latona_church
+	755.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40102={
+	name = "Lyon"
+	dynasty = 3031
+	father = 40101
+	culture = grado
+	religion = latona_church
+	785.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40103={
+	name = "Natasha"
+	female = yes
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	785.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40104={
+	name = "Amelia"
+	female = yes
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	785.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40105={
+	name = "Cormag"
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+40106={
+	name = "Duessel"
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	750.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+40107={
+	name = "Knoll"
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+40108={
+	name = "Valter"
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}

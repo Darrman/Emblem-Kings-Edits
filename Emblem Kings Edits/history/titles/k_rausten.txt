@@ -5,3 +5,11 @@
 	law = succ_primogeniture
 	#holder = 0
 }
+
+770.1.1={
+	holder = 40401 #Mansel
+}
+
+805.1.1={
+	holder = 40402 #L'Arachel
+}

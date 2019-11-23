@@ -1129,7 +1129,7 @@ character_event = {
 								k_sacae = {
 									has_title_flag = dragon_liberation_invasion_target
 								}
-							}				
+							}
 							reverse_war = {
 								target = ROOT
 								casus_belli = dragon_liberation_invasion
@@ -1144,14 +1144,13 @@ character_event = {
 										has_title_flag = dragon_liberation_invasion_target
 									}
 								}
-							}						
+							}
 							reverse_war = {
 								target = ROOT
 								casus_belli = dragon_liberation_invasion
 								thirdparty_title = PREVPREVPREV
 							}
 						}
-						#
 						set_character_flag = dragon_liberation_invasion_defender
 						hidden_tooltip = {
 							event_target:target_dragon_liberation_invasion_title = {
@@ -1184,11 +1183,11 @@ character_event = {
 				}
 				hidden_tooltip = { remove_elibe_mercenary_effect = yes }
 				join_attacker_wars = ROOT
-				hidden_tooltip = { 
+				hidden_tooltip = {
 					add_elibe_mercenary_effect = yes
 					set_character_flag = dragon_liberation_invasion_attacker
 				}
-			}			
+			}
 		}
 		custom_tooltip = {
 			text = fe6.14.A.tooltip
@@ -1206,6 +1205,7 @@ character_event = {
 	}
 }
 
+
 # Death of an invasion participant
 character_event = {
 	id = fe6.15
@@ -1217,7 +1217,7 @@ character_event = {
 	trigger = {
 		any_war = {
 			using_cb = dragon_liberation_invasion
-		} 
+		}
 		#is_primary_war_attacker = no
 		#is_primary_war_defender = no
 		OR = {

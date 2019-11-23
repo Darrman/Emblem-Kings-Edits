@@ -1,0 +1,41 @@
+40201={
+	name = "Hayden"
+	dynasty = 3061
+	culture = frelian
+	religion = latona_church
+	755.1.1={
+		birth=yes
+	}
+	807.1.1={
+		death=yes
+	}
+}
+
+40202={
+	name = "Innes"
+	father = 40201
+	dynasty = 3061
+	culture = frelian
+	religion = latona_church
+	785.1.1={
+		birth=yes
+	}
+	844.1.1={
+		death=yes
+	}
+}
+
+40203={
+	name = "Tana"
+	female = yes
+	father = 40201
+	dynasty = 3061
+	culture = frelian
+	religion = latona_church
+	787.1.1={
+		birth=yes
+	}
+	844.1.1={
+		death=yes
+	}
+}

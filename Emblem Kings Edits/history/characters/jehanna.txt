@@ -1,0 +1,27 @@
+40301 ={
+	name = "Ismaire"
+	female = yes
+	dynasty = 3091
+	culture = jehanna
+	religion = latona_church
+	755.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40302={
+	name = "Joshua"
+	dynasty = 3091
+	mother = 40301
+	culture = jehanna
+	religion = latona_church
+	785.1.1={
+		birth=yes
+	}
+	844.1.1={
+		death=yes
+	}
+}
