@@ -24,3 +24,29 @@
 		death=yes
 	}
 }
+
+40403={
+	name = "Dozla"
+	dynasty = 0
+	culture = rausten
+	religion = latona_church
+	756.1.1={
+		birth=yes
+	}
+	830.1.1={
+		death=yes
+	}
+}
+
+40404={
+	name = "Riev"
+	dynasty = 0
+	culture = rausten
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}

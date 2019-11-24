@@ -100,7 +100,151 @@
 	780.1.1={
 		birth=yes
 	}
-	850.1.1={
+	804.1.1={
+		death=yes
+	}
+}
+
+40109={
+	name = "Glen"
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40110={
+	name = "Selena"
+	female = yes
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40111={
+	name = "O'Neill"
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40112={
+	name = "Breguet"
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40113={
+	name = "Saar"
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40114={
+	name = "Zonta"
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40115={
+	name = "Novala"
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40116={
+	name = "Murray"
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40117={
+	name = "Tirado"
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40118={
+	name = "Gheb"
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40119={
+	name = "Beran"
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
 		death=yes
 	}
 }

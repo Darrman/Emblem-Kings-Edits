@@ -25,3 +25,96 @@
 		death=yes
 	}
 }
+
+40303={
+	name = "Gerik"
+	dynasty = 0
+	culture = jehanna
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	830.1.1={
+		death=yes
+	}
+}
+
+40304={
+	name = "Tethys"
+	female = yes
+	dynasty = 0
+	culture = jehanna
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	830.1.1={
+		death=yes
+	}
+}
+
+30305={
+	name = "Marisa"
+	female = yes
+	dynasty = 0
+	culture = jehanna
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	830.1.1={
+		death=yes
+	}
+}
+
+30306={
+	name = "Ewan"
+	dynasty = 0
+	culture = jehanna
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	830.1.1={
+		death=yes
+	}
+}
+
+30307={
+	name = "Caellach"
+	dynasty = 0
+	culture = jehanna
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+30308={
+	name = "Aias"
+	dynasty = 0
+	culture = jehanna
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+30309={
+	name = "Carlyle"
+	dynasty = 0
+	culture = jehanna
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}

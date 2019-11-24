@@ -12,9 +12,11 @@
 
 803.6.1={
 	holder=40014 #Orson
+	liege = e_grado
 }
 
 804.1.1={
-	holder=40002 #Ephraim
+	holder=40001 #Ephraim
+	liege = 0
 }
 

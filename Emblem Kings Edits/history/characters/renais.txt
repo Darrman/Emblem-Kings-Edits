@@ -1,7 +1,6 @@
 40001={
-	name = "Eirika"
+	name = "Ephraim"
 	father = 40003
-	female = yes
 	dynasty = 3001
 	culture = renais
 	religion = latona_church
@@ -14,8 +13,9 @@
 }
 
 40002={
-	name = "Ephraim"
+	name = "Eirika"
 	father = 40003
+	female = yes
 	dynasty = 3001
 	culture = renais
 	religion = latona_church

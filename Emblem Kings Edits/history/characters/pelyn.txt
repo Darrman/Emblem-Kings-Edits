@@ -1,0 +1,43 @@
+40601={
+	name = "Saleh"
+	dynasty = 0
+	culture = pelyni
+	religion = valega
+	780.1.1={
+		birth=yes
+	}
+	844.1.1={
+		death=yes
+	}
+}
+
+40602={
+	name = "Morva"
+	dynasty = 0
+	culture = pelyni
+	religion = valega
+	trait = immortal
+	1.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+
+40603={
+	name = "Myrrh"
+	female = yes
+	father = 40602
+	dynasty = 0
+	culture = pelyni
+	religion = valega
+	trait = immortal
+	2.1.1={
+		birth=yes
+	}
+	3000.1.1={
+		death=yes
+	}
+}

@@ -1,0 +1,51 @@
+40501={
+	name = "Rennac"
+	dynasty = 0
+	culture = carcino
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	830.1.1={
+		death=yes
+	}
+}
+
+40502={
+	name = "Klimt"
+	dynasty = 0
+	culture = carcino
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	830.1.1={
+		death=yes
+	}
+}
+
+40503={
+	name = "Pablo"
+	dynasty = 0
+	culture = carcino
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40504={
+	name = "Binks"
+	dynasty = 0
+	culture = carcino
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}

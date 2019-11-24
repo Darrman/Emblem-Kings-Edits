@@ -39,3 +39,57 @@
 		death=yes
 	}
 }
+
+40204={
+	name = "Gilliam"
+	dynasty = 0
+	culture = frelian
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	830.1.1={
+		death=yes
+	}
+}
+
+40205={
+	name = "Moulder"
+	dynasty = 0
+	culture = frelian
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	830.1.1={
+		death=yes
+	}
+}
+
+40206={
+	name = "Vanessa"
+	female = yes
+	dynasty = 0
+	culture = frelian
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	830.1.1={
+		death=yes
+	}
+}
+
+40207={
+	name = "Syrene"
+	female = yes
+	dynasty = 0
+	culture = frelian
+	religion = latona_church
+	780.1.1={
+		birth=yes
+	}
+	830.1.1={
+		death=yes
+	}
+}
