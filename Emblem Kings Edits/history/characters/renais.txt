@@ -1,5 +1,5 @@
 40001={
-	name = "Ephraim"
+	name = "Ephraim" #I don't pick battles I can't win.
 	father = 40003
 	dynasty = 3001
 	culture = renais
@@ -13,7 +13,7 @@
 }
 
 40002={
-	name = "Eirika"
+	name = "Eirika" #Don't give Lyon the stone, you fool!
 	father = 40003
 	female = yes
 	dynasty = 3001
@@ -28,20 +28,20 @@
 }
 
 40003={
-	name = "Fado"
+	name = "Fado" #Dead father, King of Renais
 	dynasty = 3001
 	culture = renais
 	religion = latona_church
 	757.1.1={
 		birth=yes
 	}
-	803.1.1={
+	803.1.2={
 		death=yes
 	}
 }
 
 40004={
-	name = "Seth"
+	name = "Seth" #Jeigan solos the game, commander of the knights
 	dynasty = 0
 	culture = renais
 	religion = latona_church
@@ -54,7 +54,8 @@
 }
 
 40005={
-	name = "Franz"
+	name = "Franz" #Knight of Renais, Forde's brother
+	father = 40017
 	dynasty = 0
 	culture = renais
 	religion = latona_church
@@ -67,7 +68,7 @@
 }
 
 40006={
-	name = "Colm"
+	name = "Colm" #bracelet thief, friend of Neimi
 	dynasty = 0
 	culture = renais
 	religion = latona_church
@@ -80,7 +81,7 @@
 }
 
 40007={
-	name = "Neimi"
+	name = "Neimi" #crybaby, friend of Colm
 	female = yes
 	dynasty = 0
 	culture = renais
@@ -94,7 +95,7 @@
 }
 
 40008={
-	name = "Garcia"
+	name = "Garcia" #former soldier of Renais, now retired
 	dynasty = 0
 	culture = renais
 	religion = latona_church
@@ -107,7 +108,7 @@
 }
 
 40009={
-	name = "Ross"
+	name = "Ross" #Garcia's son
 	father = 40008
 	dynasty = 0
 	culture = renais
@@ -121,7 +122,7 @@
 }
 
 40010={
-	name = "Artur"
+	name = "Artur" #monk in the woods
 	dynasty = 0
 	culture = renais
 	religion = latona_church
@@ -134,7 +135,7 @@
 }
 
 40011={
-	name = "Lute"
+	name = "Lute" #bookworm in the woods
 	female = yes
 	dynasty = 0
 	culture = renais
@@ -148,7 +149,7 @@
 }
 
 40012={
-	name = "Kyle"
+	name = "Kyle" #green knight
 	dynasty = 0
 	culture = renais
 	religion = latona_church
@@ -161,7 +162,8 @@
 }
 
 40013={
-	name = "Forde"
+	name = "Forde" #red knight, Franz's brother, artist
+	father = 40017
 	dynasty = 0
 	culture = renais
 	religion = latona_church
@@ -174,20 +176,23 @@
 }
 
 40014={
-	name = "Orson"
+	name = "Orson" #traitor, darling, etc
 	dynasty = 0
 	culture = renais
 	religion = latona_church
-	783.1.1={
+	773.1.1={
 		birth=yes
 	}
-	850.1.1={
+	797.1.1={
+		add_spouse = 40018 #Monica
+	}
+	804.1.1={
 		death=yes
 	}
 }
 
 40015={
-	name = "Bone"
+	name = "Bone" #not actually a skeleton, Ch2 boss
 	dynasty = 0
 	culture = renais
 	religion = bandit
@@ -200,7 +205,7 @@
 }
 
 40016={
-	name = "Bazba"
+	name = "Bazba" #Ch3 boss
 	dynasty = 0
 	culture = renais
 	religion = bandit
@@ -208,6 +213,32 @@
 		birth=yes
 	}
 	804.1.1={
+		death=yes
+	}
+}
+
+40017={
+	name = "PLACEHOLDER" #dad for Franz/Forde
+	dynasty = 0
+	culture = renais
+	religion = latona_church
+	753.1.1={
+		birth=yes
+	}
+	804.1.1={
+		death=yes
+	}
+}
+
+40018={
+	name = "Monica" #Orson's darling
+	dynasty = 0
+	culture = renais
+	religion = bandit
+	775.1.1={
+		birth=yes
+	}
+	802.10.1={
 		death=yes
 	}
 }

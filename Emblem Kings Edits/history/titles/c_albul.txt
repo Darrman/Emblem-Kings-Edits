@@ -6,3 +6,7 @@
 	liege = d_albul
 	#holder = 0
 }
+
+790.1.1={
+	holder = 40110 #Selena
+}

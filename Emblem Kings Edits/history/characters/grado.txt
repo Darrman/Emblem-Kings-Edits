@@ -55,6 +55,7 @@
 
 40105={
 	name = "Cormag"
+	father = 40120
 	dynasty = 0
 	culture = grado
 	religion = latona_church
@@ -108,6 +109,7 @@
 40109={
 	name = "Glen"
 	dynasty = 0
+	father = 40120
 	culture = grado
 	religion = latona_church
 	780.1.1={
@@ -245,6 +247,19 @@
 		birth=yes
 	}
 	804.1.1={
+		death=yes
+	}
+}
+
+40120={
+	name = "PLACEHOLDER" #dad for Glen/Cormag
+	dynasty = 0
+	culture = grado
+	religion = latona_church
+	753.1.1={
+		birth=yes
+	}
+	800.1.1={
 		death=yes
 	}
 }

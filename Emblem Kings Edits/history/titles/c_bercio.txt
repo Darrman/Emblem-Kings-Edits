@@ -6,3 +6,7 @@
 	liege = d_bercio
 	#holder = 0
 }
+
+790.1.1={
+	holder = 40404 #Riev
+}

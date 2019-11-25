@@ -53,7 +53,7 @@
 	}
 }
 
-30305={
+40305={
 	name = "Marisa"
 	female = yes
 	dynasty = 0
@@ -67,7 +67,7 @@
 	}
 }
 
-30306={
+40306={
 	name = "Ewan"
 	dynasty = 0
 	culture = jehanna
@@ -80,7 +80,7 @@
 	}
 }
 
-30307={
+40307={
 	name = "Caellach"
 	dynasty = 0
 	culture = jehanna
@@ -93,7 +93,7 @@
 	}
 }
 
-30308={
+40308={
 	name = "Aias"
 	dynasty = 0
 	culture = jehanna
@@ -106,7 +106,7 @@
 	}
 }
 
-30309={
+40309={
 	name = "Carlyle"
 	dynasty = 0
 	culture = jehanna

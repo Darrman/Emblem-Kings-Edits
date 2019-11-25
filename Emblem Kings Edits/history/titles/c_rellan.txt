@@ -6,3 +6,7 @@
 	liege = d_renvall
 	#holder = 0
 }
+
+790.1.1={
+	holder = 40116 #Murray
+}

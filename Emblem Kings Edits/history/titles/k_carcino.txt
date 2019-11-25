@@ -5,3 +5,7 @@
 	law = succ_primogeniture
 	#holder = 0
 }
+
+790.1.1={
+	holder = 40503 #Pablo
+}
