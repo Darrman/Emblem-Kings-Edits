@@ -9,7 +9,7 @@ max_settlements = 3
 b_selima = castle
 b_selima_2 = temple
 b_selima_3 = city
-b_samalayuca = castle
+#b_samalayuca = castle
 
 # Misc
 culture = jehanna

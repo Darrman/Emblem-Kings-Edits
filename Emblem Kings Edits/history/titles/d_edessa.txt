@@ -6,6 +6,9 @@
 	law = true_cognatic_succession
 	law = succ_primogeniture
 }
+0210.01.01={
+	holder=0
+}
 1127.01.01={
 	holder=346 # Zelots' father
 }

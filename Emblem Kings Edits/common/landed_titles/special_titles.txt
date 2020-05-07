@@ -101,18 +101,18 @@ d_western_isles_rebellion = {
 }
 
 # The new nation formed by Ekhidna after kicking Etruria out of the Western Isles
-k_western_union = {
-	color={ 150 167 133 }
-	short_name = yes
-	capital = 166 #	Salinae
-	allow = {
-		FROM = {
-			any_previous_holder = {
-				always = yes
-			}
-		}
-	}
-}
+#k_western_union = {
+#	color={ 150 167 133 }
+#	short_name = yes
+#	capital = 166 #	Salinae
+#	allow = {
+#		FROM = {
+#			any_previous_holder = {
+#				always = yes
+#			}
+#		}
+#	}
+#}
 
 d_temp = {
 	color={ 90 50 50 }
@@ -267,17 +267,17 @@ d_jugdral_rebels = {
 		always = no
 	}
 }
-k_new_thracia = {
-	color={ 255 0 0 }
-	capital = 435 #	Leonster
-	allow = {
-		FROM = {
-			any_previous_holder = {
-				always = yes
-			}
-		}
-	}
-}
+#k_new_thracia = {
+#	color={ 255 0 0 }
+#	capital = 435 #	Leonster
+#	allow = {
+#		FROM = {
+#			any_previous_holder = {
+#				always = yes
+#			}
+#		}
+#	}
+#}
 
 # Temporary title for Sigurd in the battle of Belhalla
 d_sigurd = {
