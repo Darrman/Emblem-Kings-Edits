@@ -749,7 +749,7 @@
 	name="Ethlyn"
 	female=yes
 	dna="abcdb0cboa0"
-	properties="wd0d0k000000000000
+	properties="wd0d0k000000000000"
 	dynasty=1002
 	father=1031 # Byron
 	mother=1034 
@@ -2227,7 +2227,7 @@
 	father=1056 # Reptor
 	mother=1057 # filler
 	dna="bbdcd0bbnb0"
-	properties="wa0b0k000000000000
+	properties="wa0b0k000000000000"
 	dynasty=1005
 	culture=grannvalean
 	religion=church_of_edda
@@ -3138,7 +3138,7 @@
 	father=1070 # Lombard
 	mother=1072 # filler
 	dna="agfie0eclb0"
-	properties="wg0e0k000000000000
+	properties="wg0e0k000000000000"
 	dynasty=1006
 	culture=grannvalean
 	religion=church_of_edda
@@ -3641,7 +3641,7 @@
 	father=1078 # Ring
 	mother=1079 # filler
 	dna="bgcfg0c0he0"
-	properties="we0b0k000000000000
+	properties="we0b0k000000000000"
 	female=yes
 	dynasty=1007
 	culture=grannvalean
