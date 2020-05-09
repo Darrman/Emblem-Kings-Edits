@@ -830,6 +830,8 @@
 1035={
 	name="Oifey"
 	dynasty=1002
+	dna="cecei0daf00"
+	properties="la0gdk000000000000"
 	father=1037 
 	culture=grannvalean
 	religion=church_of_edda
@@ -1401,6 +1403,8 @@
 	name="Lene"
 	female=yes
 	dynasty=1003
+	dna="0dicb0fbre0"
+	properties="ld0f0k000000000000"
 	#dynasty=1039
 	mother=1045
 	culture=grannvalean
@@ -1454,6 +1458,8 @@
 1047={
 	name="Coirpre"
 	dynasty=1003
+	dna="bfhfe0hche0"
+	properties="lf0c0k000000000000"
 	#dynasty=1039
 	mother=1045 # Doesn't know who she was! Or even that Lene is his sister?
 	culture=grannvalean
@@ -1843,6 +1849,8 @@
 	name="Julia"
 	female=yes
 	dynasty=1004
+	dna="c0cbh0c0na0"
+	properties="lc000k000000000000"
 	father=1049 # Arvis
 	mother=1203 # Deirdre
 	culture=grannvalean
@@ -2345,6 +2353,8 @@
 	name="Arthur"
 	mother=1060 # Tailtiu
 	dynasty=1005
+	dna="0beed0gbna0"
+	properties="ld0g0k000000000000"
 	culture=grannvalean
 	religion=church_of_edda
 	disallow_random_traits=yes
@@ -2431,6 +2441,8 @@
 1063={
 	name="Tine"
 	female=yes
+	dna="aeghg0fanc0"
+	properties="le0f0k000000000000"
 	mother=1060 # Tailtiu
 	dynasty=1005
 	culture=grannvalean
@@ -3139,6 +3151,9 @@
 	mother=1072 # filler
 	dna="agfie0eclb0"
 	properties="wg0e0k000000000000"
+	#dna="bgg0e0abld0"
+	#properties="lg0e0k000000000000"
+
 	dynasty=1006
 	culture=grannvalean
 	religion=church_of_edda
@@ -3259,6 +3274,8 @@
 # Danann's middle son. Rules Isaach Castle.
 1076={
 	name="Iuchar"
+	dna="agdch0bcbf0"
+	properties="ll0a0k000000000000"
 	father=1073 # Danann
 	dynasty=1006
 	culture=grannvalean
@@ -3335,6 +3352,8 @@
 # Danann's youngest son. Rules Sophara Castle.
 1077={
 	name="Iucharba"
+	dna="beggf0gabd0"
+	properties="li0d0k000000000000"
 	father=1073 # Danann
 	dynasty=1006
 	culture=grannvalean
@@ -3770,6 +3789,8 @@
 # Brigid's son.
 1084={
 	name="Febail"
+	dna="agcch0eaid0"
+	properties="lm0e0k000000000000"
 	mother=1081 # Brigid
 	dynasty=1007
 	culture=grannvalean
@@ -3831,6 +3852,8 @@
 1085={
 	name="Patty"
 	female=yes
+	dna="0bhff0gbhd0"
+	properties="la0d0a000000000000"
 	mother=1081 # Brigid
 	dynasty=1007
 	culture=grannvalean
@@ -3947,6 +3970,8 @@
 # Edain's son.
 1087={
 	name="Lester"
+	dna="afbhc0cclb0"
+	properties="lb0e0k000000000000"
 	mother=1082 # Edain
 	dynasty=1007
 	culture=grannvalean
@@ -3995,6 +4020,8 @@
 1088={
 	name="Lana"
 	female=yes
+	dna="0bfc00ebje0"
+	properties="lh0b0k000000000000"
 	mother=1082 # Edain
 	dynasty=1007
 	culture=grannvalean
